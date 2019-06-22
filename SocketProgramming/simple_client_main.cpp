@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-int main ( int argc, int argv[] )
+int main ( int argc, char ** )
 {
   try
     {
@@ -11,16 +11,26 @@ int main ( int argc, int argv[] )
       ClientSocket client_socket ( "localhost", 30000 );
 
       std::string reply;
+      std::string question; 
 
       try
 	{
-	  client_socket << "Test message.";
-	  client_socket >> reply;
+	  
+    while (true){
+
+       
+       std::cout<<"Enter the next message you wan to send"<<std::endl;
+       std::getline(std::cin, question);
+       client_socket << question;
+       client_socket >> reply;
+       std::cout << "We received this response from the server:\n\"" << reply << "\"\n";;
+
+    }
+	 
 	}
       catch ( SocketException& ) {}
 
-      std::cout << "We received this response from the server:\n\"" << reply << "\"\n";;
-
+      
     }
   catch ( SocketException& e )
     {

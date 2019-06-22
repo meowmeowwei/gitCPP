@@ -1,8 +1,9 @@
 #include "ServerSocket.h"
 #include "SocketException.h"
 #include <string>
+#include <iostream>
 
-int main ( int argc, int argv[] )
+int main ( int argc, char ** )
 {
   std::cout << "running....\n";
 
@@ -23,6 +24,7 @@ int main ( int argc, int argv[] )
 		{
 		  std::string data;
 		  new_sock >> data;
+		  data = "Hello Sun Wei "+ data;
 		  new_sock << data;
 		}
 	    }
