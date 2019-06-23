@@ -1,0 +1,129 @@
+ body {
+	background-color: #fff;
+	font-family: "sans-serif";
+	margin: 0;
+}
+img {
+	border: 0;
+}
+#header {
+	background-color: #eee;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 5px 0;
+}
+#header > div {
+	width: 700px;
+	margin: 0 auto;
+	padding: 0 0px;
+}
+#navigation {
+	display: inline-block;
+	list-style: none;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	width: 105px;
+	text-align: center;
+}
+#navigation li a {
+	color: #818181;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#navigation li a:hover {
+	color: #000;
+}
+#navigation li.active a {
+	color: #f99600;
+}
+#contents {
+	background: url(logo.png) no-repeat;
+	background-size: 70px;
+	background-position: 40px 30px;
+	min-height: 510px;
+	width: 700px;
+	margin: 0 auto;
+	padding: 54px 40px;
+}
+code {
+   color: #006400;
+   font-family: "Courier New", Courier, monospace;
+   display: block;
+   overflow : auto;
+   text-align: left;
+   padding : 0px 20px 0 30px;
+   margin: 1em 0em 1em 0;
+   font-size: 15px;
+}
+code t {
+   padding-left: 2em;
+}
+code tt {
+   padding-left: 4em;
+}
+incode {
+   color: #006400;
+   font-family: "Courier New", Courier, monospace;
+   font-size: 15px;
+}
+h1 {
+	color: #3e3e3e;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0 0 30px;
+	margin-left: 80px;
+}
+h1 t {
+	padding-left: 3em;
+}
+h1 t a {
+	color: #f99600;
+	font-size: 20px;
+	text-decoration: none;
+}
+h2 {
+	color: #2c2c2c;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 0 12px;
+    margin-top: 40px;
+}
+p {
+	color: #585858;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0 0 20px;
+}
+li {
+	color: #585858;
+	font-size: 16px;
+	margin: 5px 0 10px 20px;
+}
+p a {
+    color: #585858;
+}
+li a {
+    color: #585858;
+}
+.date {
+	float: left;
+	height: 78px;
+	width: 70px;
+	margin-right: 20px;
+	border: 1px solid #d5d5d5;
+	text-align: center;
+}
+.date p {
+	margin: 12px 0 0;
+}
+.date p span {
+	display: block;
+	font-size: 30px;
+	margin-bottom: 6px;
+}
