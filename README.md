@@ -1,2 +1,0 @@
-# gitCPP
-my own project 
