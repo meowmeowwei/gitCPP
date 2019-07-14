@@ -9,7 +9,7 @@ description: C++ Version
 | Question | Comment |
 | :--- | :--- |
 | 1.1 | substr second parameter is the number of length |
-|  |  |
+| 1.2 | can use array to put value based on string\[i\] |
 |  |  |
 |  |  |
 
