@@ -34,5 +34,5 @@ int main(){
 	cout<<std::boolalpha<<endl;
 	cout << "isUnique:"<<validate(input)<<endl;
 
-	return 1;
+	return 0;
 }
