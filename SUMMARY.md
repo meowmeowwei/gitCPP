@@ -10,4 +10,6 @@
 * [Operating System](operating-system/README.md)
   * [1.Introduction](operating-system/1.introduction.md)
   * [2.Operating System Structures](operating-system/2.operating-system-structures.md)
+* [Java](java/README.md)
+  * [Ambrosia](java/ambrosia.md)
 
