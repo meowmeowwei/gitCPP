@@ -14,5 +14,6 @@
   * [2.Operating System Structures](operating-system/2.operating-system-structures.md)
   * [3.Processes](operating-system/3.processes.md)
   * [4.threads](operating-system/4.threads.md)
+  * [5.CPU Scheduling](operating-system/5.cpu-scheduling.md)
 * [Networking](networking.md)
 
