@@ -13,5 +13,6 @@
   * [1.Introduction](operating-system/1.introduction.md)
   * [2.Operating System Structures](operating-system/2.operating-system-structures.md)
   * [3.Processes](operating-system/3.processes.md)
+  * [4.threads](operating-system/4.threads.md)
 * [Networking](networking.md)
 
