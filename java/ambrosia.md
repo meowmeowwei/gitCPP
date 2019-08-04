@@ -10,11 +10,11 @@ Ultra low latency programming in Java
 
 
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
+
+![](../.gitbook/assets/image%20%2875%29.png)
 
 ![](../.gitbook/assets/image%20%2868%29.png)
-
-![](../.gitbook/assets/image%20%2862%29.png)
 
 
 

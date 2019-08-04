@@ -16,5 +16,6 @@
   * [4.threads](operating-system/4.threads.md)
   * [5.CPU Scheduling](operating-system/5.cpu-scheduling.md)
   * [6.Process Synchronization](operating-system/6.process-synchronization.md)
+  * [7.Deadlocks](operating-system/7.deadlocks.md)
 * [Networking](networking.md)
 
