@@ -5,6 +5,7 @@
 * [Interview Preparation](interview-preparation/README.md)
   * [8个月从CS菜鸟到拿到Google Offer的经历+内推](interview-preparation/8-cs-google-offer-+.md)
   * [Cracking Code Interview \(cc189\)](interview-preparation/cracking-code-interview.md)
+  * [Goldman Requirement](interview-preparation/goldman-requirement.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm.md)
 * [C++](c++.md)
 * [Java](java/README.md)
@@ -17,5 +18,6 @@
   * [5.CPU Scheduling](operating-system/5.cpu-scheduling.md)
   * [6.Process Synchronization](operating-system/6.process-synchronization.md)
   * [7.Deadlocks](operating-system/7.deadlocks.md)
+  * [8.Main Memory](operating-system/8.main-memory.md)
 * [Networking](networking.md)
 
