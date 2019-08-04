@@ -19,5 +19,6 @@
   * [6.Process Synchronization](operating-system/6.process-synchronization.md)
   * [7.Deadlocks](operating-system/7.deadlocks.md)
   * [8.Main Memory](operating-system/8.main-memory.md)
+  * [9.Virtual Memory](operating-system/9.virtual-memory.md)
 * [Networking](networking.md)
 
