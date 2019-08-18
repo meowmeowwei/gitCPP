@@ -13,6 +13,7 @@
 * [Java](java/README.md)
   * [Ambrosia](java/ambrosia.md)
   * [Heap offloading](java/heap-offloading.md)
+  * [Small Endian and Big Endian](java/small-endian-and-big-endian.md)
 * [Operating System](operating-system/README.md)
   * [1.Introduction](operating-system/1.introduction.md)
   * [2.Operating System Structures](operating-system/2.operating-system-structures.md)
