@@ -1,0 +1,65 @@
+tutorial 7
+
+1b. Let n = 2k for some value of k
+Each method call takes constant time (since we remove merge step)
+so it terminates when N=1;
+2^k = n;
+
+proc(n) = 1 + 2proc(n/2)
+proc(n) = 1 + 2 + 4proc(n/4)proc(n) 
+        = 1 + 2 + 4 + 8proc(n/8)
+        = 1 + 2 + 2^2+ 2^3+...2^k
+        =2^(k+1)
+        =2*2^k
+        =2n
+        =O(n)
+
+
+2a radix sort O(n)
+
+ b. merge sort o(nlogn) // quick sort o (nlogn) average out
+ 
+ c. insertion sort o(n) ...bubble sort depends on the location ..if the wrong one is at the end
+ 
+ d. bubble sort O(5n+n) ... each item needs at most 5 iterations to reach the correct position
+
+
+
+3.a) complexity O(n log n)
+
+   using mergeSort
+
+   return array(n/2);
+
+
+  b) use mergeSort 
+
+     use improve bubbleSort
+     
+     once reaching a point equal to the current one...break, return false;
+
+  c)
+
+
+4.a) void QuickSort(int[]A, int start, int end){
+
+   int p = A[start];
+   
+   int i = start;
+   
+   int j = end;
+
+   for( int k = start+1; k<=end; k++){
+
+     if(A[k]<p){
+
+        i++;
+        swap(A,k,i);
+     }
+     else{
+        j--;
+        swap(A,k,j)
+   }
+
+   swap(A,start,i);
+} 

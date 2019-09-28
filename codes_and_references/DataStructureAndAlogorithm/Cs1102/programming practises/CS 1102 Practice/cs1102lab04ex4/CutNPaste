@@ -1,0 +1,5 @@
+#!/bin/sh
+
+CMDIR=`dirname $0`
+#java $CMDIR/CutNPaste  < $CMDIR/testdata1.txt
+xterm -e "bash" "-c" "java $CMDIR/CutNPaste  < $CMDIR/testdata1.txt; echo 'Waiting 10 seconds...' ; sleep 10"

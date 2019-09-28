@@ -1,0 +1,37 @@
+class myList {
+  protected listNode head;
+  protected listNode tail;
+  
+  public void addHead(int element){
+    head = new listNode(element,head, 1);
+  }
+  
+  public void addNode(int element){
+    if(head ==null){
+      addHead(element);
+    }
+    else{
+      
+      int pos = 1;
+      listNode current = head;
+      
+      while(current!= null){
+        if(element<=current.height){
+          if(current == head){
+            addhead(element);
+            break;
+          }
+          else{            
+              listNode node = new listNode(element,current,pos);
+              break;
+          }
+        }
+        else{}
+        
+        current= current.next;
+        pos++;
+      }
+    }
+  }
+}
+          

@@ -1,0 +1,19 @@
+import java.util.*;
+
+class test {
+  public static void main(String[]args){
+    Scanner scanner = new Scanner(System.in);
+    
+    int[] array = new int[10];
+    
+    Arrays.fill(array,5, 9,5);
+    Arrays.fill(array,0,4,9);
+    
+    Arrays.sort(array);
+    
+    for(int p: array){
+      System.out.println(p);
+    }
+  }
+}
+    

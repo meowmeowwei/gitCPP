@@ -1,0 +1,152 @@
+Notes:  1. This is a practice lab.
+        2. You have 200 submissions for this lab.
+        3. You should test your program thoroughly before submitting
+           to courseMarker.
+        4. You should try to practise good programming style by:
+	   a. Adding in meaningful comments to document your program.
+           b. Make sure that you indent the statements to enhance the
+              readability of your program.
+           c. Use meaningful identifies.
+        5. The deadline for this lab is 9am 3/9/2008.
+
+Description
+===========
+
+The National Urban Society has decided that in line with its new 
+"Digital Lifestyle" campaign, a revamp of the local zoo archaic 
+data logging systems is in order.
+
+The first step in this new project is to convert the zoo's pen and 
+paper data catalogues of animals into digitised versions so that 
+they can be made easily available on the internet.
+
+The digitization project took well over a year and now, it is time 
+to check if the data entered was correct.
+
+In the database, objects are defined in a hierarchy based on their 
+scientific category.  For example:
+
+Tigers are a part of the cat family, which is, in turn, a part of 
+the animal kingdom.
+
+
+Each object has 5 attributes, namely:
+
+Name			- A string
+Skin colour		- A string
+Number of legs		- An integer
+Number of eyes		- An integer
+Parent hierarchy  	- Defines if there is a parent which this 
+			  object inherits from
+
+
+For example:
+
+Animal:
+
+Name			- animal
+Skin colour		- null (meaning undefined)
+Number of legs		- -1   (meaning undefined)
+Number of eyes		- 2
+Parent hierarchy	- null (meaning it does not inherit from 
+			        anything else)
+
+
+Cat:
+
+Name			- cat
+Skin colour		- null
+Number of legs		- 4
+Number of eyes		- -1 (meaning undefined)
+Parent hierarchy	- Animal
+
+
+Tiger:
+
+Name			- tiger
+Skin colour		- Striped
+Number of legs		- -1 (meaning undefined)
+Number of eyes		- -1 (meaning undefined)
+Parent hierarchy	- Cat
+
+
+So a tiger actually has:
+
+Striped skin colour
+4 legs	  [ Inherited from Cat family ]
+2 eyes    [ Inherited from Animal kingdom ]
+
+
+You are to create a "display" class which will be instantiated with 
+an instance of the "obj" class.  Given the object, you are to display 
+all three attributes of the object.  If a attribute is undefined 
+(null for strings or -1 for intergers), then you will have to search 
+its parent object for attribute inheritance.
+
+For simplicity, part of the code is provided:
+
+import java.io.*;
+
+class display {
+	obj o;
+
+	display(obj x) {
+		o = x;
+	}
+
+	void displayAttributes() {
+		// Put your code to display the attributes here
+	}
+}
+
+
+Your output should be of the form:
+
+A <Name> has:
+<Colour> skin colour
+<Legs> legs
+<Eyes> eyes
+
+
+For the example provided above, your output would be:
+
+A tiger has:
+Stripped skin colour
+4 legs
+2 eyes
+
+
+
+
+
+Note1: The generic obj class is defined as:
+
+class obj {
+	private int legs, eyes;
+	private String colour, name;
+	private obj parent;
+
+	obj(String n, int l, int e, String c, obj p) {
+		name = n;
+		legs = l;
+		eyes = e;
+		colour = c;
+		parent = p;
+	}
+
+	String getName() { return name; }
+	int getLegs() { return legs; }
+	int getEyes() { return eyes; }
+	String getColour() { return colour; }
+	obj getParent() { return parent; }
+}
+
+
+
+Note2: 
+
+Your display class will be called as:
+display x = new display(o);
+x.displayAttributes();
+
+where o is the object to display

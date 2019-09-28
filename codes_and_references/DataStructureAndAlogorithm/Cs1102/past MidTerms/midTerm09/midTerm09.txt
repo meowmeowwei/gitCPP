@@ -1,0 +1,118 @@
+1 d stack and queues
+
+2 c type cast
+
+3 c constructor private public
+
+4 a list ADT method
+
+5 c 1/2 =0
+
+6 c
+
+7 e
+
+8 b ADT can not have more than one specification
+
+9 b occurances of str2 in str1
+
+10 c
+
+11 d
+
+12 a
+
+13 
+
+Stack<char> s;
+
+char next = scanner.next();
+
+while(next != null){
+  
+  if( next == 'R' || next == 'b'){
+    if(s.size()>=2){
+      char s1 = s.pop();
+      char s2 = s.pop();
+      
+      if(s1==s2){
+        char s3 = (s1=='r' ? 'b':'r');
+        else{
+          s.push(s2);
+          s.push(s1);
+        }
+      }
+    }
+    next = scanner.next();
+  }
+}
+
+
+14
+
+public newListNode goToNode(NewListNode list, int index){
+  
+  int currIndex = 1;
+  
+  NewListNode current = list;
+  
+  if( index > list.size()){
+    return null;
+  }
+  else (while (currIndex!=index){
+    if(index<currIndex+4){
+      
+      if(index ==currIndex){
+        return current;
+      }
+      
+      else if(index == currIndex+1){
+        return current.next;
+      }
+      else if(index == currIndx+2){
+        return current.next2;
+      }
+      else if(index == currIndex+3){
+        return current.next.next2;
+      }
+      else{
+        return current.next4;
+      }
+    }
+    else{
+      if(current.next4!=null){
+        current = current.next4;
+        index +=4;
+      }
+      else if(current.next2!=null){
+        current = current.next2;
+        index+=2;
+      }
+      else if(current.next!=null){
+        current = current.next;
+        index+=1;
+      }
+      else {return null};
+    }
+  }
+
+13b)
+
+refer to anwer;
+
+14
+
+ListNode removeByValue(listNode list, int target){
+  
+  if(list == null){
+    return null;
+  }
+  else if(list.vale == target){
+    return list.next;
+  }
+  
+  else {
+    list.next = removeByValue(list.next, target);
+    return list;
+  }
+}

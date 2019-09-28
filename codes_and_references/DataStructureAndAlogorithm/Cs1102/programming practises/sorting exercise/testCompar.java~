@@ -1,0 +1,35 @@
+import java.util.*;
+
+class testCompar{
+  
+  public static void main(String[]args){
+    ArrayList<Person> list = new ArrayList<Person>();
+    Scanner scanner = new Scanner(System.in);
+    for ( int i = 1; i <=3; i++){
+      
+      int height = scanner.nextInt();
+      String name = scanner.next();
+      int age = scanner.nextInt();
+      
+      Person p = new Person(name, age, height);
+      
+      list.add(p);
+    }
+    
+    NameComparator NameComp = new NameComparator();
+    
+    Collections.sort(list,NameComp);
+    for(Person p : list){
+      System.out.println(p.name);
+    }
+  }
+}
+
+
+class NameComparator implements Comparator<Person>{
+  public int compare(Person one, Person two){
+    return one.name.compareTo(two.name);
+  }
+  
+ 
+}

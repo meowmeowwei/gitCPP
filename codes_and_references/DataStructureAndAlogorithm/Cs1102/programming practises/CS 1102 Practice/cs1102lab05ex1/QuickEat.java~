@@ -1,0 +1,29 @@
+///////////////////////////////////////////////////
+/////  /////  LogName: u0706987/////  FullName: Cao Hoang Dang
+/////  CreationDate: 2008-10-02 16:12:32
+/////  
+///////////////////////////////////////////////////
+
+
+
+import java.util.*;
+
+public class QuickEat {
+
+	public QuickEat() {
+		//constructor
+	}
+	
+	public void addNewOrder() {
+		//your code here
+	}
+	
+	public void processReadyFood() {
+		//process food that are ready
+	}
+	
+	public static void main(String [] args) {
+		//your code here
+	}
+
+}

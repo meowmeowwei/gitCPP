@@ -1,0 +1,30 @@
+1.O(n^2), O(logn),O(n),O(n^2.5),O(1),O(n^n),O(3^n),O(nlog(n)),O(n^2/3),O(2^n),O(2^n),O(n!),O(n!),O(2^n)
+
+  2,log3(n),100n^2/3,20n,nlog(n),4n^2,n^2.5,2^n,2^(n+1),3^n,2^2n,n^n,(n-1)!,n!.
+
+2.a) for(int i=1, i<=exp){
+     base*=base;
+   }
+    return base;
+
+  b) if(exp==1){
+       return base;
+     }
+     else{
+      return base * expontential(x,exp-1);
+     }
+
+  c)if(exp mod2==0){
+      return expontential(base,exp/2)*expontential(base,exp/2);
+    }
+    else if(exp==1){
+      return base;
+    }
+    else{
+    return expontential9x,exp-1);
+    }
+
+3.a) n + n*n =====O(n^2)
+  b) n*(n+1)/2 ===== O(n^2)
+  c) n*(n-1)/2 ===== O(n^2)
+  d0

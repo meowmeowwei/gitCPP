@@ -1,0 +1,43 @@
+Notes:  1. This is a practice lab.
+        2. You have 200 submissions for this lab.
+        3. You should test your program thoroughly before submitting
+           to courseMarker.
+        4. You should try to practise good programming style by:
+	     a. Adding in meaningful comments to document your program.
+           b. Make sure that you indent the statements to enhance the
+              readability of your program.
+           c. Use meaningful identifies.
+        5. The deadline for this lab is 9am 17/9/2008.
+
+
+==Description==
+Your first programming job at ACME Inc is to write part of the new text 
+editor the company is building. Specifically your job is to write the 
+part of the editor which stores and manipulates the text given a series 
+of keypresses from the user. As this is the alpha version of the new 
+text editor, your manager only expects you to implement a subset of the 
+functionality planned for the editor. 
+
+Note that the behaviour of your text editor should be the same as that 
+of the Notepad program distributed with MS Windows. 
+
+==Input Format==
+The input consists of a single line of characters indicating keypresses. 
+The characters that will appear are the letters of the alphabet, numbers, 
+'<', '>' and '^'. The alphabets and numbers represents the usual keys on 
+a keyboard, the '<' character represents the left button on the directional 
+pad, the '>' represents the right button on the directional pad and the 
+'^' character represents the delete button. (Deletes the character to the 
+right of cursor.)
+
+==Output Format==
+Assuming we started with an empty text file, you are to output the result 
+of executing the given string of keypresses on the text editor.
+
+
+==Sample input==
+abcd<<<<1234^^^^
+
+==Sample output==
+1234
+

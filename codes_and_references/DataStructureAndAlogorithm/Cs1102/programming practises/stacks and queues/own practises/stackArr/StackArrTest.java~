@@ -1,0 +1,13 @@
+class StackArrTest{
+  public static void main(String[]args){
+    StackArr stack = StackArr();
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+    int number = stack.peek();
+    stack.pop();
+    while(!stack.isEmpty()){
+      System.out.printLn(stack.pop());
+    }
+  }
+}

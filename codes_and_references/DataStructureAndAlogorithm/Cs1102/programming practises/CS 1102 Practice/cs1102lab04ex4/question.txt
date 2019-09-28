@@ -1,0 +1,53 @@
+CS1102 Lab 4 Cut and Paste
+============================
+1. This is a TA-graded lab
+2. You are given 1h 40 min to solve the lab.
+3. This includes 15 min for analysis. You are not allowed to use the computer in the first 15 minutes
+4. If you have any question, you may raise your hand and the TA will attend to you.
+5. Please note that you will get 50% of the marks deducted if your program cannot compile.
+6. You are reminded that 30% of marks is awarded for programming style.
+
+
+Problem description 
+====================
+Cut and paste is one of the most common operations we use in everyday computing. 
+
+In this task, you are to write a program that will simulate the use of cut and paste for characters in a string. 
+
+For simplicity, we are going to simulate this operation with only one character at a time. 
+
+Input
+======
+The first line of input consist of a string. This is the original string. 
+
+The next line contains a single integer n. This is the number of cut-and-paste operations. 
+
+Each of the subsequent n lines contain 2 integers s and d. The source character is the s-th character of the current string. Position d represents the destination of the paste operation. You are to paste the character after the current d-th character of the string. If you are required to paste the character at the start of the string, d will be 0. 
+
+Output
+======
+For each operation, output the resulting string. The next operation will continue from this string. 
+
+Sample input
+============
+abcdefg1234567
+5
+5 8
+7 2
+13 0
+6 14
+10 10
+
+
+Sample output
+=============
+abcdfg1e234567
+ab1cdfge234567
+6ab1cdfge23457
+6ab1cfge23457d
+6ab1cfge23457d
+
+
+Restrictions
+============
+You must use a linked list to solve this question. 

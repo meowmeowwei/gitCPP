@@ -1,0 +1,32 @@
+///////////////////////////////////////////////////
+/////  /////  LogName: u0706987/////  FullName: Cao Hoang Dang
+/////  CreationDate: 2008-10-22 18:04:22
+/////  
+///////////////////////////////////////////////////
+
+
+
+import java.util.*;
+
+public class myBST {
+	//your implementation here
+	
+	public static void main(String [] args) {
+		//your code here
+        Scanner sc=new Scanner(System.in);
+
+        //input numbers of nodes
+        int nodeNo= sc.nextInt();
+
+
+	}
+
+    
+}
+
+class TreeNode {
+    int item;
+    TreeNode left;
+    Treenode right;
+
+

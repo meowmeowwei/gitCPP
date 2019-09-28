@@ -1,0 +1,37 @@
+Point[2*n];
+ArrayList<integer> contained // to contained already-keyedin values
+for(nextInt: i){
+	int pointValue = scan.nextInt();
+	if (i%2==0){ // start point, do nth
+	}else{ // end point
+		pointValue++; // incre backpoint
+	};	
+	if( contained.contains(pointValue) ){
+		// find point[x] where = pointValue
+		// do status
+	}else{
+		point[i] = new Point(pointValue,status)
+		contained.add(pointValue); // update value
+}
+
+// since not all points may be used
+
+// class Point { number, status)
+
+//sort
+
+Arrays.sort(point, new PointComp());
+
+
+class PointComp imp Comp<Point>(){
+
+	public boolean equals{
+return false;
+}
+
+public int compare(POint p1, Pointp2){
+
+	return p1.number - p2.number;
+}
+
+} // end PointComp

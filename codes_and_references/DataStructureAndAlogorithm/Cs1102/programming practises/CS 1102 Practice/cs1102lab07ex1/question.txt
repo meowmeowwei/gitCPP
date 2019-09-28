@@ -1,0 +1,72 @@
+Lab 7: Number of nodes in BST
+=============================
+
+Instructions
+============
+1. This is not a TA graded assignment.
+2. The deadline is 9am on 26/03/2008 (Wednesday).
+3. You have 200 submissions.
+   Make sure that you tested your program fully before attempting 
+   to submit to CourseMarker.
+4. Make sure that you practice good programming style.
+   (This will give your 30% of the lab)
+   Good comments
+   Good modularity
+   Good indentation, and
+   Use meaningful identifies.
+5. Your should try to work out the solution as a practice for the
+   next sit-in lab.
+
+
+Description
+===========
+A Binary Search Tree (BST) is a special case of a binary tree. For 
+each node in the BST, any node to its left will be smaller and any node to its right will be bigger than it.
+
+The pre-order traversal of a tree will be in the order: 
+     root-left-right. 
+This means that the root node will be visited, followed by a pre-order 
+traversal of the left subtree, followed by a pre-order traversal of the 
+right subtree.
+
+For example, consider the BST below:
+
+		 5
+		/ \
+	       3   8
+		  / \
+		 7   10
+		    /  \
+		   9   11
+
+A pre-order traversal will lead to the sequence: 5 3 8 7 10 9 11.
+
+In this exercise, you are asked to find the number of nodes at each level of the BST, given its pre-order traversal.
+
+Input
+=====
+The first line consist of a single integer k. This is the number of nodes in the BST.
+
+There are at most 3000 nodes.
+
+The next line consist of k integers. This is the pre-order traversal of the BST.
+
+You may assume that the nodes in the BST are distinct positive integers.
+
+Output
+======
+For each level (starting from level 0 containing root node), print an 
+integer stating the number of nodes on that level.
+
+Sample Input 1
+==============
+6
+5 3 8 7 10 9 11
+
+Sample Output 1
+===============
+1
+2
+2
+2
+

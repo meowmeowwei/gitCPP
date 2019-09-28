@@ -1,0 +1,101 @@
+Instructions
+============
+1. This is a TA-graded lab
+2. You are given 1h 40 min to solve the lab.
+3. This includes 15 min for analysis.
+4. If you have any question, you may raise your hand and the TA will attend to
+   you.
+5. Please note that you will get 50% of the marks if your program cannot 
+   compile.
+6. You are reminded that 30% of marks is awarded for programming style.
+7. More notes about grading are provided at the end of this file.
+
+
+== Introduction ==
+In this lab, you will be asked to provide code to properly implement a hierarchy of classes.
+
+Concepts being tested are:
+- Inheritance
+- Method overloading
+- Object design
+
+The main program has been completed for you. DO NOT MODIFY THE MAIN PROGRAM.
+Your task is to complete the other classes based on the specifications below.
+
+Do not provide any code to output in your methods.
+
+
+== Problem description ==
+
+Shapes are commonly used in geometry. One of the most commonly used properties 
+of shapes is area. In this lab, you will implement some shapes objects.
+
+The hierarchy of the shapes in this lab are:
+                 Shape
+             /     |      \
+     Rectangle  Triangle  Circle
+                   |
+               Isosceles
+                   |
+               Equilateral
+
+You are to construct the classes such that they fulfill the requirements below. 
+In addition, you are to complete the method getArea and getSides for all classes. 
+getSides return the number of sides. We will take circles to have -1 sides.
+
+The abstract class Shape has been completed for you. However, you can change it 
+iS needed. More details can also be found in the skeleton files given.
+
+Rectangle:
+Attributes: length, breadth
+
+Triangle:
+Attributes: base, height
+
+Circle: 
+Attributes: radius
+
+Isoceles:
+Attributes: (Inherited from parent)
+Additional methods: calculateSide (Refer to skeleton file for more details)
+
+Equilateral:
+Attributes: (Inherited from parent)
+Additional methods: Different constructor signature (refer to skeleton file for more details)
+
+A main program has been provided for you to test your implementation. 
+Compiling and running it will lead to the output shown below.
+
+
+
+== Sample Input ==
+
+No input
+
+
+
+== Sample Output ==
+
+Test program for Shapes
+Creating shapes
+4
+6.0
+4
+9.0
+3
+4.0
+3
+12.0
+3
+10.825317547305485
+-1
+78.57142857142857
+
+
+== A note about grading ==
+
+Getting the expected output in this lab will not gurantee you marks for correctness.
+
+Credit is allocated for correct behavior as well as good class design.
+
+You are free to change any source file except the driver program.

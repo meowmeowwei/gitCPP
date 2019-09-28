@@ -1,0 +1,150 @@
+Lab 5: Fast food restaurant
+============================
+
+Instructions
+============
+1. This is a Non-graded lab
+2. You are given 200 submission
+3. You should develop all your programs in the given skeleton files.
+4. Try to practice modular programming. Development your program
+   incrementally.
+
+
+Description
+============
+QuickEat is a very popular fastfood restaurant. As of most fastfood
+restaurants, QuickEat aims to be fast and do so by providing only a few types
+of food for customers to choose.
+
+As it is so popular, the manager has decided that the kitchen will cook
+regardless of what customers order at the counter. Then when the food is ready
+, it will be given to the first customer who had ordered that dish and not
+gotten it yet.
+
+Over at the counter, customers will order what they will like to eat. Then,
+they will be given a tag with a number to identify them to the serving staff.
+They can then sit down and wait for food to be delivered to them.
+
+Of course, this leads to a small problem of food wastage, for the kitchen may
+cook something that nobody wants currently. But since QuickEat's business is
+so good, the manager thinks that throwing away these dishes is a small price
+to pay.
+
+As their outlets are often packed with customers, their staff are beginning
+to forget who ordered what. Hence, they have asked you to come out with a
+computerised system to help them manage their orders and decide who should be
+given a ready dish.
+
+A customer may order multiple dishes and it is not necessary to wait till all
+his dishes are ready before they are delivered to him. Instead, each dish is
+delivered when it is ready.
+
+Input
+=====
+The first line in the input consist of a single integer n, which is the types
+of dishes that QuickEat serves.
+
+The next n lines are the name of the 1st to n-th dishes respectively.
+
+The next line consist of a single integer k, which is the number of
+instructions.
+
+Each of the next k lines can be either an order instruction or a ready
+instruction. The instructions are in order of the time they happen.
+An order instruction starts with the word 'Order' followed by the tag number
+given to them followed by the number of dishes this customer order d. It is
+then followed by d integers (of 1 to n) specifying a what dish they want.
+
+An order can consist of multiple orders of the same dish. Tag numbers can be
+re-used.
+
+A ready instruction starts with the word 'Ready' followed by a single integer
+specifying which dish is ready.
+
+It is possible that some customers have not gotten their food at the end of
+input. The manager will worry about that, not you =)
+
+Output
+=======
+For each ready instruction, print out the instruction to the server in the
+following format:
+
+[Dish name] ready to be served to Tag [Tag number].
+
+where [Dish name] is the name of the dish that is ready and [Tag number] is
+the number of the customer who should get the dish.
+
+If nobody is currently waiting for the dish, print the line
+
+Throw away [Dish name].
+
+
+Sample Input 1
+==============
+3
+Fish n Chips
+Chicken Chop
+Grilled salmon
+9
+Order 1 2 1 3
+Ready 3
+Order 2 1 2
+Order 3 2 1 1
+Ready 1
+Ready 1
+Ready 2
+Ready 2
+Order 1 1 2
+
+Sample Output 1
+===============
+Grilled salmon ready to be served to Tag 1.
+Fish n Chips ready to be served to Tag 1
+Fish n Chips ready to be served to Tag 3.
+Chicken Chop ready to be served to Tag 2.
+Throw away Chicken Chop.
+
+Explanation of sample input and output
+======================================
+For the dishes, 1 represents "Fish n Chips", 
+                2 represents "Chicken Chop" and 
+                3 represents "Grilled salmon".
+
+The first order is given tag 1, and he orders 2 dishes, 
+a Fish n Chips and a Grilled salmon.
+
+At this point, the queue for food consist of:
+
+Fish n Chips (to be given to tag 1), Grilled salmon (tag 1).
+
+Next, a Grilled salmon is ready, so it's given to the first 
+person in queue who ordered it: tag 1.
+
+The queue now consist of a single order:
+Fish n Chips (tag 1)
+
+After the next 2 orders, the queue will look is now:
+Fish n Chips (tag 1), Chicken Chop (tag 2), Fish n Chips (tag 3),
+Fish n Chips (tag 3)
+
+A Fish n Chips is ready ("Ready 1"), it is given to the first 
+person who ordered it, which is tag 1.
+
+The queue is now:
+Chicken Chop (tag 2), Fish n Chips (tag 3), Fish n Chips (tag 3)
+
+Next, a Fish n Chips is ready (instruction 6). It is given to 
+the first person who ordered it, tag 3.
+
+The queue now looks like:
+Chicken Chop (tag 2), Fish n Chips (tag 3)
+
+A chicken chop is then ready, given to tag 2, leaving the queue as
+Fish n Chips (tag 3)
+
+Another chicken chop is ready, since there is no one in queue 
+who ordered chicken chop, it is thrown away.
+
+Finally, a new order for 1 chicken chop comes in for tag 1. 
+The final queue is:
+Fish n Chips (tag 3), Chicken Chop (tag 1)

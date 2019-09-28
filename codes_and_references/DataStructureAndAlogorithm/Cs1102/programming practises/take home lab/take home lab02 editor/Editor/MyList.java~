@@ -1,0 +1,84 @@
+class MyList{
+  private DlistNode head = null;
+  private DlistNode cusor = null;
+  private int size = 0;
+  private boolean doLeft= false;
+  
+  public void addHead(int element){
+    head = new DlistnNode(element,head,null);
+    size++;
+    cusor = head;
+  }
+  
+  public void insertAfter(char element){
+    
+    DlistNode node = new DlisNode(element, cusor.getNext(),cusor);
+    cusor = node;
+    size++;
+  }
+  
+  public void insertBefore(char element){
+    
+    DlistNode node = new DlistNode(element,cusor,cusor.getPrev());
+    
+    if(cusor == head){
+      cusor = node;
+      head = cusor; 
+      size++;
+    }
+    else{
+      cusor = node;
+      size++;
+    }
+    
+    public void delete(){
+      if(size!=0){
+        
+          if(cusor== head && doLeft==true){
+            head = head.getNext();
+            cusor = head;
+            size--;
+          }
+          else{
+            if(cusor.getNext()!=null){
+              cusor.setNext(cusor.getNext().getNext());
+              size--;
+            }
+          }
+      }
+    }
+    
+    public void cusorLeft(){
+      if(cusor==head){
+        doLeft = true;
+      }
+      else{
+        cusor= cusor.getPrev();
+      }
+    }
+    
+    public void cusorRight(){
+      if(cusor.getNext()!=null){
+        cusor.setNext(cusor.getNext());
+      }
+    }
+    
+    public boolean getBoolean(){
+      return doLeft;
+    }
+    
+    public void setBoolean(boolean isBoolean){
+      doLeft = isBoolean;
+    }
+    
+    public void toString(){
+      String answer="";
+      DlistNode current = head;
+      while(current!=null){
+        answer+=current.getChar();
+        current = current.getNext();
+      }
+      return answer;
+    }
+  }
+      

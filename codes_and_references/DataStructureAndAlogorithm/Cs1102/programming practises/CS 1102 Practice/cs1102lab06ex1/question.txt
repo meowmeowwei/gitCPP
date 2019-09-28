@@ -1,0 +1,80 @@
+== CS1102/C Sem 1 AY2008/2009 Lab 6 ==
+
+== Description ==
+In a modern web browser, the "forward" and "back" buttons are very useful in navigation. In this task, you are to implement a simple simulation of this functionality.
+
+The behavior of the "forward" and "back" buttons are described below.
+
+The "back" button, when clicked, redirects the browser to the previous URL that the user was at. When the history of previous pages is empty the back button does nothing, i.e no change in the current URL. The "back" button can be clicked multiple times to redirect the browser to an URL further in the history.
+
+The "forward" button exhibits the opposite behavior of the "back" button. When clicked, the button goes to the next page in the browsing history. Due to this functionality, clicking the forward button will do nothing unless the current URL were obtained by clicking the back button. Every time the user navigates to a new page by entering a new URL, the list of "forward" URLs are cleared.
+
+Beside using the "forward" and "back" buttons to navigate, the user can also choose to enter a new URL to browse a new page.
+
+== Input ==
+The first line consist of a single integer n, the number of instructions.
+
+Each of the next n lines consist of exactly one of the 3 following types of instructions.
+
+If the line consists of a single word "BACK", this indicates the back button is clicked.
+
+If the line consists of a single word "FORWARD", this indicates clicking the forward button.
+
+Otherwise, the line indicates a new URL that the user has entered.
+
+The first instruction is always a URL.
+
+== Output ==
+For each instruction, output on a single line, the URL that the browser is at.
+
+Not that if clicking of a button do nothing, the browser should remain on the same page.
+
+== Sample Input ==
+
+20
+http://www.yahoo.com
+BACK
+http://www.google.com
+http://www.nus.edu.sg
+http://www.msn.com
+http://www.comp.nus.edu.sg
+BACK
+BACK
+FORWARD
+http://www.starhub.com
+BACK
+FORWARD
+FORWARD
+http://www.starhub.com
+http://www.singnet.com
+BACK
+BACK
+BACK
+BACK
+BACK
+
+
+== Sample Output ==
+
+http://www.yahoo.com
+http://www.yahoo.com
+http://www.google.com
+http://www.nus.edu.sg
+http://www.msn.com
+http://www.comp.nus.edu.sg
+http://www.msn.com
+http://www.nus.edu.sg
+http://www.msn.com
+http://www.starhub.com
+http://www.msn.com
+http://www.starhub.com
+http://www.starhub.com
+http://www.starhub.com
+http://www.singnet.com
+http://www.starhub.com
+http://www.starhub.com
+http://www.msn.com
+http://www.nus.edu.sg
+http://www.google.com
+
+

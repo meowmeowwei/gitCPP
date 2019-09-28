@@ -1,0 +1,72 @@
+3 a) 
+
+ public void insert(int i){
+    
+    insert2(i,0);
+  }
+  
+  publi void insert2(int i, int index){
+    
+    if(tree[index]==0){
+      tree[index]=i;
+    }
+    else{
+      
+      if(i>tree[index]){
+        insert2(i, 2*index+2);
+      }
+      
+      if(i<tree[index]){
+        insert2(i, 2*index-1);
+      }
+    }
+  }
+ 
+b)
+
+ public int search(int i){
+
+//return the index of integer i, -1 if it is not in the BST 
+    
+    search2(i,0);
+  }
+  
+  public int search2(int i, int index){
+    if(tree[index]==0){
+      return -1;
+    }
+    
+    if(tree[index]==i){
+      return index;
+    }
+    else if( tree[index] < i){
+      search2(i,2*index+2);
+    }
+    else{
+      search2(i,2*index+1);
+    }
+  }
+
+c)
+
+public int findMin(){
+  
+//return the minimum value in the tree
+  
+  int rootIndex =0;
+  
+  int answer = 0;
+  
+  if(tree[rootIndex]==0){
+    
+    return null; //empty tree
+  }
+  else{
+    
+    while(tree[rootIndex)!=0){
+      
+      answer = tree[rootIndex*2+1];
+     }
+ }
+  return answer;
+}

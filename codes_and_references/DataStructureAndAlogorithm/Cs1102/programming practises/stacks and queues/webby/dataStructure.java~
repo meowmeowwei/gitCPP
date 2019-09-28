@@ -1,0 +1,41 @@
+import java.util.*;
+public class dataStructure{
+  
+  private Stack<String> currentPages = new Stack<String>();
+  private Stack<String> previousPages = new Stack<String>();
+  
+  public String back{
+    if(currentPages.isEmpty()){
+      return currentPages.peek();
+    }
+    else{
+      previousPages.push(currentPages.pop());
+      return currentPage.peek();
+    }
+  }
+  
+  public String forward(){
+    if(!previousPages.isEmpty()){
+      currentPages.push(previousPages.pop());
+      return currentPages.peek();
+    }
+    else{
+      return currentPages.peek();
+    }
+  }
+  
+  public String newPage(String page){
+    currentPages.push(page);
+    clear(previousPages);
+    return currentPages.peek();
+  }
+  
+  public void clear(Stack<String> pages){
+    while(!pages.isEmpty()){
+      pages.pop();
+    }
+  }
+}
+      
+  
+  

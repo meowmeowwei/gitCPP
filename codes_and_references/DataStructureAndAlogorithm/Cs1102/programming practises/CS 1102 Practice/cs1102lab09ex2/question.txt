@@ -1,0 +1,53 @@
+PE Ex1 Anagrams
+===============
+ 
+Two words which consists of exactly the same set of characters are
+said to be anagrams. That is, two words are anagrams of each other 
+if one can be obtained from the other by rearranging the characters. 
+For example, "on" and "no", "two" and "tow", 	"eric" and "rice". 
+
+In this problem, you are required to determine whether two given 
+words are anagrams of each other. 
+
+The words may not be English words, and can be of length up to 10000. 
+
+
+Input 
+=====
+
+There are two lines in the input. 
+Each line contains a single word consisting of lower-case letters only. 
+ 
+
+Output
+======
+
+If the two given words are anagrams of each other, then output "YES" 
+on a single line.  Otherwise Output "NO" on a single line. 
+
+
+Sample Input 1 
+==============
+
+thissample
+samplethis
+
+
+Sample Output 1 
+===============
+
+YES
+
+
+Sample Input 2 
+==============
+
+thassample
+samplethis
+
+
+Sample Output 2 
+===============
+
+NO
+

@@ -1,0 +1,39 @@
+class StackLL{
+  private BasicLinkedList list;
+  
+  public StackLL(){
+    list = new BasicLinkList();
+  }
+  
+  public isEmpty(){
+    return list.isEmpty();
+  }
+  
+  public push(Object o){
+    list.addHead(o);
+  }
+  
+  public Object peek()throws Underflow{
+    try{
+    return list.getHeadElement();
+    }
+    catch(itemNotFoundException e){
+      throw new Underflow("illegal operation on empty stack");
+    }
+  }
+  
+  public Object pop()throw Underflow{
+    Object obj = peek();
+    list.deleteHead();
+    return obj;
+  }
+}
+
+class Underflow extends Exception{
+  public Underflow(String s){
+    super(s);
+  }
+}
+
+
+

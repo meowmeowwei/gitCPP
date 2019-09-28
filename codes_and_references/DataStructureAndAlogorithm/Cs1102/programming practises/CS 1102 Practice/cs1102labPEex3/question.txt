@@ -1,0 +1,83 @@
+Question 1: Ancient Words(30%)
+
+Description
+===========
+Recently, archaeologists have discovered remnants of an ancient 
+civilisation. Among the many things uncovered, many scrolls of 
+ancient writing in a previously undiscovered language were unearthed. 
+The archaeologists hope to understand these ancient writings better 
+in order to know more about the civilisation. Hence, they have sought 
+your help.
+
+Based on evidence so far, this ancient language∆s alphabet only consists 
+of only 7 letters: A, E, I, O, Q, U, X. There are no punctuations marks 
+or spaces in the writings and as a result, each piece of writing is just 
+a long sequence containing these 7 letters. Archaeologists and linguists 
+believe that each word is exactly 7-letters long. But the problem is that 
+they also believe some of the characters are actually what we know as 
+punctuations marks in today∆s languages. Therefore, it is difficult to 
+know where a word starts and stop. A word can therefore, start anyway in 
+the sequence.
+
+As a result, they want to know for a particular sequence of 7 letters, 
+where in the writing does it appear.
+
+Input
+=====
+The first line of the input consists of a sequence of characters. Each 
+character is either A, E, I, O, Q, U or X. This is the writing. The 
+number of characters n is more than 0 and less than or equal to 100000.
+
+The second line of the input consists of a single integer k. This is 
+the number of test cases.
+
+Each of the next k lines consists of a single 7-letter word each. 
+Each word is a test case.
+Each test case will consist only of the letters A, E, I, O, Q, U and X.
+
+Output
+======
+For each test case, output the starting indices of the word in the 
+following format
+
+      i1, i2, i3, ..., im
+
+where each ij represents a starting index for the word. The output 
+sequence should be in ascending order. Note that 0 = ij <(n-7).
+
+If the word is not found in the sequence, output the following line
+Not found
+
+Sample Input
+============
+QAOIXUUAOXAOXAOXAIOOQA 
+5 
+QAOIXUU 
+AOXAOXA 
+AOIXUUA 
+AOXAIOO 
+QQQQQQQ
+
+Sample Output
+=============
+0 
+7, 10 
+1 
+13 
+Not found
+
+Note about marking
+==================
+30% will be awarded for programming style and 70% for correctness.
+
+A naive solution that takes O(n) per query will be awarded at most 
+half of the marks for correctness.
+
+To be awarded up to full marks for correctness, your solution needs 
+to be better than O(n) per query.
+
+The marks awarded for programming style are independent of the 
+approach of the solution.
+
+You are reminded that a further 50% penalty off the final score will 
+be given if your program is not compliable.

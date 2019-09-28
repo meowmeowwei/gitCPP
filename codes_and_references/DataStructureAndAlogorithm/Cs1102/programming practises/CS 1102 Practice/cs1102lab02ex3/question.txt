@@ -1,0 +1,95 @@
+== CS1102 Lab 2 Question 1 ==
+
+
+Instructions
+============
+1. This is a TA-graded lab
+2. You are given 1h 40 min to solve the lab.
+3. This includes 15 min for analysis.
+4. If you have any question, you may raise your hand and the TA will attend to
+   you.
+5. Please note that you will get 50% of the marks if your program cannot 
+   compile.
+6. You are reminded that 30% of marks is awarded for programming style.
+7. More notes about grading are provided at the end of this file.
+
+
+== Introduction ==
+In this lab, you will be asked to provide code to properly implement a hierarchy of classes.
+
+Concepts being tested are:
+- Inheritance
+- Method overloading
+- Object design
+
+The main program has been completed for you. '''Do not edit the main program.''' Your task is to complete the other classes based on the specifications below.
+
+Do not provide any code to output in your methods.
+
+
+== Problem description ==
+
+As part of a bigger program to write a inventory program for a vehicle trading firm, you have been asked to design classes that will represent the vehicles. Part of the code skeleton has been completed.
+
+The firm is involved in the trading of 3 types of vehicles: cars, motorcycles and trucks. In addition, motorcycles can be further classified as small motorcycles, medium motorcycles and big motorcycles.
+
+The class hierachy is shown below:
+
+                   Vehicle
+               /      |      \
+           Car   Motorcycle   Truck
+                /     |    \
+       BigMotor   MedMotor  SmallMotor
+
+
+The abstract class Vehicle has been completed for you. The behavior of the other classes are provided below.
+
+Class: Car
+Parent: Vehicle
+Tax calculation: 15% of price if more than 3000kg, 20% of price otherwise
+
+Class: Truck
+Parent: Vehicle
+Tax calculation: 30% of price
+
+Class: Motorcycle
+Parent: Vehicle
+Tax calculation: (abstract class, see subclasses) 
+
+Class: BigMotor
+Parent: Motorcycle
+Tax calculation: 1% of (capacity * price)
+
+Class: MediumMotor
+Parent: Motorcycle
+Tax calculation: 2% of (capacity * price)
+
+Class: SmallMotor
+Parent: Motorcyle
+Tax calculation: 3% of (capacity * price)
+
+== Sample Input ==
+No input
+
+== Sample Output ==
+Creating new objects
+Printing their properties
+Suzuki Swift : Price ($30000.0)
+Tax: 6000.0 Wheels : 4
+Audi A4 : Price ($35000.0)
+Tax: 5250.0 Wheels : 4
+Nissan Cabstar : Price ($20000.0)
+Tax: 6000.0 Wheels : 6
+Big Bike : Price ($10000.0)
+Tax: 100000.0 Wheels : 2
+Honda Wave : Price ($7000.0)
+Tax: 56000.0 Wheels : 2
+Vespa : Price ($2000.0)
+Tax: 60000.0 Wheels : 2
+
+== A note about grading ==
+Part of the skeleton code has been completed for you. You are to implement any empty methods based on the description in the source file.
+
+You are free to change any source file with the exception of the driver program.
+
+Grading for correctness will be based on correct behavior and good class design.

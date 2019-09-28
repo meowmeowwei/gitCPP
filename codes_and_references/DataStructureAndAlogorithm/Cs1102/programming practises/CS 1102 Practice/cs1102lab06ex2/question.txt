@@ -1,0 +1,81 @@
+== CS1102/C Sem 1 AY2008/2009 Lab 6 ==
+
+== Description ==
+Operating system nowadays are predominantly windowed based systems that are capable of maintaining many open windows. One particular example is the Windows family of operating system which allows many programs to be concurrently opened at the same time.
+
+Also, opened programs are listed on the task bar and the user can switch to any program by clicking on its icon on the task bar at any time.
+
+With this system, the problem is for the graphics driver to know which window to be drawn on the screen. In this lab, you are to write a simple simulation to compute what is the current window in the front.
+
+You will be asked to support 3 operations, namely minimize, switch and open.
+
+Minimize will remove the current front window on the screen. The window previously directly below will be the new front window.
+
+Switch will move the program's window to the front. If the window was previously minimize, it will be restored and be placed in front. If the window was previously opened, it will be moved to the front. The order of all other windows are not changed.
+
+Lastly, open will create a new program window and place it in front.
+
+== Input ==
+The first line consists of a single integer n. This is the number of instructions.
+
+Each of the next n lines is either of the 3 following types.
+
+A minimize instruction is represented as the line "M".
+
+A switch instruction is represented by the line "S id" where id is the id of the program to switch to.
+
+An open instruction is represented by the line "O". For simplicity, the program is allocated the next integer id not used yet, starting from 0.
+
+== Output ==
+For each instruction, you are to output the id of the current front window on a single line.
+
+If no such window exists (either because all windows are minimized or no programs are open) output "-1" on a single line.
+
+== Sample Input ==
+
+20
+O
+O
+O
+O
+O
+M
+S 2
+O
+O
+S 4
+M
+M
+M
+S 3
+M
+M
+S 1
+M
+M
+O
+
+
+== Sample output ==
+
+0
+1
+2
+3
+4
+3
+2
+5
+6
+4
+6
+5
+2
+3
+2
+1
+1
+0
+-1
+7
+

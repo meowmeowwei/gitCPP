@@ -1,0 +1,132 @@
+Lab 0 Ex1: Unix Commands 
+========================  
+
+Instructions 
+============ 
+1. This is our introductory lab and this exercise
+   contributes to the 2%.
+2. You must pass all the tests in courseMarker.
+  
+
+Description: 
+============
+This is a simple practice to familiarize you with sunfire
+environment. Sunfire server uses Solaris as Operating System (just
+like Windows XP/Vista is the Operating System on your laptop/PC).
+Solaris is a variant on the Unix Operating System (other famous
+variant would be Linux). As Solaris is very different from Windows,
+this exercise is to help you to get use to a few basic commands which
+should be sufficient for you use in CS1102.
+
+In Windows, you are used to rely on GUI (Graphical User Interface) to
+perform some basic tasks. For example, you should have no problem using
+the Windows Explorer (or "My Computer") to create a folder, create file,
+remove file, move file etc. In Solaris, these commands are usually
+performed from user prompt (i.e. "text" input at command prompt). You
+can refer to Part 1 of Walkthrough regarding the basic commands.
+
+Before you attempt the exercise, there is one more clarification. Unix
+commands are NOT part of Java. However, due to the limitation of
+CourseMarker, which can only check Java program, we are forced to use a
+Java program to record your answer to the exercises below. 
+
+Together with this question, you should see a Java file
+"Unix.Java", which contains the following code fragment:
+
+   switch (questionNo){
+
+        case 1:                 //Question 1
+            System.out.println("???????");       
+            break; 
+
+        ......
+    }
+
+Your task is to simply place the response to the unix commands below in
+the println message. If the unix command does not give any message, you
+should place the word "NONE" in the message.
+
+
+Exercise on Unix Commands
+=========================
+
+We are going to carry out a few commands step-by-step below. Some of the
+steps have the word (Question X) at the end, which indicates that you
+should record the reponse and put them in the correponding  "case" in
+the unixPractice.cpp. If you suspect you have mistype a command, please 
+refer to the section on "Resetting the Exercise".
+
+Step 1  Go to your home directory by typing "cd"
+        
+Step 2 (Question 1). Enter "ls testUnixDir"
+        Meaning: "ls" is to list the content of current folder
+                  if you place a name behind it (as in this case), you 
+                   are simply checking whether a file/folder by that name exist.
+        Hint: You shouldnt have this file/folder 
+
+Step 3  Enter "mkdir testUnixDir"
+        Meaning: "mkdir" is to create a new directory (folder).
+                 "testUnixDir" is the name of the folder.
+
+Step 4 (Question 2). Enter "ls testUnixDir"
+        This is the same comamnd used in Step 2, however, after step 3,
+        the response should be different! If the name given to "ls" is a
+         valid folder, the command will then list out the content of the folder.
+
+Step 5  Enter "cd testUnixDir"
+        Meaning: "cd" is to change (go into) a directory, in this case,
+        we are going into the newly created folder "testUnixDir".
+
+Step 6  Create a new file "abc.txt" by using your favorite editor (vim,
+        pico etc). If you are new to sunfire, try to read through the
+        relevant section in the Walkthrough Part 1 regarding this.
+
+        Just type "ABCDEFGH" in the file and save it.
+
+Step 7 (Question 3).  Enter "ls"
+
+Step 8  Enter "cp abc.txt another.txt"
+        Meaning: "cp" is to make a new copy of an existing file. In this
+                 case, we are duplicating "abc.txt" and name it as
+                 "another.txt".
+        You can check whether you are correct up to this step by typing
+        "ls". Two files "abc.txt another.txt" should be listed.
+
+Step 9  (Question 4). Enter "diff abc.txt another.txt"
+        Meaning: "diff" is used to compare the content of two files.
+                 This command will show the _differences_ between the
+                 files if any.
+
+Step 10 Enter "rm abc.txt"
+        If prompted, type "y" to confirm the command
+        Meaning: "rm" is used for file removal. 
+
+Step 11 Enter "mv another.txt ABC.txt"
+        Meaning: "mv" means "move". One main use is to move a file to
+                 another folder, or you can use it to rename a file
+                 (which is what we are doing here).
+
+Step 12 (Question 5). Enter "ls"
+
+
+Resetting this Exercise
+=======================
+
+Only go through the following if you think you have make a mistake that
+cannot be rectified in the steps above.
+
+The command listed down here is quite dangerous. Make sure you type them
+EXACTLY as shown.
+
+Step 1. Go to your home directory by typing "cd"
+
+Step 2. Check whether you have the folder used for this exercise:
+        Enter "ls testUnixDir". ONLY perform the next step if you see
+        textUnixDir listed.
+
+Step 3. Enter "rm -Rf textUnixDir". Make sure you type it EXACTLY as
+        shown. 
+
+Perform Step 2 again, you should see no output on screen. You can down
+redo the exercise.
+

@@ -1,0 +1,50 @@
+import java.util.*;
+class XML{
+  public static void main(String[]args){
+    
+    String x = "";
+    
+    String y = scanner.nextLine();
+    
+    while (y!="@"){
+      x+=y;
+      y = scanner.nextLine();
+    }
+    
+    
+    
+    Stack stack = new Stack();
+    Queue queue = new Queue();
+    int index =0;
+    
+    while(index<x.length()){
+      
+      if(x.charAt(index)=='<'&&x.charAt(index+1)=='/'){
+        String temp = x.substring(index+2,x.indexOf(">"));
+        stack.push(temp);
+        index++;
+      }
+      else if(x.charAt(index=='<')&&x.charAt(index=1)!='/'){
+        String temp = x.substring(index+1,x.indexOf(">",index+1));
+        queue.enqueue(temp);
+        index++;
+      }
+      else{}
+    }
+    
+    boolean isValid = true;
+    
+    while(!stack.isEmpty()){
+      if(stack.pop()!=queue.dequeue()){
+        isValid = false;
+        break;
+      }
+    }
+    if(isValid == true){
+      System.out.println("valid");
+    }
+    else{
+      System.out.println("invalid");
+    }
+  }
+}

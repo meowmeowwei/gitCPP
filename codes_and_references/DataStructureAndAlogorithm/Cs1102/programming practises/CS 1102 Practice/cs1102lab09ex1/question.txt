@@ -1,0 +1,49 @@
+PE Ex2: Tree Planting
+=====================
+
+In this problem, you will be given two BSTs, T1 and T2, 
+and you need to determine whether it is possible to set 
+the root node of T2 to be a child node of some node of 
+T1, such that the resultant tree is a BST. 
+
+For simplicity, each of the BSTs stores distinct integers, 
+and no integer appear in both BSTs. 
+
+
+Input 
+=====
+
+The first line contains a single integer indicating the 
+number of nodes in T1. 
+The second line contains a pre-order traversal sequence 
+for the values in T1. 
+The third line contains a single integer indicating the 
+number of nodes in T2.
+The fourth line contains a pre-order traversal sequence 
+for the values in T2. 
+
+
+Output 
+======
+
+Print YES in a single line if T2 can be joined to T1 to 
+form a BST, otherwise print NO in a single line. 
+
+	
+Sample Input 1				Sample Input 2
+==============				==============
+
+6						6
+20 10 7 3 9 15 100			20 10 7 3 9 12 100
+4						4
+16 13 17 18					16 13 17 18
+
+
+Sample Output 1				Sample Output 2
+===============				===============
+
+NO						YES
+
+
+Note: You are not allowed to use any sorting algorithm 
+      for this problem except those related to BST.

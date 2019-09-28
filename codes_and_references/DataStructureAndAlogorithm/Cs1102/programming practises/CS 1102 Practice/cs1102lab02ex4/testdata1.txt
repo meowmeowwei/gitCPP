@@ -1,0 +1,17 @@
+4
+universal object
+-1
+-1
+any
+edible food
+0
+0
+null
+fruit
+-1
+-1
+null
+apple
+-1
+-1
+red or green

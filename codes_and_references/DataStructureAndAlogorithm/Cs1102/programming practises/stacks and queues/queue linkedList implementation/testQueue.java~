@@ -1,0 +1,13 @@
+class testQueue{
+  public static void main(String[]args){
+    Queue q = new Queue();
+    
+    for(int i = 1; i <=5; i++){
+      q.enqueue(i);
+    }
+    
+    q.dequeue();
+    q.dequque();
+    System.out.println(q.getFront());
+  }
+}

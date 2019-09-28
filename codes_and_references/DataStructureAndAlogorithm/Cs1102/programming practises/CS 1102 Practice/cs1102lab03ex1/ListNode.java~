@@ -1,0 +1,41 @@
+import java.util.*;
+
+// You can get some practice by implementing your own Linked List for this lab.
+public class ListNode {
+  
+  // data members
+  private char c; // this character
+  private ListNode prev;
+  private ListNode next;
+  
+  // constructor
+  public ListNode(char character, ListNode p, ListNode n) {
+    // complete the constructor
+    c=character;
+    prev=p;
+    next=n;
+    
+  }
+  
+  // define accessor methods
+  public get
+
+ 
+  
+  
+  // define mutator methods
+  // hint: you do not need a character mutator. Why?
+
+  
+  
+  
+  // method to print the list starting from current node
+  public void printList() {
+
+    // complete this method
+
+
+
+  }
+  
+}

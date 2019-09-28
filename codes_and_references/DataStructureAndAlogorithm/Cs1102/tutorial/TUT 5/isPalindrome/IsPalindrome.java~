@@ -1,0 +1,21 @@
+class IsPalindrome {
+  public static void main(String[]args){
+    String x = "abba";
+    
+    System.out.println(checkP(x),0,3);
+  }
+  
+  public static boolean checkP(String x, int start, int end){
+    
+    if(start==end||start>end){}
+    else{
+      if(checkP(start+1,end-1)==false|| x.charAt(start)!=x.charAt(end)){
+        return false;
+      }
+      else {
+        return true;
+      }
+    }
+  }
+}
+    

@@ -1,0 +1,45 @@
+import java.util.*;
+class SchoolRanking {
+  
+  public static void main(String[]args){
+    Scanner scanner = new Scanner(System.in);
+    int numOfStudents = scanner.nextInt();
+    
+    int[]results = new int[numOfStudents];
+    
+    for(int i = 0 ; i < numOfStudents; i++){
+      results[i] = scanner.nextInt();
+    }
+    
+    Comparator<Integer> comp = new Comparator<Integer>();
+    
+    Arrays.sort(results, comp);
+    
+    int numOfSearch = sanner.nextInt();
+    
+    ArrayList<Object> list = new ArrayList<Object>();
+    
+    for(int i = 1; i <= numOfSearch; i++){
+        int result = scanner.nextInt();
+        
+        list.add(search(results,result));
+    }
+    
+    for(Object p:list){
+      System.out.println(p);
+    }
+  }
+  
+  public static Object search(int[]array, int result){
+    for(int i = 0; i<array.length;i++){
+      if(array[i]==result){
+        return i+1;
+      }
+    }
+    else return "not found";
+  }
+}
+          
+          
+        
+  

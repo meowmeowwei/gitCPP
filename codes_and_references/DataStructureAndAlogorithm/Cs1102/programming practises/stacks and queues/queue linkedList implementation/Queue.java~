@@ -1,0 +1,29 @@
+import java.util.*;
+
+class Queue {
+  private LinkedList<String> list;
+  
+  public Queue(){
+    
+    list = new LinkedList<Integer>();
+  }
+  
+  public void enqueue(Integer x){
+    list.add(x);
+  }
+  
+  public Integer dequeue(){
+    //list remove option will return things
+    return list.remove();
+  }
+  
+  public Integer getFront(){
+    
+    return list.peek();
+  }
+  
+  public boolean isEmpty(){
+    return (list.size()==0);
+  }
+}
+    

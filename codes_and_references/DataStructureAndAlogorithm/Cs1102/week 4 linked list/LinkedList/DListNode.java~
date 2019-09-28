@@ -1,0 +1,8 @@
+class DListNode extends ListNode {
+  DListNode prev;
+  
+  public DListNode (Object item, DListNode n, DListNode p) {
+    super(item, n);
+    prev = p;
+  }
+}

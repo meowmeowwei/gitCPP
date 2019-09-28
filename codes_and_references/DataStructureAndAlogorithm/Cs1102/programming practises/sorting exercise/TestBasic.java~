@@ -1,0 +1,43 @@
+class TestBasic {
+ public static void main (String [] args) throws ItemNotFoundException {
+  BasicLinkedList bl = new BasicLinkedList ();
+  bl.addHead ( 10 );
+  bl.addHead ( 37 );
+  bl.addHead ( 14 );
+  bl.addHead ( 13 );
+  bl.addHead ( 29 );
+     System.out.println( );
+     System.out.print("Original ");
+  bl.print();
+
+  for (int i=bl.size()-1; i >= 1; i--)  {
+   bl.moveLargestTo ( i );
+   System.out.println( );
+   System.out.println( "i = " + i);
+   bl.print();
+  }
+ }
+}
+
+//
+// -- output from the above program should be:
+/*
+
+Original Linked List is as follows: 29 13 14 37 10
+
+i = 4
+Linked List is as follows: 29 13 14 10 37
+
+i = 3
+Linked List is as follows: 13 14 10 29 37
+
+i = 2
+Linked List is as follows: 13 10 14 29 37
+
+i = 1
+Linked List is as follows: 10 13 14 29 37
+
+*/
+// -- end of output --
+//
+

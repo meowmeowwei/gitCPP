@@ -1,0 +1,75 @@
+Question 2: Maximal chain (70%)
+
+Description
+===========
+In this question, we are looking for a property of a binary tree. 
+Each node in the binary tree contains a single non-negative integer.
+For example, consider the following binary tree.
+
+		 	7
+		       / \
+		      /   \
+		     5	   4
+		    /     / \
+		   /	 /   \
+		  9 	1     3
+		 /
+		/
+	       3
+
+We define a chain as a path from the root of the binary tree to a leaf node. 
+In the tree shown above, there are 3 possible chains. They are: {7,5,9,3}, 
+{7,4,1}, and {7,4,3}.
+
+Next we define the value of a chain C{v1, v2, v3 ... vn} as follows:
+
+     Value(C) = v1 + (v2 û (v3 + (v4 - (v5.... vn)...)
+
+Hence, the possible values in the above tree are (7 + (5 û (9 + (3)))) = 0, 
+(7 + (4 - (1))) = 10 and (7 + (4 - (3))) = 8.
+
+Your task is to find the value of the maximal valued chain in the tree 
+efficiently. For example, the maximal value of the tree shown above is 10.
+
+Input
+=====
+Each line in the input will represent one node in the tree. The first line 
+represents the root node.
+
+The order that the nodes appear in the input is equivalent to the pre-order 
+traversal of the nodes in the resulting tree.
+
+The number of nodes, n, is such that 0 < n = 1, 000,000.
+
+Each line in the output contains 3 integers separated by space in the 
+following format.
+<data d> <number of nodes in left sub-tree l> <number of nodes in right sub-tree r>
+
+where 0 = d = 1,000 and 0 = l, r = 1,000,000
+
+
+Output
+======
+You are to output a single integer v, the value of the maximal valued chain.
+
+
+Sample Input
+============
+7 3 3 
+5 2 0 
+9 1 0 
+3 0 0 
+4 1 1 
+1 0 0 
+3 0 0
+
+Note: Input corresponds to tree shown in description
+
+Sample Output
+=============
+10
+
+
+Implementation notes
+====================
+You can be sure that v will fit into a java/c++ int variable type.

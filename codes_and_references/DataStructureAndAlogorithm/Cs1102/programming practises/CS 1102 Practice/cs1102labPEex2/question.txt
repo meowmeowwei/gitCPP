@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class PEQuestion1 {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    String input = scan.nextLine();
+    
+    Dissector myDissector = new Dissector(input);
+
+    int k = scan.nextInt(); // as defined in question
+
+    for (int i = 0; i < k; i++) {
+      String testCase = scan.next();
+      List<Integer> startIdxs = myDissector.dissect(testCase);
+      System.out.println(printOutput(startIdxs));
+    }
+  }
+
+
+  public static String printOutput(List<Integer> indexes) {
+    if (indexes.size() == 0) return "Not found";
+    String output = "";
+    for (int i = 0; i < indexes.size(); i++) {
+      output += indexes.get(i) + ", ";  
+    }
+    return output.substring(0, output.length()-2);
+  }
+}

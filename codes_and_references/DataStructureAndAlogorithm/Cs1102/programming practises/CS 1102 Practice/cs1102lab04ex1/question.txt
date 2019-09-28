@@ -1,0 +1,73 @@
+
+== CS1102 Lab 4: Memory ==
+1. This is a TA-graded lab
+2. You are given 1h 40 min to solve the lab.
+3. This includes 15 min for analysis. You are not allowed to use the computer in the first 15 minutes.
+4. If you have any question, you may raise your hand and the TA will attend to you.
+5. Please note that you will get 50% of the marks deducted if your program cannot compile.
+6. You are reminded that 30% of marks is awarded for programming style.
+
+== Problem description ==
+In modern computer systems,memory management is an important task. In this lab, we will write a simplified abstraction of a memory manager.
+
+Depending on the size of memory n, the memory available in the system are labeled with address from 1 to n. Furthermore, the memory is divided into blocks.
+
+When a memory request comes in, the manager scans the memory and return the starting address of the lowest addressed block that can fit the request.
+
+Blocks cannot be combined to form a larger block of memory.
+
+If the block assigned is bigger than the memory requested, a block of memory is then created out of the excess memory at the end. If the block assigned is just enough to fit the request, no additional block is created.
+
+Please refer to the standard input and output for examples.
+
+Your task is to write a program that returns the starting address of memory assigned for each request.
+
+== Input ==
+The first line contains n, the total size of memory, and b, the initial number of blocks.
+
+The next line contains b numbers. This are the starting addresses of the initial blocks in ascending order. (The first block always start at address 1.)
+
+The next line contains an integer r, the number of memory requests.
+
+Each of the next r lines contain an integer m. This is the size of the memory requested.
+
+
+== Output ==
+You are to print the starting address of the lowest block that is able to fit the request (if it exists).
+
+If no block is able to fit the request, print the string "Unable to assign memory".
+
+== Sample input ==
+1500 5
+1
+501
+801
+901
+1001
+5
+500
+500
+200
+100
+500
+
+== Sample output ==
+1
+1001
+501
+701
+Unable to assign memory
+
+== Explanation ==
+The initial size of the blocks are 500, 300, 100, 100 and 500.
+
+The first 2 request will completely fill up the first and last block.
+
+The request for 200 will be assigned to the initial 2nd block. Since the block has 300 memory, the remaining 100 (at the end)
+starting at 701 is still free.
+
+Hence, when the request for 100 comes in, it is satisfied by this block.
+
+Finally, the last request for 500 cannot be satisfied because the no block in memory is now 500 or bigger.
+
+
