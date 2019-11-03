@@ -50,3 +50,43 @@ data and functions are separated
 
 
 
+**5. what is &lt;iomanip&gt; ?**
+
+* used for manipulating the output format , e.g. setprecision\(3\)
+
+
+
+**6. what is &lt;sstream&gt; \(istringstream, ostringstream\)**
+
+* istringstream iss\(words\) --&gt; &gt;&gt; word
+
+\*\*\*\*
+
+**7. STL Sorting ?**
+
+* sort \(v.begin\(\), v.end\(\), greater&lt;int&gt;\(\)\); --&gt; sort descending 
+
+
+
+**8. File Stream \#include &lt;fstream&gt;** 
+
+* ifstream readFile\("in.txt"\)
+
+        char x;
+
+        while \(readFile &gt;&gt; x\) --&gt; skips white space, if you want to include white space , use while \(readFile.get\(x\)
+
+* ofstream writeFile\("out.txt"\)
+
+\*\*\*\*
+
+\*\*\*\*
+
+\*\*\*\*
+
+\*\*\*\*
+
+\*\*\*\*
+
+\*\*\*\*
+
