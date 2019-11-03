@@ -11,6 +11,7 @@
   * [c++工程师校招面试考点汇总](interview-preparation/c++-gong-cheng-shi-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
   * [Java开发校招面试考点汇总](interview-preparation/java-kai-fa-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
+  * [Sorting](data-structure-and-algorithm/sorting.md)
   * [Princeton algorithm](data-structure-and-algorithm/princeton-algorithm.md)
   * [Berkely CS61B](data-structure-and-algorithm/berkely-cs61b.md)
 * [C++](c++/README.md)
