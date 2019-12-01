@@ -8,6 +8,8 @@ description: 'https://cpppatterns.com'
 2. Singleton
 3. observer \(monitors the state of an object, implement event handling systems\) 
 4. SharedPointers
+5. Unique Pointer
+6. Weak Pointer
 
 
 
