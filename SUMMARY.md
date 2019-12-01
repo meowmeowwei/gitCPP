@@ -16,6 +16,7 @@
   * [Princeton algorithm](data-structure-and-algorithm/princeton-algorithm.md)
   * [Berkely CS61B](data-structure-and-algorithm/berkely-cs61b.md)
 * [C++](c++/README.md)
+  * [C++ Design Patterns](c++/c++-design-patterns.md)
   * [C++ Interview Questions](c++/c++-interview-questions.md)
 * [Java](java/README.md)
   * [Ambrosia](java/ambrosia.md)

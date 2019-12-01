@@ -86,7 +86,7 @@ data and functions are separated
 
 \*\*\*\*
 
-**10. difference between List and Vector ?**
+\*\*\*\*[**10. difference between List and Vector ?**](https://thispointer.com/difference-between-vector-and-list-in-c/)\*\*\*\*
 
 * list stores elements at none-contagious memory locations, internally uses doubly linkedlist 
 * vector uses contagious memory locaitons like array
@@ -98,7 +98,9 @@ data and functions are separated
 
 * no difference += internally calls append\(\)
 
-\*\*\*\*
+**12. how is unordered\_map implemented ?**
+
+* [using hashtable \( array follow by linked list\) ](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/)
 
 \*\*\*\*
 
