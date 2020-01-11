@@ -2,7 +2,7 @@
 description: pointers for leeCode
 ---
 
-# LeeCode
+# LeetCode
 
 **Day 1 - Jan 05** 
 
