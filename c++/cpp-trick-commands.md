@@ -18,5 +18,13 @@ string token;
 
 while \(getline\(ss, token, '-'\);
 
+3\) reversing a string 
+
+\#include &lt;algorithm&gt;
+
+string ss = "sunwei"
+
+reverse \(ss.begin\(\), ss.end\(\)\);
+
 
 
