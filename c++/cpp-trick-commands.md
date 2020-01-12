@@ -28,3 +28,11 @@ reverse \(ss.begin\(\), ss.end\(\)\);
 
 
 
+4\) string comparison can use compare 
+
+ss.compare\(yy\) &gt; 0 , means ss is greater 
+
+[http://www.cplusplus.com/reference/string/string/compare/](http://www.cplusplus.com/reference/string/string/compare/)
+
+
+
