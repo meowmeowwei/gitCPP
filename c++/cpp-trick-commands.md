@@ -34,5 +34,7 @@ ss.compare\(yy\) &gt; 0 , means ss is greater
 
 [http://www.cplusplus.com/reference/string/string/compare/](http://www.cplusplus.com/reference/string/string/compare/)
 
+5\) std:: sort vs stable\_sort
 
+stable\_sort will preserve the sequence of the objects as how they come in, if they are having the same value 
 
