@@ -38,3 +38,11 @@ ss.compare\(yy\) &gt; 0 , means ss is greater
 
 stable\_sort will preserve the sequence of the objects as how they come in, if they are having the same value 
 
+6\) forward\_list vs list
+
+forward list created using singly linked list, one link to next item
+
+list is doubly linked , takes more space but can iterate in both directions 
+
+{% embed url="http://www.cplusplus.com/reference/forward\_list/forward\_list/" %}
+
