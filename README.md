@@ -10,9 +10,6 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left">things to do</td>
     </tr>
     <tr>
