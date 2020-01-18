@@ -42,7 +42,17 @@ stable\_sort will preserve the sequence of the objects as how they come in, if t
 
 forward list created using singly linked list, one link to next item
 
-list is doubly linked , takes more space but can iterate in both directions 
+list is doubly linked , takes more space but can iterate in both directions
+
+
+
+7\) emplace\_back vs push\_back in C++
+
+    - for objects with multiple constructors, emplace\_back accepts in place creation with argument, push\_back only accepts actual objects 
+
+    - efficency difference, emplace\_back is doing direct creation for user defined object in the list, but push\_back will create a temporary object and copies it over .
+
+ 
 
 {% embed url="http://www.cplusplus.com/reference/forward\_list/forward\_list/" %}
 
