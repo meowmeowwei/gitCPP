@@ -5,7 +5,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">I am creating a personal space here to track the things i have learnt</th>
+      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody>
