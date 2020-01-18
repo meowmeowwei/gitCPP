@@ -24,6 +24,7 @@
           <li>operating system notes study</li>
           <li>computer architecture notes study</li>
           <li>resume update</li>
+          <li>cracking the code interview</li>
         </ol>
       </td>
     </tr>
