@@ -44,6 +44,12 @@ forward list created using singly linked list, one link to next item
 
 list is doubly linked , takes more space but can iterate in both directions
 
+vector stores data in contagious locations like a vector
+
+deleting a node in list will not invalidate a position, but deleting in vector will affect the position 
+
+[https://thispointer.com/difference-between-vector-and-list-in-c/](https://thispointer.com/difference-between-vector-and-list-in-c/) 
+
 
 
 7\) emplace\_back vs push\_back in C++
