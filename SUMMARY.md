@@ -38,6 +38,5 @@
 * [Networking](networking.md)
 * [Linux System Programming](linux-system-programming.md)
 * [LeetCode](leecode.md)
-* [53. Maximum SubArray](untitled.md)
 * [Good Reference Websites](good-reference-websites.md)
 
