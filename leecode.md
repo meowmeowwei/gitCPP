@@ -12,7 +12,7 @@ Answer with Explanation
 
 ### Arrays/Strings
 
-* [Maximum subarray](https://leetcode.com/problems/maximum-subarray/) \(easy\)
+* ~~~~[~~Maximum subarray~~](https://leetcode.com/problems/maximum-subarray/) ~~\(easy\)~~
 * [Reverse string](https://leetcode.com/problems/reverse-string/) \(easy\)
 * [3sum](https://leetcode.com/problems/3sum/) \(medium\)
 * [Decode string](https://leetcode.com/problems/decode-string/) \(medium\)
