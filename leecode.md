@@ -55,7 +55,7 @@ Answer with Explanation
 
 #### Heaps/Priority Queues
 
-* [Maximize sum of array after K negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) \(easy\)
+* [~~Maximize sum of array after K negations~~](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) ~~\(easy\)~~
 * [Find K pairs with smallest sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) \(medium\)
 * [Kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/) \(medium\)
 * [Task scheduler](https://leetcode.com/problems/task-scheduler/) \(medium\)
