@@ -20,8 +20,6 @@ b. Thread starvation risk
 
 c. Memory allocator impact
 
-[https://paul.pub/cpp-memory-model/?hmsr=toutiao.io&utm\_medium=toutiao.io&utm\_source=toutiao.io](https://paul.pub/cpp-memory-model/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-
 d. Object size impact
 
 e. How to balance the triangular factors within low latency application architecture 
