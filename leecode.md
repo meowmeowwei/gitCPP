@@ -125,7 +125,7 @@ Answer with Explanation
 
 ### Dynamic Programming
 
-* [~~Climbing stairs~~](https://leetcode.com/problems/climbing-stairs/) ~~\(easy\)~~
+* [Climbing stairs](https://leetcode.com/problems/climbing-stairs/) \(easy\)
 * [Decode ways](https://leetcode.com/problems/decode-ways/) \(medium\)
 * [Jump game](https://leetcode.com/problems/jump-game/) \(medium\)
 * [Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) \(medium\)
