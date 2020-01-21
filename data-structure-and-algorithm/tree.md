@@ -12,7 +12,15 @@ Binary Search Tree - a binary tree where all left children are smaller than the 
 
 Full Binary Tree - every node has either 0 or 2 children 
 
-Perfect binary tree - full and complete binary tree \(exactly 2^K-1\) nodes 
+Perfect binary tree - full and complete binary tree \(exactly 2^K-1\) nodes
+
+InOrder Traversal - print left node, center then right node 
+
+PreOrder Traversal - print center node, then left node then right node 
+
+PostOrder Traversal - print left, print right , print center 
+
+ 
 
 
 
