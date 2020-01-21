@@ -26,6 +26,7 @@
   * [C++ Design Patterns](c++/c++-design-patterns.md)
   * [C++ Interview Questions](c++/c++-interview-questions.md)
   * [C/C++面试重点](c++/cc++-mian-shi-zhong-dian.md)
+  * [C++ 面试刷题](c++/c++-mian-shi-shua-ti.md)
 * [Java](java/README.md)
   * [Ambrosia](java/ambrosia.md)
   * [Heap offloading](java/heap-offloading.md)
