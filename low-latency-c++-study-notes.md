@@ -1,4 +1,4 @@
-# Low Latency C++ Study Notes
+# Low Latency Programming
 
 1\) what every programmer should know about memory 
 

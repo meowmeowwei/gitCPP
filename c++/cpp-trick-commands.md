@@ -58,6 +58,20 @@ deleting a node in list will not invalidate a position, but deleting in vector w
 
     - efficency difference, emplace\_back is doing direct creation for user defined object in the list, but push\_back will create a temporary object and copies it over .
 
+
+
+8\) sum of an array/ vector 
+
+accumulate \(vec.begin\(\), vec.end\(\), 0\);
+
+
+
+9\) find minimum element of an array/vector 
+
+\*min\_element\(vec\);
+
+
+
  
 
 {% embed url="http://www.cplusplus.com/reference/forward\_list/forward\_list/" %}
