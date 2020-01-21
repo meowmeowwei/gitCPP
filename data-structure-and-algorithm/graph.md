@@ -14,11 +14,6 @@ Representing Graph
 
 e.g.
 
-  
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 7.5px Helvetica}  
-p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.0px Helvetica}  
-
-
 6: 1
 
 1: 2
