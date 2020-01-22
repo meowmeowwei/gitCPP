@@ -28,7 +28,45 @@ Graph Search
 
 -&gt; DFS \(depth first search\), go to the deep end of the branch first then switch to another branch \( good for traversing to each node\)
 
--&gt; BFS \(breath first search\), go to each neighbour before going deep \(good for finding a node in the graph\)
+-&gt; BFS \(breath first search\), go to each neighbour before going deep \(good for finding a shortest path to a  node in the graph\)
+
+```text
+void visit (Node root){
+	cout << root << endl;
+}
+
+// DFS
+void searchDFS (Node root){
+	if(!root)
+		return;
+	visit(root);
+	root.visited = true;
+	for(Node n : root.adjacent){
+		if(!n.visited){
+			searchDFS(n);
+		}
+	}
+}
+
+//BFS
+
+void searchBFS(Node root){
+	queue <Node> bfsQueue;
+	root.marked = true;
+	bfsQueue.push_back(root);
+
+	while(!bfsQueue.empty()){
+		Node r = bfsQueue.pop_front();
+		visit(r);
+		for(Node n : r.adjacent){
+			if(!n.marked){
+				n.marked = true;
+				queue.push_back(n);
+			}
+		}
+	}
+}
+```
 
 
 
