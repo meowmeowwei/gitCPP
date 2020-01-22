@@ -22,3 +22,13 @@ e.g.
 
 3: 2
 
+
+
+Graph Search 
+
+-&gt; DFS \(depth first search\), go to the deep end of the branch first then switch to another branch \( good for traversing to each node\)
+
+-&gt; BFS \(breath first search\), go to each neighbour before going deep \(good for finding a node in the graph\)
+
+
+
