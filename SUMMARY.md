@@ -11,7 +11,7 @@
   * [Java开发校招面试考点汇总](interview-preparation/java-kai-fa-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
 * [LeetCode](leecode.md)
 * [Cracking Code Interview \(cc189\)](cracking-code-interview/README.md)
-  * [Big O](cracking-code-interview/big-o.md)
+  * [Big O](interview-preparation/cracking-code-interview/big-o.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [Graph](data-structure-and-algorithm/graph.md)
   * [Heap](data-structure-and-algorithm/heap.md)
