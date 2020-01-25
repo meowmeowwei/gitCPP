@@ -105,7 +105,45 @@ void quickSort2(int * vec, int low, int high){
 }
 ```
 
-\*\*\*\*
+**5\) Merge Sort**
 
-\*\*\*\*
+![](../.gitbook/assets/image%20%28103%29.png)
+
+```text
+void mergeList(int *a, int low, int mid, int high){
+	int n = high - low +1;
+	int * b = new int[n];
+
+	int left = low, right = mid+1, bIdx =0;
+
+	while ( left <= mid && right <= high){
+		if(a[left] <= a[right])
+			b[bIdx++] = a[left++];
+		else
+			b[bIdx++] = a[right++];
+	}
+
+	while(left <= mid) b[bIdx++] = a[left++];
+	while(right <=high) b[bIdx++] = a[right++];
+
+	for(int k=0; k <n; k++){
+		a[low+k] = b[k];
+	}
+
+	delete [] b;
+
+}
+
+
+
+void mergeSort2(int * a, int low, int high){
+	if(low < high){
+		int mid = (low+high)/2;
+
+		mergeSort2(a, low, mid);
+		mergeSort2(a, mid +1, high);
+		mergeList(a, low, mid, high);
+	}
+}
+```
 
