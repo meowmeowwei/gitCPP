@@ -79,7 +79,7 @@ Answer with Explanation
 * ~~~~[~~Balanced binary tree~~](https://leetcode.com/problems/balanced-binary-tree/) ~~\(easy\)~~
 * [~~Convert sorted array to binary search tree~~](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) ~~\(easy\)~~
 * ~~~~[~~Invert binary tree~~](https://leetcode.com/problems/invert-binary-tree/) ~~\(easy\)~~
-* [Merge two binary trees](https://leetcode.com/problems/merge-two-binary-trees/) \(easy\)
+* [~~Merge two binary trees~~](https://leetcode.com/problems/merge-two-binary-trees/) ~~\(easy\)~~
 * [Range sum of BST](https://leetcode.com/problems/range-sum-of-bst/) \(easy\)
 * [Symmetric tree](https://leetcode.com/problems/symmetric-tree/) \(easy\)
 * [All nodes distance K in binary tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) \(medium\)
