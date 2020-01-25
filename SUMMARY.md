@@ -10,7 +10,7 @@
   * [c++工程师校招面试考点汇总](interview-preparation/c++-gong-cheng-shi-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
   * [Java开发校招面试考点汇总](interview-preparation/java-kai-fa-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
 * [LeetCode](leecode.md)
-* [Cracking Code Interview \(cc189\)](interview-preparation/cracking-code-interview/README.md)
+* [Cracking Code Interview \(cc189\)](cracking-code-interview/README.md)
   * [Big O](cracking-code-interview/big-o.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [Graph](data-structure-and-algorithm/graph.md)
