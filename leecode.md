@@ -115,7 +115,7 @@ Answer with Explanation
 
 ### Recursion/Backtracking
 
-* [Combination Sum](https://leetcode.com/problems/combination-sum/) \(medium\)
+* \_\_[_Combination Sum_](https://leetcode.com/problems/combination-sum/) _\(medium\)_
 * [Decode ways](https://leetcode.com/problems/decode-ways/) \(medium\)
 * [Permutations](https://leetcode.com/problems/permutations/) \(medium\)
 * [Permutations II \(permutations with repetitions\)](https://leetcode.com/problems/permutations-ii/) \(medium\)
