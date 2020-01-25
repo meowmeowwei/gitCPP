@@ -1,6 +1,6 @@
 # Goldman Requirement
 
-C++ Java Lowlatency knowledge 
+C++ Java Low latency knowledge 
 
 Event Sourcing Based Architecture
 
