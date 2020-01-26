@@ -4,6 +4,10 @@ description: pdf pg 407/708
 
 # Chapter 10 - Sorting and Searching
 
+-&gt; question 9 and 10 still need more effort to redo 
+
+
+
 1\)
 
 note that both a and b are already sorted 

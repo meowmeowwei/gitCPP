@@ -34,7 +34,7 @@ description: C++ Version
 
 ## Chapter 9 - System Design and Scalability 
 
-## Chapter 10 - Sorting and Searching
+## ~~Chapter 10 - Sorting and Searching~~
 
 ## Chapter 11 - Testing
 
