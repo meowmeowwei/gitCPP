@@ -163,5 +163,17 @@ there are only 2 ^ 32 \(4 billion integers\) and only 2^31 none -negative intege
 
 use bit vector 
 
+11\)
 
+```text
+void sortValleyPeak(vector<int> vec){
+
+	sort(vec.begin(), vec.end());
+
+	for(int i =1; i < vec.size(); i+=2){
+		swap(vec[i-1], vec[i]);
+	}
+
+}
+```
 
