@@ -23,5 +23,7 @@
       </td>
     </tr>
   </tbody>
-</table>
+</table>Misellenous Items
+
+1\) Git, teamcity, kubernets, docker, AWS, VIM, Linux internal, 
 
