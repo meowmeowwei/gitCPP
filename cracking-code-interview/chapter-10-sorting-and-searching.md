@@ -147,3 +147,21 @@ int main(){
 }
 ```
 
+6\) sort big file
+
+20GB file divide into chunks, each having the amount of memory we have available. each chunk sorted separately and then saved back to the file system.
+
+7\)
+
+1gb has 1billion bytes = 8 billion bits, 
+
+1KB = 1024 bytes = 2 ^10 bytes
+
+there are only 2 ^ 32 \(4 billion integers\) and only 2^31 none -negative integers, hence 1 gb memory can hold all the integers in the questions, using a bit-vector of booleans to find the not used item 
+
+8\)
+
+use bit vector 
+
+
+

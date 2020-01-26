@@ -19,7 +19,12 @@
           <li>Finish CS2105 (computer network)</li>
           <li>Finish CS2102 (database)</li>
           <li>Finish CS2106 (operating system)</li>
+          <li>Resume editing</li>
         </ol>
+        <ul>
+          <li>for each project or role, come up with challenges , mistakes, enjoyed,
+            leadership, conflicts etc.</li>
+        </ul>
       </td>
     </tr>
   </tbody>
