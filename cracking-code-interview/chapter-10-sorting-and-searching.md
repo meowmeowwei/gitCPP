@@ -97,3 +97,53 @@ int search(Listy list, int value){
 }
 ```
 
+5\) binary search but need to move around to get the none empty word
+
+```text
+int searchVec(vector<string> vec, string searchString, int first, int last){
+
+	if(first > last) return -1;
+
+	int mid = (first + last)/2;
+
+	if(vec[mid]== ""){
+		int left = mid -1;
+		int right = mid +1;
+
+		while(true){
+			if(left < first && right > last)
+				return -1;
+			else if (right <=last && vec[right] != ""){
+				mid =right;
+				break;
+			}
+			else if( left >= first && vec[left] != ""){
+				mid = left;
+				break;
+			}
+			right ++;
+			left --;
+		}
+	}
+
+	if(searchString==(vec[mid])){
+		return mid;
+	}
+	else if(vec[mid] < searchString){
+		return searchVec(vec, searchString, mid+1, last);
+	}
+	else{
+		return searchVec(vec, searchString, first, mid -1);
+	}
+
+}
+
+
+int main(){
+	vector<string> vec {"at", "","", "","ball",""};
+
+	cout << searchVec(vec, "ball", 0, vec.size())<<endl;
+
+}
+```
+
