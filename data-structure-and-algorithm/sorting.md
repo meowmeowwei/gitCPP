@@ -52,7 +52,7 @@ void bubbleSort2(int * a){
 
 **3. Insertion sort**
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2890%29.png)
 
 ```text
 void insertionSort2(int * vec){
@@ -107,7 +107,7 @@ void quickSort2(int * vec, int low, int high){
 
 **5\) Merge Sort**
 
-![](../.gitbook/assets/image%20%28103%29.png)
+![](../.gitbook/assets/image%20%28104%29.png)
 
 ```text
 void mergeList(int *a, int low, int mid, int high){
@@ -146,4 +146,8 @@ void mergeSort2(int * a, int low, int high){
 	}
 }
 ```
+
+**6\) Radix Sort** 
+
+![](../.gitbook/assets/image%20%2871%29.png)
 
