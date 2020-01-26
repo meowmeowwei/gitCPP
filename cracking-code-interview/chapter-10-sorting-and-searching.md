@@ -46,5 +46,25 @@ void sort(vector<string> stringList){
 }
 ```
 
+3\) 
+
+```text
+bool binarySearch (vector<int> vec,int low, int high,  int question){
+	sort(vec.begin(), vec.end());
+	int mid = vec.size()/2;
+
+	if(question <vec[mid]){
+		return binarySearch(vec, mid+1, high, question);
+	}
+	if(question == vec[mid]){
+		return true;
+	}
+	if(question > vec[mid]){
+		return binarySearch(vec, 0, mid-1, question);
+	}
+}
+
+```
+
 
 
