@@ -11,6 +11,7 @@
   * [Java开发校招面试考点汇总](interview-preparation/java-kai-fa-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
 * [LeetCode](leecode.md)
 * [Cracking Code Interview \(cc189\)](cracking-code-interview/README.md)
+  * [Chapter 8 - Recursion and Dynamic Programming](cracking-code-interview/chapter-8-recursion-and-dynamic-programming.md)
   * [Chapter 10 - Sorting and Searching](cracking-code-interview/chapter-10-sorting-and-searching.md)
   * [Big O](cracking-code-interview/big-o.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
