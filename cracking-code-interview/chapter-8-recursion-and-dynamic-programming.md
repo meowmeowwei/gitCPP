@@ -68,3 +68,39 @@ vector<Point> getPath(vector<vector<int>> maze){
 }
 ```
 
+3\)
+
+```text
+int magicIndex(int * a, int head, int tail){
+
+	//cout <<"head "<< head<< endl;
+	//cout <<"tail "<< tail << endl;
+
+	if (head>tail)
+		return -1;
+
+	int midIndex = (head + tail)/2;
+    
+    //cout <<"midIndex "<< midIndex << endl;
+
+	if(midIndex == a [midIndex])
+		return midIndex;
+
+	if(a[midIndex] <midIndex){
+		return magicIndex(a, midIndex+1, tail);
+	}
+	else{
+		return magicIndex(a,head, midIndex-1);
+	}
+}
+
+
+int main(){
+	int a[]  {-40, -20, -1, 1, 2, 3, 5, 7, 9, 12, 13};
+
+	cout << magicIndex(a, 0, 10);
+}
+```
+
+
+
