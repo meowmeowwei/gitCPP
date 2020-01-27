@@ -4,10 +4,6 @@
 
 {% embed url="https://paul.pub/cpp-memory-model/?hmsr=toutiao.io&utm\_medium=toutiao.io&utm\_source=toutiao.io" %}
 
-
-
-
-
 {% embed url="https://www.jianshu.com/p/e553b1d00501" %}
 
 
