@@ -23,6 +23,7 @@
   * [Berkely CS61B](data-structure-and-algorithm/berkely-cs61b.md)
 * [Low Latency Programming](low-latency-c++-study-notes.md)
 * [C++](c++/README.md)
+  * [A tour of C++ 2nd Edition](c++/a-tour-of-c++-2nd-edition.md)
   * [CPP trick commands](c++/cpp-trick-commands.md)
   * [CPPCon](c++/cppcon/README.md)
     * [low latency c++](c++/cppcon/low-latency-c++.md)
