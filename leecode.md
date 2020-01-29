@@ -64,7 +64,7 @@ Answer with Explanation
 ### Linked Lists/Deques
 
 * ~~~~[~~Intersection of two linked lists~~](https://leetcode.com/problems/intersection-of-two-linked-lists/) ~~\(easy\)~~
-* [Linked list cycle](https://leetcode.com/problems/linked-list-cycle) \(easy\)
+* [~~Linked list cycle~~](https://leetcode.com/problems/linked-list-cycle) ~~\(easy\)~~
 * [Palindrome linked list](https://leetcode.com/problems/palindrome-linked-list/) \(easy\)
 * [Remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) \(easy\)
 * [_Reverse linked list_](https://leetcode.com/problems/reverse-linked-list/) _\(easy\)_
