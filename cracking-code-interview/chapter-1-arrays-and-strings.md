@@ -206,3 +206,48 @@ bool oneAway( string word1, string word2){
 
 
 
+question 6
+
+```text
+string compression2(string word){
+	string result ;
+
+	
+	char prev = word [0];
+
+	result += prev;
+
+	int count = 0;
+
+	for(char x : word){
+		if(x == prev)
+			count++;
+		else{
+			prev = x;
+			result+= to_string(count);
+			result+=x;
+			count = 1;
+		}
+	}
+
+	result += to_string(count); 
+
+	if(result.length() >= word.length()){
+		return word;
+	}
+	else{
+		return result; 
+	}
+}
+
+
+		
+
+int main(){
+	
+	cout<<"Compressed - "<< compression2("aabccccaaa" )<<endl;
+}
+```
+
+
+
