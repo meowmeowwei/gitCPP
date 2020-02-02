@@ -111,5 +111,98 @@ int main(){
 
 question 4
 
+```text
+
+bool isPalindrome ( string word){
+	if(word.length() <=1)
+		return true;
+
+	for(int i=0; i < (word.length()+1)/2; i++){
+		if(word[i]!= word[word.length()-1-i])
+			return false;
+	}
+
+	return true;
+}
+
+int main(){
+	
+	cout<<"isPalindrome "<< boolalpha<< isPalindrome("Tact Coa" )<<endl;
+}
+```
+
+
+
+question 5
+
+```text
+bool checkOneEditSameLength(string word1, string word2){
+	bool oneEdit = false;
+	for(int i=0; i < word1.length(); i++){
+		if(word1[i]!=word2[i]){
+			if(oneEdit)
+				return false;
+			else
+				oneEdit = true;
+		}
+	}
+	return true;
+}
+
+bool checkOneEditDifferentLength(string word1, string word2){
+	int length1 = word1.length();
+	int length2 = word2.length();
+
+	if(abs(length1-length2)>1){
+		return false;
+	}
+
+	string shortWord;
+	string longWord;
+
+	if( length1 < length2){
+		shortWord = word1;
+		longWord = word2;
+	}
+	else{
+		shortWord = word2;
+		longWord = word1;
+	}
+
+	int numDifference = 0;
+
+	int longIndex =0;
+	int shortIndex =0;
+
+	while (longIndex < longWord.length() && shortIndex < shortword.length()){
+		if(shortword[shortIndex] != longWord[longIndex]){
+			if(shortIndex!=longIndex)
+				return false;
+			longIndex++;
+		}else{
+			shortIndex++;
+			longIndex++;
+		}
+	}
+
+	return true;
+
+}
+
+
+
+bool oneAway( string word1, string word2){
+
+	if(word1 == word2 )
+		return true;
+
+	if(word1.length()==word2.length()){
+		return checkOneEditSameLength(word1, word2);
+	}
+	else{
+		return checkOneEditDifferentLength(word1, word2);
+	}
+```
+
 
 
