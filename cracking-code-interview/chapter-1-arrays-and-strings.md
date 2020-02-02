@@ -1,3 +1,7 @@
+---
+description: '203/708 ( need to do 1.7, 1.8, 1.9 again)'
+---
+
 # Chapter 1 - Arrays and Strings
 
 question 1
