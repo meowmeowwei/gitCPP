@@ -249,5 +249,45 @@ int main(){
 }
 ```
 
+question 9
 
+```text
+
+bool isSubString(string word, string word2){
+
+	if(word.length()!=word2.length())
+		return false;
+
+	if(word ==word2)
+		return true;
+
+	int index = -1;
+	for(int i=0 ; i < word.length(); i++){
+		if(word[i]!=word2[i])
+			index =word.find(word2[i]);
+		break;
+	}
+
+	string part1 = word.substr(0, index);
+	string part2 = word.substr(index, word.length()-index);
+
+	string newWord = part2+part1;
+
+	cout<<"new word - "<< newWord<<endl;
+
+	if(newWord==word2)
+		return true;
+
+	return false;
+
+}
+
+		
+
+int main(){
+	
+	cout<<"isSubString - "<< boolalpha<<isSubString("waterbottle","erbottlewat" )<<endl;
+}
+
+```
 
