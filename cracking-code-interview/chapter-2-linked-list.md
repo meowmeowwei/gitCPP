@@ -69,3 +69,24 @@ careful , differentiate unordered\_map vs map
 };
 ```
 
+2\) use recursion to find the kth smallet 
+
+```text
+int recursion(Node * node, int index ){
+	if(!node)
+		return 0;
+
+	int i = recursion(node->next, index) +1;
+
+	if(i==index)
+		cout << "kth item from the index is "<< node->value;
+
+	return index;
+}
+
+
+ int returnKthFromLastUsingRecursion(int index){
+ 	return recursion(head, index);
+ }
+```
+
