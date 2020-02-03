@@ -90,3 +90,27 @@ int recursion(Node * node, int index ){
  }
 ```
 
+or using two pointers with k distance apart
+
+```text
+ int returnKthUsingIterative(int index){
+ 	auto * p1 = head;
+ 	auto * p2 = head;
+
+ 	for(int i =0; i < index; i++){
+ 		if(!p1)
+ 			return -1;
+ 		p1 = p1->next;
+ 	}
+
+ 	while(p1!=nullptr){
+ 		p1 = p1->next;
+ 		p2 = p2->next;
+ 	}
+
+ 	return p2->value;
+ }
+
+};
+```
+
