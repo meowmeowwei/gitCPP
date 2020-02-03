@@ -105,7 +105,7 @@ data and functions are separated
 **13. unordered\_set vs set**
 
 * set is done using binary search tree , slower than unordered\_set
-* unordered\_set done using buckets , hashtables 
+* unordered\_set done using  hashtables 
 
 \*\*\*\*
 
