@@ -114,3 +114,23 @@ or using two pointers with k distance apart
 };
 ```
 
+3\) deleting middle node
+
+copy the next node value to it, set the next to next node's next
+
+node this method may not work if the node to delete is last node 
+
+```text
+
+void deleteMiddleNode(Node * node){
+	if(!node || !node->next){
+		return;
+	}
+
+	auto * nextNode = node ->next;
+	node->value = nextNode->value;
+	node->next = nextNode->next;
+	return;
+}
+```
+
