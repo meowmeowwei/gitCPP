@@ -98,7 +98,26 @@ map
 
 
   
- 对智能指针有多少了解？  
+ **对智能指针有多少了解？explain smart pointers** 
+
+```text
+1)provides automatic memory management
+
+2)when smart pointers goes out of the scope, its destructor gets triggered and memory
+cleanup is performed.
+
+3)RAII (resource acquision is initialization): class wrapped around a dynamic resource
+that gets properly deleted/closed in its destructor.
+
+type of smart pointers 
+
+a. unique_ptr
+b. shared_ptr
+c. weak_ptr
+
+```
+
+  
  std::weak\_ptr如何转std::shared\_ptr  
  std::weak\_ptr::lock存在的意义是什么  
  C++各种虚函数、重载，看代码写输出  
