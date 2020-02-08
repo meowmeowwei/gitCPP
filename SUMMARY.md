@@ -14,6 +14,7 @@
 * [Cracking Code Interview \(cc189\)](cracking-code-interview/README.md)
   * [Chapter 1 - Arrays and Strings](cracking-code-interview/chapter-1-arrays-and-strings.md)
   * [Chapter 2 - Linked List](cracking-code-interview/chapter-2-linked-list.md)
+  * [Chapter 3 - Stack and Queue](cracking-code-interview/chapter-3-stack-and-queue.md)
   * [Chapter 8 - Recursion and Dynamic Programming](cracking-code-interview/chapter-8-recursion-and-dynamic-programming.md)
   * [Chapter 10 - Sorting and Searching](cracking-code-interview/chapter-10-sorting-and-searching.md)
   * [Big O](cracking-code-interview/big-o.md)

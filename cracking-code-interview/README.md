@@ -6,7 +6,7 @@ description: C++ Version
 
 ## ~~Chapter 1 - Array and Strings~~ 
 
-## ~~_Chapter 2 - LinkedList_~~
+## Chapter 2 - LinkedList
 
 ## Chapter 3 - Stack and Queues
 
