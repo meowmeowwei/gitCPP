@@ -134,3 +134,46 @@ void deleteMiddleNode(Node * node){
 }
 ```
 
+5\) 
+
+```text
+LinkList * sumList(Node * a, Node * b){
+	LinkList * resultList = new LinkList();
+
+	int valueA =0;
+	int valueB =0;
+
+	int sum =0;
+	int carry =0; 
+
+	while(a || b ){
+		valueA = a ? a->value : 0;
+		valueB = b ? b->value : 0;
+
+		cout<< "Value A is "<< valueA <<endl;
+		cout<< "Value B is "<< valueB << endl; 
+
+		sum = valueA + valueB + carry;
+
+		if(sum >=10){
+			carry = 1;
+			sum = sum %10;
+		}else{
+			carry =0;
+		}
+
+		a = a ? a->next: nullptr;
+		b = b ? b->next: nullptr;
+
+		resultList->add(sum);
+
+
+	}
+
+	if(carry)
+		resultList->add(carry);
+
+	return resultList; 
+}
+```
+
