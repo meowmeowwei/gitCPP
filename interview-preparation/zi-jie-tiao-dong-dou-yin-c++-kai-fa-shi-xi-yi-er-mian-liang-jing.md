@@ -118,7 +118,18 @@ c. weak_ptr
 ```
 
   
- std::weak\_ptr如何转std::shared\_ptr  
+ **std::weak\_ptr如何转std::shared\_ptr**
+
+```text
+std::shared_ptr<int> p_shared = std::make_shared<int>(100);
+std::weak_ptr<int> p_weak(p_shared);
+
+//use the lock 
+std::shared_ptr<int> p_shared = p_weak.lock();
+
+```
+
+  
  std::weak\_ptr::lock存在的意义是什么  
  C++各种虚函数、重载，看代码写输出  
  实现\#define max\(a, b, c\)  
