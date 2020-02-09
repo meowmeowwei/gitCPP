@@ -102,10 +102,7 @@ data and functions are separated
 
 * [using hashtable \( array follow by linked list\) ](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/)
 
-**13. unordered\_set vs set**
-
-* set is done using binary search tree , slower than unordered\_set
-* unordered\_set done using  hashtables 
+\*\*\*\*
 
 \*\*\*\*
 
