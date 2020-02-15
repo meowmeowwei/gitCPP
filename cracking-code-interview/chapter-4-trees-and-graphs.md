@@ -142,3 +142,34 @@ public:
 
 ```
 
+5\)  check BST, all left nodes need to be smaller than current, all right nodes need to be bigger 
+
+```text
+
+class Solution {
+public:
+    
+
+    bool checkBST(TreeNode * node, int * min, int * max){
+        if(!node)
+            return true;
+
+        if((min && node->data <= min) || m(max && node->data > max))
+            return false;
+
+        if(!checkBST(node->left, min, node->data) || !checkBST (node->right, node->data, max))
+            return false;
+
+        return true;
+    }
+
+    bool isBST(TreeNode* root) {
+       // need to keep a minum value, all left nodes are smaller than current value, all right nodes are bigger than current values
+
+
+      return checkBST(root, nullptr, nullptr);
+        
+       
+};
+```
+
