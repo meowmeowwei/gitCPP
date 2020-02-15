@@ -108,3 +108,37 @@ void createLevelLinkedList (TreeNode root, vector * <LinkedList<TreeNode>> lists
 
 ```
 
+4\) is balanced tree
+
+```text
+class Solution {
+public:
+    
+    int treeSize(TreeNode * node){
+        int size =0;
+        
+        if(node == nullptr)
+            return 0;
+        else{
+            size = max(treeSize(node->left), treeSize(node->right)) +1;    
+        }
+        return size;
+    }
+    
+    bool isBalanced(TreeNode* root) {
+        if(root == nullptr)
+            return true;
+        
+        int heightDifference = treeSize(root->left) - treeSize(root->right);
+        if(abs(heightDifference) >1){
+                return false;
+            }
+        else{
+                return isBalanced(root->left) && isBalanced(root->right);
+            }
+        }
+    
+};
+
+```
+
