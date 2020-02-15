@@ -61,3 +61,25 @@ boolean checkNode (Node a, Node b){
 	}
 ```
 
+2\) root should always be in the middle of the array
+
+use recursion to do it
+
+```text
+	Node *  buildMinimumTree(int * arr, int startIndex, int endIndex){
+		if (startIndex == endIndex )
+			return new Node(arr[0]);
+		else{
+
+			midIndex = (startIndex + endIndex)/2;
+			root = new Node(arr[midIndex]);
+			root->left = buildMinmumTree(arr, 0, midIndex -1);
+			root->right = buildMinmumTree(arr, midIndex+1, endIndex);
+		}
+	}
+```
+
+
+
+
+
