@@ -6,9 +6,9 @@ description: C++ Version
 
 ## ~~Chapter 1 - Array and Strings~~ 
 
-## Chapter 2 - LinkedList
+## ~~_Chapter 2 - LinkedList_~~
 
-## Chapter 3 - Stack and Queues
+## ~~Chapter 3 - Stack and Queues~~
 
 ## Chapter 4 - Trees and Graphs
 
