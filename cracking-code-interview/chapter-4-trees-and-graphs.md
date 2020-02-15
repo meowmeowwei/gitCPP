@@ -79,7 +79,32 @@ use recursion to do it
 	}
 ```
 
+3\) pre-order traverse
+
+```text
 
 
+void createLevelLinkedList (TreeNode root, vector * <LinkedList<TreeNode>> lists, int level){
 
+	if (root = null)
+		return;
+
+	LinkedList<TreeNode> list = null;
+
+	if(list.size() == level){
+		lists->add(list);
+	}
+	else{
+		list = lists-> get(level);
+
+	}
+
+	list.add(root);
+
+	createLevelLinkedList(root.left, lists, level+1);
+	createLevelLinkedList(root.right, lists, level+1);
+
+}
+
+```
 
