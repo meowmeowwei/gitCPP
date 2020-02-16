@@ -58,5 +58,6 @@
 * [Linux System Programming](linux-system-programming.md)
 * [Good Reference Websites](good-reference-websites.md)
 * [System Design](system-design.md)
-* [Computer Organization](computer-organization.md)
+* [Computer Organization](computer-organization/README.md)
+  * [Introduction](computer-organization/introduction.md)
 
