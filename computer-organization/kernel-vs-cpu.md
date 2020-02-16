@@ -11,3 +11,11 @@ This kernel is the code that manages EVERYTHING on your computer, by using the C
 
 So, while the CPU is the hardware component that does operations, the kernel is a software written by really expert people that tries to manage everything from behind while using the least memory possible and consuming the least CPU resources it can.
 
+
+
+multiple cores -&gt; single chip containing multiple cpus.
+
+![Intel Core i7](../.gitbook/assets/image%20%2859%29.png)
+
+
+
