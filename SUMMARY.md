@@ -13,6 +13,7 @@
   * [字节跳动-抖音C++开发实习一二面凉经](interview-preparation/zi-jie-tiao-dong-dou-yin-c++-kai-fa-shi-xi-yi-er-mian-liang-jing.md)
 * [LeetCode](leecode.md)
 * [Cracking Code Interview \(cc189\)](cracking-code-interview/README.md)
+  * [Chapter 5 Bits Manipulation](cracking-code-interview/chapter-5-bits-manipulation.md)
   * [Chapter 1 - Arrays and Strings](cracking-code-interview/chapter-1-arrays-and-strings.md)
   * [Chapter 2 - Linked List](cracking-code-interview/chapter-2-linked-list.md)
   * [Chapter 3 - Stack and Queue](cracking-code-interview/chapter-3-stack-and-queue.md)
