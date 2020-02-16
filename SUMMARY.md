@@ -60,4 +60,5 @@
 * [System Design](system-design.md)
 * [Computer Organization](computer-organization/README.md)
   * [Introduction](computer-organization/introduction.md)
+  * [number systems and codes](computer-organization/number-systems-and-codes.md)
 
