@@ -82,7 +82,7 @@ data and functions are separated
 
 **9. How to find complexity ?**
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 \*\*\*\*
 
