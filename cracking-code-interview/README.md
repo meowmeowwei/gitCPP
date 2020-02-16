@@ -10,7 +10,7 @@ description: C++ Version
 
 ## ~~Chapter 3 - Stack and Queues~~
 
-## Chapter 4 - Trees and Graphs
+## ~~Chapter 4 - Trees and Graphs~~
 
 ## Chapter 5 - Bits Manipulation
 
