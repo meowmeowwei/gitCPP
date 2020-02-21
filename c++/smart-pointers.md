@@ -43,7 +43,9 @@ int main(){
 }
 ```
 
-Shared Pointer -&gt; each object has two pointers \(one for actual object, one for reference counting\)
+Shared Pointer 
+
+-&gt; each object has two pointers \(one for actual object, one for reference counting\)
 
 {% embed url="https://thispointer.com/learning-shared\_ptr-part-1-usage-details/" %}
 
