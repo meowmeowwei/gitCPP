@@ -12,13 +12,13 @@
     <tr>
       <td style="text-align:left">
         <ol>
-          <li>finish reading &quot;a tour of C++ 2nd edition&quot;</li>
-          <li>finish studying and practising topics in cracking code interview</li>
-          <li>finish 60 leetcode questions</li>
-          <li>Finish CS1102 (data structure and algorithm)</li>
-          <li>Finish CS2105 (computer network)</li>
-          <li>Finish CS2102 (database)</li>
-          <li>Finish CS2106 (operating system)</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>TCP/IP networking</li>
+          <li>operating system</li>
+          <li>data structure and algorithm</li>
+          <li>Software Engineering</li>
+          <li>Linux</li>
           <li>Resume editing</li>
         </ol>
         <ul>
