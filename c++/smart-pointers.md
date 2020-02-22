@@ -4,7 +4,7 @@ description: 'https://www.internalpointers.com/post/beginner-s-look-smart-pointe
 
 # Smart Pointers
 
-
+C++ Primer Pg 450
 
 ```text
 int main(){
