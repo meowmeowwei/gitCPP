@@ -234,55 +234,15 @@ information are stared.
 
 ```
 
- **C++反射有了解过吗，标准有吗，第三方库呢，说说看**
+ C++反射有了解过吗，标准有吗，第三方库呢，说说看  
+ 命令模式是什么  
+ 工厂模式是什么，写一个看看  
+ 不允许分发实际代码让对方修改，但是对方想添加新功能，如何实现，有什么模式可以做到吗  
+ 详细介绍快排  
+ 如何选择基准数  
+ 随机选择基准数万一每次都选到了最坏的情况呢，如何处理？如何确保时间复杂度  
+ 为什么快排时序列长度短的情况下会选择其他排序，优点在哪  
+ 如何处理快速排序最坏的情况  
+ 还有什么问题要问吗  
 
-```text
-introspection -> ability to inspect the code in the system and see object types.
-reflection -> is th ability to make modifications at runtime by making use of 
-introspection.
-
-For example, say you have an object of an unknown type in Java, and you would like to call a 'doSomething' method on it if one exists. Java's static typing system isn't really designed to support this unless the object conforms to a known interface, but using reflection, your code can look at the object and find out if it has a method called 'doSomething' and then call it if you want to.
-So, to give you a code example of this in Java (imagine the object in question is foo) :
-Method method = foo.getClass().getMethod("doSomething", null);method.invoke(foo, null);
-One very common use case in Java is the usage with annotations. JUnit 4, for example, will use reflection to look through your classes for methods tagged with the @Test annotation, and will then call them when running the unit test.
- 
-
-```
-
-
-
-**What is difference between RTTI and Reflection ?**
-
-```text
-Static Type / String Type -> type of every object checked at compile time 
-Dynamic Type / Weak Type -> violation only detected at runtime
-
-RTTI -> safely bypassing typing 
-e.g. 
-C++ : dynamic_cast and typeid
-Java : casting and instanceOf
-
-Reflection -> 
-
-library and runtime support for creating class instance and arrays , accessing
-and modify fields of objects, classes and elements of arrays
-```
-
-{% embed url="https://www.cse.huji.ac.il/course/2004/ood/docs/lec08.pdf" %}
-
-
-
-
-
-```text
-命令模式是什么
- 工厂模式是什么，写一个看看
- 不允许分发实际代码让对方修改，但是对方想添加新功能，如何实现，有什么模式可以做到吗
- 详细介绍快排
- 如何选择基准数
- 随机选择基准数万一每次都选到了最坏的情况呢，如何处理？如何确保时间复杂度
- 为什么快排时序列长度短的情况下会选择其他排序，优点在哪
- 如何处理快速排序最坏的情况
- 还有什么问题要问吗
-```
 
