@@ -12,6 +12,7 @@
   * [c++工程师校招面试考点汇总](interview-preparation/c++-gong-cheng-shi-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
   * [Java开发校招面试考点汇总](interview-preparation/java-kai-fa-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
   * [字节跳动-抖音C++开发实习一二面凉经](interview-preparation/zi-jie-tiao-dong-dou-yin-c++-kai-fa-shi-xi-yi-er-mian-liang-jing.md)
+  * [C++面试宝典导读](interview-preparation/c++-mian-shi-bao-dian-dao-du.md)
 * [LeetCode](leecode.md)
 * [Cracking Code Interview \(cc189\)](cracking-code-interview/README.md)
   * [Chapter 1 - Arrays and Strings](cracking-code-interview/chapter-1-arrays-and-strings.md)
