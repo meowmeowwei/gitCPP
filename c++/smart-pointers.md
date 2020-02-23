@@ -6,6 +6,8 @@ description: 'https://www.internalpointers.com/post/beginner-s-look-smart-pointe
 
 C++ Primer Pg 450
 
+use make\_shared and make\_unique to create the pointers.
+
 ```text
 int main(){
 
