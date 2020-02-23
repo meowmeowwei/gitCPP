@@ -165,7 +165,23 @@ in the 2nd case, when B failed, A will be released as temporary object also.
 
   
  C++各种虚函数、重载，看代码写输出  
- 实现\#define max\(a, b, c\)  
+
+
+ **实现\#define max\(a, b, c\)**
+
+```text
+define macro is to replace method with actual replacement 
+
+e.g.
+
+#define max(a, b, c)(max(max (a,b), max(b,c)))
+
+int main(){
+    cout << max(50, 40, 30);
+}
+```
+
+  
  对3D有什么了解  
  还有什么要问的吗？  
   
