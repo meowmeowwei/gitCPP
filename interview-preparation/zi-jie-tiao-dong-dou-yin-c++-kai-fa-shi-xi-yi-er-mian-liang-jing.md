@@ -130,7 +130,40 @@ std::shared_ptr<int> p_shared = p_weak.lock();
 ```
 
   
- std::weak\_ptr::lock存在的意义是什么  
+ **std::weak\_ptr::lock存在的意义是什么**
+
+```text
+weak pointer is like an inspector on the shared_ptr, you have to convert it to 
+a shared pointer wwith lock() to get hold of the object 
+
+it can resolve the issue with dangling pointer in cirular reference.
+
+lock -> returns a shared_ptr with information preserved by the weak_ptr if it is 
+not expired.
+
+if the weak pointer has expired, the function returns an empty shared_ptr.
+
+it locks the owned pointer, preventing it from being released.
+
+```
+
+**why do you need make\_unique and make\_shared**
+
+```text
+1) get rid of new/delete
+
+2) makes code safe against exceptions
+
+void function(std::unique_ptr<A>(new A()), std::unique_ptr<B>(new B())) { ... }
+
+vs
+
+void function(std::make_unique<A>(), std::make_unique<B>()) { ... }
+
+in the 2nd case, when B failed, A will be released as temporary object also.
+```
+
+  
  C++各种虚函数、重载，看代码写输出  
  实现\#define max\(a, b, c\)  
  对3D有什么了解  
