@@ -193,8 +193,47 @@ int main(){
  对方满意你的进度吗  
  你自己实现的字符串类支持宽字符吗，实现了多少函数，满足工程需要吗 你说你喜欢研究STL和Qt，为什么呢 你说你喜欢了解C++的新特性，但是不可能组里每个人都因为你使用新特性而更换编译器版本，为什么还要拼命追求那么多新特性呢  
  析构函数可以是纯虚函数吗  
- 内存池了解过吗，为什么要有内存池  
- 什么是内存碎片，为什么会有内存碎片，如何处理内存碎片  
+
+
+ **内存池了解过吗，为什么要有内存池**
+
+```text
+object is taken from pool to save cost of initializing a class instance 
+
+```
+
+  
+**what is C++ memory fragmentation and how to handle it** 
+
+```text
+when most of your memory is allocated in a large number of none-contiguous blocks
+or chunks - leaving a good percentage of your total memory unallocated, but unusable
+for most typical scenarios. 
+
+if you tend to get a lot of allcoation errors, especially when percentage of memory
+is high, but you havent used up all memory then you may have encountered it.
+
+use a good algorithm to allocate memory, instaed of allocated memory for a lot of 
+small objects. pre-allocate memory for a contiguous array of those smaller objects.
+
+
+```
+
+
+
+**what is Heap and Stack**
+
+```text
+memory a program uses is divided into different areas called segments
+1) code segment, read only compiled program
+2) bss segment, uninitialized data segment
+3) data segment, initialized date segment
+4) heap, where dynamically allocated variables are allocated 
+5) call stack, function parameters, local variables and other function related 
+information are stared. 
+
+```
+
  C++反射有了解过吗，标准有吗，第三方库呢，说说看  
  命令模式是什么  
  工厂模式是什么，写一个看看  
