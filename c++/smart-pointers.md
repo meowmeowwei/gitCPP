@@ -45,11 +45,20 @@ int main(){
 }
 ```
 
-Shared Pointer 
+**Shared Pointer** 
 
 -&gt; each object has two pointers \(one for actual object, one for reference counting\)
 
 {% embed url="https://thispointer.com/learning-shared\_ptr-part-1-usage-details/" %}
 
+-&gt; shared pointer you can create to a specific object class, but for array, there's an issue as it always calls delete by default and not delete\[\].
 
+but it can be noted that there's a workaround for custom deleter in the constructor as lambda parameter. 
+
+```text
+shared_ptr<int[]> p2(new int[16], [](int * i){
+    delete[] i;
+});
+
+```
 

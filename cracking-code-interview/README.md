@@ -14,9 +14,9 @@ description: C++ Version
 
 ## ~~Chapter 5 - Bits Manipulation~~
 
-## Chapter 6 - Maths and Puzzle Logics
+## ~~Chapter 6 - Maths and Puzzle Logics~~
 
-## Chapter 7 - OO Design
+## ~~Chapter 7 - OO Design~~
 
 ## Chapter 8 - Recursion and Dynamic Programming
 
