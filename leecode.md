@@ -19,7 +19,7 @@ Answer with Explanation
 * [Decode string](https://leetcode.com/problems/decode-string/) \(medium\)
 * [Find first and last position of element in sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) \(medium\)
 * [Find K pairs with smallest sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) \(medium\)
-* [Kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/) \(medium\)
+* ~~~~[~~Kth largest element in an array~~](https://leetcode.com/problems/kth-largest-element-in-an-array/) ~~\(medium\)~~
 * [Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) \(medium\)
 * [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/) \(medium\)
 * [Merge sorted array](https://leetcode.com/problems/merge-sorted-array) \(medium\)
