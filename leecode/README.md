@@ -15,7 +15,7 @@ Answer with Explanation
 * ~~~~[~~Maximum subarray~~](https://leetcode.com/problems/maximum-subarray/) ~~\(easy\)~~
 * ~~~~[~~two sum~~](https://leetcode.com/problems/two-sum/) ~~\(easy\) .~~\(unordered Map faster than map\)  
 * ~~~~[~~Reverse string~~](https://leetcode.com/problems/reverse-string/) ~~\(easy\)~~
-* [3sum](https://leetcode.com/problems/3sum/) \(medium\)
+* ~~~~[~~3sum~~](https://leetcode.com/problems/3sum/) ~~\(medium\)~~
 * [Decode string](https://leetcode.com/problems/decode-string/) \(medium\)
 * [Find first and last position of element in sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) \(medium\)
 * [Find K pairs with smallest sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) \(medium\)
