@@ -141,7 +141,7 @@ Answer with Explanation
 ### Design & Implementation
 
 * ~~~~[~~Implement queue using stacks~~](https://leetcode.com/problems/implement-queue-using-stacks/) ~~\(easy\)~~
-* [Min stack](https://leetcode.com/problems/min-stack/) \(easy\)
+* ~~~~[~~Min stack~~](https://leetcode.com/problems/min-stack/) ~~\(easy\)~~
 * [Binary search tree iterator](https://leetcode.com/problems/binary-search-tree-iterator/) \(medium\) **\(implementation should be lazy\)**
 * [Flatten nested list iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) \(medium\) **\(implementation should be lazy\)**
 * [Implement trie \(prefix tree\)](https://leetcode.com/problems/implement-trie-prefix-tree/) \(medium\)
