@@ -23,7 +23,7 @@ Answer with Explanation
 * ~~~~[~~Longest increasing subsequence~~](https://leetcode.com/problems/longest-increasing-subsequence/) ~~\(medium\) .~~-&gt; still need to do nlogn version  
 * [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/) \(medium\)
 * ~~~~[~~Merge sorted array~~](https://leetcode.com/problems/merge-sorted-array) ~~\(medium\)~~
-* [Palindromic substrings](https://leetcode.com/problems/palindromic-substrings/) \(medium\)
+* ~~~~[~~Palindromic substrings~~](https://leetcode.com/problems/palindromic-substrings/) ~~\(medium\)~~
 * [Product of array except self](https://leetcode.com/problems/product-of-array-except-self/) \(medium\)
 * [Search in rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/) \(medium\)
 * [Sort colors](https://leetcode.com/problems/sort-colors/) \(medium\)
