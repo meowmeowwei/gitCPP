@@ -1,3 +1,8 @@
+---
+description: >-
+  https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm
+---
+
 # Asymptotic Notations
 
 

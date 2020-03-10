@@ -28,7 +28,6 @@
   * [Chapter 5 Bits Manipulation](cracking-code-interview/chapter-5-bits-manipulation.md)
   * [Chapter 8 - Recursion and Dynamic Programming](cracking-code-interview/chapter-8-recursion-and-dynamic-programming.md)
   * [Chapter 10 - Sorting and Searching](cracking-code-interview/chapter-10-sorting-and-searching.md)
-  * [Big O](cracking-code-interview/big-o.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [Asymptotic Notations](data-structure-and-algorithm/asymptotic-notations.md)
   * [Reversing a LinkedList](data-structure-and-algorithm/reversing-a-linkedlist.md)
