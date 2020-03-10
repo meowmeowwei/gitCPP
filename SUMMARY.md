@@ -14,6 +14,7 @@
   * [C++面试宝典导读](interview-preparation/c++-mian-shi-bao-dian-dao-du.md)
 * [LeetCode](leecode/README.md)
   * [15. ThreeSum](leecode/15.-threesum.md)
+  * [28. Implement strStr\(\)](leecode/28.-implement-strstr.md)
   * [34.Find First and Last Position of Element in Sorted String](leecode/34.find-first-and-last-position-of-element-in-sorted-string.md)
   * [75. SortColors](leecode/75.-sortcolors.md)
   * [88. MergeSortedArrays](leecode/88.-mergesortedarrays.md)
