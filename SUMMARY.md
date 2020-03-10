@@ -30,6 +30,7 @@
   * [Chapter 10 - Sorting and Searching](cracking-code-interview/chapter-10-sorting-and-searching.md)
   * [Big O](cracking-code-interview/big-o.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
+  * [Asymptotic Notations](data-structure-and-algorithm/asymptotic-notations.md)
   * [Reversing a LinkedList](data-structure-and-algorithm/reversing-a-linkedlist.md)
   * [Graph](data-structure-and-algorithm/graph.md)
   * [Heap](data-structure-and-algorithm/heap.md)
