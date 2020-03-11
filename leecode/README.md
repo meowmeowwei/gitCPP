@@ -21,7 +21,7 @@ Answer with Explanation
 * [Find K pairs with smallest sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) \(medium\)
 * ~~~~[~~Kth largest element in an array~~](https://leetcode.com/problems/kth-largest-element-in-an-array/) ~~\(medium\)~~
 * ~~~~[~~Longest increasing subsequence~~](https://leetcode.com/problems/longest-increasing-subsequence/) ~~\(medium\) .~~-&gt; still need to do nlogn version  
-* [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/) \(medium\)
+* [~~Maximum product subarray~~](https://leetcode.com/problems/maximum-product-subarray/) ~~\(medium\)~~
 * ~~~~[~~Merge sorted array~~](https://leetcode.com/problems/merge-sorted-array) ~~\(medium\)~~
 * ~~~~[~~Palindromic substrings~~](https://leetcode.com/problems/palindromic-substrings/) ~~\(medium\)~~
 * [Product of array except self](https://leetcode.com/problems/product-of-array-except-self/) \(medium\)
