@@ -27,7 +27,7 @@ Answer with Explanation
 * [Product of array except self](https://leetcode.com/problems/product-of-array-except-self/) \(medium\)
 * [Search in rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/) \(medium\)
 * ~~~~[~~Sort colors~~](https://leetcode.com/problems/sort-colors/) ~~\(medium\)~~
-* ~~~~[~~Subarray sum equals k~~](https://leetcode.com/problems/subarray-sum-equals-k/) ~~\(medium\)~~
+* [Subarray sum equals k](https://leetcode.com/problems/subarray-sum-equals-k/) \(medium\)
 * [Best time to buy and sell stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) \(hard\)
 * [Count of range sum](https://leetcode.com/problems/count-of-range-sum/) \(hard\)
 * [Count of smaller numbers after self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) \(hard\)

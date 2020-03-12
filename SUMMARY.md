@@ -20,6 +20,7 @@
   * [88. MergeSortedArrays](leecode/88.-mergesortedarrays.md)
   * [152. Maximum Product Subarray](leecode/152.-maximum-product-subarray.md)
   * [155. Min Stack](leecode/155.-min-stack.md)
+  * [560. Subarray Sum Equals K](leecode/560.-subarray-sum-equals-k.md)
   * [647. Palindromic SubStrings](leecode/647.-palindromic-substrings.md)
 * [Cracking Code Interview \(cc189\)](cracking-code-interview/README.md)
   * [Chapter 1 - Arrays and Strings](cracking-code-interview/chapter-1-arrays-and-strings.md)
