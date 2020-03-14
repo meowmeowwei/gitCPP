@@ -9,7 +9,7 @@
 **longest substring with no duplicate**   
 
 
-```text
+```cpp
 //leetcode question 3 , longest substring 
 
 1) Brute force style 
