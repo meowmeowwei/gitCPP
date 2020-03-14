@@ -74,4 +74,5 @@
   * [number systems and codes](computer-organization/number-systems-and-codes.md)
   * [KERNEL VS CPU](computer-organization/kernel-vs-cpu.md)
   * [Memory Management](computer-organization/memory-management.md)
+  * [CacheLine structure](computer-organization/cacheline-structure.md)
 
