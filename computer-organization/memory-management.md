@@ -1,9 +1,5 @@
 # Memory Management
 
-How Computer Memory Works ?
-
-[Youtube memory link](https://www.youtube.com/watch?v=p3q5zWCw8J4)  
-
 ![Typical Memory Hierarchy](../.gitbook/assets/image%20%28138%29.png)
 
 ![](../.gitbook/assets/image%20%2842%29.png)

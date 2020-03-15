@@ -21,5 +21,21 @@ This is the simplest and most important view of a cache memory. Its lesson is tw
 Competing for and sharing of cache lines is a good thing, up to a point, when it becomes a bad thing. Ideally a fast cache will have a high cache hit rate and the performance will not be bound to the speed of the memory. But a really bad thing, thrashing, happens when there is too much competition for too few cache lines. This happens in worst case scenarios for data structures. Unfortunately the current profiling tools look at the instructions rather than data. This means that a programmer must be aware of worst case scenarios for data structures and avoid them. A useful tool for finding a hot spot is cacheprof \[Seward\].  
 
 
-[https://medium.com/software-design/why-software-developers-should-care-about-cpu-caches-8da04355bb8a](https://medium.com/software-design/why-software-developers-should-care-about-cpu-caches-8da04355bb8a)
+{% embed url="https://medium.com/software-design/why-software-developers-should-care-about-cpu-caches-8da04355bb8a" %}
+
+
+
+Cacheline is the unit of data transfer between cache and memory
+
+typical cacheline is 64 bytes, processor will read and write entire cache line when any location in the 64 byte region is read or written.
+
+## Prefer arrays and vectors stored by value <a id="fc9f"></a>
+
+Cache organization also works better for data structures that are stored by value. Consider the cache line allocation for a vector pointers:`vector<Entity*>`. If individual `Entity` objects are allocated from the heap, it is quite likely that the `Entity` objects are all allocations are far apart in memory. This would mean access to each `Entity` will result in loading of a complete cache line.
+
+
+
+
+
+
 
