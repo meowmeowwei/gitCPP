@@ -45,6 +45,7 @@
 * [Low Latency Programming](low-latency-c++-study-notes.md)
 * [C++](c++/README.md)
   * [Smart Pointers](c++/smart-pointers.md)
+  * [String](c++/string.md)
   * [C++ Vector](c++/c++-vector.md)
   * [A tour of C++ 2nd Edition](c++/a-tour-of-c++-2nd-edition.md)
   * [CPP trick commands](c++/cpp-trick-commands.md)
