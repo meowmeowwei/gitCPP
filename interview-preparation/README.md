@@ -2,11 +2,11 @@
 
 **Starting Date  \( March 20 -&gt; May 20\)**
 
-cc189 
+cc189  -&gt; all chapters and questions go through
 
-TCP/UDP
+TCP/UDP -&gt; network programming  
 
-C++ \( Tour of C++, C++ Primer, Effective C++\)
+C++ \( Tour of C++,  C++ Primer,  Effective C++\)
 
 \*\*\*\*
 
