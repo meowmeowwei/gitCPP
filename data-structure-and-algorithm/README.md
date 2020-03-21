@@ -16,3 +16,17 @@ kattis answer-&gt; [https://github.com/mpfeifer1/Kattis](https://github.com/mpfe
 
 
 
+**Data Structure** 
+
+1\) linear data structure -&gt; elements accessed in sequential order but not compulsory to store all elements sequentially. Example, LinkedList, Stacks, and Queues
+
+2\) non-linear data structure -&gt; elements stored in a none-linear order. Example, trees and graphs.
+
+**Abstract Data Types**
+
+-&gt; declaration of data + declaration of operations \(doesn't include the actual implementation\)
+
+
+
+
+
