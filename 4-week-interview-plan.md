@@ -19,9 +19,9 @@ It’s likely you haven’t touched on these kinds of problems for a while so th
 
 [~~Reverse Vowels in String~~](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)~~~~
 
-[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
+[~~Isomorphic Strings~~](https://leetcode.com/problems/isomorphic-strings/description/)~~~~
 
-[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+[~~Longest Substring Without Repeating Characters~~](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)~~~~
 
 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 
