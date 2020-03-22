@@ -1,5 +1,7 @@
 # C++ Developer
 
+
+
 HAP Capital is seeking a strong C++ Systems Developer who will focus on automated trading systems and core development. The ideal candidate will demonstrate genuine interest in market activities, be efficient in scalable market data consumption, and robust order routing and execution capabilities. The Systems Developer will occupy a position at the center of the firm’s algorithmic trading unit. This person must have experience building large-scale production systems, high-performance trading applications, and driving improvement in all levels of the technology stack. As a C++ Systems Developer you will:
 
 * **Develop execution capabilities** designed for scalability, performance, and resilience
