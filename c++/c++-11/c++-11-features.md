@@ -107,3 +107,48 @@ int main()
 }
 ```
 
+
+
+By using RValue Reference, we can use it to create **Move Constructor** and **Move Assignment** Operator 
+
+```cpp
+//Move Constructor 
+Holder(Holder&& other)     // <-- rvalue reference in input
+{
+  m_data = other.m_data;   // (1)
+  m_size = other.m_size;
+  other.m_data = nullptr;  // (2)
+  other.m_size = 0;
+}
+
+//Move assignment
+Holder& operator=(Holder&& other)     // <-- rvalue reference in input  
+{  
+  if (this == &other) return *this;
+
+  delete[] m_data;         // (1)
+
+  m_data = other.m_data;   // (2)
+  m_size = other.m_size;
+
+  other.m_data = nullptr;  // (3)
+  other.m_size = 0;
+
+  return *this;
+}
+
+
+// Now we can do following
+
+int main()
+{
+  Holder h1(1000);                // regular constructor
+  Holder h2(h1);                  // copy constructor (lvalue in input)
+  Holder h3 = createHolder(2000); // move constructor (rvalue in input) (1) 
+
+  h2 = h3;                        // assignment operator (lvalue in input)
+  h2 = createHolder(500);         // move assignment operator (rvalue in input)
+}
+
+```
+
