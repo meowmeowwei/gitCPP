@@ -1,6 +1,6 @@
 # C++ Vector
 
-implemented as an array 
+implemented as wrapper around a C style array with defined size 
 
 Erase : can be used to erase values in the vector
 
