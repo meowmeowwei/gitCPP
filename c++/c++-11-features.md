@@ -2,7 +2,7 @@
 description: 'https://en.wikipedia.org/wiki/C%2B%2B11'
 ---
 
-# C++ 11
+# C++ 11 - Rvalue and Lvalue
 
 Core language runtime performance enhancement 
 
@@ -69,5 +69,43 @@ Path the way of doing move
   std::cout << s_rref << '\n';       // prints "Hello world, my friend"
 ```
 
+Existing issue of initialising a class object
 
+```cpp
+class Holder
+{
+  public:
+
+    Holder(int size)         // Constructor
+    {
+      m_data = new int[size];
+      m_size = size;
+    }
+
+    ~Holder()                // Destructor
+    {
+      delete[] m_data;
+    }
+
+  private:
+
+    int*   m_data;
+    size_t m_size;
+};
+
+
+// if we do following action, the compiler will have create a temporary RValue
+
+Holder createHolder(int size)
+{
+  return Holder(size);
+}
+
+
+int main()
+{
+  Holder h = createHolder(1000); 
+  // the copy constructor will again incur cost of initializing and copying
+}
+```
 
