@@ -144,7 +144,10 @@ int main()
 {
   Holder h1(1000);                // regular constructor
   Holder h2(h1);                  // copy constructor (lvalue in input)
-  Holder h3 = createHolder(2000); // move constructor (rvalue in input) (1) 
+  Holder h3 = createHolder(2000); // move constructor (rvalue in input) (1)
+  // the above (1) may not happen as compiler may do Returnm Value Optimization(RVO)
+  // and call default constructor instead
+    
 
   h2 = h3;                        // assignment operator (lvalue in input)
   h2 = createHolder(500);         // move assignment operator (rvalue in input)
