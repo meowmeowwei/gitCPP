@@ -14,7 +14,7 @@ description: 'https://en.wikipedia.org/wiki/C%2B%2B11'
 
 5\) Type Inference 
 
-6\) bind
+6\) [bind](https://app.gitbook.com/@sun-wei-9/s/workspace/c++/c++-11/c++-11-std-bind)
 
 
 
