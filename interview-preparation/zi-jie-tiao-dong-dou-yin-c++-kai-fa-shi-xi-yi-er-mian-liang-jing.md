@@ -145,7 +145,12 @@ if the weak pointer has expired, the function returns an empty shared_ptr.
 
 it locks the owned pointer, preventing it from being released.
 
+#circular reference means 
+
+A Circular reference (also called a cyclical reference or a cycle) is a series of references where each object references the next, and the last object references back to the first, causing a referential loop. The references do not need to be actual C++ references -- they can be pointers, unique IDs, or any other means of identifying specific objects.
 ```
+
+A **Circular reference** \(also called a **cyclical reference** or a **cycle**\) is a series of references where each object references the next, and the last object references back to the first, causing a referential loop. The references do not need to be actual C++ references -- they can be pointers, unique IDs, or any other means of identifying specific objects.
 
 **why do you need make\_unique and make\_shared**
 
