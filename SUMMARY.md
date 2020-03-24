@@ -52,6 +52,7 @@
   * [Berkely CS61B](data-structure-and-algorithm/berkely-cs61b.md)
 * [Low Latency Programming](low-latency-c++-study-notes.md)
 * [C++](c++/README.md)
+  * [C++ Plain Old data](c++/c++-plain-old-data.md)
   * [C++ Rule of Three](c++/c++-rule-of-three.md)
   * [C++ 11](c++/c++-11/README.md)
     * [C++ 11 - Rvalue and Lvalue](c++/c++-11/c++-11-features.md)
