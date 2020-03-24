@@ -271,6 +271,8 @@ object is taken from pool to save cost of initializing a class instance
   
 **what is C++ memory fragmentation and how to handle it** 
 
+\*\*\*\*
+
 ```text
 when most of your memory is allocated in a large number of none-contiguous blocks
 or chunks - leaving a good percentage of your total memory unallocated, but unusable
