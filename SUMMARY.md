@@ -60,6 +60,7 @@
     * [c++ 11 extern template](c++/c++-11/c++-11-extern-template.md)
     * [C++ 11 Initialization List](c++/c++-11/c++-11-initialization-list.md)
     * [C++ 11 std::bind](c++/c++-11/c++-11-std-bind.md)
+    * [C++ Type inference](c++/c++-11/c++-type-inference.md)
   * [C++ Allocator](c++/c++-allocator.md)
   * [c++ utilities](c++/c++-utilities.md)
   * [c++ algorithms](c++/c++-algorithms.md)
