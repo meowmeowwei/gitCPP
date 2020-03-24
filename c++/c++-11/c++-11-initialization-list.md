@@ -8,7 +8,35 @@ The list can be copied once constructed, which is cheap and will act as a copy-b
 
 Although its construction is specially treated by the compiler, an `std::initializer_list` is a real type, and so it can be used in other places besides class constructors. Regular functions can take typed `std::initializer_list`s as arguments. For example:
 
+```cpp
+
+auto il = { 10, 20, 30 };  // the type of il is an initializer_list 
+
+```
+
+initializer\_list objects are automatically constructed as if an array of elements of type T was allocated, with each of the elements in the list being copy-initialized to its corresponding element in the array, using any necessary non-narrowing implicit conversions.  
+  
+The initializer\_list object refers to the elements of this array without containing them: copying an initializer\_list object produces another object referring to the same underlying elements, not to new copies of them \(reference semantics\).  
+  
+The lifetime of this temporary array is the same as the initializer\_list object.  
+  
+Constructors taking only one argument of this type are a special kind of constructor, called initializer-list constructor. Initializer-list constructors take precedence over other constructors when the initializer-list constructor syntax is used:
+
+```cpp
+struct myclass {
+  myclass (int,int);
+  myclass (initializer_list<int>);
+  /* definitions ... */
+};
+
+myclass foo {10,20};  // calls initializer_list ctor
+myclass bar (10,20);  // calls first constructor 
+```
+
+  
 
 
+|  |  |
+| :--- | :--- |
 
 
