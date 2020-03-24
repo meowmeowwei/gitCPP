@@ -1,4 +1,4 @@
-# C++ Type inference
+# C++ 11 Type inference
 
 Auto and decltype
 
