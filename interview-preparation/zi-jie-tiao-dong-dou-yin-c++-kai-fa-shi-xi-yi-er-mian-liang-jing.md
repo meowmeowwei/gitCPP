@@ -152,6 +152,67 @@ A Circular reference (also called a cyclical reference or a cycle) is a series o
 
 A **Circular reference** \(also called a **cyclical reference** or a **cycle**\) is a series of references where each object references the next, and the last object references back to the first, causing a referential loop. The references do not need to be actual C++ references -- they can be pointers, unique IDs, or any other means of identifying specific objects.
 
+**So what is std::weak\_ptr for anyway?**
+
+std::weak\_ptr was designed to solve the “cyclical ownership” problem described above. A std::weak\_ptr is an observer -- it can observe and access the same object as a std::shared\_ptr \(or other std::weak\_ptrs\) but it is not considered an owner. Remember, when a std::shared pointer goes out of scope, it only considers whether other std::shared\_ptr are co-owning the object. std::weak\_ptr does not count!
+
+Let’s solve our Person-al issue using a std::weak\_ptr:
+
+This code behaves properly:
+
+```cpp
+#include <iostream>
+#include <memory> // for std::shared_ptr and std::weak_ptr
+#include <string>
+ 
+class Person
+{
+	std::string m_name;
+	std::weak_ptr<Person> m_partner; // note: This is now a std::weak_ptr
+ 
+public:
+		
+	Person(const std::string &name): m_name(name)
+	{ 
+		std::cout << m_name << " created\n";
+	}
+	~Person()
+	{
+		std::cout << m_name << " destroyed\n";
+	}
+ 
+	friend bool partnerUp(std::shared_ptr<Person> &p1, std::shared_ptr<Person> &p2)
+	{
+		if (!p1 || !p2)
+			return false;
+ 
+		p1->m_partner = p2;
+		p2->m_partner = p1;
+ 
+		std::cout << p1->m_name << " is now partnered with " << p2->m_name << "\n";
+ 
+		return true;
+	}
+};
+ 
+int main()
+{
+	auto lucy = std::make_shared<Person>("Lucy");
+	auto ricky = std::make_shared<Person>("Ricky");
+ 
+	partnerUp(lucy, ricky);
+ 
+	return 0;
+}
+
+
+Lucy created
+Ricky created
+Lucy is now partnered with Ricky
+Ricky destroyed
+Lucy destroyed
+```
+
 **why do you need make\_unique and make\_shared**
 
 ```text
