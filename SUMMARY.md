@@ -55,6 +55,7 @@
   * [C++ Rule of Three](c++/c++-rule-of-three.md)
   * [C++ 11](c++/c++-11/README.md)
     * [C++ 11 - Rvalue and Lvalue](c++/c++-11/c++-11-features.md)
+    * [C++ 11 constexpr](c++/c++-11/c++-11-constexpr.md)
   * [C++ Allocator](c++/c++-allocator.md)
   * [c++ utilities](c++/c++-utilities.md)
   * [c++ algorithms](c++/c++-algorithms.md)
