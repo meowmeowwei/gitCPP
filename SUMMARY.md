@@ -55,6 +55,7 @@
   * [C++ Plain Old data](c++/c++-plain-old-data.md)
   * [C++ Rule of Three](c++/c++-rule-of-three.md)
   * [C++ 11](c++/c++-11/README.md)
+    * [C++ 11 Object Construction Improvement](c++/c++-11/c++-11-object-construction-improvement.md)
     * [C++ 11 lamda expression](c++/c++-11/c++-11-lamda-expression.md)
     * [C++ 11 - Rvalue and Lvalue](c++/c++-11/c++-11-features.md)
     * [C++ 11 constexpr](c++/c++-11/c++-11-constexpr.md)
