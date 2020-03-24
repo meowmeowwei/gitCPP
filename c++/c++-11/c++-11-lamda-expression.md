@@ -1,5 +1,5 @@
 ---
-description: 'https://en.wikipedia.org/wiki/C%2B%2B11'
+description: 'https://www.drdobbs.com/cpp/lambdas-in-c11/240168241'
 ---
 
 # C++ 11 lamda expression
@@ -42,4 +42,17 @@ A lambda expression is a syntactic shortcut for a functor, so you can use lambda
 * `( parameters )`: This is the optional parameters list, also known as the lambda declarator. You can omit the parameters list if you want a function that takes zero arguments.
 * `-> returnTypeDeclaration`: This is the return type. Most of the time, compilers can deduce the return type of the lambda expression when you have zero or one return statement. However, if it makes it easier to understand the code, you can specify the return type. There are some differences among compilers regarding the automatic detection of return types when you have more than one return statement because the standard doesn't guarantee the automatic detection of return types. Notice that the specification of the return types is based on the optional return value syntax introduced with C++11, which puts the return value after the function.
 * `{ lambdaStatements; }`: This is the lambda body. The statements within the lambda body can access the captured variables and the parameters.
+
+```cpp
+
+int main () 
+{ 
+	auto sum = [](int x, int y){ return x+y; };
+	cout << sum(3, 5)<<endl;
+
+} 
+
+```
+
+
 
