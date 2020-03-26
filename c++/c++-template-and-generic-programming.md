@@ -111,3 +111,44 @@ int main()  {
 }
 ```
 
+**4\) function loading vs function templates**
+
+overloading -&gt; multiple functions do similar operations
+
+template -&gt; multiple functions do identical things
+
+**5\) what happens when there's static member in a template class/functions**
+
+each instance of template will contain its own static variable
+
+```cpp
+using namespace std; 
+  
+template <typename T> 
+void fun(const T& x) 
+{ 
+  static int i = 10; 
+  cout << ++i; 
+  return; 
+} 
+  
+int main() 
+{     
+  fun<int>(1);  // prints 11 
+  cout << endl; 
+  fun<int>(2);  // prints 12 
+  cout << endl; 
+  fun<double>(1.1); // prints 11 
+  cout << endl; 
+  getchar(); 
+  return 0; 
+} 
+
+```
+
+
+
+
+
+
+
