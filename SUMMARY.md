@@ -81,6 +81,7 @@
   * [A tour of C++ 2nd Edition](c++/a-tour-of-c++-2nd-edition.md)
   * [CPP trick commands](c++/cpp-trick-commands.md)
   * [C++ File Input Output](c++/c++-file-input-output.md)
+  * [C++ template and generic programming](c++/c++-template-and-generic-programming.md)
   * [CPPCon](c++/cppcon/README.md)
     * [low latency c++](c++/cppcon/low-latency-c++.md)
   * [C++ Design Patterns](c++/c++-design-patterns.md)
