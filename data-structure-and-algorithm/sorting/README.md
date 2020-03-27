@@ -119,7 +119,7 @@ void quickSort2(int * vec, int low, int high){
 
 **5\) Merge Sort**
 
-![](../../.gitbook/assets/image%20%28114%29.png)
+![](../../.gitbook/assets/image%20%28115%29.png)
 
 ```text
 void mergeList(int *a, int low, int mid, int high){

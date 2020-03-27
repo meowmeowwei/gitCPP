@@ -4,6 +4,20 @@ divide and conquer
 
 assuming you already have two sorted list,  need to implement the merge method 
 
+
+
+the merging method itself will take about O\(k\)
+
+number of times merge is called is lg \(n\)
+
+so total complexity is NLogN
+
+![](../../.gitbook/assets/image%20%28114%29.png)
+
+
+
+
+
 ```cpp
 
 #include <iostream>
