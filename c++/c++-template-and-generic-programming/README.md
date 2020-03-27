@@ -12,6 +12,8 @@ keyword -&gt; template and typename/class
 
 ![](../../.gitbook/assets/image%20%28144%29.png)
 
+Template compilation-&gt;  compiler does not generate code when it sees the definition, it generates only when we instantiate a specific instance of the template. 
+
 
 
 **1\) Function Template**
