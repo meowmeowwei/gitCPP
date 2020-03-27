@@ -1,5 +1,17 @@
 # Sorting
 
+**iterative sorting -&gt; Selection, Bubble, Insertion \(comparison based\)**
+
+**recursive sorting -&gt; MergeSort, quickSort \(comparison based\)**
+
+**radix sort -&gt; none-comparison based** 
+
+**Properties of Sorting**
+
+**in-placed -&gt; original arrangement still in sequence**
+
+\*\*\*\*
+
 1. **selection sort** 
 
 ![](../.gitbook/assets/image%20%2871%29.png)
