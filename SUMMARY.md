@@ -47,6 +47,7 @@
   * [Graph](data-structure-and-algorithm/graph.md)
   * [Heap](data-structure-and-algorithm/heap.md)
   * [Sorting](data-structure-and-algorithm/sorting.md)
+  * [Bubble Sort](data-structure-and-algorithm/bubble-sort.md)
   * [Tree](data-structure-and-algorithm/tree.md)
   * [Princeton algorithm](data-structure-and-algorithm/princeton-algorithm.md)
   * [Berkely CS61B](data-structure-and-algorithm/berkely-cs61b.md)
