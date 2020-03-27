@@ -18,11 +18,25 @@ Radix sort needs a queue
 
 ![](../../.gitbook/assets/image%20%28127%29.png)
 
-\*\*\*\*
+[**select sort is not stable, because it swaps non-adjacent elements** ](https://www.quora.com/Why-is-a-selection-sort-algorithm-not-stable)\*\*\*\*
 
-\*\*\*\*
+Suppose the array is 5 2 3 8 4 5 6 Let's distinguish the two 5's as 5\(a\) and 5\(b\) .
 
-\*\*\*\*
+So our array is: 5\(a\) 3 4 5\(b\) 2 6 8
+
+After iteration 1: 2 will be swapped with the element in 1st position:
+
+So our array becomes: 2 3 4 5\(b\) 5\(a\) 6 8
+
+Since now our array is in sorted order and we clearly see that 5\(a\) comes before 5\(b\) in initial array but not in the sorted array.
+
+
+
+quick sort is not stable 
+
+
+
+
 
 1. **selection sort** 
 
