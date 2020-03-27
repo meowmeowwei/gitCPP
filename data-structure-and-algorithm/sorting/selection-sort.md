@@ -6,7 +6,7 @@ swap with \(n-1\) item
 
 reduce n by 1 and go to step 1
 
-
+time complexity is O\(N square\)
 
 ```cpp
 #include <iostream>
