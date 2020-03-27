@@ -76,6 +76,7 @@
   * [c++ utilities](c++/c++-utilities.md)
   * [c++ algorithms](c++/c++-algorithms/README.md)
     * [STL Partition](c++/c++-algorithms/stl-partition.md)
+    * [STL Merge](c++/c++-algorithms/stl-merge.md)
   * [c++ containers](c++/c++-containers/README.md)
     * [C++ Map](c++/c++-containers/c++-map.md)
     * [C++ Array](c++/c++-containers/c++-array.md)
