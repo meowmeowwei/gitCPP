@@ -8,7 +8,19 @@
 
 **Properties of Sorting**
 
-**in-placed -&gt; original arrangement still in sequence**
+**in-placed -**&gt; if it only requires constant amount of extra space during the sorting process
+
+Merge Sort is not in place because it needs an additional array
+
+Radix sort needs a queue 
+
+**Stable -&gt;** if the relative order of elements with same key value is preserved by algorithm
+
+![](../../.gitbook/assets/image%20%28127%29.png)
+
+\*\*\*\*
+
+\*\*\*\*
 
 \*\*\*\*
 
