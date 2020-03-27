@@ -2,6 +2,8 @@
 
 choose a pivot point and partition the items of array into two parts, those smaller than pivot and those bigger than pivot 
 
+time complexity nlogn
+
 ```cpp
 
 int partition (int * a, int low, int high){
