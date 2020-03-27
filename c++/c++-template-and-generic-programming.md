@@ -1,3 +1,7 @@
+---
+description: 'https://www.geeksforgeeks.org/templates-cpp/'
+---
+
 # C++ template and generic programming
 
 template programming deals with types are only known during compilation.
