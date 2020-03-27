@@ -6,6 +6,8 @@ tmp -&gt; templates are used by compiler to generate temporary source codes, whi
 
 1\) **used for compile-time class generation** 
 
+**all factorials used by program are pre-compiled and injected as numeric constants at compilation, saving runtime overhead and memory footprint**
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -25,8 +27,9 @@ struct factorial<0>{
 
 int main(){
 
-   cout << factorial<4>::value << endl;
+   cout << factorial<4>::value << endl; // will return 24
 
 }
+
 ```
 
