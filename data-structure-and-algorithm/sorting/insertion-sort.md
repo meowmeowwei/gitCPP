@@ -6,6 +6,14 @@ pick next card and insert it in proper order
 
 repeat the steps
 
+
+
+time complexity - best case O\(N\)
+
+worst complexity - O\(N square\)
+
+
+
 ```cpp
 #include <iostream>
 #include <vector>
