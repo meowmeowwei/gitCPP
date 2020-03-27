@@ -47,6 +47,7 @@
   * [Graph](data-structure-and-algorithm/graph.md)
   * [Heap](data-structure-and-algorithm/heap.md)
   * [Sorting](data-structure-and-algorithm/sorting/README.md)
+    * [Merge Sort](data-structure-and-algorithm/sorting/merge-sort.md)
     * [Insertion Sort](data-structure-and-algorithm/sorting/insertion-sort.md)
     * [Selection Sort](data-structure-and-algorithm/sorting/selection-sort.md)
     * [Bubble Sort](data-structure-and-algorithm/sorting/bubble-sort.md)
