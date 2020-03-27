@@ -30,9 +30,7 @@ So our array becomes: 2 3 4 5\(b\) 5\(a\) 6 8
 
 Since now our array is in sorted order and we clearly see that 5\(a\) comes before 5\(b\) in initial array but not in the sorted array.
 
-
-
-quick sort is not stable 
+[**quick sort is not stable** ](https://stackoverflow.com/questions/13498213/quicksort-algorithm-stability)\*\*\*\*
 
 
 
