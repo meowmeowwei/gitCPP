@@ -82,6 +82,7 @@
   * [CPP trick commands](c++/cpp-trick-commands.md)
   * [C++ File Input Output](c++/c++-file-input-output.md)
   * [C++ template and generic programming](c++/c++-template-and-generic-programming.md)
+  * [C++ Template Meta Programming](c++/c++-template-meta-programming.md)
   * [CPPCon](c++/cppcon/README.md)
     * [low latency c++](c++/cppcon/low-latency-c++.md)
   * [C++ Design Patterns](c++/c++-design-patterns.md)
