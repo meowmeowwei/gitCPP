@@ -112,6 +112,7 @@
   * [9.Virtual Memory](operating-system/9.virtual-memory.md)
 * [Computer Networking](networking/README.md)
   * [network packet switching](networking/network-packet-switching.md)
+  * [network circuit switching](networking/network-circuit-switching.md)
 * [Linux System Programming](linux-system-programming.md)
 * [Good Reference Websites](good-reference-websites.md)
 * [System Design](system-design.md)
