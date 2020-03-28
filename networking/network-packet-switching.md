@@ -1,3 +1,7 @@
+---
+description: internet is packet switching
+---
+
 # network packet switching
 
 router/link layer switch performs store and forward mechanism... wait until the full packet is received then it starts sending the packet out.
