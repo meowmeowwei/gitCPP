@@ -75,6 +75,7 @@
   * [C++ Allocator](c++/c++-allocator.md)
   * [c++ utilities](c++/c++-utilities.md)
   * [c++ algorithms](c++/c++-algorithms/README.md)
+    * [STL sort and stable\_sort](c++/c++-algorithms/stl-sort-and-stable_sort.md)
     * [STL Partition](c++/c++-algorithms/stl-partition.md)
     * [STL Merge](c++/c++-algorithms/stl-merge.md)
     * [STL lower\_bound & upper\_bound](c++/c++-algorithms/stl-lower_bound-and-upper_bound.md)
