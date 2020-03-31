@@ -115,6 +115,7 @@
   * [9.Virtual Memory](operating-system/9.virtual-memory.md)
 * [Computer Networking](networking/README.md)
   * [TCP/IP](networking/tcp-ip/README.md)
+    * [OSI Model](networking/tcp-ip/osi-model.md)
     * [TCP](networking/tcp-ip/tcp.md)
     * [IP \(internet protocol\)](networking/tcp-ip/ip-internet-protocol.md)
     * [DNS \(Domain Naming Server\)](networking/tcp-ip/dns-domain-naming-server.md)
