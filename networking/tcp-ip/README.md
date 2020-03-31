@@ -26,6 +26,8 @@ IP takes care of communication with other computers and sending packets to the c
 
 **TCP/IP uses 32 bits, or four numbers between 0 and 255, to address a computer.**
 
+TCP/UDP extends the Host-to-Host transportation by IP service and make it process-to-process delivery \(Transport Layer Multiplexing\)
+
 ### 
 
 ### 32 Bits = 4 Bytes
