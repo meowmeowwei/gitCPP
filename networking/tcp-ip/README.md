@@ -24,5 +24,23 @@ TCP take care of communication between applications and breaking data down into 
 
 IP takes care of communication with other computers and sending packets to the correct destination.
 
+**TCP/IP uses 32 bits, or four numbers between 0 and 255, to address a computer.**
+
+### 
+
+### 32 Bits = 4 Bytes
+
+TCP/IP uses 32 bits addressing. One computer byte is 8 bits. So TCP/IP uses 4 computer bytes.
+
+A computer byte can contain 256 different values:
+
+00000000, 00000001, 00000010, 00000011, 00000100, 00000101, 00000110, 00000111, 00001000 .......and all the way up to 11111111.
+
+Now you know why a TCP/IP address is four numbers between 0 and 255.
+
+
+
+
+
 
 
