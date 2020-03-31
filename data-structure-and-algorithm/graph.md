@@ -30,7 +30,7 @@ Graph Search
 
 -&gt; BFS \(breath first search\), go to each neighbour before going deep \(good for finding a shortest path to a  node in the graph\)
 
-```cpp
+```text
 void visit (Node root){
 	cout << root << endl;
 }
