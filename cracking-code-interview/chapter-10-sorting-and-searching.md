@@ -12,30 +12,46 @@ description: pdf pg 407/708
 
 note that both a and b are already sorted 
 
-```text
-void sorting(int * a, int * b, int aSize, int bSize) {
-	int aIndex = aSize-1;
-	int bIndex = bSize-1;
-	int totalIndex = aSize + bSize - 1;
+```cpp
 
-	while (bIndex >=0){
-		if(a[aIndex]>b[bIndex]){
-			a[totalIndex] = a[aIndex];
-			aIndex --;
+#include <iostream>
+using namespace std;
+
+
+void sorting(int * a, int * b, int aSize, int bSize){
+
+
+	int totalIndex = aSize + bSize-1;
+	int aIndex = aSize -1;
+	int bIndex = bSize -1;
+	
+
+
+	while(totalIndex >=0){
+		if(a[aIndex]> b[bIndex]){
+			b[totalIndex--] = a[aIndex--];
 		}
-		else {
-			a[totalIndex] = b[bIndex];
-			bIndex --;
+		else{
+			b[totalIndex--] = b[bIndex--];
 		}
-		totalIndex --;
 	}
 
 }
+
+int main(){
+	int a[] = {1,2,3,4,5};
+	int b[10] = {4,5,6,7,8};
+
+	sorting(a, b, 5, 5);
+
+	for (int i=0; i < 10; i++){
+		cout << b[i] << "," ;
+	}
+}
+
 ```
 
-2\) 
-
-try sorting twice 
+2\) try sorting twice 
 
 ```text
 bool compareFunction(string a, string b){
