@@ -8,6 +8,7 @@
   * [Resume](interview-preparation/resume.md)
   * [8个月从CS菜鸟到拿到Google Offer的经历+内推](interview-preparation/8-cs-google-offer-+.md)
   * [Goldman Requirement](interview-preparation/goldman-requirement.md)
+  * [程序员如何去投资银行做IT\(附高盛面经\)](interview-preparation/cheng-xu-yuan-ru-he-qu-tou-zi-yin-hang-zuo-it-fu-gao-sheng-mian-jing.md)
   * [Ginkgo C++ Trading System Developer](interview-preparation/ginkgo-c++-trading-system-developer.md)
   * [BOA Java developer](interview-preparation/boa-java-developer.md)
   * [c++工程师校招面试考点汇总](interview-preparation/c++-gong-cheng-shi-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
