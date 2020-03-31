@@ -18,3 +18,11 @@ Inside the TCP/IP standard there are several protocols for handling data communi
 
 
 
+**TCP and IP need to work together ..**
+
+TCP take care of communication between applications and breaking data down into IP packets before they are sent.
+
+IP takes care of communication with other computers and sending packets to the correct destination.
+
+
+
