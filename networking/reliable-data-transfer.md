@@ -5,7 +5,7 @@ description: >-
 
 # Reliable Data Transfer
 
-1\) Stop and Wait
+[1\) Stop and Wait](https://www.geeksforgeeks.org/stop-and-wait-arq/)
 
 2\) Go Back N
 
