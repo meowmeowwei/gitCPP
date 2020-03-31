@@ -51,7 +51,7 @@ int main(){
 
 ```
 
-try sorting twice 
+2\) try sorting twice 
 
 ```text
 bool compareFunction(string a, string b){
