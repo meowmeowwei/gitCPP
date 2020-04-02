@@ -24,7 +24,7 @@ boolean checkNode (Node a, Node b){
 			return true;
 		}
 		else{
-			sttart.visited = true;
+			start.visited = true;
 
 			for(Node n : start.adjacent){
 				if(!n.visited){
