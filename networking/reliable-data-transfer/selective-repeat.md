@@ -38,5 +38,5 @@ Selective Repeat attempts to retransmit only those packets that are actually los
 
 e.g. window size is 2
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
