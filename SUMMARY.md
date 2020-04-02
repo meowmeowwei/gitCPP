@@ -5,6 +5,7 @@
 * [TaskList](tasklist.md)
 * [4 Week Interview Plan](4-week-interview-plan.md)
 * [Interview Preparation](interview-preparation/README.md)
+  * [华为研发工程师编程题](interview-preparation/hua-wei-yan-fa-gong-cheng-shi-bian-cheng-ti.md)
   * [Resume](interview-preparation/resume.md)
   * [程序员如何准备技术面试](interview-preparation/cheng-xu-yuan-ru-he-zhun-bei-ji-shu-mian-shi.md)
   * [8个月从CS菜鸟到拿到Google Offer的经历+内推](interview-preparation/8-cs-google-offer-+.md)
