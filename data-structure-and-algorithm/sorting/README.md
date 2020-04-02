@@ -16,7 +16,7 @@ Radix sort needs a queue
 
 **Stable -&gt;** if the relative order of elements with same key value is preserved by algorithm
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![](../../.gitbook/assets/image%20%28130%29.png)
 
 [**select sort is not stable, because it swaps non-adjacent elements** ](https://www.quora.com/Why-is-a-selection-sort-algorithm-not-stable)\*\*\*\*
 
@@ -38,7 +38,7 @@ Since now our array is in sorted order and we clearly see that 5\(a\) comes befo
 
 1. **selection sort** 
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 ```text
 void selectionSort(vector <int> & vec){
@@ -64,7 +64,7 @@ void selectionSort(vector <int> & vec){
 
 2. **Bubble sort** 
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 ```text
 void bubbleSort2(int * a){
@@ -88,7 +88,7 @@ void bubbleSort2(int * a){
 
 **3. Insertion sort**
 
-![](../../.gitbook/assets/image%20%28101%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 ```text
 void insertionSort2(int * vec){
@@ -110,7 +110,7 @@ void insertionSort2(int * vec){
 
 **4. Quick Sort** 
 
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](../../.gitbook/assets/image%20%2861%29.png)
 
 ```text
 int partition2(int * a, int i, int j){
@@ -143,7 +143,7 @@ void quickSort2(int * vec, int low, int high){
 
 **5\) Merge Sort**
 
-![](../../.gitbook/assets/image%20%28117%29.png)
+![](../../.gitbook/assets/image%20%28118%29.png)
 
 ```text
 void mergeList(int *a, int low, int mid, int high){
@@ -185,5 +185,5 @@ void mergeSort2(int * a, int low, int high){
 
 **6\) Radix Sort** 
 
-![](../../.gitbook/assets/image%20%2881%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
