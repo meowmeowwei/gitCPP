@@ -6,6 +6,7 @@
 * [4 Week Interview Plan](4-week-interview-plan.md)
 * [Interview Preparation](interview-preparation/README.md)
   * [华为研发工程师编程题](interview-preparation/hua-wei-yan-fa-gong-cheng-shi-bian-cheng-ti/README.md)
+    * [接受一个十六进制的数](interview-preparation/hua-wei-yan-fa-gong-cheng-shi-bian-cheng-ti/jie-shou-yi-ge-shi-liu-jin-zhi-de-shu.md)
     * [\[编程题\]汽水瓶](interview-preparation/hua-wei-yan-fa-gong-cheng-shi-bian-cheng-ti/bian-cheng-ti-qi-shui-ping.md)
     * [\[编程题\]明明的随机数](interview-preparation/hua-wei-yan-fa-gong-cheng-shi-bian-cheng-ti/bian-cheng-ti-ming-ming-de-sui-ji-shu.md)
   * [Resume](interview-preparation/resume.md)
