@@ -65,7 +65,7 @@ boolean checkNode (Node a, Node b){
 
 use recursion to do it
 
-```text
+```cpp
 	Node *  buildMinimumTree(int * arr, int startIndex, int endIndex){
 		if (startIndex == endIndex )
 			return new Node(arr[0]);
