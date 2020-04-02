@@ -18,3 +18,9 @@ description: 'https://www.geeksforgeeks.org/tcp-3-way-handshake-process/'
 
   **Note –** Initial sequence numbers are randomly selected while establishing connections between client and server.
 
+
+
+\*\*\*\*[**why must it be 3 way handshakes why not 2 way handshakes ?**](https://networkengineering.stackexchange.com/questions/24068/why-do-we-need-a-3-way-handshake-why-not-just-2-way)\*\*\*\*
+
+**t**he short answer is because a two way handshake would only allow one party to establish an ISN, and the other party to acknowledge it. Which means only one party can send data.But TCP is a bi-directional communication protocol, which means either end ought to be able to send data reliably. Both parties need to establish an ISN, and both parties need to acknowledge the other's ISN
+
