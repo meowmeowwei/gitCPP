@@ -92,7 +92,7 @@ Answer with Explanation
 * [Construct binary tree from preorder and inorder traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) \(medium\)
 * [Construct binary tree from preorder and postorder traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) \(medium\)
 * [Flatten binary tree to linked list](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) \(medium\)
-* [Kth smallest element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) \(medium\)
+* [~~Kth smallest element in a BST~~](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) ~~\(medium\)~~
 * [Lowest common ancestor of a binary tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) \(medium\)
 * [Maximum binary tree](https://leetcode.com/problems/maximum-binary-tree/) \(medium\)
 * [Maximum level sum of a binary tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) \(medium\)
