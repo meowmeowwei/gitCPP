@@ -10,5 +10,15 @@ need to do 3 way handshake to establish connection
 
 3\) congestion control mechanism , throttles a sending process when network is congested between sender and receiver.
 
+4\) adopts a hybrid of GoBackN and SelectiveRepeat
+
+Header contains 32 bits in 5 rows
+
+* Src port
+* Dst port
+* checksum
+* sequence number
+* acknowledge number 
+
 
 
