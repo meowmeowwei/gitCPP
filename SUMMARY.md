@@ -125,6 +125,7 @@
     * [OSI Model](networking/tcp-ip/osi-model.md)
     * [TCP](networking/tcp-ip/tcp/README.md)
       * [TCP 3 way handshake](networking/tcp-ip/tcp/tcp-3-way-handshake.md)
+      * [TCP 4 way goodbye termination](networking/tcp-ip/tcp/tcp-4-way-goodbye-termination.md)
       * [SSL \(Secure Socket Layer\)](networking/tcp-ip/tcp/ssl-secure-socket-layer.md)
     * [IP \(internet protocol\)](networking/tcp-ip/ip-internet-protocol.md)
     * [DNS \(Domain Naming Server\)](networking/tcp-ip/dns-domain-naming-server.md)
