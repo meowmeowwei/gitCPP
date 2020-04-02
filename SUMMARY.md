@@ -117,6 +117,7 @@
 * [Computer Networking](networking/README.md)
   * [Reliable Data Transfer](networking/reliable-data-transfer/README.md)
     * [Stop and Wait](networking/reliable-data-transfer/stop-and-wait.md)
+    * [Go Back N](networking/reliable-data-transfer/go-back-n.md)
   * [TCP/IP](networking/tcp-ip/README.md)
     * [UDP](networking/tcp-ip/udp.md)
     * [Socket](networking/tcp-ip/socket.md)
