@@ -8,7 +8,7 @@ description: 252/708
 
 finding a path between Node A and Node b, can use either dfs or bfs
 
-```text
+```cpp
 boolean checkNode (Node a, Node b){
 		if(a == b)
 			return true;
