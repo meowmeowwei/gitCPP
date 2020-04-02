@@ -81,7 +81,7 @@ use recursion to do it
 
 3\) pre-order traverse
 
-```text
+```cpp
 
 
 void createLevelLinkedList (TreeNode root, vector * <LinkedList<TreeNode>> lists, int level){
@@ -110,7 +110,7 @@ void createLevelLinkedList (TreeNode root, vector * <LinkedList<TreeNode>> lists
 
 4\) is balanced tree
 
-```text
+```cpp
 class Solution {
 public:
     
@@ -144,7 +144,7 @@ public:
 
 5\)  check BST, all left nodes need to be smaller than current, all right nodes need to be bigger 
 
-```text
+```cpp
 
 class Solution {
 public:
