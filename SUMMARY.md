@@ -52,6 +52,7 @@
   * [Chapter 10 - Sorting and Searching](cracking-code-interview/chapter-10-sorting-and-searching.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [Possible Questions](data-structure-and-algorithm/possible-questions.md)
+  * [Recursion](data-structure-and-algorithm/recursion.md)
   * [Asymptotic Notations](data-structure-and-algorithm/asymptotic-notations.md)
   * [String Manipulation](data-structure-and-algorithm/string-manipulation.md)
   * [Reversing a LinkedList](data-structure-and-algorithm/reversing-a-linkedlist.md)
