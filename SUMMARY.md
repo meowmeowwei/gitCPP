@@ -151,4 +151,5 @@
   * [KERNEL VS CPU](computer-organization/kernel-vs-cpu.md)
   * [Memory Management](computer-organization/memory-management.md)
   * [CacheLine structure](computer-organization/cacheline-structure.md)
+  * [Stack vs Heap](computer-organization/stack-vs-heap.md)
 

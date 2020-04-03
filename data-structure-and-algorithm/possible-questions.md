@@ -46,3 +46,5 @@ Different implementations use different constants `K` that provide different ben
 
 \(\*\) If the vector grew by a constant quantity, then the complexity of `push_back` would become linear instead of _amortized constant_. For example, if the vector grew by 10 elements when needed, the cost of growing \(copy of all element to the new memory address\) would be `O( N / 10 )` \(every 10 elements, move everything\) or `O( N )`.
 
+3\) whats the difference between stack and heap
+
