@@ -46,5 +46,15 @@ Different implementations use different constants `K` that provide different ben
 
 \(\*\) If the vector grew by a constant quantity, then the complexity of `push_back` would become linear instead of _amortized constant_. For example, if the vector grew by 10 elements when needed, the cost of growing \(copy of all element to the new memory address\) would be `O( N / 10 )` \(every 10 elements, move everything\) or `O( N )`.
 
-3\) whats the difference between stack and heap
+3\) [whats the difference between stack and heap](https://www.programmerinterview.com/data-structures/difference-between-stack-and-heap/)
+
+both are stored in the computer's RAM \(random access memory\)
+
+in multi-threaded applications, each thread will have its own stack. but they will share the same heap space.
+
+variables on stack will be deleted by automatically when out of scope, those on heap will need to be deleted by programmer.
+
+Stack is fixed in size, for heap, if not enough, OS can assign more memory 
+
+If the stack runs out of memory, then this is called a stack overflow – and could cause the program to crash. The heap could have the problem of fragmentation, which occurs when the available memory on the heap is being stored as noncontiguous \(or disconnected\) blocks – because used blocks of memory are in between the unused memory blocks. When excessive fragmentation occurs, allocating new memory may be impossible because of the fact that even though there is enough memory for the desired allocation, there may not be enough memory in one big block for the desired amount of memory.
 

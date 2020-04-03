@@ -150,6 +150,7 @@
   * [number systems and codes](computer-organization/number-systems-and-codes.md)
   * [KERNEL VS CPU](computer-organization/kernel-vs-cpu.md)
   * [Memory Management](computer-organization/memory-management.md)
+  * [Virtual Memory and Paging](computer-organization/virtual-memory-and-paging.md)
   * [CacheLine structure](computer-organization/cacheline-structure.md)
   * [Stack vs Heap](computer-organization/stack-vs-heap.md)
 
