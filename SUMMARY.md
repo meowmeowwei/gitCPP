@@ -32,6 +32,7 @@
   * [34.Find First and Last Position of Element in Sorted String](leecode/34.find-first-and-last-position-of-element-in-sorted-string.md)
   * [70. climbing stairs](leecode/70.-climbing-stairs.md)
   * [75. SortColors](leecode/75.-sortcolors.md)
+  * [78. PowerSet/Subset](leecode/78.-powerset-subset.md)
   * [88. MergeSortedArrays](leecode/88.-mergesortedarrays.md)
   * [152. Maximum Product Subarray](leecode/152.-maximum-product-subarray.md)
   * [155. Min Stack](leecode/155.-min-stack.md)
