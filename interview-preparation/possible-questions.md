@@ -58,3 +58,17 @@ Stack is fixed in size, for heap, if not enough, OS can assign more memory
 
 If the stack runs out of memory, then this is called a stack overflow – and could cause the program to crash. The heap could have the problem of fragmentation, which occurs when the available memory on the heap is being stored as noncontiguous \(or disconnected\) blocks – because used blocks of memory are in between the unused memory blocks. When excessive fragmentation occurs, allocating new memory may be impossible because of the fact that even though there is enough memory for the desired allocation, there may not be enough memory in one big block for the desired amount of memory.
 
+4\) [why Stack size is fixed ?](https://stackoverflow.com/questions/10482974/why-is-stack-memory-size-so-limited/10483164#10483164?newreg=65af10fa654b452da8c5c6cdc6317895)
+
+**A limited stack size is an error detection and containment mechanism.**
+
+Generally, the main job of the stack in C and C++ is to keep track of the call stack and local variables, and if the stack grows out of bounds, it is almost always an error in the design and/or the behaviour of the application.
+
+If the stack would be allowed to grow arbitrarily large, these errors \(like infinite recursion\) would be caught very late, only after the operating systems resources are exhausted. This is prevented by setting an arbitrary limit to the stack size. The actual size is not that important, apart from it being small enough to prevent system degradation.
+
+My intuition is the following. The stack is not as easy to manage as the heap. **The stack need to be stored in continuous memory locations. This means that you cannot randomly allocate the stack as needed, but you need to at least reserve virtual addresses for that purpose. The larger the size of the reserved virtual address space, the fewer threads you can create.**
+
+For example, a 32-bit application generally has a virtual address space of 2GB. This means that if the stack size is 2MB \(as default in pthreads\), then you can create a maximum of 1024 threads. This can be small for applications such as web servers. Increasing the stack size to, say, 100MB \(i.e., you reserve 100MB, but do not necessarily allocated 100MB to the stack immediately\), would limit the number of threads to about 20, which can be limiting even for simple GUI applications.
+
+A interesting question is, why do we still have this limit on 64-bit platforms. I do not know the answer, but I assume that people are already used to some "stack best practices": be careful to allocate huge objects on the heap and, if needed, manually increase the stack size. Therefore, nobody found it useful to add "huge" stack support on 64-bit platforms.
+
