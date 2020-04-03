@@ -39,6 +39,7 @@
   * [345. Reverse Vowels of a String](leecode/345.-reverse-vowels-of-a-string.md)
   * [560. Subarray Sum Equals K](leecode/560.-subarray-sum-equals-k.md)
   * [647. Palindromic SubStrings](leecode/647.-palindromic-substrings.md)
+  * [784. Letter Case Permutation](leecode/784.-letter-case-permutation.md)
 * [Cracking Code Interview \(cc189\)](cracking-code-interview/README.md)
   * [Chapter 1 - Arrays and Strings](cracking-code-interview/chapter-1-arrays-and-strings.md)
   * [Chapter 2 - Linked List](cracking-code-interview/chapter-2-linked-list.md)
