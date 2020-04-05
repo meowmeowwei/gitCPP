@@ -20,3 +20,7 @@ A core is an execution unit of a CPU. This unit is capable of reading and execut
 
 When there are multiple cores in a single CPU, it can receive many instructions and execute them on separate cores simultaneously. It increases the processing speed. Therefore, the number of cores in the CPU is a considerable factor in determining the performance of the CPU. It also implements parallel computing. The latest computers use multicore processors. It consists of single computing components with two or more processing units or cores to read and execute multiple instructions at a time.
 
+2\) [what's the difference between X64 and X86 ?](http://net-informations.com/q/mis/x86.html)
+
+
+
