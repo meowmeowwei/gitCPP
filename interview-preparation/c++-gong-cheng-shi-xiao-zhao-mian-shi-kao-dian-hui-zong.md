@@ -111,13 +111,13 @@ reference doesnt accept null
 
 Answer  :
 
-shared\_pointer
+shared\_ptr
 
-unique\_pointer
+unique\_ptr
 
-weak\_pointer
+weak\_ptr -&gt; temporary ownership , borrows resource from shared\_ptr. it can help to bereak cyclic reference of shared\_ptr;
 
-auto\_pointer \(deprecated in c++ 11\)
+auto\_ptr \(deprecated in c++ 11\)
 
 **10、**请回答一下**数组和指针的区别**
 
