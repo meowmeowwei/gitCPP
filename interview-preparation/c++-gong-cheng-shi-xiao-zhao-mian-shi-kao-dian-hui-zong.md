@@ -154,7 +154,17 @@ To Fix - use weak\_ptr, and make\_shared
 
 
 
-17、请你回答一下为什么析构函数必须是虚函数？为什么C++默认的析构函数不是虚函数 
+17、[请你回答一下为什么析构函数必须是虚函数](https://www.geeksforgeeks.org/virtual-destructor/)？[为什么C++默认的析构函数不是虚函数 ](https://stackoverflow.com/questions/1117481/can-the-default-destructor-be-generated-as-a-virtual-destructor-automatically)
+
+[why destructor should be declared as virtual ?](https://www.geeksforgeeks.org/virtual-destructor/)
+
+answer :
+
+base class's destructor should always be virtual to ensure child's destructor will be called 
+
+[why destructor is not default as virtual ?](https://stackoverflow.com/questions/1117481/can-the-default-destructor-be-generated-as-a-virtual-destructor-automatically)
+
+There is a cost associated with making a method virtual, and C++ has a philosophy of not making you pay for things that you don't explicitly state that you want to use. If a virtual destructor would have been generated automatically, you would have been paying the price automatically.
 
 **18**、**请你来说一下**函数指针 
 
