@@ -22,5 +22,11 @@ When there are multiple cores in a single CPU, it can receive many instructions 
 
 2\) [what's the difference between X64 and X86 ?](http://net-informations.com/q/mis/x86.html)
 
+t usually refers to x86 for 32 bit OS and x64 for system with 64 bit.
 
+Technically x86 simply refers to a family of processors and the instruction set they all use. It doesn't actually say anything specific about data sizes. The term x86 started out as a 16-bit instruction set for 16-bit processors \(the 8086 and 8088 processors\), then was extended to a 32-bit instruction set for 32-bit processors \(80386 and 80486\), and now has been extended to a 64-bit instruction set for 64-bit processors. It used to be written as 80x86 to reflect the changing value in the middle of the chip model numbers, but somewhere along the line the 80 in the front was dropped, leaving just x86.
+
+When 64 bit processors compatible with the x86 architecture were introduced, they were referred to as x86-64. x86-32 \(and x86-16\) were used for the 32 \(and 16\) bit versions. **This was eventually shortened to x64 for 64 bit and x86 alone refers to a 32 bit processor.** The 32 bit processors are designed to handle a limited amount of physical memory maximum of 4GB but 64 bit can handle high memory utilizing 8,16 and some even32 GB.
+
+The 64 bit computers can run both 32bit programs and 64 bit programs. 32 bit computers cannot run 64 bit programs, because the bit sizes are fundamentally different. Latest Laptops with pre-installed Windows are usually x64 i.e. 64 Bit, old Desktops and Laptops could be having Windows x86 which means 32 bit.
 
