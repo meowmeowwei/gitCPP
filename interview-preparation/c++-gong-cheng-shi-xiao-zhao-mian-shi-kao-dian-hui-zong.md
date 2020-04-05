@@ -10,7 +10,15 @@
 
 #### **1、基本语言**
 
-**1、说一下\*\***static关键字的作用\*\* 
+**1、**[**说一下\*\*static关键字的作用\*\*** ](https://www.geeksforgeeks.org/static-keyword-cpp/)\*\*\*\*
+
+Answer : static can be used on variables or functions.
+
+static variables are initialised only once and saved on separate static storage. it can be put in functions or classes. 
+
+static functions are independent from any object of the class. it can be called directly using the class name itself. static functions can only access static data members or other static member functions of the class
+
+
 
 2、说一下C++和C的区别 
 
