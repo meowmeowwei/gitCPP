@@ -115,7 +115,7 @@ shared\_ptr
 
 unique\_ptr
 
-weak\_ptr -&gt; temporary ownership , borrows resource from shared\_ptr. it can help to bereak cyclic reference of shared\_ptr;
+[weak\_ptr](https://www.modernescpp.com/index.php/std-weak-ptr) -&gt; temporary ownership , borrows resource from shared\_ptr. it can help to bereak cyclic reference of shared\_ptr;
 
 auto\_ptr \(deprecated in c++ 11\)
 
