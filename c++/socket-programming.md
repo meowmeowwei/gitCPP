@@ -46,7 +46,13 @@ The parameters allow us to say what kind of socket we want \(IPv4/IPv6, stream/d
     } 
 ```
 
+2\) **int bind\(int fd, struct sockaddr \*local\_addr, socklen\_t addr\_length\)**
 
-
-
+Once we have a socket, we might have to associate that socket with a port on our local machine.  
+The port number is used by the kernel to match an incoming packet to a certain process's socket descriptor.  
+A server will call **bind\(\)** with the address of the local host and the port on which it will listen for connections.  
+It takes file descriptor \(previously established socket\), a pointer to \(the address of\) a structure containing the details of the address to bind to, the value **INADDR\_ANY** is typically used for this, and the length of the address structure.  
+The particular structure that needs to be used will depend on the protocol, which is why it is passed by the pointer.  
+So, this **bind\(\)** call will bind the socket to the current IP address on port, portno  
+Returns 0 on success and -1 on error.
 
