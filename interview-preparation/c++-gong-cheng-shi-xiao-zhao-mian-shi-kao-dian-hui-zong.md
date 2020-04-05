@@ -119,13 +119,32 @@ unique\_ptr
 
 auto\_ptr \(deprecated in c++ 11\)
 
-**10、**请回答一下**数组和指针的区别**
+\*\*\*\*[**10、请回答一下数组和指针的区别**](https://www.programming-techniques.com/2011/08/difference-between-array-and-pointer-in-c-c.html)\*\*\*\*
 
-**11、**请你回答一下野指针是什么？ 
+Answer:
 
-**12、请你**介绍**一下**C**++**中的**智能指针**
+array is a single, pre-allocated contigous elements of fixed size. 
 
-**13、请你回答一下\*\***智能指针有没有内存泄露的情况 
+pointer is a place in memory that keeps the address of another place inside 
+
+\*\*\*\*[**11、请你回答一下野指针是什么？**](https://www.geeksforgeeks.org/what-are-wild-pointers-how-can-we-avoid/) 
+
+what is wild pointer ?
+
+it's uninitialised pointer because they pointe to some arbitary memory location 
+
+```cpp
+int * p;
+
+```
+
+
+
+\*\*\*\*[**13、请你回答一下\*\*智能指针有没有内存泄露的情况** ](https://stackoverflow.com/questions/38298008/possible-memory-leaks-with-smart-pointers)\*\*\*\*
+
+can smart pointer cause memory leak ?
+
+Answer : yea. if you have circular link, then memory will not be freed 
 
 **14、请你来说一下\*\***智能指针的内存泄漏如何解决 
 
