@@ -56,3 +56,41 @@ The particular structure that needs to be used will depend on the protocol, whic
 So, this **bind\(\)** call will bind the socket to the current IP address on port, portno  
 Returns 0 on success and -1 on error.
 
+3\)**int listen\(int fd, int backlog\_queue\_size\)**
+
+Once a server has been bound to an address, the server can then call **listen\(\)** on the socket.  
+The parameters to this call are the socket \(fd\) and the maximum number of queued connections requests up to **backlog\_queue\_size**.  
+Returns 0 on success and -1 on error.
+
+The `listen()` function basically [sets a flag in the internal socket structure marking the socket](https://stackoverflow.com/questions/34073871/socket-programming-whats-the-difference-between-listen-and-accept) as a passive listening socket, one that you can call `accept` on. It opens the bound port so the socket can then start receiving connections from clients.
+
+**4\) int accept\(int fd, struct sockaddr \*remote\_host, socklen\_t addr\_length\)**
+
+Accepts an incoming connection on a bound socket. The address information from the remote host is written into the **remote\_host** structure and the actual size of the address structure is written into **\*addr\_length**.  
+In other words, this **accept\(\)** function will write the connecting client's address info into the address structure.  
+Then, returns a new socket file descriptor for the accepted connection.  
+So, the original socket file descriptor can continue to be used for accepting new connections while the new socket file descriptor is used for communicating with the connected client.  
+This function returns a new socket file descriptor to identify the connected socket or -1 on error.
+
+Here is the description from the man page:  
+"It extracts the first connection request on the queue of pending connections for the listening socket, **sockfd**, creates a new connected socket, and returns a new file descriptor referring to that socket. The newly created socket is not in the listening state. The original socket sockfd is unaffected by this call".
+
+**5\) int connect\(int fd, struct sockaddr \*remote\_host, socklen\_t addr\_length\)**
+
+Connects a socket \(described by file descriptor **fd**\) to a remote host.  
+Returns 0 on success and -1 on error.
+
+This is a blocking call. That's because when we issue a call to connect\(\), our program doesn't regain control until either the connection is made, or an error occurs. For example, let's say that we're writing a web browser. We try to connect to a web server, but the server isn't responding. So, we now want the connect\(\) API to stop trying to connect by clicking a stop button. But that can't be done. It waits for a return which could be 0 on success or -1 on error.
+
+**6\) int send\(int fd, void \*buffer, size\_t n, int flags\)**
+
+Sends n bytes from **\*buffer** to **socket fd**.  
+Returns the number of bytes sent or -1 on error.
+
+**7\) int receive\(int fd, void \*buffer, size\_t n, int flags\)**
+
+Receives n bytes from **socket fd** into **\*buffer**.  
+Returns the number of bytes received or -1 on error.
+
+This is another blocking call. In other words, when we call **recv\(\)** to read from a stream, control isn't returned to our program until at least one byte of data is read from the remote site. This process of waiting for data to appear is referred to as **blocking**. The same is true for the write\(\) and the connect\(\) APIs, etc. When we run those blocking APIs, the connection "blocks" until the operation is complete.
+
