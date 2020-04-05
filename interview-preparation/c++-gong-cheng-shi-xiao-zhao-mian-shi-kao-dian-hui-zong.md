@@ -86,7 +86,25 @@ int main()
 
 ```
 
-6. 请说一下C/C++ 中指针和引用的区别？ 7、给定三角形ABC和一点P\(x,y,z\)，判断点P是否在ABC内，给出思路并手写代码   
+6. [请说一下C/C++ 中指针和引用的区别？ ](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
+
+pointer is a variable that holds memory address of another variable. 
+
+can be re-assigned. 
+
+pointer has it's own memory address.
+
+pointer can accept null
+
+reference is an alias to existing variable. can not be re-assigned 
+
+reference shares the same memory address with the variable
+
+reference doesnt accept null
+
+
+
+7、给定三角形ABC和一点P\(x,y,z\)，判断点P是否在ABC内，给出思路并手写代码   
 8、怎么判断一个数是二的倍数，怎么求一个数中有几个1**，**说一下你的思路并手写代码
 
 9、请你说一下你理解的c++中的smart pointer四个智能指针： 
