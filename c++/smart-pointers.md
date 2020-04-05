@@ -8,7 +8,7 @@ C++ Primer Pg 450
 
 use make\_shared and make\_unique to create the pointers.
 
-```text
+```cpp
 int main(){
 
 	unique_ptr<int> p1(new int(5));
@@ -55,7 +55,7 @@ int main(){
 
 but it can be noted that there's a workaround for custom deleter in the constructor as lambda parameter. 
 
-```text
+```cpp
 shared_ptr<int[]> p2(new int[16], [](int * i){
     delete[] i;
 });
