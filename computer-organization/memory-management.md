@@ -4,9 +4,9 @@ How Computer Memory Works ?
 
 [Youtube memory link](https://www.youtube.com/watch?v=p3q5zWCw8J4)  
 
-![Typical Memory Hierarchy](../.gitbook/assets/image%20%28150%29.png)
+![Typical Memory Hierarchy](../.gitbook/assets/image%20%28152%29.png)
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 
 

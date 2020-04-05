@@ -4,9 +4,9 @@ description: 'https://www.geeksforgeeks.org/tcp-3-way-handshake-process/'
 
 # TCP 3 way handshake
 
-![](../../../.gitbook/assets/image%20%2865%29.png)
+![](../../../.gitbook/assets/image%20%2866%29.png)
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 
 
