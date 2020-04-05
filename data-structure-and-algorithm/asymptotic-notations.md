@@ -15,7 +15,7 @@ whenever you see a problem where number of element in problem space gets halved 
 
 3\) Time complexity \( how many calls of the action\) vs space complexity \( how many space is used, array or  just one variable ?\)
 
-![](../.gitbook/assets/image%20%28100%29.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 | constant | − | Ο\(1\) |
 | :--- | :--- | :--- |

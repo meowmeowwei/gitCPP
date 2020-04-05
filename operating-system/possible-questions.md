@@ -14,7 +14,7 @@ Core
 
 A core is an execution unit of a CPU. This unit is capable of reading and executing instructions. CPU or the processor can have a single core or multiple cores. When a system has more cores, it is called a multicore system. A CPU with two cores is called a dual-core processor. A CPU with four cores is called a quad-core processor.
 
-![](../.gitbook/assets/image%20%28112%29.png)
+![](../.gitbook/assets/image%20%28113%29.png)
 
 
 

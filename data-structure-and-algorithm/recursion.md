@@ -75,7 +75,7 @@ Space Complexity
 
 {% embed url="https://www.ideserve.co.in/learn/time-and-space-complexity-of-recursive-algorithms" %}
 
-![](../.gitbook/assets/image%20%28155%29.png)
+![](../.gitbook/assets/image%20%28157%29.png)
 
 Using this analogy for recursive call sequence, it should follow that maximum number of stack frames that could be present in memory at any point of time is equal to maximum depth of recursion tree. In the recursion tree, when the call corresponding to leaf node state is getting executed, its call sequence could be represented by the path from the root node in recursion tree to that leaf node. For example, in the recursion tree for computing 5th fibonacci number, when left and bottom most state f\(1\) is getting executed, the call sequence which led to this state would be f\(5\)-&gt;f\(4\)-&gt;f\(3\)-&gt;f\(2\)-&gt;f\(1\) and all the corresponding stack frames would be present in the memory and when f\(1\) is returned its stack frame would be removed from the memory\(or call stack\).
 
