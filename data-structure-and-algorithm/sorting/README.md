@@ -16,7 +16,7 @@ Radix sort needs a queue
 
 **Stable -&gt;** if the relative order of elements with same key value is preserved by algorithm
 
-![](../../.gitbook/assets/image%20%28133%29.png)
+![](../../.gitbook/assets/image%20%28134%29.png)
 
 [**select sort is not stable, because it swaps non-adjacent elements** ](https://www.quora.com/Why-is-a-selection-sort-algorithm-not-stable)\*\*\*\*
 
@@ -143,7 +143,7 @@ void quickSort2(int * vec, int low, int high){
 
 **5\) Merge Sort**
 
-![](../../.gitbook/assets/image%20%28121%29.png)
+![](../../.gitbook/assets/image%20%28122%29.png)
 
 ```text
 void mergeList(int *a, int low, int mid, int high){

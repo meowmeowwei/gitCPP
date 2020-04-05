@@ -4,7 +4,7 @@
 
 ![](../.gitbook/assets/image%20%2874%29.png)
 
-![](../.gitbook/assets/image%20%28110%29.png)
+![](../.gitbook/assets/image%20%28111%29.png)
 
 2\) stringstream tokenizing 
 

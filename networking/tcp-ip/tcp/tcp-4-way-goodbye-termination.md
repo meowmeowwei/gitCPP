@@ -4,7 +4,7 @@ description: 'https://www.geeksforgeeks.org/tcp-connection-termination/'
 
 # TCP 4 way goodbye termination
 
-![](../../../.gitbook/assets/image%20%28141%29.png)
+![](../../../.gitbook/assets/image%20%28142%29.png)
 
 
 
