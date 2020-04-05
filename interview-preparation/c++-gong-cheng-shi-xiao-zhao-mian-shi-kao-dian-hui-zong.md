@@ -152,9 +152,7 @@ void function\(std::unique\_ptr\(new A\(\)\), std::unique\_ptr\(new B\(\)\)\) { 
 
 To Fix - use weak\_ptr, and make\_shared 
 
-
-
-17、[请你回答一下为什么析构函数必须是虚函数](https://www.geeksforgeeks.org/virtual-destructor/)？[为什么C++默认的析构函数不是虚函数 ](https://stackoverflow.com/questions/1117481/can-the-default-destructor-be-generated-as-a-virtual-destructor-automatically)
+**17、**[**请你回答一下为什么析构函数必须是虚函数**](https://www.geeksforgeeks.org/virtual-destructor/)**？**[**为什么C++默认的析构函数不是虚函数** ](https://stackoverflow.com/questions/1117481/can-the-default-destructor-be-generated-as-a-virtual-destructor-automatically)\*\*\*\*
 
 [why destructor should be declared as virtual ?](https://www.geeksforgeeks.org/virtual-destructor/)
 
