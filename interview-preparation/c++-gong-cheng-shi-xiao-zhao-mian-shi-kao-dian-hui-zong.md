@@ -144,13 +144,15 @@ int * p;
 
 can smart pointer cause memory leak ?
 
-Answer : yea. if you have circular link, then memory will not be freed 
+Answer : 
 
-**14、请你来说一下\*\***智能指针的内存泄漏如何解决 
+yea. if you have circular link, then memory will not be freed 
 
-15、**请你理解的c++中的\*\***引用和指针 
+void function\(std::unique\_ptr\(new A\(\)\), std::unique\_ptr\(new B\(\)\)\) { ... } --&gt; if you dont use make\_shared, if any exception is thrown in B, then A will not be released.
 
-**16、**请你来说一下C++中的**\*\*智能指针**
+To Fix - use weak\_ptr, and make\_shared 
+
+
 
 17、请你回答一下为什么析构函数必须是虚函数？为什么C++默认的析构函数不是虚函数 
 
