@@ -18,15 +18,73 @@ static variables are initialised only once and saved on separate static storage.
 
 static functions are independent from any object of the class. it can be called directly using the class name itself. static functions can only access static data members or other static member functions of the class
 
+[2**、说一下C++和C的区别** ](https://www.geeksforgeeks.org/difference-between-c-and-c/)\*\*\*\*
+
+Answer : C++ can be consider as a super set of C.
+
+C++ is object oriented and procedure
+
+C is only procedure
+
+Based on the concept of a procedure call, Procedural Programming divides the program into procedures, which are also known as routines or functions, simply containing a series of steps to be carried out.
+
+[**5、说一说c++中四种cast转换** ](https://www.geeksforgeeks.org/static_cast-in-c-type-casting-operators/)\*\*\*\*
+
+dynamic cast - part of Run-Time type identification RTTI 
+
+if issue happens, it returns NULL
+
+```cpp
+pB = dynamic_cast<B*>(&a;); // allowed but it returns NULL
+```
+
+static cast - compile time casting
+
+```cpp
+
+int main ( )
+{
+  
+  int x = 5;
+
+  string y = static_cast<string> (x); // will throw invalid cast during compile
+
+  cout << y << endl;
 
 
-2、说一下C++和C的区别 
+  return 0;
+}
 
-3、说一下C++中static关键字的作用 
+```
 
-4、请说一下static的作用 
+const cast - removes constantness of a variable 
 
-5、说一说c++中四种cast转换 
+```cpp
+const int x = 50;   // by right the value can not be changed
+const int* y = &x;
+cout<<"old value is"<<*y<<"\n";
+int* z=const_cast<int *>(y);
+*z=100;
+cout<<"new value is"<<*y;
+//Output: old value is 50
+//new value is 100
+```
+
+reinterpret cast - can type cast any pointer to any other data type, byte-by-byte cast
+
+```cpp
+int main() 
+{ 
+    int* p = new int(65); 
+    char* ch = reinterpret_cast<char*>(p); 
+    cout << *p << endl; 
+    cout << *ch << endl; 
+    cout << p << endl; 
+    cout << ch << endl; 
+    return 0; 
+} 
+
+```
 
 6. 请说一下C/C++ 中指针和引用的区别？ 7、给定三角形ABC和一点P\(x,y,z\)，判断点P是否在ABC内，给出思路并手写代码   
 8、怎么判断一个数是二的倍数，怎么求一个数中有几个1**，**说一下你的思路并手写代码
