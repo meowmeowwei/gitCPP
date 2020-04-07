@@ -170,6 +170,16 @@ inline functions are parsed by compiler, macros are expanded by C++ preprocessor
 
 for inline functions, whenever it finds a call to inline functions, it writes a copy of compiled function definition, for regular function, a normal function call is generated.  
 
+macro is dangerous and hard to debug since it's text replacement
+
+```cpp
+#define Double(X) X*X
+
+int y = 3;
+int j = Double(++y) == Double(++y * ++y)
+
+```
+
 **18**、**请你来说一下**函数指针 
 
 **1**9**、**请你来说一下**\*\*fork函数**
