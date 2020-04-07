@@ -51,3 +51,13 @@ vect.at\(5\) will throw out\_of\_range exception.. this is better than vec\[5\],
 
 vector performs better for traversal and for sorting and searching than list 
 
+
+
+1\) [vector.erase vs remove ](https://stackoverflow.com/questions/19296958/difference-between-stdremove-and-erase-for-vector)
+
+erase will cause all the elements following to be copied forward.
+
+remove will create a copy and copy the needed elements into the destination vector and return.
+
+
+

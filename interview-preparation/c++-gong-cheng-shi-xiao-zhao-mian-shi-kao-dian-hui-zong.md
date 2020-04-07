@@ -164,22 +164,6 @@ base class's destructor should always be virtual to ensure child's destructor wi
 
 There is a cost associated with making a method virtual, and C++ has a philosophy of not making you pay for things that you don't explicitly state that you want to use. If a virtual destructor would have been generated automatically, you would have been paying the price automatically.
 
-\*\*\*\*[**18. difference between inline vs Macro**](https://www.programmerinterview.com/c-cplusplus/inline-vs-macro/)
-
-inline functions are parsed by compiler, macros are expanded by C++ preprocessor \(simple text replacement\).
-
-for inline functions, whenever it finds a call to inline functions, it writes a copy of compiled function definition, for regular function, a normal function call is generated.  
-
-macro is dangerous and hard to debug since it's text replacement
-
-```cpp
-#define Double(X) X*X
-
-int y = 3;
-int j = Double(++y) == Double(++y * ++y)
-
-```
-
 **18**、**请你来说一下**函数指针 
 
 **1**9**、**请你来说一下**\*\*fork函数**
