@@ -49,6 +49,47 @@ int main(){
 
 ```
 
+function object parsing with parameter 
+
+```cpp
+class DisplayThread{
+public:
+
+	int x ;
+
+	DisplayThread(int y) : x{y}{
+
+	}
+
+	void operator ()() {
+
+		for (int i =0; i < x; i ++){
+			cout << " Displaying from Thread" << endl;
+		}
+
+	}
+};
+
+
+int main(){
+
+	DisplayThread * t = new DisplayThread(1000);
+
+	thread threadObj(*t);
+	for(int i = 0; i < 1000;i ++){
+		cout << "main thread displaying "<< endl;
+	}
+
+	threadObj.join();
+	cout << "Exiting main program" << endl;
+
+
+}
+
+```
+
+
+
 2\) with a function object / functor 
 
 ```cpp
