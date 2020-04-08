@@ -13,7 +13,37 @@ description: >-
 
 1\) with a function pointer
 
-2\) with a functor 
+```cpp
+
+
+void thread_function(){
+
+	int count =0;
+	for(int i=0; i <1000; i ++){
+		
+		cout << "thread_function executing" << endl;
+		count ++;
+	}
+
+	cout << "count is "<< count << endl;
+}
+
+
+int main(){
+
+	thread threadObj(thread_function);
+	
+	for(int i = 0; i < 1000;i ++){
+		cout << "main thread displaying "<< endl;
+	}
+
+	threadObj.join();
+	cout << "Exiting main program" << endl;
+	
+
+}
+
+```
 
 3\) with a lambda function 
 
