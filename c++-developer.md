@@ -14,7 +14,7 @@ HAP Capital is seeking a strong C++ Systems Developer who will focus on automate
 #### **Requirements**
 
 * ~~Degree in Computer Science, Software Engineering, EE or similar~~
-* Minimum of two years developing low latency C++ applications
+* ~~Minimum of two years developing low latency C++ applications~~
 * Proficiency in advanced C++ \(’11/14\) including proficiency with STL, TMP, Boost, and type safety
 * Proficiency in advanced data structures, algorithms, OO programming, and computational complexity
 * Proficiency in Software Engineering including design/requirement specs, testing, QA, release
