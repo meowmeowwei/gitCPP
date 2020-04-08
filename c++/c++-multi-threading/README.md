@@ -11,6 +11,10 @@ description: >-
 
 [Threads can be created using 3 ways](https://thispointer.com/c-11-multithreading-part-1-three-different-ways-to-create-threads/)
 
+Task -&gt; a computation that can be executed concurrently with other computation.
+
+thead will taking a parameter of task. 
+
 1\) with a function pointer
 
 ```cpp
