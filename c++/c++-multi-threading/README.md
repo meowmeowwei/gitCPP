@@ -82,5 +82,26 @@ int main(){
 
 3\) with a lambda function 
 
+```cpp
+int main(){
+
+
+	thread threadObj([]{
+		for (int i =0; i < 1000; i ++){
+			cout << " Displaying from Thread" << endl;
+		}
+	});
+	for(int i = 0; i < 1000;i ++){
+		cout << "main thread displaying "<< endl;
+	}
+
+	threadObj.join();
+	cout << "Exiting main program" << endl;
+
+
+}
+
+```
+
 
 
