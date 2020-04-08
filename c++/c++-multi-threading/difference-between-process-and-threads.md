@@ -12,7 +12,9 @@ a program in execution. Process Control Block contains Process Priority, CPU, re
 
 Thread
 
-thread is segment of process . they are contained in a process
+thread is segment of process . they are contained in a process.
+
+each thread has its own \(PCB for registers, stack, PC\).
 
 
 
