@@ -28,11 +28,11 @@ issue -&gt; packet drop, delay ack which may be confusing
 
 a\) Time Out
 
-![](../../.gitbook/assets/image%20%28163%29.png)
+![](../../.gitbook/assets/image%20%28166%29.png)
 
 b\) Sequence number \(Data\)
 
-![](../../.gitbook/assets/image%20%28149%29.png)
+![](../../.gitbook/assets/image%20%28152%29.png)
 
 c\) Delay Acknowledgement 
 
@@ -40,7 +40,7 @@ This is resolved by introducing sequence number for acknowledgement also.
 
 
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 **Characteristics of Stop and Wait ARQ:**
 

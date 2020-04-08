@@ -2,9 +2,9 @@
 
 1\) read line into stringstream and take values from there 
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2878%29.png)
 
-![](../.gitbook/assets/image%20%28115%29.png)
+![](../.gitbook/assets/image%20%28117%29.png)
 
 2\) stringstream tokenizing 
 
