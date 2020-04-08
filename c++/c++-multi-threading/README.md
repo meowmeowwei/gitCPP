@@ -45,6 +45,37 @@ int main(){
 
 ```
 
+2\) with a function object / functor 
+
+```cpp
+class DisplayThread{
+public:
+	void operator ()() {
+
+		for (int i =0; i < 1000; i ++){
+			cout << " Displaying from Thread" << endl;
+		}
+
+	}
+};
+
+
+int main(){
+
+	DisplayThread * t = new DisplayThread();
+
+	thread threadObj(*t);
+	for(int i = 0; i < 1000;i ++){
+		cout << "main thread displaying "<< endl;
+	}
+
+	threadObj.join();
+	cout << "Exiting main program" << endl;
+
+}
+
+```
+
 3\) with a lambda function 
 
 
