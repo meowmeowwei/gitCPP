@@ -92,6 +92,7 @@
     * [C++ 11 std::bind](c++/c++-11/c++-11-std-bind.md)
     * [C++ 11 Type inference](c++/c++-11/c++-type-inference.md)
     * [C++ 11 Range Based For loop](c++/c++-11/c++-11-range-based-for-loop.md)
+  * [c++ Functor](c++/c++-functor.md)
   * [C++ Allocator](c++/c++-allocator.md)
   * [c++ utilities](c++/c++-utilities.md)
   * [c++ algorithms](c++/c++-algorithms/README.md)
