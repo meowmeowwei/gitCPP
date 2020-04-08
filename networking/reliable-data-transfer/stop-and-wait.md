@@ -28,11 +28,11 @@ issue -&gt; packet drop, delay ack which may be confusing
 
 a\) Time Out
 
-![](../../.gitbook/assets/image%20%28166%29.png)
+![](../../.gitbook/assets/image%20%28167%29.png)
 
 b\) Sequence number \(Data\)
 
-![](../../.gitbook/assets/image%20%28152%29.png)
+![](../../.gitbook/assets/image%20%28153%29.png)
 
 c\) Delay Acknowledgement 
 

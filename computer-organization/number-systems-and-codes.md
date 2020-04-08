@@ -2,7 +2,7 @@
 
 base or radix is 10, represents total numbers or symbols allowed in the system. 
 
-![](../.gitbook/assets/image%20%28155%29.png)
+![](../.gitbook/assets/image%20%28156%29.png)
 
 Converting Whole Number to Binary , constantly divide by 2 until quotient is 0
 
@@ -14,7 +14,7 @@ Converting decimal fractions to binary, repeatedly multiply by 2
 
 0.3125 = .0101
 
-![](../.gitbook/assets/image%20%28156%29.png)
+![](../.gitbook/assets/image%20%28157%29.png)
 
 Binary to Octal/ Hex conversion 
 

@@ -16,7 +16,7 @@ Radix sort needs a queue
 
 **Stable -&gt;** if the relative order of elements with same key value is preserved by algorithm
 
-![](../../.gitbook/assets/image%20%28142%29.png)
+![](../../.gitbook/assets/image%20%28143%29.png)
 
 [**select sort is not stable, because it swaps non-adjacent elements** ](https://www.quora.com/Why-is-a-selection-sort-algorithm-not-stable)\*\*\*\*
 
