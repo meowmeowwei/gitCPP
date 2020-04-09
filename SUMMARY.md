@@ -75,6 +75,7 @@
     * [Part 1 - Creating Threads](c++/c++-multi-threading/part-1-creating-threads.md)
     * [Part 2 . Joining and Detaching Threads](c++/c++-multi-threading/part-2-.-joining-and-detaching-threads.md)
     * [Part 3 - Pass Arguments to Threads](c++/c++-multi-threading/part-3-pass-arguments-to-threads.md)
+    * [Part 4 - Data Sharing and Race Conditions](c++/c++-multi-threading/part-4-data-sharing-and-race-conditions.md)
     * [Difference between Process and Threads](c++/c++-multi-threading/difference-between-process-and-threads.md)
   * [C++ Interview Questions](c++/c++-interview-questions/README.md)
     * [C++ 面试刷题](c++/c++-interview-questions/c++-mian-shi-shua-ti.md)
