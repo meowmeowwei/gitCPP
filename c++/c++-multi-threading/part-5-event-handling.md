@@ -88,7 +88,9 @@ int main() {
 
 ```
 
+[why one method uses lock\_guard , another uses unique\_lock , whats the difference ?](http://jakascorner.com/blog/2016/02/lock_guard-and-unique_lock.html)
 
+lock\_guard doesn't provide ability to unlock, once locked, it can only be released when the function finished.
 
-
+unique\_lock can be unlocked if required . it is also forced to use unique\_lock in condition\_variable.
 
