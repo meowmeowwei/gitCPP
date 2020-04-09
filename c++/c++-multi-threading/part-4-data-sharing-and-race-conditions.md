@@ -93,3 +93,16 @@ use lock\_guard which implements RAII for mutex
 
 ```
 
+Scope\_lock can be used to lock multiple mutex
+
+```cpp
+
+void f(){
+
+    scoped_lock lck {mutex1, mutex2};
+
+}
+
+
+```
+
