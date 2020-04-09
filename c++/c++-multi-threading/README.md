@@ -144,5 +144,5 @@ int main(){
 
 ```
 
-
+[Joining and Detaching Threads](https://thispointer.com//c11-multithreading-part-2-joining-and-detaching-threads/)
 
