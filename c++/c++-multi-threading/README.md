@@ -9,9 +9,5 @@ description: >-
 
 
 
-```cpp
-
-```
-
 
 
