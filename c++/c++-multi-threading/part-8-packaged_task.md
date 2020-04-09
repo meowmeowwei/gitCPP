@@ -1,3 +1,8 @@
+---
+description: >-
+  https://thispointer.com/c11-multithreading-part-10-packaged_task-example-and-tutorial/
+---
+
 # Part 8 - packaged\_task
 
 ### std::packaged\_task&lt;&gt;
