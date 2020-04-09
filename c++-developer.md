@@ -25,7 +25,7 @@ HAP Capital is seeking a strong C++ Systems Developer who will focus on automate
 
 #### **Additional skills/experience that will reflect favorably**
 
-* Graduate degree in Computer Science, Software Engineering, EE, or similar
+* ~~Graduate degree in Computer Science, Software Engineering, EE, or similar~~
 * Knowledge and familiarity with exchange protocols FIX, ITCH, PITCH, OUCH, and related
 * Low-latency: hardware/bios tuning, NUMA aware, multi-threaded design, lock-free programming
 * Low-latency: compiler and cache optimization, user-space networking \(kernel bypass\), IPC/RPC
