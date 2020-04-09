@@ -4,7 +4,7 @@ description: 'https://www.bogotobogo.com/cplusplus/sockets_server_client.php'
 
 # Socket Programming
 
-![](../.gitbook/assets/image%20%2894%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 
 

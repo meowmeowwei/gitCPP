@@ -6,7 +6,7 @@ description: 'https://thispointer.com//c11-multithreading-part-6-need-of-event-h
 
 when a thread needs to wait for a event to happen/ condition to become true
 
-![](../../.gitbook/assets/image%20%28104%29.png)
+![](../../.gitbook/assets/image%20%28105%29.png)
 
 Option 1 -&gt; do while loop in Thread 1 keep checking the variable, but will make application slow since it consumes cpu cycles .
 
