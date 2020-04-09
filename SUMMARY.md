@@ -81,6 +81,7 @@
     * [Part 4 - Data Sharing and Race Conditions](c++/c++-multi-threading/part-4-data-sharing-and-race-conditions.md)
     * [Part 5 Event Handling](c++/c++-multi-threading/part-5-event-handling.md)
     * [Part 6 future/promise/returning value from thread](c++/c++-multi-threading/part-6-future-promise-returning-value-from-thread.md)
+    * [Part 7 - async](c++/c++-multi-threading/part-7-async.md)
     * [Difference between Process and Threads](c++/c++-multi-threading/difference-between-process-and-threads.md)
   * [C++ Plain Old data](c++/c++-plain-old-data.md)
   * [C++ Rule of Three](c++/c++-rule-of-three.md)
