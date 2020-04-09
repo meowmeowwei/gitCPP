@@ -8,12 +8,6 @@ TCP/UDP -&gt; network programming
 
 C++ \( Tour of C++,  C++ Primer,  Effective C++\)
 
-\*\*\*\*
-
-\*\*\*\*
-
-\*\*\*\*
-
 **Work Related** 
 
 1\) Exchange Native Protocol 
