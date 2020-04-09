@@ -7,142 +7,31 @@ description: >-
 
 {% embed url="https://hackernoon.com/learn-c-multi-threading-in-5-minutes-8b881c92941f" %}
 
-
-
-[Threads can be created using 3 ways](https://thispointer.com/c-11-multithreading-part-1-three-different-ways-to-create-threads/)
-
-Task -&gt; a computation that can be executed concurrently with other computation.
-
-thead will taking a parameter of task. 
-
-1\) with a function pointer
-
-```cpp
-
-
-void thread_function(){
-
-	int count =0;
-	for(int i=0; i <1000; i ++){
-		
-		cout << "thread_function executing" << endl;
-		count ++;
-	}
-
-	cout << "count is "<< count << endl;
-}
-
-
-int main(){
-
-	thread threadObj(thread_function);
-	
-	for(int i = 0; i < 1000;i ++){
-		cout << "main thread displaying "<< endl;
-	}
-
-	threadObj.join();
-	cout << "Exiting main program" << endl;
-	
-
-}
-
-```
-
-function object parsing with parameter 
-
-```cpp
-class DisplayThread{
-public:
-
-	int x ;
-
-	DisplayThread(int y) : x{y}{
-
-	}
-
-	void operator ()() {
-
-		for (int i =0; i < x; i ++){
-			cout << " Displaying from Thread" << endl;
-		}
-
-	}
-};
-
-
-int main(){
-
-	DisplayThread * t = new DisplayThread(1000);
-
-	thread threadObj(*t);
-	for(int i = 0; i < 1000;i ++){
-		cout << "main thread displaying "<< endl;
-	}
-
-	threadObj.join();
-	cout << "Exiting main program" << endl;
-
-
-}
-
-```
-
-
-
-2\) with a function object / functor 
-
-```cpp
-class DisplayThread{
-public:
-	void operator ()() {
-
-		for (int i =0; i < 1000; i ++){
-			cout << " Displaying from Thread" << endl;
-		}
-
-	}
-};
-
-
-int main(){
-
-	DisplayThread * t = new DisplayThread();
-
-	thread threadObj(*t);
-	for(int i = 0; i < 1000;i ++){
-		cout << "main thread displaying "<< endl;
-	}
-
-	threadObj.join();
-	cout << "Exiting main program" << endl;
-
-}
-
-```
-
-3\) with a lambda function 
-
-```cpp
-int main(){
-
-
-	thread threadObj([]{
-		for (int i =0; i < 1000; i ++){
-			cout << " Displaying from Thread" << endl;
-		}
-	});
-	for(int i = 0; i < 1000;i ++){
-		cout << "main thread displaying "<< endl;
-	}
-
-	threadObj.join();
-	cout << "Exiting main program" << endl;
-
-
-}
-
-```
-
 [Joining and Detaching Threads](https://thispointer.com//c11-multithreading-part-2-joining-and-detaching-threads/)
+
+need to remember to detach a thread if exception happens 
+
+```cpp
+
+#include <iostream>
+#include <thread>
+class ThreadRAII
+{
+    std::thread & m_thread;
+    public:
+        ThreadRAII(std::thread  & threadObj) : m_thread(threadObj)
+        {
+            
+        }
+        ~ThreadRAII()
+        {
+            // Check if thread is joinable then detach the thread
+            if(m_thread.joinable())
+            {
+                m_thread.detach();
+            }
+        }
+};
+
+```
 
