@@ -1,7 +1,5 @@
 # Part 8 - packaged\_task
 
-
-
 ### std::packaged\_task&lt;&gt;
 
 **std::packaged\_task&lt;&gt;** is a class template and represents a asynchronous task. It encapsulates,
