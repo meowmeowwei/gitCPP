@@ -12,7 +12,7 @@ number of times merge is called is lg \(n\)
 
 so total complexity is NLogN
 
-![](../../.gitbook/assets/image%20%28128%29.png)
+![](../../.gitbook/assets/image%20%28129%29.png)
 
 
 
