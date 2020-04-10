@@ -106,3 +106,26 @@ void f(){
 
 ```
 
+whats the difference between shared\_lock and unique\_lock ?
+
+Ans : they can both be applied to shared\_mutex \(c++ 17\).
+
+the shared\_mutex can be shared by multiple threads.
+
+```cpp
+
+shared_mutex mx;
+
+void reader(){
+    shared_lock lck {mx};
+}
+
+void writer(){
+
+    unique_lock lck {mx};
+}
+
+```
+
+
+
