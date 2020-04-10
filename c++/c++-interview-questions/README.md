@@ -137,3 +137,7 @@ lock\_guard doesn't provide ability to unlock, once locked, it can only be relea
 
 unique\_lock can be unlocked if required . it is also forced to use unique\_lock in condition\_variable.
 
+16\) why scope lock is better than lock\_guard?
+
+scoped\_lock can help avoid deaklock by locking multiple resources in one shot. it will only proceed after acquiring all the locks and will not block while holding a mutex.
+
