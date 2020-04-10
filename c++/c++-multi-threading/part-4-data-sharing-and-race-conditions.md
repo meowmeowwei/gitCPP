@@ -93,7 +93,7 @@ use lock\_guard which implements RAII for mutex
 
 ```
 
-Scope\_lock can be used to lock multiple mutex
+Scope\_lock can be used to lock multiple mutex, scope lock is a better version than lock\_guard, lock\_guard can only lock one element
 
 ```cpp
 
