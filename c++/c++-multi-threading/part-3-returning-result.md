@@ -2,6 +2,8 @@
 
 parse in the variable as a constant, in the return value, do the updates.
 
+returning results through reference is not very elegant, should try use condition\_variable or future
+
 ```cpp
 
 #include <iostream>
