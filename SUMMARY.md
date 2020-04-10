@@ -78,6 +78,7 @@
     * [Part 1 - Creating Threads](c++/c++-multi-threading/part-1-creating-threads.md)
     * [Part 2 . Joining and Detaching Threads](c++/c++-multi-threading/part-2-.-joining-and-detaching-threads.md)
     * [Part 3 - Pass Arguments to Threads](c++/c++-multi-threading/part-3-pass-arguments-to-threads.md)
+    * [Part 3 - Returning result](c++/c++-multi-threading/part-3-returning-result.md)
     * [Part 4 - Data Sharing and Race Conditions](c++/c++-multi-threading/part-4-data-sharing-and-race-conditions.md)
     * [Part 5 Event Handling](c++/c++-multi-threading/part-5-event-handling.md)
     * [Part 6 future/promise/returning value from thread](c++/c++-multi-threading/part-6-future-promise-returning-value-from-thread.md)
