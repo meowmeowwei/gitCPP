@@ -71,7 +71,19 @@ cout << local << endl; //without volatile, compiler will do optimization and ign
 多线程应用中被几个任务共享的变量  
 **3\)一个参数既可以是const还可以是volatile吗？解释为什么。**
 
-可以。一个例子是只读的状态寄存器。它是volatile因为它可能被意想不到地改变。它是const因为程序不应该试图去修改它。  
+可以。一个例子是只读的状态寄存器。它是volatile因为它可能被意想不到地改变。它是const因为程序不应该试图去修改它。
+
+[answer ](https://www.tutorialspoint.com/Can-a-Cplusplus-variable-be-both-const-and-volatile)
+
+```text
+yes, it's used in situation like hardware register, or reading output of another
+thread.
+volatile menas it can changed by something else external to the current thread.
+const means you do not write to it in the current program which declares it as const.
+
+```
+
+  
 **4）一个指针可以是volatile 吗？解释为什么。**  
 可以。尽管这并不很常见。一个例子当中断服务子程序修该一个指向一个buffer的指针时。
 
@@ -93,6 +105,13 @@ int a;
 a = \*ptr;  
 return a \* a;  
 }
+
+```text
+yes, it's possible ... but may cause side effects and the compiler will keep 
+trying to read from the memory. 
+
+
+```
 
 **3.static const等等的用法，（能说出越多越好）（重点）**
 
