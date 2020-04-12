@@ -68,5 +68,5 @@ void searchBFS(Node root){
 }
 ```
 
-
+Sample Question LeetCode -&gt; [https://www.cnblogs.com/grandyang/p/4402656.html](https://www.cnblogs.com/grandyang/p/4402656.html)
 
