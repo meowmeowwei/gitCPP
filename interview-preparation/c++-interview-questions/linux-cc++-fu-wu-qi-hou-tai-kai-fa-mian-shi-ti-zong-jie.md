@@ -143,6 +143,15 @@ Const如何做到只读？
 
 这些在编译期间完成，对于内置类型，如int， 编译器可能使用常数直接替换掉对此变量的引用。而对于结构体不一定。
 
+```text
+specifies that the object or variable is not modifiable.
+
+1) const values
+2) const pointers
+```
+
+
+
 ²  **再说说static的用法（三个明显的作用一定要答出来）**
 
 **1）在函数体，一个被声明为静态的变量在这一函数被调用过程中维持其值不变。**  
