@@ -16,6 +16,22 @@ description: 'https://www.cnblogs.com/nancymake/p/6516933.html'
 
 2\)C/C++开发语言，C语言更偏向硬件底层开发，C++语言是目前为止我认为语法内容最多的一种语言。C/C++在执行速度上要快很多，毕竟其他类型的语言大都是C开发的，更多应用于网络编程和嵌入式编程。
 
+[difference between c++ and java ](https://www.softwaretestinghelp.com/cpp-vs-java/)
+
+```text
+c++ vs java
+
+both are object oriented
+
+java has garbage collection, c++ has no garbage collection
+
+java is platform independent , c++ is platform dependent
+
+java supports multiple inheritance, c++ doesnt support multiple inheritance
+```
+
+
+
 **2.volatile是干啥用的，（必须将cpu的寄存器缓存机制回答的很透彻），使用实例有哪些？（重点）**
 
 **1）**访问寄存器比访问内存单元要快,编译器会优化减少内存的读取，可能会读脏数据。声明变量为volatile，编译器不再对访问该变量的代码优化，仍然从内存读取，使访问稳定。
