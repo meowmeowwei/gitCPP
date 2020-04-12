@@ -38,6 +38,32 @@ java supports multiple inheritance, c++ doesnt support multiple inheritance
 
 总结：volatile关键词影响编译器编译的结果，用volatile声明的变量表示该变量随时可能发生变化，与该变量有关的运算，不再编译优化，以免出错。
 
+answer : [why need volatile keyword ](https://www.geeksforgeeks.org/understanding-volatile-qualifier-in-c/)
+
+```cpp
+// needed to prevent compiler optimization as the values can be changed by codes outside 
+the scope of the current code at any time. it forces the system to read current value 
+from memory location rather than keeping it in a tempoary register.
+
+example
+1) global variables modified by interrupt service routine outside the scope
+2) global variable with multi-threaded application 
+
+const int local = 10;
+int * ptr = (int*) &local;
+*ptr = 100;
+
+cout << local << endl; //without volatile, compiler will do optimization and ignore
+                       // instructions that modifying the constant variable 
+                       // will 10 
+                       
+                       // with vlatile , will print 100
+
+
+
+
+```
+
 **2）使用实例如下\(**区分C程序员和嵌入式系统程序员的最基本的问题。**\)：**
 
 并行设备的硬件寄存器（如：状态寄存器）  
