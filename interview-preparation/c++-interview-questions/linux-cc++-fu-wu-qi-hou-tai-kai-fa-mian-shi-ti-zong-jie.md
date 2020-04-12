@@ -168,6 +168,68 @@ static全局变量与普通的全局变量有什么区别：static全局变量�
 static局部变量和普通局部变量有什么区别：static局部变量只被初始化一次，下一次依据上一次结果值；  
 static函数与普通函数有什么区别：static函数在内存中只有一份，普通函数在每个被调用中维持一份拷贝
 
+Ans : [static keyword in C++](https://www.geeksforgeeks.org/static-keyword-cpp/)
+
+```cpp
+Static Variable 
+Static Memeber of Class 
+
+1) Static Variable in a function  (static variable stored in data segment of memory)
+
+space gets allocated for the lifetime of the program 
+
+
+void demo() 
+{  
+    // static variable 
+    static int count = 0; 
+    cout << count << " "; 
+      
+    // value is updated and 
+    // will be carried to next 
+    // function calls 
+    count++; 
+} 
+  
+int main() 
+{ 
+    for (int i=0; i<5; i++)     
+        demo(); 
+    return 0; 
+} 
+
+2) Static variable in a class shared by all instances of the class
+
+programmer should define the static varable to make sure it works 
+
+class GfG 
+{ 
+public: 
+    static int i; 
+      
+    GfG() 
+    { 
+        // Do nothing 
+    }; 
+}; 
+  
+int GfG::i = 1; 
+  
+int main() 
+{ 
+    GfG obj; 
+    // prints value of i 
+    cout << obj.i;  
+} 
+
+
+3) static member functions are allowed to access only the static data members
+or other static member functions., they can not access the non-static data 
+memebers or member functions of the class.
+
+
+```
+
 **4.extern c 作用**
 
 告诉编译器该段代码以C语言进行编译。
