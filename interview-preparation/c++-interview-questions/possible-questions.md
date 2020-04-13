@@ -72,3 +72,11 @@ For example, a 32-bit application generally has a virtual address space of 2GB. 
 
 A interesting question is, why do we still have this limit on 64-bit platforms. I do not know the answer, but I assume that people are already used to some "stack best practices": be careful to allocate huge objects on the heap and, if needed, manually increase the stack size. Therefore, nobody found it useful to add "huge" stack support on 64-bit platforms.
 
+5\) [difference between emplace\_back and push\_back ?](https://www.geeksforgeeks.org/emplace-vs-insert-c-stl/)
+
+emplace does in-place insertion and avoids copying by doing in place construction by taking in the arguments needs for constructor.
+
+push\_back will do a copy / move to the new element. 
+
+i[t’s true that when implicit conversions are involved](https://abseil.io/tips/112), `emplace_back()` can be somewhat faster than `push_back()`. For example, in the code that we began with, `my_vec.push_back("foo")` constructs a temporary `string` from the string literal, and then moves that string into the container, whereas `my_vec.emplace_back("foo")` just constructs the `string` directly in the container, avoiding the extra move. For more expensive types, this may be a reason to use `emplace_back()` instead of `push_back()`, despite the readability and safety costs, but then again it may not. Very often the performance difference just won’t matter. As always, the rule of thumb is that you should avoid “optimizations” that make the code less safe or less clear, unless the performance benefit is big enough to show up in your application benchmarks.
+
