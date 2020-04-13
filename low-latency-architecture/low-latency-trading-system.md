@@ -10,5 +10,5 @@ Interrupt latency is defined as the time elapsed between when an interrupt is ge
 
 Solarflare introduced “OpenOnload” in 2011, which implements a technique known as kernel bypass, where the processing of the packet is not left to the operating system kernel but to the userspace itself. The entire packet is directly mapped into the userspace by the NIC and is processed there. As a result, interrupts are completely avoided.
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 

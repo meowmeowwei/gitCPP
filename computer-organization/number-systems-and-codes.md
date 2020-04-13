@@ -2,23 +2,23 @@
 
 base or radix is 10, represents total numbers or symbols allowed in the system. 
 
-![](../.gitbook/assets/image%20%28158%29.png)
+![](../.gitbook/assets/image%20%28159%29.png)
 
 Converting Whole Number to Binary , constantly divide by 2 until quotient is 0
 
 43 -&gt; 101011
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 Converting decimal fractions to binary, repeatedly multiply by 2 
 
 0.3125 = .0101
 
-![](../.gitbook/assets/image%20%28159%29.png)
+![](../.gitbook/assets/image%20%28160%29.png)
 
 Binary to Octal/ Hex conversion 
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 
 Representing signed numbers
 
@@ -28,7 +28,7 @@ Representing signed numbers
 
 3\) 2s Complement \(-x = 2^n -x\)
 
-![](../.gitbook/assets/image%20%2880%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 
 

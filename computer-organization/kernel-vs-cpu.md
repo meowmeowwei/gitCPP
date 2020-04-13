@@ -15,7 +15,7 @@ So, while the CPU is the hardware component that does operations, the kernel is 
 
 multiple cores -&gt; single chip containing multiple cpus.
 
-![Intel Core i7](../.gitbook/assets/image%20%2868%29.png)
+![Intel Core i7](../.gitbook/assets/image%20%2869%29.png)
 
 
 

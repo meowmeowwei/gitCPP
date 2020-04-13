@@ -14,7 +14,7 @@ Actually a **std::future** object internally stores a value that will be assigne
 
 A **std::promise** object shares data with its associated **std::future** object.
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2856%29.png)
 
 ```cpp
 

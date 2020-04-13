@@ -71,6 +71,7 @@
     * [Bubble Sort](data-structure-and-algorithm/sorting/bubble-sort.md)
   * [Princeton algorithm](data-structure-and-algorithm/princeton-algorithm.md)
   * [Berkely CS61B](data-structure-and-algorithm/berkely-cs61b.md)
+* [Groking System Design Interview](groking-system-design-interview.md)
 * [Low Latency Architecture](low-latency-architecture/README.md)
   * [Low Latency Trading System](low-latency-architecture/low-latency-trading-system.md)
   * [Low Latency Programming](low-latency-architecture/low-latency-c++-study-notes.md)

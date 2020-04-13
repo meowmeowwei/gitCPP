@@ -6,7 +6,7 @@ description: 'https://www.modernescpp.com/index.php/std-weak-ptr'
 
 Can be used to break circular reference 
 
-![](../../.gitbook/assets/image%20%28140%29.png)
+![](../../.gitbook/assets/image%20%28141%29.png)
 
 ```cpp
 // cycle.cpp
@@ -65,5 +65,5 @@ Thanks to the artificial scope in line 41 - 47, the lifetime of the mother, the 
 Should, because only the destructor of the class Daughter is called.  
 
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
