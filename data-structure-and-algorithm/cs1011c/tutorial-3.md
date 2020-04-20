@@ -59,5 +59,62 @@ int main(){
 
 ```
 
+question 2 . Vector processing
 
+```cpp
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+void cleanUp (vector<string> & pallets){
+	int index =1;
+	string prev = pallets[0];
+
+	while (index <= pallets.size()){
+		if(pallets[index] == pallets[index-1]){
+			pallets.erase(pallets.begin()+index); // erase will cause the later elements to be copied forward 
+		}
+		else{
+			index ++;
+		}
+	}
+}
+
+void cleanUp2 (vector<string> & pallets){
+	vector<string> :: iterator prev = pallets.begin();
+	auto curr = prev +1;
+
+	
+	while (curr < pallets.end()){
+		if(*prev == * curr ){
+			curr = pallets.erase(curr);
+		}
+		else{
+			prev++;
+			curr++;
+		}
+	}
+}
+
+void cleanUp3 (vector<string> & pallets){
+	pallets.resize(unique(pallets.begin(), pallets.end()) - pallets.begin()); // unique will return iterator pointing to new last element
+}
+
+
+int main(){
+	
+	vector<string> ss = {"hello", "hello", "sunwei"};
+
+	cleanUp3(ss);
+
+	cout << ss.size();
+
+}
+
+
+
+```
 
