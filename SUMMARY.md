@@ -57,6 +57,7 @@
   * [Chapter 10 - Sorting and Searching](cracking-code-interview/chapter-10-sorting-and-searching.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [CS1011C](data-structure-and-algorithm/cs1011c.md)
+  * [Tutorial 1](data-structure-and-algorithm/tutorial-1.md)
   * [Recursion](data-structure-and-algorithm/recursion.md)
   * [Asymptotic Notations](data-structure-and-algorithm/asymptotic-notations.md)
   * [String Manipulation](data-structure-and-algorithm/string-manipulation.md)
