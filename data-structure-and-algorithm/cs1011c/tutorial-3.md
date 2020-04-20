@@ -118,3 +118,52 @@ int main(){
 
 ```
 
+Question 3
+
+```cpp
+#include <iomanip>
+#include <iostream>
+#include <sstream>
+#include <string>
+using namespace std;
+class Product {
+string _productID; // any non-negative int is a valid ID
+string _volume; // in cubic mm
+string _weight; // in grams
+public:
+Product(string pInput) { 
+	int firstDelimiter = pInput.find_first_of(",:;|#");
+	int lastDelimiter = pInput.find_last_of(",:;|#");
+	int lastSpace = pInput.rfind(" ");
+
+	_productID = pInput.substr(0, firstDelimiter);
+	_volume = pInput.substr(lastDelimiter+1, lastSpace - lastDelimiter);
+	_weight = pInput.substr(lastSpace+1, string::npos);
+
+
+} // parse 1 record - set member vars
+
+string str() {
+
+
+ostringstream oss;
+oss << "|" << setw(8) << _productID << "|" << setw(7) << _volume
+<< "|" << setw(4) << _weight << "|";
+return oss.str();
+
+
+ } // return the nicely formatted record
+
+string getProductID() { return _productID; }
+string getVolume() { return _volume; }
+string getWeight() { return _weight; }
+};
+
+int main(){
+	Product p ("00900#acm327df2mm3d1f0#Carburetor needle;Honda CB400;4 pcs;8 5");
+
+	cout << p.str() << endl;
+}
+
+```
+
