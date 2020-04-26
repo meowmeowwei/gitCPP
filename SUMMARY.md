@@ -59,6 +59,8 @@
   * [CS1011C](data-structure-and-algorithm/cs1011c/README.md)
     * [Tutorial 1](data-structure-and-algorithm/cs1011c/tutorial-1.md)
     * [Tutorial 3](data-structure-and-algorithm/cs1011c/tutorial-3.md)
+  * [CS2040C](data-structure-and-algorithm/cs2040c/README.md)
+    * [Tutorial 1](data-structure-and-algorithm/cs2040c/tutorial-1.md)
   * [Recursion](data-structure-and-algorithm/recursion.md)
   * [Asymptotic Notations](data-structure-and-algorithm/asymptotic-notations.md)
   * [String Manipulation](data-structure-and-algorithm/string-manipulation.md)
