@@ -1,5 +1,9 @@
 # Data Structure and Algorithm
 
+[Very Good OverView ](https://www.interviewcake.com/article/python/data-structures-coding-interview?course=dsa%3Futm_source&utm_medium=blog&utm_campaign=techinterview)
+
+
+
 cs1020 -&gt; [https://www.comp.nus.edu.sg/~stevenha/cs1020e.html ](https://www.comp.nus.edu.sg/~stevenha/cs1020e.html%20)
 
 cs2040c -&gt; [https://www.comp.nus.edu.sg/~stevenha/cs2040c.html](https://www.comp.nus.edu.sg/~stevenha/cs2040c.html)
