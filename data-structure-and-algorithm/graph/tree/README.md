@@ -20,8 +20,6 @@ PreOrder Traversal - print center node, then left node then right node
 
 PostOrder Traversal - print left, print right , print center 
 
-AVL Tree -&gt; a Binary Search Tree where the difference in height between left and right subtree is at most one.
-
  
 
 

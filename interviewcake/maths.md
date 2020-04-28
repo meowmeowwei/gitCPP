@@ -18,9 +18,40 @@ void appearTwice(vector<int> & vec){
 }
 
 
+void appearTwice2(vector<int> & vec){
+	sort(vec.begin(), vec.end());
+
+	int prev = vec[0];
+
+	for(int i=1; i < vec.size(); i++){
+		if(prev == vec[i]){
+			cout << vec[i]<<endl;
+			return;
+		}
+		else{
+			prev = vec[i];
+		}
+
+ }		
+
+}
+
+void appearTwice3(vector<int> & vec){ 
+
+// we can calculate totoal for trangular series
+
+	int n = vec.size()-1;
+	int sum = (n*(n+1))/2;
+
+	int totalSum = accumulate(vec.begin(), vec.end(), 0);
+	
+	cout << totalSum - sum << endl;	
+
+}
+
 int main(){
 	
- vector<int> vec = {10, 7, 5, 8, 7, 11, 9};
+ vector<int> vec = {1, 2, 2, 3, 4};
 
  appearTwice(vec);
 
