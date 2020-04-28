@@ -59,3 +59,33 @@ int main(){
 }
 ```
 
+2\) [Check Item in the List ](https://www.interviewcake.com/question/python/find-in-ordered-set?course=fc1&section=combinatorics-probability-math)
+
+```cpp
+// Binary search log (n) size 1
+bool findItem(vector<int> & vec, int x, int start, int end){
+	
+	if (start > end)
+		return false;
+	int m = start + (end-start)/2;
+	if(vec[m] == x)
+		return true;
+	if(vec[m]> x){
+		return findItem(vec, x, 0, m-1);
+	}
+	else{
+		return findItem(vec, x, m+1, end);
+	}
+
+}
+
+int main(){
+	
+ vector<int> vec = {1,2,2,3,4,5};
+
+ cout << boolalpha << findItem(vec, 5, 0, 5) << endl;
+
+
+
+```
+
