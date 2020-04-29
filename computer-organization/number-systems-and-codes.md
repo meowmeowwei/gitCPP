@@ -36,3 +36,23 @@ UTF-8 = Unicode 8 Bits.
 
 ASCII code -&gt; 7 bits plus one detection bit \( right most bit for Even or Odd definition\)
 
+
+
+[two's complement ](https://www.interviewcake.com/concept/cpp/binary-numbers?course=fc1&section=bit-manipulation)
+
+
+
+| **Decimal** | **Binary** | **Interpretation** |
+| :--- | :--- | :--- |
+| -5−5 | 1011 | -8 + 0 + 2 + 1 |
+| -4−4 | 1100 | -8 + 4 + 0 + 0 |
+| -3−3 | 1101 | -8 + 4 + 0 + 1 |
+| -2−2 | 1110 | -8 + 4 + 2 + 0 |
+| -1−1 | 1111 | -8 + 4 + 2 + 1 |
+| 00 | 0000 | 0 + 0 + 0 + 0 |
+| 11 | 0001 | 0 + 0 + 0 + 1 |
+| 22 | 0010 | 0 + 0 + 2 + 0 |
+| 33 | 0011 | 0 + 0 + 2 + 1 |
+| 44 | 0100 | 0 + 4 + 0 + 0 |
+| 55 | 0101 | 0 + 4 + 0 + 1 |
+
