@@ -56,3 +56,11 @@ ASCII code -&gt; 7 bits plus one detection bit \( right most bit for Even or Odd
 | 44 | 0100 | 0 + 4 + 0 + 0 |
 | 55 | 0101 | 0 + 4 + 0 + 1 |
 
+
+
+So, should 1011 be read as "eleven" \(in binary\) or "negative five" \(in two's complement\)?
+
+It could be either one! Many languages have two types of numbers: **signed** and **unsigned**. Signed numbers are represented in two's complement, and unsigned numbers use plain old base 2.
+
+So, if an interviewer asks you to convert base-2 into decimal, ask: "is that in two's complement or not?"
+
