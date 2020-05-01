@@ -66,6 +66,7 @@
   * [Recursion](data-structure-and-algorithm/recursion.md)
   * [Asymptotic Notations](data-structure-and-algorithm/asymptotic-notations.md)
   * [String Manipulation](data-structure-and-algorithm/string-manipulation.md)
+  * [Bit Manipulation](data-structure-and-algorithm/bit-manipulation.md)
   * [Reversing a LinkedList](data-structure-and-algorithm/reversing-a-linkedlist.md)
   * [Graph](data-structure-and-algorithm/graph/README.md)
     * [Tree](data-structure-and-algorithm/graph/tree/README.md)
