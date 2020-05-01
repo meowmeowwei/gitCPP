@@ -31,8 +31,6 @@ In the end, we'll be left with the ID that appeared once!
 }
 ```
 
-CC\#C++JavaJavaScriptObjective-CPHPPython 2.7Python 3.6RubySwift
-
 #### Complexity
 
 O\(n\)O\(n\) time, and O\(1\)O\(1\) space.
