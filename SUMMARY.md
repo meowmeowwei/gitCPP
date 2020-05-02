@@ -59,6 +59,7 @@
   * [Arrays](interviewcake/arrays/README.md)
     * [Merge Meetings](interviewcake/arrays/merge-meetings.md)
     * [inplace reverse string](interviewcake/arrays/inplace-reverse-string.md)
+    * [Reverse Words](interviewcake/arrays/reverse-words.md)
   * [Maths](interviewcake/maths.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [CS1011C](data-structure-and-algorithm/cs1011c/README.md)
