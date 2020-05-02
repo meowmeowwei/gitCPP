@@ -56,6 +56,8 @@
   * [Chapter 8 - Recursion and Dynamic Programming](cracking-code-interview/chapter-8-recursion-and-dynamic-programming.md)
   * [Chapter 10 - Sorting and Searching](cracking-code-interview/chapter-10-sorting-and-searching.md)
 * [InterviewCake](interviewcake/README.md)
+  * [Arrays](interviewcake/arrays/README.md)
+    * [Merge Meetings](interviewcake/arrays/merge-meetings.md)
   * [Maths](interviewcake/maths.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [CS1011C](data-structure-and-algorithm/cs1011c/README.md)
