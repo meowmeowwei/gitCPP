@@ -58,6 +58,7 @@
 * [InterviewCake](interviewcake/README.md)
   * [Hashing](interviewcake/hashing/README.md)
     * [inflight-system](interviewcake/hashing/inflight-system.md)
+    * [Permutation Combination](interviewcake/hashing/permutation-combination.md)
   * [Arrays](interviewcake/arrays/README.md)
     * [Merge Meetings](interviewcake/arrays/merge-meetings.md)
     * [inplace reverse string](interviewcake/arrays/inplace-reverse-string.md)
