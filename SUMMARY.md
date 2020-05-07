@@ -71,6 +71,7 @@
   * [Greedy Algorithm](interviewcake/greedy-algorithm/README.md)
     * [Apple Prices](interviewcake/greedy-algorithm/apple-prices.md)
     * [highest product of 3 integers](interviewcake/greedy-algorithm/highest-product-of-3-integers.md)
+    * [Products of all Except current Index](interviewcake/greedy-algorithm/products-of-all-except-current-index.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [CS1011C](data-structure-and-algorithm/cs1011c/README.md)
     * [Tutorial 1](data-structure-and-algorithm/cs1011c/tutorial-1.md)
