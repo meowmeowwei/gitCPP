@@ -68,6 +68,7 @@
     * [Merge Sorted Vector](interviewcake/arrays/merge-sorted-vector.md)
     * [Registered TakeOut](interviewcake/arrays/registered-takeout.md)
   * [Maths](interviewcake/maths.md)
+  * [Greedy Algorithm](interviewcake/greedy-algorithm.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [CS1011C](data-structure-and-algorithm/cs1011c/README.md)
     * [Tutorial 1](data-structure-and-algorithm/cs1011c/tutorial-1.md)
