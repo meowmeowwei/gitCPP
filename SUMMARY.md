@@ -56,6 +56,8 @@
   * [Chapter 8 - Recursion and Dynamic Programming](cracking-code-interview/chapter-8-recursion-and-dynamic-programming.md)
   * [Chapter 10 - Sorting and Searching](cracking-code-interview/chapter-10-sorting-and-searching.md)
 * [InterviewCake](interviewcake/README.md)
+  * [Sorting and Searching](interviewcake/sorting-and-searching/README.md)
+    * [Find Rotation Points](interviewcake/sorting-and-searching/find-rotation-points.md)
   * [Hashing](interviewcake/hashing/README.md)
     * [inflight-system](interviewcake/hashing/inflight-system.md)
     * [Permutation Combination](interviewcake/hashing/permutation-combination.md)
