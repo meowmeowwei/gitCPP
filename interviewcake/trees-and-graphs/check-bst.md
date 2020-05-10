@@ -1,5 +1,11 @@
 # Check BST
 
+DFS, 
+
+time -&gt; O\(n\)
+
+space -&gt; level  \(log2N\) -&gt; level 
+
 ```cpp
 
 
