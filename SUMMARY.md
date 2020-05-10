@@ -70,6 +70,7 @@
     * [Merge Sorted Vector](interviewcake/arrays/merge-sorted-vector.md)
     * [Registered TakeOut](interviewcake/arrays/registered-takeout.md)
   * [Maths](interviewcake/maths.md)
+  * [Trees and Graphs](interviewcake/trees-and-graphs.md)
   * [Greedy Algorithm](interviewcake/greedy-algorithm/README.md)
     * [Apple Prices](interviewcake/greedy-algorithm/apple-prices.md)
     * [highest product of 3 integers](interviewcake/greedy-algorithm/highest-product-of-3-integers.md)
