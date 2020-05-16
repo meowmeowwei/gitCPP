@@ -8,3 +8,5 @@ Stack
 
 2\) last in first out 
 
+implemented using linkedList or Dynamic array
+
