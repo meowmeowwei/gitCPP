@@ -58,6 +58,7 @@
 * [InterviewCake](interviewcake/README.md)
   * [Queue and Stack](interviewcake/queue-and-stack/README.md)
     * [Parenthesis validation](interviewcake/queue-and-stack/parenthesis-validation.md)
+    * [Validation 2](interviewcake/queue-and-stack/validation-2.md)
   * [Recursion](interviewcake/recursion/README.md)
     * [Permutation of String](interviewcake/recursion/permutation-of-string.md)
     * [Fibonachi](interviewcake/recursion/fibonachi.md)
