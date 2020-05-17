@@ -163,6 +163,7 @@
     * [low latency c++](c++/cppcon/low-latency-c++.md)
   * [C++ Design Patterns](c++/c++-design-patterns.md)
   * [Socket Programming](c++/socket-programming.md)
+  * [C++ virtual inheritance](c++/c++-virtual-inheritance.md)
 * [Java](java/README.md)
   * [Ambrosia](java/ambrosia.md)
   * [Heap offloading](java/heap-offloading.md)
