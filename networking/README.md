@@ -16,5 +16,7 @@ introduction
 
 1\) 1MB = 1000000 bytes, 1 KB = 1000 bytes
 
+2\) layering -&gt; Application layer, Transport Layer, network Layer, link Layer , Physical Layer
+
 
 
