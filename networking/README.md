@@ -18,5 +18,7 @@ introduction
 
 2\) layering -&gt; Application layer, Transport Layer, network Layer, link Layer , Physical Layer
 
+linkLayer = break larger network messages into individual frames
+
 
 
