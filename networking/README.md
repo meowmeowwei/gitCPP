@@ -1,16 +1,8 @@
+---
+description: 'http://cseweb.ucsd.edu/classes/fa11/cse123-a/syllabus.html'
+---
+
 # Computer Networking
-
-**1\) Computer networking**
-
-a. VLAN switches \(Pick any Cisco\)
-
-b. Routers
-
-c. TCP/IP commands and protocols
-
-d. Subnet mask calculations and borrowing bits concept
-
-{% embed url="https://www.cs.cmu.edu/~srini/15-441/S10/" %}
 
 **introduction** 
 
