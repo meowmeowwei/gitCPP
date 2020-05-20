@@ -4,6 +4,7 @@
 * [C++ Developer](c++-developer.md)
 * [TaskList](tasklist.md)
 * [Interview Preparation](interview-preparation/README.md)
+  * [System Design](interview-preparation/system-design.md)
   * [LeetCode](interview-preparation/leecode/README.md)
     * [3. longest substring](interview-preparation/leecode/3.-longest-substring.md)
     * [4. Median of Two sorted arrays](interview-preparation/leecode/4.-median-of-two-sorted-arrays.md)
@@ -201,8 +202,6 @@
   * [network packet switching](networking/network-packet-switching.md)
   * [network circuit switching](networking/network-circuit-switching.md)
 * [Linux System Programming](linux-system-programming.md)
-* [Good Reference Websites](good-reference-websites.md)
-* [System Design](system-design.md)
 * [Computer Organization](computer-organization/README.md)
   * [Introduction](computer-organization/introduction.md)
   * [number systems and codes](computer-organization/number-systems-and-codes.md)
@@ -211,4 +210,5 @@
   * [Virtual Memory and Paging](computer-organization/virtual-memory-and-paging.md)
   * [CacheLine structure](computer-organization/cacheline-structure.md)
   * [Stack vs Heap](computer-organization/stack-vs-heap.md)
+* [Good Reference Websites](good-reference-websites.md)
 
