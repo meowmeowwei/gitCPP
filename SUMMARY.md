@@ -202,6 +202,7 @@
   * [network packet switching](networking/network-packet-switching.md)
   * [network circuit switching](networking/network-circuit-switching.md)
 * [Linux System Programming](linux-system-programming.md)
+* [Good Reference Websites](good-reference-websites.md)
 * [Computer Organization](computer-organization/README.md)
   * [Introduction](computer-organization/introduction.md)
   * [number systems and codes](computer-organization/number-systems-and-codes.md)
@@ -210,5 +211,4 @@
   * [Virtual Memory and Paging](computer-organization/virtual-memory-and-paging.md)
   * [CacheLine structure](computer-organization/cacheline-structure.md)
   * [Stack vs Heap](computer-organization/stack-vs-heap.md)
-* [Good Reference Websites](good-reference-websites.md)
 
