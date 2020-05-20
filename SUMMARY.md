@@ -1,7 +1,6 @@
 # Table of contents
 
 * [ReadMe](README.md)
-* [C++ Developer](c++-developer.md)
 * [Interview Preparation](interview-preparation/README.md)
   * [System Design](interview-preparation/system-design.md)
   * [LeetCode](interview-preparation/leecode/README.md)
@@ -149,6 +148,7 @@
   * [CacheLine structure](computer-organization/cacheline-structure.md)
   * [Stack vs Heap](computer-organization/stack-vs-heap.md)
 * [C++](c++/README.md)
+  * [C++ Developer](c++/c++-developer.md)
   * [Linux System Programming](c++/linux-system-programming.md)
   * [Untitled](c++/untitled.md)
   * [C++ Multi-Threading](c++/c++-multi-threading/README.md)
