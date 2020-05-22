@@ -74,7 +74,7 @@ take bits \(digital data\) &gt; modulate to send data \(analog\) -&gt; demodulat
 
  4\) [Error handling ](https://www.geeksforgeeks.org/error-detection-in-computer-networks/)
 
-checksum, adding extra bit to frame, hamming distance , two dimensional parity
+checksum, adding extra bit to frame \(parity bits makes total number of 1s even\), hamming distance , two dimensional parity
 
 
 
