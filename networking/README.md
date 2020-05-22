@@ -4,6 +4,8 @@ description: 'http://cseweb.ucsd.edu/classes/fa11/cse123-a/syllabus.html'
 
 # Computer Networking
 
+\*\*\*\*[**CS123**](http://cseweb.ucsd.edu/classes/fa11/cse123-a/syllabus.html)\*\*\*\*
+
 **introduction** 
 
 1\) 1MB = 1000000 bytes, 1 KB = 1000 bytes
