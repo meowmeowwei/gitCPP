@@ -118,6 +118,7 @@
   * [8.Main Memory](operating-system/8.main-memory.md)
   * [9.Virtual Memory](operating-system/9.virtual-memory.md)
 * [Computer Networking](networking/README.md)
+  * [Network Common Terms](networking/network-common-terms.md)
   * [IPV4 vs IPV6](networking/ipv4-vs-ipv6.md)
   * [Reliable Data Transfer](networking/reliable-data-transfer/README.md)
     * [Stop and Wait](networking/reliable-data-transfer/stop-and-wait.md)
