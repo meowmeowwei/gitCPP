@@ -48,8 +48,33 @@ Session Layer -&gt; Session management and synchronisation
 
 Presentation Layer -&gt; Data format conversion 
 
-Application Layer -&gt; \(e.g. SSH, HTTP\)  
+Application Layer -&gt; \(e.g. SSH, HTTP\)
 
+4\) Standard packet header 
+
+![](../.gitbook/assets/image%20%28179%29.png)
+
+**lecture 3 Signalling and clock recovery** 
+
+1\) analog vs digital 
+
+analog can be converted to digital for storage and then back to analog 
+
+take bits \(digital data\) &gt; modulate to send data \(analog\) -&gt; demodulate to retrieve data \(digital again\) 
+
+
+
+**lecture 4, Framing and Error Detection** 
+
+1\) data Link layer will Frame \(break stream of bits up into discrete chunks\) and do error handling \(detect or correct errors in received frames\) , Multiplexing \(determine appropriate destination for a given frame\) 
+
+2\) frame means wraps payload with some additional information such as header and trailer 
+
+3\) types of frames \(fixed-length frames, length-based frames \(has length fields\), sentinel-based framing \(with marker front and back\)\)
+
+ 4\) [Error handling ](https://www.geeksforgeeks.org/error-detection-in-computer-networks/)
+
+checksum, adding extra bit to frame, hamming distance , two dimensional parity
 
 
 
