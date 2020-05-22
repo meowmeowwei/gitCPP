@@ -4,7 +4,7 @@ Application Layer -&gt; process to process data exchange for applications
 
 Transport Layer -&gt; handle host to host communication  -&gt; creates data segments
 
-Internet Layer -&gt; provide internetworking between independent networks -&gt; creates data grams
+Network Layer -&gt; provide internetworking between independent networks -&gt; creates data grams 
 
 Linked Layer -&gt; communication methods for data transmit -&gt; forwards the packets
 
