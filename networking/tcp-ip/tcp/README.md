@@ -1,3 +1,7 @@
+---
+description: 'wikipedia -> https://en.wikipedia.org/wiki/Transmission_Control_Protocol'
+---
+
 # TCP
 
 Uses fix connection for communication between applications
