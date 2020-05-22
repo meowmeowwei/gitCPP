@@ -20,7 +20,7 @@ HAP Capital is seeking a strong C++ Systems Developer who will focus on automate
 * Proficiency in Software Engineering including design/requirement specs, testing, QA, release
 * Experience with low-level system facilities: threading, I/O, signals, shared memory, VM, VFS
 * Experience in distributed computing including exchange topology, market gateways, and SORs
-* Knowledge of TCP/IP, UDP, and network topology; experience with socket programming
+* Knowledge of [TCP](https://app.gitbook.com/@sun-wei-9/s/workspace/~/drafts/-M7vGWnikov6cklOzYCp/networking/tcp-ip/tcp)/IP, UDP, and [network topology](https://en.wikipedia.org/wiki/Network_topology); experience with socket programming
 * Knowledge of Exchange connectivity, Order Management Systems, and High Frequency Trading
 
 #### **Additional skills/experience that will reflect favorably**
