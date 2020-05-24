@@ -1,5 +1,13 @@
 # IP \(internet protocol\)
 
+provides datagram service \(packets are handled and delivered independently\)
+
+best-effort protocol \( may loose, reordered or duplicate packets\)
+
+each packet must contain an IP address of its destination.
+
+
+
 IP is connection less 
 
 it's used for communication between computers
