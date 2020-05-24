@@ -34,7 +34,7 @@ if link is full \(queue the packet\), if queue is full \(drop the packet\)
 
 internet is using packet switching 
 
-3\) OSI - Model
+3\) [OSI - Model](https://en.wikipedia.org/wiki/OSI_model)
 
 Physical Layer -&gt; move information between two systems via a physical link
 

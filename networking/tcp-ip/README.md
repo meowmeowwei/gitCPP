@@ -6,6 +6,10 @@ description: 'http://w3schools.sinsixx.com/tcpip/default.asp.htm'
 
 TCP/IP stands for **T**ransmission **C**ontrol **P**rotocol / **I**nternet **P**rotocol.
 
+![](../../.gitbook/assets/image%20%28180%29.png)
+
+
+
 ### Inside TCP/IP
 
 Inside the TCP/IP standard there are several protocols for handling data communication:
