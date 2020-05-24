@@ -6,7 +6,17 @@ description: 'https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutoria
 
 Socket - Abstraction through which application can send and receive data
 
-![](../.gitbook/assets/image%20%28183%29.png)
+issues to handle - 
+
+a. byte ordering \(big endian, small endian\)
+
+b. [Alignment and Padding](https://www.geeksforgeeks.org/data-structure-alignment/)
+
+
+
+
+
+![](../.gitbook/assets/image%20%28186%29.png)
 
 
 
@@ -14,11 +24,11 @@ Stream Sockets -&gt; Uses TCP
 
 Data Sockets -&gt; Uses UDP
 
-![](../.gitbook/assets/image%20%28182%29.png)
+![](../.gitbook/assets/image%20%28184%29.png)
 
 
 
-![](../.gitbook/assets/image%20%28181%29.png)
+![](../.gitbook/assets/image%20%28183%29.png)
 
 
 
@@ -143,7 +153,11 @@ main(int argc, char *argv[])
 
 ```
 
+**Byte-Ordering \(Big-endian, Small-endian\)**
 
+![](../.gitbook/assets/image%20%28182%29.png)
 
+![](../.gitbook/assets/image%20%28185%29.png)
 
+![](../.gitbook/assets/image%20%28181%29.png)
 
