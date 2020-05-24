@@ -154,7 +154,6 @@
 * [C++](c++/README.md)
   * [C++ Developer](c++/c++-developer.md)
   * [Linux System Programming](c++/linux-system-programming.md)
-  * [Untitled](c++/untitled.md)
   * [C++ Multi-Threading](c++/c++-multi-threading/README.md)
     * [Part 1 - Creating Threads](c++/c++-multi-threading/part-1-creating-threads.md)
     * [Part 2 . Joining and Detaching Threads](c++/c++-multi-threading/part-2-.-joining-and-detaching-threads.md)
