@@ -108,6 +108,7 @@
   * [Berkely CS61B](data-structure-and-algorithm/berkely-cs61b.md)
 * [Operating System](operating-system/README.md)
   * [Possible questions](operating-system/possible-questions.md)
+  * [Processes and Pthreads](operating-system/processes-and-pthreads.md)
   * [1.Introduction](operating-system/1.introduction.md)
   * [2.Operating System Structures](operating-system/2.operating-system-structures.md)
   * [3.Processes](operating-system/3.processes.md)
