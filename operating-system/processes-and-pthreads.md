@@ -4,5 +4,10 @@ description: 'https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-1st-tutoria
 
 # Processes and Pthreads
 
-Process -&gt; 
+Process   
+-&gt; instance of a program that is being executed 
+
+-&gt; consists of its own PCB \(Process Control Block\)
+
+![](../.gitbook/assets/image%20%28187%29.png)
 
