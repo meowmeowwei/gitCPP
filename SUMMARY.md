@@ -107,6 +107,7 @@
   * [Princeton algorithm](data-structure-and-algorithm/princeton-algorithm.md)
   * [Berkely CS61B](data-structure-and-algorithm/berkely-cs61b.md)
 * [Operating System](operating-system/README.md)
+  * [File Descriptor](operating-system/file-descriptor.md)
   * [Possible questions](operating-system/possible-questions.md)
   * [Processes and Pthreads](operating-system/processes-and-pthreads.md)
   * [1.Introduction](operating-system/1.introduction.md)
