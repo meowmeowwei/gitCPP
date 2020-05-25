@@ -9,13 +9,13 @@ Process
 
 -&gt; consists of its own PCB \(Process Control Block\)
 
-![](../.gitbook/assets/image%20%28190%29.png)
+![](../.gitbook/assets/image%20%28191%29.png)
 
 Call Stack \(composed of stack frames or activation records\)
 
 -&gt; each stack frame corresponds to an active subroutine and is machine dependent 
 
-![](../.gitbook/assets/image%20%28188%29.png)
+![](../.gitbook/assets/image%20%28189%29.png)
 
 Multi-tasking \(one CPU serving multiple processes\)
 
@@ -57,7 +57,7 @@ Threads own a stack and a copy of registers
 
 Threads are executed in parallel 
 
-![](../.gitbook/assets/image%20%28189%29.png)
+![](../.gitbook/assets/image%20%28190%29.png)
 
 ![](../.gitbook/assets/image%20%28187%29.png)
 
