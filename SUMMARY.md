@@ -154,6 +154,7 @@
   * [CacheLine structure](computer-organization/cacheline-structure.md)
   * [Stack vs Heap](computer-organization/stack-vs-heap.md)
 * [C++](c++/README.md)
+  * [gcc](c++/gcc.md)
   * [C++ Developer](c++/c++-developer.md)
   * [Linux System Programming](c++/linux-system-programming.md)
   * [C++ Multi-Threading](c++/c++-multi-threading/README.md)
