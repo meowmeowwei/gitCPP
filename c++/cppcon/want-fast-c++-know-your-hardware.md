@@ -14,5 +14,5 @@ e.g. 2d array, row iteration read is better than column based iteration ..
 
 [cache associativity ](https://en.wikipedia.org/wiki/Cache_placement_policies)-&gt; block of memory can not neccessary be placed randomly in the cache.  \( direct map cache, Fully associative cache, set-associative cache\)
 
-
+![](../../.gitbook/assets/image%20%28194%29.png)
 
