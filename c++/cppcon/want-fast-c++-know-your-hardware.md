@@ -20,5 +20,7 @@ Alignof -&gt; data objects in memory are aligned at specific location
 
 _\_attribute\__\(\(packed\)\)
 
+![](../../.gitbook/assets/image%20%28196%29.png)
+
 ![](../../.gitbook/assets/image%20%28195%29.png)
 
