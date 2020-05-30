@@ -4,7 +4,7 @@ description: 'https://www.youtube.com/watch?v=BP6NxVxDQIs&list=WL&index=3&t=0s'
 
 # Want fast c++ , know your hardware
 
-![](../../.gitbook/assets/image%20%28193%29.png)
+![](../../.gitbook/assets/image%20%28194%29.png)
 
 Prefetcher listens to the pattern of fetching values, and starts prefetching values ...
 
@@ -14,15 +14,15 @@ e.g. 2d array, row iteration read is better than column based iteration ..
 
 [cache associativity ](https://en.wikipedia.org/wiki/Cache_placement_policies)-&gt; block of memory can not neccessary be placed randomly in the cache.  \( direct map cache, Fully associative cache, set-associative cache\)
 
-![](../../.gitbook/assets/image%20%28195%29.png)
+![](../../.gitbook/assets/image%20%28196%29.png)
 
 Alignof -&gt; data objects in memory are aligned at specific location 
 
 _\_attribute\__\(\(packed\)\)
 
-![](../../.gitbook/assets/image%20%28197%29.png)
+![](../../.gitbook/assets/image%20%28198%29.png)
 
-![](../../.gitbook/assets/image%20%28196%29.png)
+![](../../.gitbook/assets/image%20%28197%29.png)
 
 why multi-thread is slow ?
 
@@ -30,7 +30,9 @@ if they all access same data, if one thread changes the variable, it invalidates
 
 atomic is sometimes slower than mutexes
 
+![](../../.gitbook/assets/image%20%28193%29.png)
+
+false sharing -&gt; although variables dont interfere with each other , but they are accessed and placed in same cache line... so the same cache line is invalidated 
+
 ![](../../.gitbook/assets/image%20%28192%29.png)
-
-
 
