@@ -207,6 +207,7 @@
   * [C++ template and generic programming](c++/c++-template-and-generic-programming/README.md)
     * [C++ Template Meta Programming](c++/c++-template-and-generic-programming/c++-template-meta-programming.md)
   * [CPPCon](c++/cppcon/README.md)
+    * [Want fast c++ , know your hardware](c++/cppcon/want-fast-c++-know-your-hardware.md)
     * [low latency c++](c++/cppcon/low-latency-c++.md)
   * [C++ Design Patterns](c++/c++-design-patterns.md)
   * [Socket Programming](c++/socket-programming.md)
