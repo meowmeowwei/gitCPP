@@ -16,3 +16,9 @@ e.g. 2d array, row iteration read is better than column based iteration ..
 
 ![](../../.gitbook/assets/image%20%28194%29.png)
 
+Alignof -&gt; data objects in memory are aligned at specific location 
+
+_\_attribute\__\(\(packed\)\)
+
+![](../../.gitbook/assets/image%20%28195%29.png)
+
