@@ -1,14 +1,28 @@
+---
+description: 'https://www.byte-by-byte.com/strings/'
+---
+
 # String Manipulation
 
-1\) Implement substring function 
+**C++ String  \#include &lt;string&gt;**
 
-a. brute force
+* not mutable 
+* not primitive 
+* s1.compare\(s2\)
+* s1\[i\] accessibility 
 
-n-&gt; length of x, m-&gt; length of y
+**Useful C++ String Methods:**
 
-Time Complexity: O\(\(n – m + 1\) × m\) ≈ O\(n × m\). Space Complexity: O\(1\).
+* `s1.length()` – Returns the length of the string \(from `string::length`\)
+* `s1.find(s2)` – Returns the index of `s1` in the string `s2` \(from `string::find`\)
+* `strcpy(char_array, s1.c_str())` – Converts `s1` into a character array
+* `s1.substr(i,j)` – Get  the substring of `s1` from `i` with length `j`
+
+\`\`
 
 ```cpp
+// implement substring function
+
 #include <string>
 #include <iomanip>
 
