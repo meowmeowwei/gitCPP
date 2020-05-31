@@ -1,34 +1,14 @@
----
-description: 'https://www.byte-by-byte.com/strings/'
----
-
 # String Manipulation
 
-**C++ String  \#include &lt;string&gt;**
+1\) Implement substring function 
 
-* not mutable 
-* not primitive 
-* s1.compare\(s2\)
-* s1\[i\] accessibility 
+a. brute force
 
-**Useful C++ String Methods:**
+n-&gt; length of x, m-&gt; length of y
 
-* `s1.length()` – Returns the length of the string \(from `string::length`\)
-* `s1.find(s2)` – Returns the index of `s1` in the string `s2` \(from `string::find`\)
-* `strcpy(char_array, s1.c_str())` – Converts `s1` into a character array
-* `s1.substr(i,j)` – Get  the substring of `s1` from `i` with length `j`
-
-\`\`
-
-**`Get Ascii value of C++ character`** ``
-
-* do casting \(int\) c
-
-\`\`
+Time Complexity: O\(\(n – m + 1\) × m\) ≈ O\(n × m\). Space Complexity: O\(1\).
 
 ```cpp
-// implement substring function
-
 #include <string>
 #include <iomanip>
 
@@ -54,57 +34,5 @@ int main(){
 	cout << boolalpha<<isSubString("sunwei", "sun")<<endl;
 
 }
-```
-
-```cpp
-//LongestSubstring with no repeating
-
-#include <iostream> 
-#include <sys/ipc.h> 
-#include <sys/shm.h> 
-#include <stdio.h> 
-using namespace std; 
-
-
-    int lengthOfLongestSubstring(string s) {
-        int maxLength =0;
-        
-        int values [256] ={0};
-        
-        int leftIndex =0, rightIndex =0;
-        while(rightIndex!=s.length()-1){
-            if(values[s[rightIndex]] ==0 ){
-                values[s[rightIndex]] =1;
-                rightIndex++;
-            
-                maxLength = max(rightIndex-leftIndex, maxLength);
-
-            }
-            else{
-                while(s[leftIndex]!= s[rightIndex]){
-                    values[leftIndex] =0;
-                    leftIndex++;
-                }
-                leftIndex++;
-                maxLength = max(rightIndex-leftIndex, maxLength);
-                rightIndex++;
-                
-            }
-            
-                
-        }
-
-        
-        
-        return maxLength;
-    }
-  
-int main() 
-{ 
-    cout << lengthOfLongestSubstring("abcabcbb") <<endl;
-  
-    return 0; 
-} 
-
 ```
 
