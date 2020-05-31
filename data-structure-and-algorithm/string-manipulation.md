@@ -20,6 +20,12 @@ description: 'https://www.byte-by-byte.com/strings/'
 
 \`\`
 
+**`Get Ascii value of C++ character`** ``
+
+* do casting \(int\) c
+
+\`\`
+
 ```cpp
 // implement substring function
 
