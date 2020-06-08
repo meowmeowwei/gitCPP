@@ -26,7 +26,7 @@ description: 'https://www.byte-by-byte.com/strings/'
 
 
 
-* [Anagrams](https://www.byte-by-byte.com/anagrams/)
+* [~~Anagrams~~](https://www.byte-by-byte.com/anagrams/)~~~~
 * [Sorting the characters in a string](https://www.geeksforgeeks.org/sort-string-characters/)
 * [Longest substring without a repeating character](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
