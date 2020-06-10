@@ -1,3 +1,7 @@
+---
+description: 'https://leetcode.com/problems/longest-substring-without-repeating-characters/'
+---
+
 # Longest SubString without repeating characters
 
 ```cpp
