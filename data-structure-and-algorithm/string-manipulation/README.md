@@ -27,8 +27,8 @@ description: 'https://www.byte-by-byte.com/strings/'
 
 
 * [~~Anagrams~~](https://www.byte-by-byte.com/anagrams/)~~~~
-* [Sorting the characters in a string](https://www.geeksforgeeks.org/sort-string-characters/)
-* [Longest substring without a repeating character](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+* ~~~~[~~Sorting the characters in a string~~](https://www.geeksforgeeks.org/sort-string-characters/)~~~~
+* ~~~~[~~Longest substring without a repeating character~~](https://leetcode.com/problems/longest-substring-without-repeating-characters/)~~~~
 
 
 
@@ -61,55 +61,5 @@ int main(){
 }
 ```
 
-```cpp
-//LongestSubstring with no repeating
 
-#include <iostream> 
-#include <sys/ipc.h> 
-#include <sys/shm.h> 
-#include <stdio.h> 
-using namespace std; 
-
-
-    int lengthOfLongestSubstring(string s) {
-        int maxLength =0;
-        
-        int values [256] ={0};
-        
-        int leftIndex =0, rightIndex =0;
-        while(rightIndex!=s.length()-1){
-            if(values[s[rightIndex]] ==0 ){
-                values[s[rightIndex]] =1;
-                rightIndex++;
-            
-                maxLength = max(rightIndex-leftIndex, maxLength);
-
-            }
-            else{
-                while(s[leftIndex]!= s[rightIndex]){
-                    values[leftIndex] =0;
-                    leftIndex++;
-                }
-                leftIndex++;
-                maxLength = max(rightIndex-leftIndex, maxLength);
-                rightIndex++;
-                
-            }
-            
-                
-        }
-
-        
-        
-        return maxLength;
-    }
-  
-int main() 
-{ 
-    cout << lengthOfLongestSubstring("abcabcbb") <<endl;
-  
-    return 0; 
-} 
-
-```
 
