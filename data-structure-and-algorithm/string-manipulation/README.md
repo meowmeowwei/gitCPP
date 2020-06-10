@@ -29,37 +29,11 @@ description: 'https://www.byte-by-byte.com/strings/'
 * [~~Anagrams~~](https://www.byte-by-byte.com/anagrams/)~~~~
 * ~~~~[~~Sorting the characters in a string~~](https://www.geeksforgeeks.org/sort-string-characters/)~~~~
 * ~~~~[~~Longest substring without a repeating character~~](https://leetcode.com/problems/longest-substring-without-repeating-characters/)~~~~
+* [Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+* [Is String a Palindrome](https://leetcode.com/problems/valid-palindrome/)
+* [Reverse Words in a String](https://www.interviewcake.com/question/cpp/reverse-words/?utm_source=bbb&utm_medium=affiliate&utm_campaign=bbb)
 
 
-
-```cpp
-
-#include <string>
-#include <iomanip>
-
-using namespace std;
-
-
-bool isSubString(string x, string y){
-
-	for(int i=0; i<=x.length()-y.length(); i++){
-		int j=0;
-		while(j<y.length() && y[j] == x[i +j] ){
-			j ++;
-		}
-		if(j== y.length()){
-			return true;
-		}
-	}
-	return false;
-
-}
-
-int main(){	
-	cout << boolalpha<<isSubString("sunwei", "sun")<<endl;
-
-}
-```
 
 
 
