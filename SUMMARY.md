@@ -87,6 +87,7 @@
   * [String Manipulation](data-structure-and-algorithm/string-manipulation/README.md)
     * [Anagrams](data-structure-and-algorithm/string-manipulation/anagrams.md)
     * [Sort String of Characters](data-structure-and-algorithm/string-manipulation/sort-string-of-characters.md)
+    * [Longest SubString without repeating characters](data-structure-and-algorithm/string-manipulation/longest-substring-without-repeating-characters.md)
   * [DS and Algo Resources](data-structure-and-algorithm/ds-and-algo-resources.md)
   * [CS1011C](data-structure-and-algorithm/cs1011c/README.md)
     * [Tutorial 1](data-structure-and-algorithm/cs1011c/tutorial-1.md)
