@@ -95,6 +95,7 @@
     * [implement ATIO](data-structure-and-algorithm/string-manipulation/implement-atio.md)
     * [Compare Version](data-structure-and-algorithm/string-manipulation/compare-version.md)
     * [Find All Anagram in a String](data-structure-and-algorithm/string-manipulation/find-all-anagram-in-a-string.md)
+    * [Minimum Window Substring](data-structure-and-algorithm/string-manipulation/minimum-window-substring.md)
   * [DS and Algo Resources](data-structure-and-algorithm/ds-and-algo-resources.md)
   * [CS1011C](data-structure-and-algorithm/cs1011c/README.md)
     * [Tutorial 1](data-structure-and-algorithm/cs1011c/tutorial-1.md)

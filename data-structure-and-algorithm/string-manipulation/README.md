@@ -32,10 +32,9 @@ description: 'https://www.byte-by-byte.com/strings/'
 * [~~Remove Duplicates~~](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)~~~~
 * ~~~~[~~Is String a Palindrom~~e](https://leetcode.com/problems/valid-palindrome/)
 * [~~Reverse Words in a String~~](https://www.interviewcake.com/question/cpp/reverse-words/?utm_source=bbb&utm_medium=affiliate&utm_campaign=bbb)~~~~
-* ~~~~[~~Convert Strings to Binary~~](https://www.geeksforgeeks.org/convert-string-binary-sequence/)~~~~
+* [Convert Strings to Binary](https://www.geeksforgeeks.org/convert-string-binary-sequence/)
 * [String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)
-* ~~~~[~~Compare Version Numbers~~](https://leetcode.com/problems/compare-version-numbers/)~~~~
-* [~~Find All Anagrams in a String~~](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)~~~~
-* [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
-* [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+* [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)
+
+
 
