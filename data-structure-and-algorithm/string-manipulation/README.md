@@ -32,7 +32,7 @@ description: 'https://www.byte-by-byte.com/strings/'
 * [~~Remove Duplicates~~](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)~~~~
 * ~~~~[~~Is String a Palindrom~~e](https://leetcode.com/problems/valid-palindrome/)
 * [~~Reverse Words in a String~~](https://www.interviewcake.com/question/cpp/reverse-words/?utm_source=bbb&utm_medium=affiliate&utm_campaign=bbb)~~~~
-* [Convert Strings to Binary](https://www.geeksforgeeks.org/convert-string-binary-sequence/)
+* ~~~~[~~Convert Strings to Binary~~](https://www.geeksforgeeks.org/convert-string-binary-sequence/)~~~~
 * [String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)
 * [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)
 
