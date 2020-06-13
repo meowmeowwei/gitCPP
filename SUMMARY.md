@@ -85,6 +85,7 @@
   * [Java开发校招面试考点汇总](interview-preparation/java-kai-fa-xiao-zhao-mian-shi-kao-dian-hui-zong.md)
 * [Data Structure and Algorithm](data-structure-and-algorithm/README.md)
   * [String Manipulation](data-structure-and-algorithm/string-manipulation/README.md)
+    * [Convert String To Binary](data-structure-and-algorithm/string-manipulation/convert-string-to-binary.md)
     * [Reverse Words in a String](data-structure-and-algorithm/string-manipulation/reverse-words-in-a-string.md)
     * [Anagrams](data-structure-and-algorithm/string-manipulation/anagrams.md)
     * [Sort String of Characters](data-structure-and-algorithm/string-manipulation/sort-string-of-characters.md)
