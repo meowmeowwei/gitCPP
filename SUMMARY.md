@@ -94,6 +94,7 @@
     * [is String a Palindrome](data-structure-and-algorithm/string-manipulation/is-string-a-palindrome.md)
     * [implement ATIO](data-structure-and-algorithm/string-manipulation/implement-atio.md)
     * [Compare Version](data-structure-and-algorithm/string-manipulation/compare-version.md)
+    * [Find All Anagram in a String](data-structure-and-algorithm/string-manipulation/find-all-anagram-in-a-string.md)
   * [DS and Algo Resources](data-structure-and-algorithm/ds-and-algo-resources.md)
   * [CS1011C](data-structure-and-algorithm/cs1011c/README.md)
     * [Tutorial 1](data-structure-and-algorithm/cs1011c/tutorial-1.md)

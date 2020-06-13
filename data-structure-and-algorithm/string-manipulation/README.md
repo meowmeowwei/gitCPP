@@ -35,7 +35,7 @@ description: 'https://www.byte-by-byte.com/strings/'
 * ~~~~[~~Convert Strings to Binary~~](https://www.geeksforgeeks.org/convert-string-binary-sequence/)~~~~
 * [String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)
 * ~~~~[~~Compare Version Numbers~~](https://leetcode.com/problems/compare-version-numbers/)~~~~
-* [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)
+* [~~Find All Anagrams in a String~~](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)~~~~
 * [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
 * [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
 
