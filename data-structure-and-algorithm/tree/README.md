@@ -2,7 +2,7 @@
 description: 'https://www.interviewcake.com/concept/python/binary-tree'
 ---
 
-# Tree
+# Graph & Tree
 
 \*\*\*\*[**Binary Tree** ](https://www.interviewcake.com/concept/python/binary-tree)\*\*\*\*
 

@@ -96,7 +96,7 @@
     * [Compare Version](data-structure-and-algorithm/string-manipulation/compare-version.md)
     * [Find All Anagram in a String](data-structure-and-algorithm/string-manipulation/find-all-anagram-in-a-string.md)
     * [Minimum Window Substring](data-structure-and-algorithm/string-manipulation/minimum-window-substring.md)
-  * [Tree](data-structure-and-algorithm/tree/README.md)
+  * [Graph & Tree](data-structure-and-algorithm/tree/README.md)
     * [balanced-binary-tree](data-structure-and-algorithm/tree/balanced-binary-tree.md)
     * [Balanced Search Tree Checker](data-structure-and-algorithm/tree/balanced-search-tree-checker.md)
     * [Graph](data-structure-and-algorithm/tree/graph/README.md)
