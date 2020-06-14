@@ -14,5 +14,7 @@ Question
 
 [Balanced Binary Tree ](https://www.interviewcake.com/question/cpp/balanced-binary-tree)
 
+[Balanced Search Tree Checker](https://www.interviewcake.com/question/cpp/bst-checker)
+
 
 
