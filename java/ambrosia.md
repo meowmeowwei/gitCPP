@@ -64,6 +64,10 @@ Low latency MircoServices
 * Single Threaded \( A CPU linked to the microservice, no sychnroization , no complicated object pooling\)
 * Record inputs and outputs
 * map your microserices onto your hardware, thread affinity  
+* Zero GC model \(how does ambrosia achieve zero GC\)
+* Shared Memory Communication 
+* Thread Affinity , low latency logging
+* Replication and failover 
 
 
 
