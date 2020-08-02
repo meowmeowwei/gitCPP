@@ -2,8 +2,6 @@
 
 C++ referecne - &gt; [http://www.cplusplus.com/reference/](http://www.cplusplus.com/reference/)
 
-[C++ 11 ](https://www.learncpp.com/cpp-tutorial/b-1-introduction-to-c11/)
-
 
 
 **1\) Linux C++**
