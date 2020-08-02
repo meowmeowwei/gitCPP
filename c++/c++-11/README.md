@@ -43,5 +43,30 @@ class Foo{
 };
 ```
 
+14\) Enum Classes
 
+```cpp
+enum Color{red, green};
+enum Fruit(banana, apple};
+
+Color color{red};
+Fruit fruit{banana};
+
+if(color==fruit) // compiler will return true and compare them as integers
+
+//Enum class is strongly type
+
+enum class Color{red, green}
+enum class Fruit{banana, apple};
+
+Color color{ Color::red }; // note: red is not directly accessible any more, we have to use Color::red
+Fruit fruit{ Fruit::banana }; // note: banana is not directly accessible any more, we have to use Fruit::banana
+	
+if (color == fruit) // compile error here, as the compiler doesn't know how to compare different types Color and Fruit
+
+
+
+
+
+```
 
