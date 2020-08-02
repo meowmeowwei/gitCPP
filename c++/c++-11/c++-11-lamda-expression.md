@@ -54,5 +54,22 @@ int main ()
 
 ```
 
+```cpp
+int main() {
+ 
+ vector<string> testList {"Sunwei", "Jason" , "Andrew"};
 
+ auto found {find_if(testList.begin(), testList.end(), [](string str){
+    return (str.find("we") != string::npos);
+ })};
+
+
+if(found!=testList.end()){
+    cout << "found" <<endl;
+}
+
+    return 0;
+}
+
+```
 
