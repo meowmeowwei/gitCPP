@@ -25,7 +25,7 @@ Rvalue reference -&gt; a new non-const reference type identified by T&&
 ```cpp
 int y;
 666 = y; // will throw error since 666 is a constant , it can only be Rvalue
-int x = &y ; this is fine because & to LValue will generate RValue;
+int x = &y ; //this is fine because & to LValue will generate RValue;
 
 
 //Example 2
