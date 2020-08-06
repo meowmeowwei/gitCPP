@@ -8,7 +8,7 @@ description: 'https://www.udemy.com/linux-system-programming/'
 
 -&gt; every program is passed with an environment list. 
 
-![](../.gitbook/assets/image%20%28188%29.png)
+![](../../.gitbook/assets/image%20%28188%29.png)
 
 ```cpp
 
