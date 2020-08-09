@@ -231,6 +231,7 @@
   * [Socket Programming](c++/socket-programming.md)
   * [C++ virtual inheritance](c++/c++-virtual-inheritance.md)
   * [C++ memory aligned-storage](c++/c++-memory-aligned-storage.md)
+  * [c++ Memory Mapped IO](c++/c++-memory-mapped-io.md)
 * [Java](java/README.md)
   * [Ambrosia](java/ambrosia.md)
   * [Heap offloading](java/heap-offloading.md)
