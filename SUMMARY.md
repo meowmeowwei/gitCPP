@@ -179,6 +179,7 @@
       * [Pipe](c++/linux-system-programming/inter-process-communication/pipe.md)
       * [FIFO](c++/linux-system-programming/inter-process-communication/fifo.md)
       * [Message Queue](c++/linux-system-programming/inter-process-communication/message-queue.md)
+      * [Shared Memory - mmap](c++/linux-system-programming/inter-process-communication/shared-memory-mmap.md)
   * [C++ Multi-Threading](c++/c++-multi-threading/README.md)
     * [Part 1 - Creating Threads](c++/c++-multi-threading/part-1-creating-threads.md)
     * [Part 2 . Joining and Detaching Threads](c++/c++-multi-threading/part-2-.-joining-and-detaching-threads.md)
