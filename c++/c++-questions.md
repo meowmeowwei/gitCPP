@@ -11,7 +11,7 @@ when should we use explicit constructor ?
 
 * to avoid behind-the-scene type conversions.
 
-**const reference** 
+**const**  
 
 ```cpp
 #include <iostream>
@@ -34,4 +34,10 @@ int main(){
   cout << * y<< endl;
 }
 ```
+
+**Static** 
+
+* make the variable stored in the static area, allocate space before the main function runs 
+* decorate member variables so that all objects hold only one of the variable 
+* decorate member functions so that they can be accessed without generating objects
 
