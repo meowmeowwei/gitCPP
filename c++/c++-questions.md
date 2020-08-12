@@ -1,3 +1,7 @@
+---
+description: 'https://github.com/huihut/interview/blob/master/README_en.md'
+---
+
 # C++ questions
 
 [When do we need to use initialisation list ?](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)
@@ -40,4 +44,10 @@ int main(){
 * make the variable stored in the static area, allocate space before the main function runs 
 * decorate member variables so that all objects hold only one of the variable 
 * decorate member functions so that they can be accessed without generating objects
+
+**Inline function** 
+
+* writing the contents of the function at the call of inline function 
+* equivalent to macro , but with more type checking than a macro 
+* function defined in class declarations other than virtual functions are automatically treated as inline 
 
