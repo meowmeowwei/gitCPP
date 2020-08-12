@@ -11,3 +11,27 @@ when should we use explicit constructor ?
 
 * to avoid behind-the-scene type conversions.
 
+**const reference** 
+
+```cpp
+#include <iostream>
+#include <bit>
+using namespace std;
+
+int main(){
+
+  int x = 5;
+  
+  // const int means int value itself can not change 
+  // const y means the pointer y can not be pointed to another variable 
+    
+  const int * const y = &x;   
+  
+  int g = 6;
+
+  * y = 6;
+
+  cout << * y<< endl;
+}
+```
+
