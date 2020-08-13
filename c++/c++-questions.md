@@ -77,3 +77,42 @@ answer -&gt; only when compiler knows the implementation at compile time, if it 
 * Lvalue reference 
 * Rvalue reference \( reference bound to rvalue , which implements Move and Perfect forwarding\) 
 
+**OOP Concepts**
+
+* Encapsulation \(private, protect, public\)
+* polymorphism \( Static vs Dynamic -&gt; virtual pointer\)
+* inheritance 
+
+**VTable** 
+
+* each class object if it implements a virtual function, will have a virtual pointer that pointers to a virtual function table , the table is in the program read-only data section.
+
+\*\*\*\*[**Virtual inheritance** ](https://en.wikipedia.org/wiki/Virtual_inheritance)\*\*\*\*
+
+* resolve diamond inheritance issue 
+
+**Memory allocation and Management** 
+
+* malloc & free 
+* New & delete \( underlying it calls malloc and free to allocate and remove the memory usage\)
+
+**How to define class to generate objects on the heap / on the stack only ?**
+
+* only on the heap \( make destructor private, complier allocates stack space by first checking destructor accessibility \) 
+* on the stack \( overload new and delete as private\) 
+
+**Smart Pointer** 
+
+* shared\_ptr
+* unique\_ptr
+* weak\_ptr -&gt; allows you to share but does not own the object
+
+**Casting** 
+
+* static\_cast
+* dynamic\_cast
+* const\_cast
+* reinterpret\_cast 
+
+Runtime Type Information \(RTTI\)
+
