@@ -58,3 +58,22 @@ can a virtual function be an inline function ?
 
 answer -&gt; only when compiler knows the implementation at compile time, if it has polymorphism , then it can not do inline.
 
+**Volatile** 
+
+* type modifier to tell compiler that objects should not be optimized and must be fetched from memory each time.
+
+**Explicit** 
+
+* prevents implicit conversion and copy initialization
+
+**Enum vs Enum class** 
+
+**Decltype** 
+
+* used to check the declared type and value classification fo an entity 
+
+**Reference** 
+
+* Lvalue reference 
+* Rvalue reference \( reference bound to rvalue , which implements Move and Perfect forwarding\) 
+
