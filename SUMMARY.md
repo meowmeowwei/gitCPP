@@ -238,6 +238,7 @@
   * [C++ memory aligned-storage](c++/c++-memory-aligned-storage.md)
   * [c++ Memory Mapped IO](c++/c++-memory-mapped-io.md)
 * [Java](java/README.md)
+  * [JVM & Garbage Collection](java/jvm-and-garbage-collection.md)
   * [Ambrosia](java/ambrosia.md)
   * [Heap offloading](java/heap-offloading.md)
   * [Small Endian and Big Endian](java/small-endian-and-big-endian.md)
