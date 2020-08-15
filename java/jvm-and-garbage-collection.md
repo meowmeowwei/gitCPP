@@ -25,7 +25,7 @@ heap -&gt; actual object allocation place
 
 
 
-Defining size of Heap and Stack in Jvm 
+**Defining size of Heap and Stack in Jvm** 
 
 * heap \( -Xmx \) ---&gt; e.g. java -Xmx512m    \( means starting with 512mb heap\)
 * stack \(-Xms\) 
