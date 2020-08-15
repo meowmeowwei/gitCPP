@@ -29,12 +29,39 @@ heap -&gt; actual object allocation place
 
 * heap \( -Xmx \) ---&gt; e.g. java -Xmx512m    \( means starting with 512mb heap\)
 * stack \(-Xms\) 
+* permanent generation size \(-XX:Permsize , -XX:MaxPermSize\) 
 
 if they are not defined, default memory allocation is 1/64 of the memory on the computer up to 1GB ... 
 
 
 
+**Memory leak is possible in Java**
+
+e.g. ArrayList you keep referencing to an object but dont pop it .. that value will not be removed 
 
 
 
+**Lifecycle of codes in JVM** 
+
+* compiler to compiler it to bytecode in .class file 
+* classloader to load the bytecode into the memory of running jvm  \( classes are only loaded on demand\)
+* JVM does further checking once bytecode is loaded into memory 
+* Just In Time compiler dynamically translate the running bytecode into native instructions so that interpreting the bytecode is not necessary. 
+
+**Specifically calling GC directly in the code** 
+
+* System class gc method \( but it will cause stop of the word\) 
+* the JVM will take it as suggestion to try to do it, but no guarantee 
+
+
+
+**"finalize" keyword**
+
+inherited from object. called when the jvm is about to garbage collect the object ...
+
+
+
+\*\*\*\*[**Weak Reference** ](https://www.geeksforgeeks.org/types-references-java/)\*\*\*\*
+
+\*\*\*\*[**Native Methods**](https://www.baeldung.com/java-native) **and** [**JNI** ](https://www.baeldung.com/jni)\*\*\*\*
 
