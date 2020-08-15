@@ -65,3 +65,10 @@ inherited from object. called when the jvm is about to garbage collect the objec
 
 \*\*\*\*[**Native Methods**](https://www.baeldung.com/java-native) **and** [**JNI** ](https://www.baeldung.com/jni)\*\*\*\*
 
+\*\*\*\*
+
+**Shutdown Hook**
+
+* have some code run before it exists,. 
+* Runtime.getRuntime\(\).addShutdownHook\(new Thread\(\){ //implement a run method here}
+
