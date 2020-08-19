@@ -243,5 +243,6 @@
   * [Heap offloading](java/heap-offloading.md)
   * [Small Endian and Big Endian](java/small-endian-and-big-endian.md)
   * [Interning](java/interning.md)
+  * [Reified](java/reified.md)
 * [Good Reference Websites](good-reference-websites.md)
 
