@@ -242,5 +242,6 @@
   * [Ambrosia](java/ambrosia.md)
   * [Heap offloading](java/heap-offloading.md)
   * [Small Endian and Big Endian](java/small-endian-and-big-endian.md)
+  * [Interning](java/interning.md)
 * [Good Reference Websites](good-reference-websites.md)
 
