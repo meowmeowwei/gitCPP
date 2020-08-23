@@ -239,6 +239,7 @@
   * [c++ Memory Mapped IO](c++/c++-memory-mapped-io.md)
 * [Java](java/README.md)
   * [JVM & Garbage Collection](java/jvm-and-garbage-collection.md)
+  * [Just In Time Compiler](java/just-in-time-compiler.md)
   * [Ambrosia](java/ambrosia.md)
   * [Heap offloading](java/heap-offloading.md)
   * [Small Endian and Big Endian](java/small-endian-and-big-endian.md)
