@@ -8,8 +8,10 @@
 
 \*\*\*\*
 
-**use memory mapped file -&gt;** segment of virtual memory is directly correlated with some portion of physical file on the disk. it  allows appplication to treat teh mapped portion as if it were primary memory, while the operating system transparently deals with loading the requested data and writing it to underlying file. it safely shares data between multiple threads or even processes. 
+**use memory mapped file -&gt;** segment of virtual memory is directly correlated with some portion of physical file on the disk. it  allows application to treat teh mapped portion as if it were primary memory, while the operating system transparently deals with loading the requested data and writing it to underlying file. it safely shares data between multiple threads or even processes. 
 
   
 There is, however, a disadvantage in working with memory-mapped files: for large files, only a portion of the file is loaded in memory and if the application requests a block of data which is not present in memory, a page fault will be raised and, as a result, the portion of the file containing the requested data will be brought to memory.
+
+{% file src="../.gitbook/assets/lowlatencyjava.pdf" %}
 
