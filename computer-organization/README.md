@@ -4,6 +4,8 @@ description: 'http://www.edwardbosworth.com/My5155Textbook_HTM/MyText5155_Ch09_V
 
 # Computer Organization
 
+[very good youtube here -&gt; ](https://www.youtube.com/watch?v=ckDb_W72__c)
+
 ![](../.gitbook/assets/image%20%28204%29.png)
 
 
