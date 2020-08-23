@@ -22,7 +22,7 @@ Clock-Speed
 * measured in hertz 
 * 3 GHZ -&gt; 3 gigaherz =&gt; 3 billion cycles per second
 
-
+![](../.gitbook/assets/image%20%28205%29.png)
 
 
 
