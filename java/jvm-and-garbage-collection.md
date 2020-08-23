@@ -72,3 +72,12 @@ inherited from object. called when the jvm is about to garbage collect the objec
 * have some code run before it exists,. 
 * Runtime.getRuntime\(\).addShutdownHook\(new Thread\(\){ //implement a run method here}
 
+
+
+Measurements of JVM
+
+* execution time - total time not spent in GC
+* pauses - number of time application pauses for GC to happen
+* footprint - total amount of memory used by application processes
+* promptness - amount of time between object becomes unused and when it's freed
+
