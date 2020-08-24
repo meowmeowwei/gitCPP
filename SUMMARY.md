@@ -4,6 +4,7 @@
 * [3 months study plan](3-months-study-plan/README.md)
   * [CS2040C - data structure and algorithm](3-months-study-plan/cs2040c-data-structure-and-algorithm.md)
   * [CS2105 - computer networks](3-months-study-plan/cs2105-computer-networks.md)
+  * [cs2106 - OS](3-months-study-plan/cs2106-os.md)
 * [Interview Preparation](interview-preparation/README.md)
   * [System Design](interview-preparation/system-design.md)
   * [LeetCode](interview-preparation/leecode/README.md)
