@@ -1,2 +1,2 @@
-# CS2100 - Computer Organization
+# CS2100 - computer organization
 
