@@ -119,7 +119,7 @@ int search(Listy list, int value){
 
 5\) binary search but need to move around to get the none empty word
 
-```text
+```cpp
 int searchVec(vector<string> vec, string searchString, int first, int last){
 
 	if(first > last) return -1;
