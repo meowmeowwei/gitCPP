@@ -53,7 +53,7 @@ int main(){
 
 2\) try sorting twice 
 
-```text
+```cpp
 bool compareFunction(string a, string b){
 	sort(a.begin(), a.end());
 	sort(b.beign(), b.end());
