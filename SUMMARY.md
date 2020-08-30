@@ -6,6 +6,7 @@
     * [week 1 - c++ refreshment](3-months-study-plan/cs2040c-data-structure-and-algorithm/week-1-c++-refreshment.md)
     * [week 2 - big O](3-months-study-plan/cs2040c-data-structure-and-algorithm/week-2-big-o.md)
     * [week3 - sorting](3-months-study-plan/cs2040c-data-structure-and-algorithm/week3-sorting.md)
+    * [week4 - bit manipulation](3-months-study-plan/cs2040c-data-structure-and-algorithm/week4-bit-manipulation.md)
   * [CS2105 - computer networks](3-months-study-plan/cs2105-computer-networks/README.md)
     * [TCP vs UDP](3-months-study-plan/cs2105-computer-networks/tcp-vs-udp.md)
   * [CS2106 - operating system](3-months-study-plan/cs2106-os.md)
