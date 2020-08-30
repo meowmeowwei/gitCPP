@@ -6,7 +6,7 @@ description: 'answers 287/708 ,    reading 123/708'
 
 1\)
 
-```text
+```cpp
 int updateBits(int n, int m, int i, int j){
 
 	int allOnes = ~0;
