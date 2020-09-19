@@ -4,6 +4,8 @@
 * [FontEnd Development](fontend-development/README.md)
   * [CSS](fontend-development/css.md)
   * [JavaScript](fontend-development/javascript.md)
+  * [React](fontend-development/react.md)
+  * [Node JS](fontend-development/node-js.md)
 * [3 months study plan](3-months-study-plan/README.md)
   * [CS2040C - data structure and algorithm](3-months-study-plan/cs2040c-data-structure-and-algorithm/README.md)
     * [week 1 - c++ refreshment](3-months-study-plan/cs2040c-data-structure-and-algorithm/week-1-c++-refreshment.md)
