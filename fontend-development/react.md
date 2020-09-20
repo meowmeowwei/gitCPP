@@ -16,3 +16,7 @@ JSX -&gt; javascript in markup
 
 CLI -&gt; command line interface \( boiler-plot\) 
 
+
+
+React-Js  vs React-Native \(for mobile development\)
+
