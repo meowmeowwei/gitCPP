@@ -6,6 +6,16 @@ description: 'https://www.youtube.com/watch?v=Fdf5aTYRW0E'
 
 Javascript framework built by Google
 
+```typescript
+commands
+
+ng g c courseWork -> generating components
+
+ng g s emailWork -> generating service 
+
+
+```
+
 
 
 Fundamental of Angular 
@@ -89,12 +99,31 @@ used for doing HTTP endpoint with Server, should not do it tightly connect to co
 
     }
 
-//dependasdfency injection, good for mocking also 
+//dependency injection, good for mocking also 
 
-but if you dot 
+but if you do this , make sure you add this in the providers 
+
+providers: [ CoursesService ],sadfasd
 ```
 
-sadfasd
+7\) Injectable 
+
+```typescript
+
+import { Injectable } from '@angular/core';  
+
+//Injectable needed for contructor to take injection, already included in Component
+
+@Injectable({
+  providedIn: 'root'
+})
+export class EmailService {
+
+  constructor(logService : LogService) { }
+}
+
+
+```
 
 
 
