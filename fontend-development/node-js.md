@@ -4,7 +4,7 @@ description: 'https://www.w3schools.com/nodejs/nodejs_get_started.asp'
 
 # Node JS
 
-
+runtime env to run javascript outside website 
 
 ### What is Node.js?
 
@@ -15,7 +15,7 @@ description: 'https://www.w3schools.com/nodejs/nodejs_get_started.asp'
 
 
 
-### What is NPM?
+### What is NPM? \(node package manager\) 
 
 NPM is a package manager for Node.js packages, or modules if you like.  
 
