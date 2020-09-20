@@ -6,6 +6,16 @@ description: 'https://www.youtube.com/watch?v=Fdf5aTYRW0E'
 
 Javascript framework built by Google
 
+
+
+Fundamental of Angular 
+
+1\) components -&gt; encapsulate data, HMTL template, business logics 
+
+2\) 
+
+
+
 ![](../../.gitbook/assets/image%20%28246%29.png)
 
 ![](../../.gitbook/assets/image%20%28239%29.png)
