@@ -7,3 +7,14 @@ description: >-
 
 In general, a directive is a TypeScript based function that executes whenever Angular compiler identified it within the DOM element. Directives are used to provide or generate new HTML based syntax which will extend the power of the UI in an Angular Application. Each directive must have a selector name just like the same as a component – either that name can be from Angular predefined patterns like ng-if or a custom developer-defined name which can be any name but need to indicate the main purpose of the directive. Also, every directive can act as an element or an attribute or a class or a comment in the HTML section.
 
+
+
+### Types of Directives
+
+  
+There are three main types of directives in Angular 8:
+
+* **Component** – Directives with templates. 
+* **Attribute Directives** – Directives that change the behavior of a component or element but don’t affect the template. 
+* **Structural Directives** – Directives that change the behavior of a component or element by affecting the template or the DOM decoration of the UI.
+
