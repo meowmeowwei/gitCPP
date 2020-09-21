@@ -9,6 +9,7 @@
   * [React](fontend-development/react.md)
   * [Node JS](fontend-development/node-js.md)
   * [Angular](fontend-development/angular/README.md)
+    * [Learn Angular in 10 Days](fontend-development/angular/learn-angular-in-10-days.md)
     * [Section 5 - Build Reusable Components](fontend-development/angular/section-5-build-reusable-components.md)
     * [Section 4 - Displaying and Handling Event](fontend-development/angular/section-4-displaying-and-handling-event.md)
     * [TypeScript](fontend-development/angular/typescript.md)
