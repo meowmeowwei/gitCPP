@@ -13,6 +13,11 @@ ng g c courseWork -> generating components
 
 ng g s emailWork -> generating service 
 
+ng serve -> start the application
+npm install -> looks at the package.json to see all depenencies and download install
+
+
+
 
 ```
 
