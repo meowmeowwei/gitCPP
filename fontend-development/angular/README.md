@@ -4,6 +4,8 @@ description: 'https://www.youtube.com/watch?v=Fdf5aTYRW0E'
 
 # Angular
 
+[learn angular in 10 days ](https://www.c-sharpcorner.com/article/learn-angular-8-step-by-step-in-10-days-day-1/)
+
 Javascript framework built by Google
 
 ```typescript
@@ -13,7 +15,10 @@ ng g c courseWork -> generating components
 
 ng g s emailWork -> generating service 
 
+ng g p title-case -> generating pipe
+
 ng serve -> start the application
+
 npm install -> looks at the package.json to see all depenencies and download install
 
 
