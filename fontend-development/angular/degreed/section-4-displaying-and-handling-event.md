@@ -16,7 +16,7 @@ but HTML updates will not be reflected back in component
 
 HTML is text representation when being parsed into memory becomes DOM
 
-![](../../.gitbook/assets/image%20%28249%29.png)
+![](../../../.gitbook/assets/image%20%28249%29.png)
 
 3\) importing bootstrap
 
