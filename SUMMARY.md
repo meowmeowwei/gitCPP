@@ -10,6 +10,7 @@
   * [Node JS](fontend-development/node-js.md)
   * [Angular](fontend-development/angular/README.md)
     * [Learn Angular in 10 Days](fontend-development/angular/learn-angular-in-10-days/README.md)
+      * [Day 4 - Directive](fontend-development/angular/learn-angular-in-10-days/day-4-directive.md)
       * [Day 3 - Data Binding](fontend-development/angular/learn-angular-in-10-days/day-3-data-binding.md)
     * [Degreed](fontend-development/angular/degreed/README.md)
       * [Section 4 - Displaying and Handling Event](fontend-development/angular/degreed/section-4-displaying-and-handling-event.md)
