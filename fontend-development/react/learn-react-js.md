@@ -224,7 +224,7 @@ function TodoItem(props){
     console.log(props);
     return(
         <div className="todoItem">
-        <input type="checkbox" checked={props.item.completed}/>
+        <input type="checkbox" checked={props.item.completed}/> //checked box
         <p>{props.item.taskName} </p>      
       </div>
     );
