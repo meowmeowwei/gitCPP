@@ -111,5 +111,68 @@ function App() {
 
 ![](../../.gitbook/assets/image%20%28250%29.png)
 
+6\) component reusage, passing in the properties, so that you can use the same one
+
+```javascript
+//declare the properties as task in the TodoItem
+
+function App() {
+
+
+  return (
+    <div>
+      <TodoItem task="hello"/>
+      <TodoItem task="hello2"/>
+      <TodoItem task="hello3"/>
+
+    </div>
+  )
+}
+
+
+```
+
+in ToDoItem, fetch the value from the props
+
+```javascript
+
+function TodoItem(props){
+    console.log(props);
+    return(
+        <div className="todoItem">
+        <input type="checkbox" />
+        <p>{props.task} </p> // use curly braces 
+      </div>
+    );
+}
+```
+
+option2 , pass in the object as properties , good when fetching the file from Json
+
+```javascript
+function App() {
+
+
+  return (
+    <div>
+      <TodoItem task={{taskName:"hello"}}/>
+      <TodoItem task={{taskName:"hello2"}}/>
+      <TodoItem task={{taskName:"hello3"}}/>
+
+    </div>
+  )
+}
+
+function TodoItem(props){
+    console.log(props);
+    return(
+        <div className="todoItem">
+        <input type="checkbox" />
+        <p>{props.task.taskName} </p>      
+      </div>
+    );
+}
+```
+
 
 
