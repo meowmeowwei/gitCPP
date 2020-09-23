@@ -174,5 +174,50 @@ function TodoItem(props){
 }
 ```
 
+7\) using Map to read from Json object 
 
+have a ToDoData.js
+
+```javascript
+
+const ToDoData =[
+    {
+        taskName : "shower"
+    },
+    {
+        taskName : "eat lunch"
+    },
+    {
+        taskName : "eat dinner"
+    }
+]
+
+export default ToDoData;
+```
+
+import and generate TodoItem from each data using javascript map function
+
+```javascript
+
+import ToDoData from "./ToDoData";
+
+function App() {
+
+
+  const todoItems = ToDoData.map(function(item){
+    return <TodoItem task={{taskName:item.taskName}}/>
+  })
+
+  return (
+    <div>
+      {todoItems}
+
+    </div>
+  )
+}
+
+export default App;
+
+
+```
 
