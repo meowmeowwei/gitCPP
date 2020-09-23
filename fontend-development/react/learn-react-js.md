@@ -205,7 +205,7 @@ function App() {
 
 
   const todoItems = ToDoData.map(function(item){
-    return <TodoItem task={{taskName:item.taskName}}/> //best to have attribute "key"
+    return <TodoItem key ={item.id} item={item}/>
   })
 
   return (
