@@ -218,6 +218,16 @@ function App() {
 
 export default App;
 
+//TotoItem
 
+function TodoItem(props){
+    console.log(props);
+    return(
+        <div className="todoItem">
+        <input type="checkbox" checked={props.item.completed}/>
+        <p>{props.item.taskName} </p>      
+      </div>
+    );
+}
 ```
 
