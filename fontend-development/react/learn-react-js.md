@@ -163,6 +163,7 @@ function App() {
   )
 }
 
+// in TODOItem file
 function TodoItem(props){
     console.log(props);
     return(
@@ -229,5 +230,192 @@ function TodoItem(props){
       </div>
     );
 }
+```
+
+
+
+8\) class based component 
+
+```javascript
+
+class Header extends React.Component{
+  render(){
+    return(
+      <header>
+        <p>Welcome, {this.props.username}</p>  // must use this.props 
+      </header>
+    )
+  }
+}
+
+class App extends React.Component{ //must extend from React.Component 
+  render(){ // must call render and return  
+    return(
+    <div>
+      <Header username="sunwei" /> // pass in the props
+    </div>
+    )
+  }
+}
+
+```
+
+9\) state , needs to be always in class based component 
+
+if you pass props to other component, they cant change and update props
+
+when state info is sent and updated later on, all components who received the state from parent via props will be updated automatically
+
+```javascript
+
+class App extends React.Component{
+  constructor(){ //need to have constructor , need to call super and set the state 
+    super();
+    this.state = {
+      answer: "Yes"
+    }
+  }
+
+  render(){
+    return(
+    <div>
+      <h1> is state important : {this.state.answer}</h1>
+      <Header answer={this.state.answer}/>
+    </div>
+    )
+  }
+}
+
+
+```
+
+10\) handling events
+
+```javascript
+
+function handleClick(){
+  console.log("clicked");
+}
+
+
+class App extends React.Component {
+
+  constructor(){
+    super();
+
+    this.state = ToDoData.map(function(item){
+      return <TodoItem key ={item.id} item={item}/>
+    })
+  }
+
+  render(){
+    return (
+      <div>
+        <button onClick={handleClick}>click me</button>
+      </div> //onClick here can lead to the functioncall... note {handleClick} 
+    )
+  }
+  
+}
+
+```
+
+11\) state management
+
+```javascript
+
+class App extends React.Component {
+
+  constructor(){
+    super();
+
+    this.state={
+      count:0
+    }
+
+    this.handleClick = this.handleClick.bind(this);  // need to bind in constructor
+  }
+
+
+  handleClick(){
+    this.setState((prevState)=>{  // can access previous state  
+      return {
+        count : prevState.count+1
+      }
+    })
+  }
+  
+  render(){
+    return (
+      <div>
+       <h1>{this.state.count}</h1>
+       <button onClick={this.handleClick}>Change</button> // must call this.handleclick
+      </div>
+    )
+  }
+
+
+```
+
+you can pass the method down to the function component 
+
+App.js
+
+```javascript
+class App extends React.Component {
+
+  constructor(){
+    super();
+
+    this.state={
+      todos:ToDoData
+    }
+
+    this.handleClick = this.handleClick.bind(this);  // need to bind in constructor
+  }
+
+  handleClick(id){
+
+    this.setState((prevState)=>{
+      const updateTodos = prevState.todos.map(todo =>{
+        if(todo.id === id){
+          todo.completed = !todo.completed;
+        }
+        return todo;
+      })
+      return {todos : updateTodos}
+    })
+  }
+  
+  render(){
+
+    const todoItems = this.state.todos.map(item=> <TodoItem key={item.id} item={item} handleClick={this.handleClick}/>)
+    return (
+      <div>
+        {todoItems}
+       </div>
+    )
+  }
+}
+
+
+```
+
+```javascript
+
+
+
+function TodoItem (props){
+      return(
+        <div className="todoItem">
+         
+        <input type="checkbox"   onChange={(event)=>props.handleClick(props.item.id)}/> 
+        <p>{props.item.taskName} </p>      
+      </div>
+    );
+    
+    // note it's taking in event in onChange
+}
+
 ```
 
