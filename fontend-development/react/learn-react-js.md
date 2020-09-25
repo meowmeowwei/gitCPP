@@ -697,3 +697,5 @@ export default Test
 
 ```
 
+16. container and component architecture 
+
