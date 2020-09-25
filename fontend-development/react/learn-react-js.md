@@ -419,3 +419,281 @@ function TodoItem (props){
 
 ```
 
+12\) life cycle method
+
+![](../../.gitbook/assets/image%20%28251%29.png)
+
+```javascript
+
+  componentDidMount(){
+    //get the data i need 
+    console.log("componentDidMount, first time it is rendered, used for initilizing some API stuff")
+  }
+
+  shouldComponentUpdate(nextProps, nextState){
+    //return true if want it to update
+    //return false if not
+  }
+
+  componentWillUnmount(){
+    //to do cleanup or teardown 
+    
+  }
+
+
+```
+
+13\) Conditional Rendering
+
+```javascript
+//TEST.js
+
+    render(){
+        return(
+            <div>
+                <Conditional isLoading={this.state.isLoading}/>
+            </div>
+        )
+    }
+
+
+// Conditional.js
+
+
+function Conditional(props){
+    
+    return (
+       props.isLoading ===true ? <h1>true</h1> : <h1>false</h1>
+    )
+}
+
+```
+
+practise for conditional rendering
+
+```javascript
+
+import React from "react"
+import Conditional from "././Conditional"
+
+class Test extends React.Component{
+    constructor(){
+        super()
+        this.state ={
+            isLoggedIn : false
+        }
+        
+        this.onButtonClick = this.onButtonClick.bind(this);
+    }
+
+    onButtonClick(){
+        this.setState((prevState)=>{
+            if(prevState.isLoggedIn==true){
+                return {isLoggedIn : false}
+            }
+            else{
+                return {isLoggedIn : true}
+            }
+        })
+    }
+
+
+    render(){
+        return(
+            <div>
+               <button onClick={this.onButtonClick}>{this.state.isLoggedIn==false?"LogIn":"LogOut"}</button>
+               <h1>User is {this.state.isLoggedIn==false ?"notLogin":"loggedIn"}</h1>
+            </div>
+        )
+    }
+
+}
+
+export default Test
+
+```
+
+14\) fetching data from API
+
+[https://medium.com/@armando\_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)
+
+```javascript
+
+    constructor(){
+        super()
+        this.state ={
+            character : {}
+        }
+    }
+        
+
+    componentDidMount(){
+        fetch("https://swapi.dev/api/people/1/")
+        .then(response => response.json()) //response parse to json 
+        .then(data => {
+            this.setState({character:data}) //data is set in state  
+        })
+    }
+   
+
+    render(){
+        return(
+            <div>
+               <h1>{this.state.character.name}</h1>
+            </div>
+        )
+    }
+
+
+
+```
+
+15\) Forms
+
+```javascript
+
+class Test extends React.Component{
+    constructor(){
+        super()
+        this.state ={
+            firstName:"",
+            lastName:""
+        }
+
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(event){
+        this.setState({
+           [event.target.name]:event.target.value})
+    }
+        
+
+    render(){
+        return(
+            <div>
+               <form>
+                   <input type="text" name="firstName" placeholder="FirstName" onChange={this.handleChange}></input>
+                   <input type="text" name="lastName" placeholder="LastName" onChange={this.handleChange}></input>
+                   <h1>{this.state.firstName}</h1>
+                   <h1>{this.state.lastName}</h1>
+               </form>
+            </div>
+        )
+    }
+
+```
+
+```javascript
+
+    render(){
+        return(
+            <div>
+               <form>
+                    <textarea value={"some default"}/>
+                    <input type="checkbox" checked={false} name="isFriendly"/>
+                    <input type="radio" />
+                    <select value = {this.state.favColor} name="favColor">
+                                <option value="yellow">Yellow</option>
+                                <option value="red">Red</option>
+                            </select>
+               </form>
+            </div>
+        )
+    }
+```
+
+exercise
+
+```javascript
+
+import React from "react"
+import Conditional from "././Conditional"
+
+class Test extends React.Component{
+    constructor(){
+        super()
+        this.state ={
+                firstName:"",
+                lastName:"",
+                age:"",
+                gender:"male",
+                destination:"",
+        
+                    isVegan : false,
+                    isKosher : false,
+                    isLactoseFree : false
+                
+        }
+
+        this.handleChange = this.handleChange.bind(this);
+
+
+    }
+
+    handleChange(event){
+        const {name, value, type, checked} = event.target;
+
+        type==="checkbox" ? this.setState({
+           
+                [name] :checked
+            
+        })
+        :
+        this.setState({
+            [name]:value
+        })
+    }
+  
+        
+
+    render(){
+        return(
+            <div>
+               <form>
+                   <input name="firstName" value={this.state.firstName} onChange={this.handleChange} placeholder="First Name" /> <br/>
+                   <input name="lastName" value={this.state.lastName} onChange={this.handleChange} placeholder="Last Name" /> <br/>
+                   <input name="age" value={this.state.age} onChange={this.handleChange} placeholder="Age" /> <br/>
+                   <label>
+                       <input type="radio" name="gender" value="male" checked={this.state.gender==="male"} onChange={this.handleChange}/> Male
+                       <input type="radio" name="gender" value="female" checked={this.state.gender==="female"} onChange={this.handleChange}/> Female
+                   </label><br/>
+
+                   <select value={this.state.destination} name="destination" onChange={this.handleChange}>
+                       <option value="shanghai">shanghai</option>
+                       <option value="beijing"> beijing</option>
+                   </select><br/>
+
+                    <label>
+                        <input type="checkbox" name="isVegan" onChange={this.handleChange} checked={this.state.isVegan}></input>isVegan
+                        <input type="checkbox" name="isKosher" onChange={this.handleChange} checked={this.state.isKosher}></input>isKosher
+                        <input type="checkbox" name="isLactoseFree" onChange={this.handleChange} checked={this.state.isLactoseFree}></input>isLactoseFree
+
+                    </label>
+
+               </form>
+
+
+            <br></br>
+            <h2>Entered Information</h2>
+            <p2>Your Name: {this.state.firstName} {this.state.lastName}</p2>
+            <br></br>
+            <p2>Your Age: {this.state.age} </p2>
+            <br></br>
+            <p2>Your gender: {this.state.gender} </p2>
+            <br></br>
+            <p2>Your destination: {this.state.destination} </p2>
+            <br></br>
+            
+            </div>
+
+
+        )
+    }
+
+}
+
+export default Test
+
+```
+
