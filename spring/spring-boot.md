@@ -18,3 +18,7 @@ description: 'https://www.javatpoint.com/spring-boot-tutorial'
 * It also minimizes writing multiple **boilerplate codes** \(the code that has to be included in many places with little or no alteration\), XML configuration, and annotations.
 * It **increases productivity** and reduces development time.
 
+![](../.gitbook/assets/image%20%28252%29.png)
+
+
+
