@@ -30,7 +30,3 @@ BackEnd
 * MongoDB
 * OpenShift ECN 
 
-DevOps
-
-* gradle
-
