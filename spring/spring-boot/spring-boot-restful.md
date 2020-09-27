@@ -8,7 +8,7 @@ description: 'https://spring.io/guides/gs/rest-service/'
 
 1\) Start 
 
-
+/mvnw spring-boot:run --&gt; command to run
 
 @GetMapping\("/greeting"\) --&gt; for handling Get request
 
