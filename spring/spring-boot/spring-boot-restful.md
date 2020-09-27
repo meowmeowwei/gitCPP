@@ -156,3 +156,30 @@ public class UserResource {
 
 4\) [implementing POST method ](https://www.javatpoint.com/restful-web-services-postman-for-chrome)
 
+```java
+
+@PostMapping("/users")  
+public void createUser(@RequestBody User user)  
+{  
+User sevedUser=service.save(user);    
+}  
+}  
+
+```
+
+5\) [Enhance to have the post response to contain ID of the new user in the location of headers ](https://www.javatpoint.com/restful-web-services-postman-for-chrome)
+
+```java
+
+//method that posts a new user detail and returns the status of HTTP and location of the user resource  
+@PostMapping("/users")  
+public ResponseEntity<Object> createUser(@RequestBody User user)  
+{  
+User sevedUser=service.save(user);    
+URI location=ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(sevedUser.getId()).toUri();  
+return ResponseEntity.created(location).build();  
+}  
+}  
+
+```
+
