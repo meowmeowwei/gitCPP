@@ -183,3 +183,40 @@ return ResponseEntity.created(location).build();
 
 ```
 
+6\) [implementing exception response](https://www.javatpoint.com/restful-web-services-404-not-found)
+
+create exception class
+
+```java
+
+package com.example.web.example.user;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.NOT_FOUND)  // need to have responseStatus
+public class UserNotFoundException extends RuntimeException {
+	public UserNotFoundException(String message) {
+		super(message);
+	}
+
+
+}
+
+```
+
+throw exception in the UserResource
+
+```java
+
+
+	//retrieves a specific user detail  
+	@GetMapping("/users/{id}")  
+	public User retriveUser(@PathVariable int id)  
+	{  
+		User user = service.findOne(id);  
+		if(user==null) throw new UserNotFoundException("id: " + id);
+		return user;
+	} 
+```
+
