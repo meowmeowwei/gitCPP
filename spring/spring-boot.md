@@ -22,3 +22,13 @@ description: 'https://www.javatpoint.com/spring-boot-tutorial'
 
 
 
+
+
+**@SpringBootApplication**
+
+A single @SpringBootApplication annotation is used to enable the following annotations:
+
+* **@EnableAutoConfiguration:** It enables the Spring Boot auto-configuration mechanism.
+* **@ComponentScan:** It scans the package where the application is located.
+* **@Configuration:** It allows us to register extra beans in the context or import additional configuration classes.
+
