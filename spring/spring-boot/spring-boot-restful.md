@@ -2,7 +2,7 @@
 description: 'https://spring.io/guides/gs/rest-service/'
 ---
 
-# Spring Boot Greeting
+# Spring Boot Greeting Project
 
 [my GitHub sample ](https://github.com/sunwei9366/springBootHelloWorld)
 
@@ -153,4 +153,6 @@ public class UserResource {
 }
 
 ```
+
+4\) [implementing POST method ](https://www.javatpoint.com/restful-web-services-postman-for-chrome)
 
