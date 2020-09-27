@@ -27,6 +27,7 @@
   * [Spring Boot](spring/spring-boot/README.md)
     * [Spring Boot Annotation](spring/spring-boot/spring-boot-annotation.md)
     * [Spring Boot Hello World](spring/spring-boot/spring-boot-hello-world.md)
+    * [Spring Boot Restful](spring/spring-boot/spring-boot-restful.md)
 * [3 months study plan](3-months-study-plan/README.md)
   * [CS2040C - data structure and algorithm](3-months-study-plan/cs2040c-data-structure-and-algorithm/README.md)
     * [week 1 - c++ refreshment](3-months-study-plan/cs2040c-data-structure-and-algorithm/week-1-c++-refreshment.md)
