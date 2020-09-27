@@ -23,18 +23,10 @@ FrontEnd
 * FinSemble
 * WireFrame Tools 
 
-Package Management 
-
-* yarn
-
 BackEnd
 
 * SpringBoot
 * Couchbase
 * MongoDB
 * OpenShift ECN 
-
-DevOps
-
-* gradle
 
