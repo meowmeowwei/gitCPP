@@ -6,7 +6,7 @@
 
 [Digest - Prepare Coding Interview ](https://www.nushackers.org/2017/09/digest-preparing-for-a-coding-interview/)
 
-
+[JavaPoint](https://www.javatpoint.com/restful-web-services-delete-resource) : good place for general knowledge
 
 FrontEnd
 
@@ -23,10 +23,18 @@ FrontEnd
 * FinSemble
 * WireFrame Tools 
 
+Package Management 
+
+* yarn
+
 BackEnd
 
 * SpringBoot
 * Couchbase
 * MongoDB
 * OpenShift ECN 
+
+DevOps
+
+* gradle
 
