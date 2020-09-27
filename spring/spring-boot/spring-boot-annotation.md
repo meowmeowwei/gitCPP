@@ -15,7 +15,7 @@ description: 'https://www.javatpoint.com/spring-boot-annotations'
 
 **@Bean:** It is a method-level annotation. It is an alternative of XML &lt;bean&gt; tag. It tells the method to produce a bean to be managed by Spring Container.
 
-**@Component:** It is a class-level annotation. It is used to mark a Java class as a bean. A Java class annotated with **@Component** is found during the classpath. The Spring Framework pick it up and configure it in the application context as a **Spring Bean**.
+**@Component:** **It is a class-level annotation. It is used to mark a Java class as a bean**. A Java class annotated with **@Component** is found during the classpath. The Spring Framework pick it up and configure it in the application context as a **Spring Bean**.
 
 **@Controller:** The @Controller is a class-level annotation. It is a specialization of **@Component**. It marks a class as a web request handler. It is often used to serve web pages. By default, it returns a string that indicates which route to redirect. It is mostly used with **@RequestMapping** annotation.
 
