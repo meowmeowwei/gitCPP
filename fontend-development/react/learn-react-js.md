@@ -2,7 +2,7 @@
 description: 'https://www.youtube.com/watch?v=DLX62G4lc44'
 ---
 
-# Learn React JS
+# YouTube Learn React JS
 
 1\) Functional component 
 
