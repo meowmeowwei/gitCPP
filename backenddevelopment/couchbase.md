@@ -79,3 +79,19 @@ In Couchbase, document is the unit of manipulation. Currently Couchbase doesn't 
 
 Couchbase currently doesn't support bulk modification based on a condition matching. Modification happens only in a per document basis. \(client will save the modified document one at a time\).
 
+
+
+#### Transaction Model
+
+Similar to many NOSQL databases, Couchbase’s transaction model is primitive as compared to RDBMS.  Atomicity is guaranteed at a single document and transactions that span update of multiple documents are unsupported.  To provide necessary isolation for concurrent access, Couchbase provides a CAS \(compare and swap\) mechanism which works as follows …  
+
+
+* When the client retrieves a document, a **CAS ID** \(equivalent to a revision number\) is attached to it.
+* While the client is manipulating the retrieved document locally, another client may modify this document.  When this happens, the CAS ID of the document at the server will be incremented.
+* Now, when the original client submits its modification to the server, it can attach the original  CAS ID in its request.  The server will verify this ID with the actual ID in the server.  If they differ, the document has been updated in between and the server will not apply the update.
+* The original client will re-read the document \(which now has a newer ID\) and re-submit its modification. 
+
+Couchbase also provides a locking mechanism for clients to coordinate their access to documents.  Clients can request a LOCK on the document it intends to modify, update the documents and then releases the LOCK.  To prevent a deadlock situation, each LOCK grant has a timeout so it will automatically be released after a period of time.
+
+
+
