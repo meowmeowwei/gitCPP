@@ -12,5 +12,5 @@ description: 'https://www.javatpoint.com/restful-web-services-spring-boot-auto-c
   * Auto-configures a **Data Source** if **Hibernate jar** is on the classpath.
 * Auto-configuration can be enabled by adding **@SpringBootApplication** or **@EnableAutoConfiguration** annotation in startup class. It indicates that it is a spring context file.
 
-![](../../.gitbook/assets/image%20%28253%29.png)
+![](../../../.gitbook/assets/image%20%28253%29.png)
 
