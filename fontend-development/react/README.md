@@ -47,3 +47,12 @@ CLI -&gt; command line interface \( boiler-plot\)
 
 React-Js  vs React-Native \(for mobile development\)
 
+
+
+[How does React work ?](https://www.w3schools.com/react/react_intro.asp)
+
+* uses virtual dom
+* changes what needs to be changed
+
+
+
