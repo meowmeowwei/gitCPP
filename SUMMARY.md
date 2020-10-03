@@ -6,6 +6,7 @@
     * [BootStrap](fontend-development/css/bootstrap.md)
   * [JavaScript](fontend-development/javascript.md)
   * [React](fontend-development/react/README.md)
+    * [React JSX](fontend-development/react/react-jsx.md)
     * [ES 6](fontend-development/react/es-6/README.md)
       * [let vs Var vs Const](fontend-development/react/es-6/let.md)
       * [Arrow Function](fontend-development/react/es-6/arrow-function.md)
