@@ -4,31 +4,21 @@ HTML
 
 CSS
 
-bootstrap
-
 JavaScript
-
-TypeScript
 
 node.JS -&gt; open source server environment 
 
-React -&gt; Javascript framework \(Routing, Lerna, MonoRepo\)
+React -&gt; Javascript framework
 
 Angular -&gt; Javascript framework
 
 WebSocket 
 
-Rest API
-
-SpringBoot
-
-WireFrame
+Rest 
 
 Finsember
 
 CouchBase
 
 Wireframe
-
-OpenShift
 
