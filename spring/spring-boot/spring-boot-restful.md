@@ -308,3 +308,7 @@ in the UserResourceController call the method from @DeleteMapping
 
 ```
 
+9\) [implement validation for Rest Service ](https://www.javatpoint.com/restful-web-services-validations)
+
+ 10\) Internationalization of Restful services 
+
