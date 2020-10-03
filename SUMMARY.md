@@ -23,6 +23,7 @@
   * [Rest API](fontend-development/rest-api.md)
   * [Couchbase](fontend-development/couchbase.md)
 * [BackEndDevelopment](backenddevelopment/README.md)
+  * [CouchBase](backenddevelopment/couchbase.md)
   * [JPA - Java Persistence API](backenddevelopment/jpa-java-persistence-api.md)
   * [Spring](backenddevelopment/spring/README.md)
     * [REST API](backenddevelopment/spring/rest-api.md)
