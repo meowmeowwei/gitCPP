@@ -28,3 +28,50 @@ Couchbase also provides a query mechanism to retrieve data where the client prov
   
 For write, Couchbase provides a key-based update mechanism where the client sends in an updated document with the key \(as doc id\).  When handling write request, the server will return to client’s write request as soon as the data is stored in RAM on the active server, which offers the lowest latency for write requests.
 
+
+
+```text
+//couchbase API
+
+# Get a document by key
+
+doc = get(key)
+
+# Modify a document, notice the whole document 
+#   need to be passed in
+
+set(key, doc)
+
+# Modify a document when no one has modified it 
+#  since my last read
+
+casVersion = doc.getCas()
+cas(key, casVersion, changedDoc)
+
+# Create a new document, with an expiration time 
+#   after which the document will be deleted
+
+addIfNotExist(key, doc, timeToLive)
+
+# Delete a document
+
+delete(key)
+
+# When the value is an integer, increment the integer
+
+increment(key)
+
+# When the value is an integer, decrement the integer
+
+decrement(key)
+
+# When the value is an opaque byte array, append more 
+#  data into existing value 
+
+append(key, newData)
+
+# Query the data 
+
+results = query(viewName, queryParameters)
+```
+
