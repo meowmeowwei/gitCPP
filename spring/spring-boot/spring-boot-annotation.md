@@ -23,3 +23,5 @@ description: 'https://www.javatpoint.com/spring-boot-annotations'
 
 **@Repository:** It is a class-level annotation. The repository is a **DAOs** \(Data Access Object\) that access the database directly. The repository does all the operations related to the database.
 
+**@**_**ControllerAdvice**_ **is a specialization** of the @Component annotation which allows to handle exceptions across the whole application in one global handling component. It can be viewed as an interceptor of exceptions thrown by methods annotated with
+
