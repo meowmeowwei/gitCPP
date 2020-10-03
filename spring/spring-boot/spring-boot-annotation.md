@@ -17,11 +17,9 @@ description: 'https://www.javatpoint.com/spring-boot-annotations'
 
 **@Component:** **It is a class-level annotation. It is used to mark a Java class as a bean**. A Java class annotated with **@Component** is found during the classpath. The Spring Framework pick it up and configure it in the application context as a **Spring Bean**.
 
-**@Controller:** The @Controller is a class-level annotation. It is a specialization of **@Component**. It marks a class a**s a web request handler. It is often used to serve web pages.** By default, it returns a string that indicates which route to redirect. It is mostly used with **@RequestMapping** annotation.
+**@Controller:** The @Controller is a class-level annotation. It is a specialization of **@Component**. It marks a class as a web request handler. It is often used to serve web pages. By default, it returns a string that indicates which route to redirect. It is mostly used with **@RequestMapping** annotation.
 
 **@Service:** It is also used at class level. It tells the Spring that class contains the **business logic**.
 
 **@Repository:** It is a class-level annotation. The repository is a **DAOs** \(Data Access Object\) that access the database directly. The repository does all the operations related to the database.
-
-**@**_**ControllerAdvice**_ **is a specialization** of the @Component annotation which allows to handle exceptions across the whole application in one global handling component. It can be viewed as an interceptor of exceptions thrown by methods annotated with
 

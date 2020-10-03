@@ -271,3 +271,40 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 
 ```
 
+8\) [implementing delete method ](https://www.javatpoint.com/restful-web-services-delete-resource)
+
+in the UserDaoService , add the delete method 
+
+```java
+
+	// method that delete a user resource
+	public User deleteById(int id) {
+		Iterator<User> iterator = users.iterator();
+		while (iterator.hasNext()) {
+			User user = iterator.next();
+			if (user.getId() == id) {
+				iterator.remove();
+				return user; // returns the deleted resource back
+			}
+		}
+		return null;
+	}
+
+```
+
+in the UserResourceController call the method from @DeleteMapping
+
+```java
+
+	//retrieves a specific user detail  
+	@DeleteMapping("/users/{id}")  
+	public User deleteUser(@PathVariable int id)  
+	{  
+		User user = service.deleteById(id);
+		if(user==null) throw new UserNotFoundException("id: " + id);
+		return user;
+	}  
+	
+
+```
+
