@@ -4,7 +4,7 @@ description: 'https://www.javatpoint.com/spring-boot-tutorial'
 
 # Spring Boot
 
-
+![](../../.gitbook/assets/image%20%28254%29.png)
 
 ### Advantages of Spring Boot
 
