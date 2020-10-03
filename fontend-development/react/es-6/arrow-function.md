@@ -15,5 +15,6 @@ let log = (message) ==> console.log(message); // if it's only one statement
 
 let log = message ==> console.log(message);
 
+//let allows you to declare variables in the scope.
 ```
 
