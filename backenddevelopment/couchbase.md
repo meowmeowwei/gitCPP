@@ -75,3 +75,7 @@ append(key, newData)
 results = query(viewName, queryParameters)
 ```
 
+In Couchbase, document is the unit of manipulation. Currently Couchbase doesn't support server-side execution of custom logic. Couchbase server is basically a passive store and unlike other document oriented DB, Couchbase doesn't support field-level modification. In case of modifying documents, client need to retrieve documents by its key, do the modification locally and then send back the whole \(modified\) document back to the server. This design tradeoff network bandwidth \(since more data will be transferred across the network\) for CPU \(now CPU load shift to client\).
+
+Couchbase currently doesn't support bulk modification based on a condition matching. Modification happens only in a per document basis. \(client will save the modified document one at a time\).
+
