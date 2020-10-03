@@ -12,7 +12,6 @@
         * [let vs Var vs Const](fontend-development/react/w3school-react/es-6/let.md)
         * [Arrow Function](fontend-development/react/w3school-react/es-6/arrow-function.md)
       * [React Props](fontend-development/react/w3school-react/react-props.md)
-      * [React States](fontend-development/react/w3school-react/react-states.md)
       * [class component vs function component](fontend-development/react/w3school-react/class-component-vs-function-component.md)
     * [YouTube Learn React JS](fontend-development/react/learn-react-js.md)
   * [Node JS](fontend-development/node-js.md)
