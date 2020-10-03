@@ -7,6 +7,7 @@
   * [JavaScript](fontend-development/javascript.md)
   * [React](fontend-development/react/README.md)
     * [ES 6](fontend-development/react/es-6/README.md)
+      * [let](fontend-development/react/es-6/let.md)
       * [Arrow Function](fontend-development/react/es-6/arrow-function.md)
     * [Learn React JS](fontend-development/react/learn-react-js.md)
   * [Node JS](fontend-development/node-js.md)
