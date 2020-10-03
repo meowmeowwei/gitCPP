@@ -93,5 +93,106 @@ Similar to many NOSQL databases, Couchbase’s transaction model is primitive as
 
 Couchbase also provides a locking mechanism for clients to coordinate their access to documents.  Clients can request a LOCK on the document it intends to modify, update the documents and then releases the LOCK.  To prevent a deadlock situation, each LOCK grant has a timeout so it will automatically be released after a period of time.
 
+![](../.gitbook/assets/image%20%28256%29.png)
+
+#### Virtual Buckets
+
+The basic unit of data storage in Couchbase DB is a JSON document \(or primitive data type such as int and byte array\) which is associated with a key.  The overall key space is partitioned into 1024 logical storage unit called "virtual buckets" \(or vBucket\).  vBucket are distributed across machines within the cluster via a map that is shared among servers in the cluster as well as the client library.
+
+High availability is achieved through data replication at the vBucket level.  Currently Couchbase supports one active vBucket zero or more standby replicas hosted in other machines.  Curremtly the standby server are idle and not serving any client request.  In future version of Couchbase, the standby replica will be able to serve read request.  
+  
+Load balancing in Couchbase is achieved as follows:  
+
+
+* Keys are uniformly distributed based on the hash function
+* When machines are added and removed in the cluster.  The administrator can request a redistribution of vBucket so that data are evenly spread across physical machines.
+
+![](../.gitbook/assets/image%20%28257%29.png)
+
+
+
+#### Management Server
+
+Management server performs the management function and co-ordinate the other nodes within the cluster.  It includes the following monitoring and administration functions  
+  
+**Heartbeat:** A watchdog process periodically communicates with all member nodes within the same cluster to provide Couchbase Server health updates.  
+  
+**Process monitor:** This subsystem monitors execution of the local data manager, restarting failed processes as required and provide status information to the heartbeat module.  
+  
+**Configuration manager:** Each Couchbase Server node shares a cluster-wide configuration which contains the member nodes within the cluster, a vBucket map.  The configuration manager pull this config from other member nodes at bootup time.  
+  
+Within a cluster, one node’s Management Server will be elected as the leader which performs the following cluster-wide management function  
+
+
+* Controls the distribution of vBuckets among other nodes and initiate vBucket migration
+* Orchestrates the failover and update the configuration manager of member nodes
+
+If the leader node crashes, a new leader will be elected from surviving members in the cluster.  
+  
+When a machine in the cluster has crashed, the leader will detect that and notify member machines in the cluster that all vBuckets hosted in the crashed machine is dead.  After getting this signal, machines hosting the corresponding vBucket replica will set the vBucket status as “active”.  The vBucket/server map is updated and eventually propagated to the client lib.  Notice that at this moment, the replication level of the vBucket will be reduced.  Couchbase doesn’t automatically re-create new replicas which will cause data copying traffic.  Administrator can issue a command to explicitly initiate a data rebalancing.  The crashed machine, after reboot can rejoin the cluster.  At this moment, all the data it stores previously will be completely discard and the machine will be treated as a brand new empty machine.  
+  
+As more machines are put into the cluster \(for scaling out\), vBucket should be redistributed to achieve a load balance.  This is currently triggered by an explicit command from the administrator.  Once receive the “rebalance” command, the leader will compute the new provisional map which has the balanced distribution of vBuckets and send this provisional map to all members of the cluster.  
+  
+To compute the vBucket map and migration plan, the leader attempts the following objectives:  
+
+
+* Evenly distribute the number of active vBuckets and replica vBuckets among member nodes.
+* Place the active copy and each replicas in physically separated nodes.
+* Spread the replica vBucket as wide as possible among other member nodes.
+* Minimize the amount of data migration
+* Orchestrate the steps of replica redistribution so no node or network will be overwhelmed by the replica migration.
+
+Once the vBucket maps is determined, the leader will pass the redistribution map to each member in the cluster and coordinate the steps of vBucket migration.  The actual data transfer happens directly between the origination node to the destination node.  
+  
+Notice that since we have generally more vBuckets than machines.  The workload of migration will be evenly distributed automatically.  For example, when new machines are added into the clusters, all existing machines will migrate some portion of its vBucket to the new machines.  There is no single bottleneck in the cluster.  
+  
+Throughput the migration and redistribution of vBucket among servers, the life cycle of a vBucket in a server will be in one of the following states  
+
+
+* “Active”:  means the server is hosting the vBucket is ready to handle both read and write request
+* “Replica”: means the server is hosting the a copy of the vBucket that may be slightly out of date but can take read request that can tolerate some degree of outdate.
+* “Pending”: means the server is hosting a copy that is in a critical transitional state.  The server cannot take either read or write request at this moment.
+* “Dead”: means the server is no longer responsible for the vBucket and will not take either read or write request anymore.
+
+
+
+
+
+#### Data Server
+
+Data server implements the memcached APIs such as get, set, delete, append, prepend, etc. It contains the following key datastructure:  
+
+
+* One in-memory hashtable \(key by doc id\) for the corresponding vBucket hosted.  The hashtable acts as both a metadata for all documents as well as a cache for the document content.  Maintain the entry gives a quick way to detect whether the document exists on disk.
+* To support async write, there is a checkpoint linkedlist per vBucket holding the doc id of modified documents that hasn't been flushed to disk or replicated to the replica.
+
+![](../.gitbook/assets/image%20%28255%29.png)
+
+To handle a "GET" request  
+
+
+* Data server routes the request to the corresponding ep-engine responsible for the vBucket.
+* The ep-engine will lookup the document id from the in-memory hastable.  If the document content is found in cache \(stored in the value of the hashtable\), it will be returned.  Otherwise, a background disk fetch task will be created and queued into the RO dispatcher queue.
+* The RO dispatcher then reads the value from the underlying storage engine and populates the corresponding entry in the vbucket hash table.
+* Finally, the notification thread notifies the disk fetch completion to the memcached pending connection, so that the memcached worker thread can revisit the engine to process a get request.
+
+To handle a "SET" request,  a success response will be returned to the calling client once the updated document has been put into the in-memory hashtable with a write request put into the checkpoint buffer.  Later on the Flusher thread will pickup the outstanding write request from each checkpoint buffer, lookup the corresponding document content from the hashtable and write it out to the storage engine.  
+  
+Of course, data can be lost if the server crashes before the data has been replicated to another server and/or persisted.  If the client requires a high data availability across different crashes, it can issue a subsequent observe\(\) call which blocks on the condition  that the server persist data on disk, or the server has replicated the data to another server \(and get its ACK\).  Overall speaking, the client has various options to tradeoff data integrity with throughput.
+
+
+
+#### CouchDB Storage Structure
+
+Data server defines an interface where different storage structure can be plugged-in.  Currently it supports both a SQLite DB as well as CouchDB.  Here we describe the details of CouchDb, which provides a super high performance storage mechanism underneath the Couchbase technology.  
+  
+Under the CouchDB structure, there will be one file per vBucket.  Data are written to this file in an append-only manner, which enables Couchbase to do mostly sequential writes for update, and provide the most optimized access patterns for disk I/O.  This unique storage structure attributes to Couchbase’s fast on-disk performance for write-intensive applications.
+
+
+
+
+
+
+
 
 
