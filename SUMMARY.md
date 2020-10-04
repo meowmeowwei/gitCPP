@@ -7,6 +7,7 @@
   * [JavaScript](fontend-development/javascript.md)
   * [React](fontend-development/react/README.md)
     * [W3school React](fontend-development/react/w3school-react/README.md)
+      * [ReactLiftCycle](fontend-development/react/w3school-react/reactliftcycle.md)
       * [Properties vs State](fontend-development/react/w3school-react/properties-vs-state.md)
       * [ES 6](fontend-development/react/w3school-react/es-6/README.md)
         * [React JSX](fontend-development/react/w3school-react/es-6/react-jsx.md)
