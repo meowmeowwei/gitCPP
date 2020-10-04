@@ -1,4 +1,4 @@
-# Properties vs State
+# React Properties vs State
 
 Props you cant change 
 
