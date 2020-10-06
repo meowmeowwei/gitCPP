@@ -4,7 +4,7 @@ description: 'https://pusher.com/tutorials/consume-restful-api-react'
 
 # React- REST API
 
-fetching the value and set it into the state 
+1\) fetching the value and set it into the state 
 
 ```javascript
 
@@ -31,4 +31,6 @@ class App extends Component {
       }
 
 ```
+
+`fetch('http://jsonplaceholder.typicode.com/users')` will make a `GET` request to the endpoint `.then(res => res.json())` parses the output to JSON, `.then((data) => {this.setState({ contacts: data })})` sets the value of our state to the output from the API call and finally `.catch(console.log)` logs any error we get to the console.
 
