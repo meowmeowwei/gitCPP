@@ -38,6 +38,7 @@
   * [Spring](backenddevelopment/spring/README.md)
     * [REST API](backenddevelopment/spring/rest-api.md)
     * [Spring Boot](backenddevelopment/spring/spring-boot/README.md)
+      * [@CrossOrigin Annotation](backenddevelopment/spring/spring-boot/crossorigin-annotation.md)
       * [Spring Boot Greeting Project](backenddevelopment/spring/spring-boot/spring-boot-restful.md)
       * [Spring Boot Annotation](backenddevelopment/spring/spring-boot/spring-boot-annotation.md)
       * [Spring Boot Hello World](backenddevelopment/spring/spring-boot/spring-boot-hello-world.md)
