@@ -46,5 +46,37 @@ spring boot side needs to have ability to return the value
 
 ```
 
+2\) Delete request
 
+still use fetch api, after that reload the items 
+
+```javascript
+
+fetch('http://localhost:8080/todoitem/'+id,{
+      method: "DELETE"
+  }).then(()=>{
+      fetch('http://localhost:8080/todoitems')
+      .then(res => res.json())
+      .then((data) => {
+        this.setState({ todos: data })
+      })
+      .catch(console.log)
+  })
+
+```
+
+spring boot side define logic to receive delete request 
+
+```javascript
+
+	@DeleteMapping("/todoitem/{id}")  
+	public ToDoItem deleteItem(@PathVariable int id)  
+	{  
+		System.out.println("received delete request "+ id );
+		ToDoItem toDoItem = service.deleteById(id);
+
+		return toDoItem;
+	}  
+
+```
 
