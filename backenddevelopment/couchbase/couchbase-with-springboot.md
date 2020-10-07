@@ -1,6 +1,6 @@
 ---
 description: >-
-  https://medium.com/@knoldus/first-steps-to-build-spring-boot-application-with-couchbase-c9c089f97637
+  https://examples.javacodegeeks.com/enterprise-java/spring/data/spring-data-couchbase-example/
 ---
 
 # Couchbase with Springboot
