@@ -4,9 +4,89 @@ description: 'https://dzone.com/articles/couchbase-architecture-deep'
 
 # CouchBase
 
+NOSQL DB -&gt; can store data in semi structured data , no fixed schema, can store video file , audio binary file
 
 
-Couchbase is the merge of two popular NOSQL technologies:   
+
+\*\*\*\*[**Feature/Benefits of couchbase**](https://www.youtube.com/watch?v=pV65gLFf0tI)\*\*\*\*
+
+1\) Memory first architecture 
+
+document is first stored in Memory\(Ram\) -&gt; replicated async way to Discs
+
+low latency
+
+2\) distributed database 
+
+![](../../.gitbook/assets/image%20%28258%29.png)
+
+each machine in cluster is a node , data is distributed 
+
+3\) Scalability
+
+4\) Fault Tolerance 
+
+you can define replication factor to see how many copies to retained in the cluster 
+
+5\) Buckets
+
+create each type for a bucket \(e.g. company bucket, employee bucket\)
+
+6\) Bucket to Vbucket 
+
+![](../../.gitbook/assets/image%20%28264%29.png)
+
+7\) can enable compression in RAM 
+
+in the disc is always compressed 
+
+![](../../.gitbook/assets/image%20%28260%29.png)
+
+8\) Expiration
+
+can define at bucket level 
+
+
+
+9\) Memory & Storage 
+
+memory first architecture 
+
+![](../../.gitbook/assets/image%20%28259%29.png)
+
+10\) indexing
+
+* Primary Index -&gt; key 
+* Secondary Index -&gt; query based on secondary data in the document
+* Composite secondary index -&gt; query based on multiple attributes 
+* Array Index -&gt; fetch data from array attribute
+* Full Text index 
+
+![](../../.gitbook/assets/image%20%28265%29.png)
+
+11\) View 
+
+![](../../.gitbook/assets/image%20%28262%29.png)
+
+12\) architecture on each node within cluster 
+
+* data service -&gt; ram/disc
+* index service -&gt; primary , secondary etc
+* query service -&gt; N1QL 
+* search service -&gt; full text index 
+* analytic service -&gt; complex queries , join command etc 
+
+![](../../.gitbook/assets/image%20%28261%29.png)
+
+13\) Limits
+
+* key max is 250 bytes
+* value max is 20 mb limit
+* number of buckets max -&gt; 10 buckets \(recommended 3 buckets in production\) 
+* 
+
+
+**Couchbase is the merge of two popular NOSQL technologies:**   
 
 
 * Membase, which provides persistence, replication, sharding to the high performance memcached technology
