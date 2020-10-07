@@ -93,7 +93,7 @@ Similar to many NOSQL databases, Couchbase’s transaction model is primitive as
 
 Couchbase also provides a locking mechanism for clients to coordinate their access to documents.  Clients can request a LOCK on the document it intends to modify, update the documents and then releases the LOCK.  To prevent a deadlock situation, each LOCK grant has a timeout so it will automatically be released after a period of time.
 
-![](../.gitbook/assets/image%20%28256%29.png)
+![](../../.gitbook/assets/image%20%28256%29.png)
 
 #### Virtual Buckets
 
@@ -107,7 +107,7 @@ Load balancing in Couchbase is achieved as follows:
 * Keys are uniformly distributed based on the hash function
 * When machines are added and removed in the cluster.  The administrator can request a redistribution of vBucket so that data are evenly spread across physical machines.
 
-![](../.gitbook/assets/image%20%28257%29.png)
+![](../../.gitbook/assets/image%20%28257%29.png)
 
 
 
@@ -166,7 +166,7 @@ Data server implements the memcached APIs such as get, set, delete, append, prep
 * One in-memory hashtable \(key by doc id\) for the corresponding vBucket hosted.  The hashtable acts as both a metadata for all documents as well as a cache for the document content.  Maintain the entry gives a quick way to detect whether the document exists on disk.
 * To support async write, there is a checkpoint linkedlist per vBucket holding the doc id of modified documents that hasn't been flushed to disk or replicated to the replica.
 
-![](../.gitbook/assets/image%20%28255%29.png)
+![](../../.gitbook/assets/image%20%28255%29.png)
 
 To handle a "GET" request  
 
