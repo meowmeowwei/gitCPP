@@ -34,6 +34,7 @@
   * [Couchbase](fontend-development/couchbase.md)
 * [BackEndDevelopment](backenddevelopment/README.md)
   * [CouchBase](backenddevelopment/couchbase/README.md)
+    * [CouchBase Tutorial](backenddevelopment/couchbase/couchbase-tutorial-1.md)
     * [Couchbase with Springboot](backenddevelopment/couchbase/couchbase-with-springboot.md)
     * [CouchBase N1Q1](backenddevelopment/couchbase/couchbase-n1q1.md)
     * [CouchBase Tutorial](backenddevelopment/couchbase/couchbase-tutorial.md)
