@@ -10,31 +10,31 @@
 
 FrontEnd
 
-* CSS
-* HTML
-* JavaScript
-* TypeScript
-* CSS BootStrap
-* React
-* Angular
-* Vue.JS
-* REST API
-* WebSocket
-* FinSemble
-* WireFrame Tools 
+* [ ] CSS
+* [ ] HTML
+* [ ] JavaScript
+* [ ] TypeScript
+* [ ] CSS BootStrap
+* [ ] React
+* [ ] Angular
+* [ ] Vue.JS
+* [ ] REST API
+* [ ] WebSocket
+* [ ] FinSemble
+* [ ] WireFrame Tools 
 
 Package Management 
 
-* yarn
+* [ ] yarn
 
 BackEnd
 
-* SpringBoot
-* Couchbase
-* MongoDB
-* OpenShift ECN 
+* [ ] SpringBoot
+* [ ] Couchbase
+* [ ] MongoDB
+* [ ] OpenShift ECN 
 
 DevOps
 
-* gradle
+* [ ] gradle
 
