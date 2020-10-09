@@ -31,7 +31,6 @@
     * [polyfills.ts](fontend-development/angular/polyfills.ts.md)
     * [package.json](fontend-development/angular/package.json.md)
   * [Rest API](fontend-development/rest-api.md)
-  * [Couchbase](fontend-development/couchbase.md)
 * [BackEndDevelopment](backenddevelopment/README.md)
   * [CouchBase](backenddevelopment/couchbase/README.md)
     * [CouchBase Tutorial](backenddevelopment/couchbase/couchbase-tutorial-1/README.md)
