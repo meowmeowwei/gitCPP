@@ -6,7 +6,7 @@ CREATE INDEX idx\_email
 
 ON couchmusic2\(email\);
 
-![](../../../.gitbook/assets/image%20%28274%29.png)
+![](../../../.gitbook/assets/image%20%28275%29.png)
 
 **2. Create and use index on multiple filtered query** 
 

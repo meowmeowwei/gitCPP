@@ -35,6 +35,7 @@
   * [CouchBase](backenddevelopment/couchbase/README.md)
     * [CouchBase Tutorial](backenddevelopment/couchbase/couchbase-tutorial-1/README.md)
       * [CouchBase Lab 4 - Indexing](backenddevelopment/couchbase/couchbase-tutorial-1/couchbase-lab-4-indexing.md)
+      * [CouchBase lab 5 - Query Ranges and explain query](backenddevelopment/couchbase/couchbase-tutorial-1/couchbase-lab-5-query-ranges-and-explain-query.md)
     * [Couchbase with Springboot](backenddevelopment/couchbase/couchbase-with-springboot.md)
     * [CouchBase N1Q1](backenddevelopment/couchbase/couchbase-n1q1.md)
     * [CouchBase Tutorial](backenddevelopment/couchbase/couchbase-tutorial.md)
