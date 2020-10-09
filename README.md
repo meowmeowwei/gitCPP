@@ -10,15 +10,15 @@
 
 FrontEnd
 
-* [ ] CSS
-* [ ] HTML
-* [ ] JavaScript
-* [ ] TypeScript
+* [x] CSS
+* [x] HTML
+* [x] JavaScript
+* [x] TypeScript
 * [ ] CSS BootStrap
-* [ ] React
+* [x] React
 * [ ] Angular
 * [ ] Vue.JS
-* [ ] REST API
+* [x] REST API
 * [ ] WebSocket
 * [ ] FinSemble
 * [ ] WireFrame Tools 
@@ -29,8 +29,8 @@ Package Management
 
 BackEnd
 
-* [ ] SpringBoot
-* [ ] Couchbase
+* [x] SpringBoot
+* [x] Couchbase
 * [ ] MongoDB
 * [ ] OpenShift ECN 
 
