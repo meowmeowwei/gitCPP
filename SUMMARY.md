@@ -2,6 +2,7 @@
 
 * [ReadMe](README.md)
 * [FontEnd Development](fontend-development/README.md)
+  * [HTML](fontend-development/html.md)
   * [CSS](fontend-development/css/README.md)
     * [BootStrap](fontend-development/css/bootstrap.md)
   * [JavaScript](fontend-development/javascript.md)

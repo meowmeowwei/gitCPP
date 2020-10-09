@@ -1,0 +1,37 @@
+# HTML
+
+0\) what happens when you enter a URL 
+
+* browser contacts DNS server to look up IP address of domain name
+* connection is established with that IP address to request for the file 
+* web server respond back with HTTP headers and copy of requested file 
+
+
+
+1\) MetaData 
+
+* defined in the header section used to specify information with its tag attribute 
+* below shows that page will refresh and be redirected to another web 
+
+```markup
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="5; url='http://www.google.com.sg'">
+    <title>Document Title</title>
+    <style>
+      p { font-family: Courier; font-size: 77px; }
+    </style>
+    <script>
+      alert('Hello world'); // pop up an alert
+    </script>
+  </head>
+  <body>
+    <p>Page Content Goes here!</p>
+  </body>
+</html>
+```
+
