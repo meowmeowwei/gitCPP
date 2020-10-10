@@ -2,7 +2,7 @@
 
 1\) count \(\*\)
 
-![](../../../.gitbook/assets/image%20%28277%29.png)
+![](../../../.gitbook/assets/image%20%28281%29.png)
 
 
 
