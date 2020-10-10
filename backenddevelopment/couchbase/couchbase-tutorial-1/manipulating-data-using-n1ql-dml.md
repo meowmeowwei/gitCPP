@@ -1,4 +1,4 @@
-# Manipulating data using N1QL DML
+# lab 10 - Manipulating data using N1QL DML
 
 1\) Insert 
 
