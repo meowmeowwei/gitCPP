@@ -40,6 +40,8 @@
       * [lab 6 - counting aggregated and index covering](backenddevelopment/couchbase/couchbase-tutorial-1/lab-6-counting-aggregated-and-index-covering.md)
       * [lab 7 - is missing, is not missing, group by , having , in](backenddevelopment/couchbase/couchbase-tutorial-1/lab-7-is-missing-is-not-missing-group-by-having-in.md)
       * [lab 8-  index selecting based on json string and array](backenddevelopment/couchbase/couchbase-tutorial-1/lab-8-index-selecting-based-on-json-string-and-array.md)
+      * [lab 9 - using functions and expressions in query](backenddevelopment/couchbase/couchbase-tutorial-1/lab-9-using-functions-and-expressions-in-query.md)
+      * [Manipulating data using N1QL DML](backenddevelopment/couchbase/couchbase-tutorial-1/manipulating-data-using-n1ql-dml.md)
     * [Couchbase with Springboot](backenddevelopment/couchbase/couchbase-with-springboot.md)
     * [CouchBase N1Q1](backenddevelopment/couchbase/couchbase-n1q1.md)
     * [CouchBase Tutorial](backenddevelopment/couchbase/couchbase-tutorial.md)

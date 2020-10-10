@@ -2,11 +2,11 @@
 
 1\) count \(\*\)
 
-![](../../../.gitbook/assets/image%20%28281%29.png)
+![](../../../.gitbook/assets/image%20%28284%29.png)
 
 
 
 2\) distinct 
 
-![](../../../.gitbook/assets/image%20%28276%29.png)
+![](../../../.gitbook/assets/image%20%28277%29.png)
 
