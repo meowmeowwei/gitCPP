@@ -35,3 +35,16 @@
 </html>
 ```
 
+2\) number of ways of doing css styling
+
+* in the header section add &lt;style&gt; setting like above
+* in the attribute , directly apply style e.g. &lt;h1 style="color:red"&gt;
+* in a separate file defined css attribute , then in the html use link and ref 
+
+```markup
+<link rel="stylesheet" href="style.css">
+
+```
+
+
+
