@@ -16,7 +16,9 @@ description: >-
 * JMX administration and monitoring
 * Transparent `@Cacheable` support to cache any objects you need for high performance access.
 
-following link from here [https://docs.spring.io/spring-data/couchbase/docs/current/reference/html/\#couchbase.migrating](https://docs.spring.io/spring-data/couchbase/docs/current/reference/html/#couchbase.migrating)
+[following link from here ](https://blog.knoldus.com/spring-boot-application-with-couchbase/)
+
+
 
 
 

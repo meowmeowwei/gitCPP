@@ -47,6 +47,7 @@
     * [CouchBase Tutorial](backenddevelopment/couchbase/couchbase-tutorial.md)
   * [JPA - Java Persistence API](backenddevelopment/jpa-java-persistence-api.md)
   * [Spring](backenddevelopment/spring/README.md)
+    * [lombok API](backenddevelopment/spring/lombok-api.md)
     * [difference between @Service and @Component](backenddevelopment/spring/difference-between-service-and-component.md)
     * [REST API](backenddevelopment/spring/rest-api.md)
     * [Spring Boot](backenddevelopment/spring/spring-boot/README.md)
