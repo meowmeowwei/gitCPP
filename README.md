@@ -8,33 +8,3 @@
 
 [JavaPoint](https://www.javatpoint.com/restful-web-services-delete-resource) : good place for general knowledge
 
-FrontEnd
-
-* [x] CSS
-* [x] HTML
-* [x] JavaScript
-* [x] TypeScript
-* [ ] CSS BootStrap
-* [x] React
-* [ ] Angular
-* [ ] Vue.JS
-* [x] REST API
-* [ ] WebSocket
-* [ ] FinSemble
-* [ ] WireFrame Tools 
-
-Package Management 
-
-* [ ] yarn
-
-BackEnd
-
-* [x] SpringBoot
-* [x] Couchbase
-* [ ] MongoDB
-* [ ] OpenShift ECN 
-
-DevOps
-
-* [ ] gradle
-
