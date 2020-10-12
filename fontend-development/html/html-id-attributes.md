@@ -20,3 +20,7 @@ In the following example we have an `<h1>` element that points to the id name "m
 
 ![](../../.gitbook/assets/image%20%28311%29.png)
 
+use id in HTML by Javascript
+
+document.getElementByid
+
