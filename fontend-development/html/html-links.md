@@ -67,7 +67,7 @@ Link to EMAIL
 
 Creating bookmark with ID
 
-![](../../.gitbook/assets/image%20%28307%29.png)
+![](../../.gitbook/assets/image%20%28308%29.png)
 
 
 

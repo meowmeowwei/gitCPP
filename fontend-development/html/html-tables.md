@@ -14,3 +14,7 @@ By default, the text in `<th>` elements are bold and centered.
 
 By default, the text in `<td>` elements are regular and left-aligned.
 
+
+
+![](../../.gitbook/assets/image%20%28307%29.png)
+
