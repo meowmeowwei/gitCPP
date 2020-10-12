@@ -14,7 +14,7 @@ In the following example we have three `<div>` elements with a `class` attribute
 
 You can assign an attribute with two className 
 
-![](../../.gitbook/assets/image%20%28301%29.png)
+![](../../.gitbook/assets/image%20%28302%29.png)
 
 
 

@@ -18,7 +18,7 @@ The syntax for id is: write a hash character \(\#\) character, followed by an id
 
 In the following example we have an `<h1>` element that points to the id name "myHeader". This `<h1>` element will be styled according to the `#myHeader` style definition in the head section:
 
-![](../../.gitbook/assets/image%20%28312%29.png)
+![](../../.gitbook/assets/image%20%28313%29.png)
 
 use id in HTML by Javascript
 

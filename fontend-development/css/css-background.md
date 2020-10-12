@@ -87,7 +87,7 @@ When using the shorthand property the order of the property values is:
 
 It does not matter if one of the property values is missing, as long as the other ones are in this order. Note that we do not use the background-attachment property in the examples above, as it does not have a value.
 
-![](../../.gitbook/assets/image%20%28311%29.png)
+![](../../.gitbook/assets/image%20%28312%29.png)
 
 
 

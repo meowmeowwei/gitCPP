@@ -16,7 +16,7 @@ By default, the text in `<td>` elements are regular and left-aligned.
 
 
 
-![](../../.gitbook/assets/image%20%28308%29.png)
+![](../../.gitbook/assets/image%20%28309%29.png)
 
 
 
