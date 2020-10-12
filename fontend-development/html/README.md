@@ -39,6 +39,26 @@ description: 'https://www.w3schools.com/html/html_attributes.asp'
 </html>
 ```
 
+
+
+### Setting The Viewport
+
+The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.
+
+You should include the following `<meta>` element in all your web pages:&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+
+This gives the browser instructions on how to control the page's dimensions and scaling.
+
+The `width=device-width` part sets the width of the page to follow the screen-width of the device \(which will vary depending on the device\).
+
+The `initial-scale=1.0` part sets the initial zoom level when the page is first loaded by the browser.
+
+Here is an example of a web page _without_ the viewport meta tag, and the same web page _with_ the viewport meta tag:
+
+
+
+
+
 2\) number of ways of doing css styling
 
 * in the header section add &lt;style&gt; setting like above
