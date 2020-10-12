@@ -66,3 +66,11 @@ div.ex2 {
 
 
 
+| Property | Description |
+| :--- | :--- |
+| [padding](https://www.w3schools.com/cssref/pr_padding.asp) | A shorthand property for setting all the padding properties in one declaration |
+| [padding-bottom](https://www.w3schools.com/cssref/pr_padding-bottom.asp) | Sets the bottom padding of an element |
+| [padding-left](https://www.w3schools.com/cssref/pr_padding-left.asp) | Sets the left padding of an element |
+| [padding-right](https://www.w3schools.com/cssref/pr_padding-right.asp) | Sets the right padding of an element |
+| [padding-top](https://www.w3schools.com/cssref/pr_padding-top.asp) | Sets the top padding of an element |
+
