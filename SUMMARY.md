@@ -12,6 +12,7 @@
     * [HTML Color](fontend-development/html/html-color.md)
     * [HTML CSS](fontend-development/html/html-css.md)
     * [HTML Links](fontend-development/html/html-links.md)
+    * [HTML Images](fontend-development/html/html-images.md)
   * [CSS](fontend-development/css/README.md)
     * [BootStrap](fontend-development/css/bootstrap.md)
   * [JavaScript](fontend-development/javascript.md)
