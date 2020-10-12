@@ -10,5 +10,5 @@ description: 'https://www.w3schools.com/html/html_paragraphs.asp'
 
 2\) &lt;pre&gt; defines preformatted text 
 
-![](../../.gitbook/assets/image%20%28306%29.png)
+![](../../.gitbook/assets/image%20%28307%29.png)
 

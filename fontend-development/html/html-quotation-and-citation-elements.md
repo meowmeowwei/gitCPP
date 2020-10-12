@@ -8,7 +8,7 @@ description: 'https://www.w3schools.com/html/html_quotation_elements.asp'
 
 Browsers usually indent `<blockquote>` elements.
 
-![](../../.gitbook/assets/image%20%28302%29.png)
+![](../../.gitbook/assets/image%20%28303%29.png)
 
 2\) The HTML `<q>` tag defines a short quotation.
 

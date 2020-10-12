@@ -12,7 +12,9 @@ The `class` attribute is often used to point to a class name in a style sheet. I
 
 In the following example we have three `<div>` elements with a `class` attribute with the value of "city". All of the three `<div>` elements will be styled equally according to the `.city` style definition in the head section:
 
+You can assign an attribute with two className 
 
+![](../../.gitbook/assets/image%20%28301%29.png)
 
 
 

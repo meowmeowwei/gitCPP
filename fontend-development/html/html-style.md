@@ -19,7 +19,7 @@ The _**property**_ is a CSS property. The _**value**_ is a CSS value.
 
 2\) text color 
 
-![](../../.gitbook/assets/image%20%28305%29.png)
+![](../../.gitbook/assets/image%20%28306%29.png)
 
 3\) font-family and font-size
 
