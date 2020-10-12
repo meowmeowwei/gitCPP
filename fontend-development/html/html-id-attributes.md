@@ -22,5 +22,18 @@ In the following example we have an `<h1>` element that points to the id name "m
 
 use id in HTML by Javascript
 
-document.getElementByid
+{% embed url="https://document.getElementByid" %}
+
+
+
+### Chapter Summary
+
+* The `id` attribute is used to specify a unique id for an HTML element
+* The value of the `id` attribute must be unique within the HTML document
+* The `id` attribute is used by CSS and JavaScript to style/select a specific element
+* The value of the `id` attribute is case sensitive
+* The `id` attribute is also used to create HTML bookmarks
+* JavaScript can access an element with a specific id with the `getElementById()` method
+
+
 
