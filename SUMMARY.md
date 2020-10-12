@@ -25,6 +25,7 @@
     * [CSS Selectors](fontend-development/css/css-selectors.md)
     * [CSS Comments](fontend-development/css/css-comments.md)
     * [CSS Background](fontend-development/css/css-background.md)
+    * [CSS Borders](fontend-development/css/css-borders.md)
     * [BootStrap](fontend-development/css/bootstrap.md)
   * [JavaScript](fontend-development/javascript.md)
   * [React](fontend-development/react/README.md)
