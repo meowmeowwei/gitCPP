@@ -18,15 +18,15 @@ The most common way to add CSS, is to keep the styles in external CSS files. How
 
 1\) The CSS `border` property defines a border around an HTML element.
 
-![](../../.gitbook/assets/image%20%28314%29.png)
+![](../../.gitbook/assets/image%20%28319%29.png)
 
 2\) The CSS `padding` property defines a padding \(space\) between the text and the border.
 
-![](../../.gitbook/assets/image%20%28303%29.png)
+![](../../.gitbook/assets/image%20%28306%29.png)
 
 3\) The CSS `margin` property defines a margin \(space\) outside the border.
 
-![](../../.gitbook/assets/image%20%28305%29.png)
+![](../../.gitbook/assets/image%20%28309%29.png)
 
 
 

@@ -15,11 +15,11 @@ The _**property**_ is a CSS property. The _**value**_ is a CSS value.
 
 1\)background-color
 
-![](../../.gitbook/assets/image%20%28299%29.png)
+![](../../.gitbook/assets/image%20%28300%29.png)
 
 2\) text color 
 
-![](../../.gitbook/assets/image%20%28307%29.png)
+![](../../.gitbook/assets/image%20%28311%29.png)
 
 3\) font-family and font-size
 

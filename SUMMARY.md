@@ -38,7 +38,7 @@
     * [CSS tables](fontend-development/css/css-tables.md)
     * [CSS Layout-Overflow](fontend-development/css/css-layout-overflow.md)
     * [CSS float](fontend-development/css/css-float.md)
-    * [BootStrap](fontend-development/css/bootstrap.md)
+    * [CSS BootStrap](fontend-development/css/bootstrap.md)
   * [JavaScript](fontend-development/javascript.md)
   * [React](fontend-development/react/README.md)
     * [React- REST API](fontend-development/react/react-rest-api.md)
