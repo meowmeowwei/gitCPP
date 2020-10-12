@@ -46,5 +46,24 @@
 
 ```
 
+3\) HTML links 
+
+```markup
+
+<a href="https://www.w3schools.com">This is a link</a>
+```
+
+4\) HTML Images
+
+alt is for when the page is not there, display a text 
+
+```markup
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+```
+
+5\) HTML line break
+
+&lt;br&gt; 
+
 
 
