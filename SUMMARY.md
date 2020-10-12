@@ -3,6 +3,7 @@
 * [ReadMe](README.md)
 * [FontEnd Development](fontend-development/README.md)
   * [HTML](fontend-development/html/README.md)
+    * [HTML Layout](fontend-development/html/html-layout.md)
     * [HTML Attributes](fontend-development/html/html-attributes.md)
     * [HTML Paragraph](fontend-development/html/html-paragraph.md)
     * [HTML Style](fontend-development/html/html-style.md)
