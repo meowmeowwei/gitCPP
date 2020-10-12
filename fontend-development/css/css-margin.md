@@ -39,3 +39,17 @@ div {
 
 ```
 
+
+
+
+
+### All CSS Margin Properties
+
+| Property | Description |
+| :--- | :--- |
+| [margin](https://www.w3schools.com/cssref/pr_margin.asp) | A shorthand property for setting the margin properties in one declaration |
+| [margin-bottom](https://www.w3schools.com/cssref/pr_margin-bottom.asp) | Sets the bottom margin of an element |
+| [margin-left](https://www.w3schools.com/cssref/pr_margin-left.asp) | Sets the left margin of an element |
+| [margin-right](https://www.w3schools.com/cssref/pr_margin-right.asp) | Sets the right margin of an element |
+| [margin-top](https://www.w3schools.com/cssref/pr_margin-top.asp) | Sets the top margin of an element |
+
