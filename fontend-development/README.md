@@ -26,8 +26,6 @@ WireFrame
 
 Finsember
 
-Electron
-
 CouchBase
 
 Wireframe

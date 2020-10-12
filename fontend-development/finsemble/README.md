@@ -34,3 +34,7 @@ npx finsemble-cli add component "Account Statement" url https://documentation.fi
 
 Now restart the SmartDesktop \(just between us devs, there's a hidden keyboard shortcut to do so: CTRL+ALT+SHIFT+R\). Our new apps are now available in the App
 
+
+
+[https://blog.scottlogic.com/2020/08/12/building-desktop-applications-with-finsemble.html](https://blog.scottlogic.com/2020/08/12/building-desktop-applications-with-finsemble.html)
+
