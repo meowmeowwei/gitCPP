@@ -36,5 +36,7 @@ Now restart the SmartDesktop \(just between us devs, there's a hidden keyboard s
 
 
 
+**Youtube Tutorial** 
+
 [https://blog.scottlogic.com/2020/08/12/building-desktop-applications-with-finsemble.html](https://blog.scottlogic.com/2020/08/12/building-desktop-applications-with-finsemble.html)
 
