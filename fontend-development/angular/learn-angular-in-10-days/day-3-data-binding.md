@@ -14,10 +14,91 @@ So, the first and foremost advantage of data binding is that it updates the data
   
 In Angular 8, there are four different types of Data binding processes available. They are:
 
-* Interpolation 
-* Property Binding 
+* Interpolation
+
+Interpolation data binding is the most popular and easiest way of data binding in Angular 8. This feature is also available in previous Angular framework versions. Actually, the context between the braces is the template expression that Angular first evaluates and then convert into strings. Interpolation uses the braces expression i.e.  to render the bound value to the component template. It can be a static string, numeric value, or an object of your data model. In Angular, we use it like this: . The below example shows how we can use the interpolation in the component to display data in the front end.
+
+```typescript
+// in the HTML refer to the object using {{}}
+
+<div>   
+    <span>User Name : {{userName}}</span>      
+</div>  
+
+
+// in the component.ts do the setting of variable 
+
+export class AppComponent {
+  title:string = 'Welcome to Angular 8 Learning Series...';  
+}
+
+
+```
+
+* Property Binding
+
+Property binding used \[\] to send the data from the component to the HTML template. The most common way to use property binding is to assign any property of the HTML element tag into the \[\] with the component property value, i.e:
+
+```typescript
+//in the HTML do the reference using [], which is passed in the properties field 
+
+<button class="btn btn-primary"  
+        [disabled]="allowNewServer">Add Server</button>  
+        
+        
+// in appcomponent, you still define the same         
+
+export class Server2Component implements OnInit {  
+ allowNewServer = false;  
+  
+  constructor() {  
+    setTimeout(() =>{  
+      this.allowNewServer = true;  
+    }, 5000);  
+  }  
+  
+  ngOnInit() {  
+  }  
+  
+}  
+
+```
+
 * Two-Way Binding 
 * Event Binding
+
+in the event call , button click / mouse over , then we trigger an function 
+
+```typescript
+
+// HTML
+
+<div>  
+  <h2>Demo of Event Binding in Angular 8</h2>  
+  <input type="button" value="Click" class="btn-block" (click)="showAlert()" />  
+  <br /><br />  
+  <input type="button" value="Mouse Enter" class="btn-block" (mouseenter)="showAlert()" />  
+</div>  
+
+
+// component 
+
+
+export class AppComponent {
+  allowNewServer = false;  
+  
+  public showAlert() : void {  
+    console.log('You clicked on the button...');  
+    alert("Click Event Fired...");  
+  } 
+}
+
+
+```
+
+
+
+
 
 \`\`[`Input and Output` ](https://www.youtube.com/watch?v=DUe8y6QVPMk)\`\`
 
