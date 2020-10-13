@@ -207,5 +207,150 @@ export class AppComponent implements OnInit {
 
 ```
 
+[building a simple directive from angular official website](https://angular.io/guide/attribute-directives)
 
+1\) ng generate directive highlight
+
+2\) modify highligh.directive.ts
+
+It's the brackets \(`[]`\) that make it an attribute selector. Angular locates each element in the template that has an attribute named `appHighlight` and applies the logic of this directive to that element.
+
+You use the [`ElementRef`](https://angular.io/api/core/ElementRef) in the directive's constructor to [inject](https://angular.io/guide/dependency-injection) a reference to the host DOM element, the element to which you applied `appHighlight`.
+
+[`ElementRef`](https://angular.io/api/core/ElementRef) grants direct access to the host DOM element through its `nativeElement` property.
+
+```typescript
+
+import { Directive, ElementRef } from '@angular/core';
+
+@Directive({
+  selector: '[appHighlight]'
+})
+export class HighlightDirective {
+    constructor(el: ElementRef) {
+       el.nativeElement.style.backgroundColor = 'yellow';
+    }
+}
+```
+
+3\) apply directive in the app.component.html
+
+```typescript
+<p appHighlight>Highlight me!</p>
+```
+
+4\) make sure the directive is imported in the app.module.ts
+
+```typescript
+
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppComponent } from './app.component';
+import { HighlightDirective } from './highlight.directive';
+
+@NgModule({
+  imports: [ BrowserModule ],
+  declarations: [
+    AppComponent,
+    HighlightDirective // this is needed  
+  ],
+  bootstrap: [ AppComponent ]
+})
+export class AppModule { }
+
+```
+
+
+
+Version 2- &gt; we can also enhance it to respond to user initiated events from mouse leave or mouse enter
+
+add HostListener methods 
+
+```typescript
+import { Directive, ElementRef, HostListener } from '@angular/core';
+
+@Directive({
+  selector: '[appHighlight]'
+})
+export class HighlightDirective {
+  constructor(private el: ElementRef) { }
+
+  @HostListener('mouseenter') onMouseEnter() {
+    this.highlight('yellow');
+  }
+
+  @HostListener('mouseleave') onMouseLeave() {
+    this.highlight(null);
+  }
+
+  private highlight(color: string) {
+    this.el.nativeElement.style.backgroundColor = color;
+  }
+}
+
+```
+
+
+
+Version 3 -&gt; pass values into directive with @input 
+
+in directive -&gt; appHighlight will listen for color
+
+```typescript
+
+import { Directive, ElementRef, HostListener, Input } from '@angular/core';
+
+@Directive({
+  selector: '[appHighlight]'
+})
+export class HighlightDirective {
+
+  constructor(private el: ElementRef) { }
+
+  @Input('appHighlight') highlightColor: string;
+
+  @HostListener('mouseenter') onMouseEnter() {
+    this.highlight(this.highlightColor || 'red');
+  }
+
+  @HostListener('mouseleave') onMouseLeave() {
+    this.highlight(null);
+  }
+
+  private highlight(color: string) {
+    this.el.nativeElement.style.backgroundColor = color;
+  }
+}
+
+```
+
+appComponent will define a color attribute and pass it appHightLight input 
+
+```typescript
+<h1>My First Attribute Directive</h1>
+
+<h4>Pick a highlight color</h4>
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">Green
+  <input type="radio" name="colors" (click)="color='yellow'">Yellow
+  <input type="radio" name="colors" (click)="color='cyan'">Cyan
+</div>
+<p [appHighlight]="color">Highlight me!</p>
+
+
+//app component TS
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html'
+})
+export class AppComponent {
+  color: string;
+}
+
+
+```
 
