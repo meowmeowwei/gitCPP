@@ -74,7 +74,7 @@ ngModel performs both property binding and event binding. Actually, the property
 
 
 
-```text
+```typescript
 
 //app.module.ts need to import FormsModule
 
