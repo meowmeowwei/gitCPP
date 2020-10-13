@@ -25,7 +25,7 @@ In Angular 8, there are four different types of Data binding processes available
 
 parent has a value -&gt; parent will pass the hello value and bind into child's state variable 
 
-```text
+```markup
 <div>  
   <p>Value: {{hello}}</p>
   <app-child-component [state]="hello"></app-child-component>  
