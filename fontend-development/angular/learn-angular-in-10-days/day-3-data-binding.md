@@ -65,6 +65,58 @@ export class Server2Component implements OnInit {
 ```
 
 * Two-Way Binding 
+
+In Angular Framework, the most used and important data binding techniques are known as Two-Way Data Binding. Two-way binding is mainly used in the input type field or any form element where the user can provide input values from the browser or provides any value or changes any control value through the browser. On the other side, the same is automatically updated into the component variables and vice versa. Similarly, in Angular 8 we have a directive called ngModel, and it needs to be used as below:
+
+![](../../../.gitbook/assets/image%20%28320%29.png)
+
+ngModel performs both property binding and event binding. Actually, the property binding of the ngModel \(i.e. \[ngModel\]\) performs the activity to update the input element with a value. Whereas \(ngModel\) \( \(ngModelChange\) event\) instructs the outside world when any change occurred in the DOM Element.
+
+
+
+```text
+
+//app.module.ts need to import FormsModule
+
+
+@NgModule({ declarations: [ AppComponent
+], imports: [ BrowserModule,FormsModule ],
+
+
+// component.html need to have [(ngmodel)]
+
+
+ <div>  
+  <div>  
+      <span>Enter Your Name </span>  
+      <input [(ngModel)]="val" type="text"/>  
+  </div>  
+  <div>  
+      <span>Your Name :- </span>  
+      <span>{{val}}</span>  
+  </div>  
+</div>  
+ 
+ 
+ 
+ 
+ //component.ts need to have the variable declared 
+ 
+ 
+ export class AppComponent {  
+    
+  public val: string = "";  
+}   
+ 
+ 
+ 
+ 
+ 
+ 
+```
+
+
+
 * Event Binding
 
 in the event call , button click / mouse over , then we trigger an function 
@@ -168,4 +220,101 @@ Parent's component will have a logic to set the Data
     this.goodBye = data;
   }
 ```
+
+
+
+**Input & Output example 2**
+
+```typescript
+//input case 
+
+// MessageComponent 
+
+
+export class MessageComponent {  
+  
+    @Input() public message :string = '';  
+  
+    @Input('alert-pop') public message1 :string= ''  
+    
+    public showAlert():void{  
+        alert(this.message1);  
+    }  
+}  
+
+//Message HTML, the value will come from parent class 
+
+<div>  
+    Message : <h2>{{message}}</h2>  
+    <input type="button" value="Show Alert" (click)="showAlert()"/>  
+</div>  
+
+
+// Parent class - App Component 
+
+
+export class AppComponent {  
+    
+  public val: string = "This is alert popup message";  
+  
+}
+
+// Parent inject it into child, using properties binding
+
+<div>  
+  <message-info [message]="'Demostration of Input Property of a Component'" [alertPop]="val"></message-info>  
+</div> 
+```
+
+**// Output Case**
+
+```typescript
+
+//Message Component need to bind the callback method with EventEmitter
+
+
+    @Output() onSignup  = new EventEmitter<any>();  
+  
+    public data:any={};  
+    
+    public onSubmit() :void{  
+      this.onSignup.emit(this.data);  
+    } 
+
+
+//Message Component HTML need to collect and provide button to submit
+
+
+<div>  
+    Message : <h2>{{message}}</h2>  
+    <input type="button" value="Show Alert" (click)="showAlert()"/>  
+    <br/><br/>  
+    Provide Full Name : <input type="text" [(ngModel)]="data.name">  
+    <br/>  
+    Provide Email Id : <input type="email" [(ngModel)]="data.email">  
+    <br>  
+    <input type="button" value="Sign Up" (click)="onSubmit()"/>  
+</div>  
+
+
+// AppComponent needs to have the onSignUp style 
+
+  public onSignup(data:any):void{  
+    let strMessage:string ="Thanks for Signup " + data.name + ". ";  
+    strMessage += "Email id " + data.email + " has been registered successfully.";  
+    alert(strMessage);  
+  } 
+  
+  
+// AppComponet HTML
+
+
+  <div>  
+    <message-info [message]="'Demostration of Input Property of a Component'" [alert-pop]="val" (onSignup)="onSignup($event)"></message-info>      
+</div>  
+```
+
+\*\*\*\*
+
+\*\*\*\*
 

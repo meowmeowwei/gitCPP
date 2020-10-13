@@ -28,7 +28,7 @@ export class AppModule { }
 * Components define views, which are the sets of screen elements that are chosen and modified according to your program logic and data by Angular 7.
 * Components use services, which provide specific functionality not directly related to views. Service providers can be injected into components as dependencies, making your code modular, reusable, and efficient.
 
-![](../../../.gitbook/assets/image%20%28320%29.png)
+![](../../../.gitbook/assets/image%20%28321%29.png)
 
 
 
