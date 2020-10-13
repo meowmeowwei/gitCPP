@@ -60,6 +60,7 @@
     * [Learn Angular in 10 Days](fontend-development/angular/learn-angular-in-10-days/README.md)
       * [Day 4 - Directive](fontend-development/angular/learn-angular-in-10-days/day-4-directive.md)
       * [Day 3 - Data Binding](fontend-development/angular/learn-angular-in-10-days/day-3-data-binding.md)
+      * [Day 1- Basics](fontend-development/angular/learn-angular-in-10-days/day-1-basics.md)
     * [Degreed](fontend-development/angular/degreed/README.md)
       * [Section 4 - Displaying and Handling Event](fontend-development/angular/degreed/section-4-displaying-and-handling-event.md)
       * [Section 5 - Build Reusable Components](fontend-development/angular/degreed/section-5-build-reusable-components.md)
