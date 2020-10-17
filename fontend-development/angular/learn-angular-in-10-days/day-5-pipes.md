@@ -23,3 +23,7 @@ Most of the pipes provided by Angular 8 will be familiar with us if we already w
 * Percent 
 * Async
 
+**Syntax of Pipes**
+
+> _**{{myValue \| myPipe:param1:param2 \| mySecondPipe:param1}}**_
+
