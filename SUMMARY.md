@@ -62,6 +62,7 @@
       * [Creating Angular Component](fontend-development/angular/angular-javapoint/creating-angular-component.md)
       * [Angular Directive](fontend-development/angular/angular-javapoint/angular-directive.md)
     * [Learn Angular in 10 Days](fontend-development/angular/learn-angular-in-10-days/README.md)
+      * [Day 5 - Pipes](fontend-development/angular/learn-angular-in-10-days/day-5-pipes.md)
       * [Day 4 - Directive](fontend-development/angular/learn-angular-in-10-days/day-4-directive.md)
       * [Day 3 - Data Binding](fontend-development/angular/learn-angular-in-10-days/day-3-data-binding.md)
       * [Day 2 - Building block of Angular](fontend-development/angular/learn-angular-in-10-days/day-2-building-block-of-angular.md)
