@@ -5,5 +5,5 @@ description: >-
 
 # Day 5 - Pipes
 
-1\) helps to format the data into needed format e.g. lower case, upper case 
+helps to format the data into needed format e.g. lower case, upper case 
 
