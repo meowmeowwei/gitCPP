@@ -179,3 +179,58 @@ export class TodoService {
 
 ```
 
+4\) use Output and emitter , when you click delete button in todo-item.component to emit back the delete action
+
+```typescript
+//todoitem compoenent 
+
+ 
+ 
+  export class TodoItemComponent implements OnInit {
+
+  @Input() todo: Todo;
+
+  @Output() deleteTodo:EventEmitter<Todo> = new EventEmitter();
+
+  constructor(private TodoService:TodoService) { }
+
+  ngOnInit(): void {
+  }
+
+  //Set dynamic classes
+  setClasses(){
+    let classes = {
+      todo:true,
+      'is-complete':this.todo.completed
+    }
+    return classes;
+  }
+
+  onToggle(todo){
+    //Toggle in UI
+    todo.completed = !todo.completed;
+
+    //Toggle in server
+
+    this.TodoService.toggleCompleted(todo).subscribe(todo=>console.log(todo))
+  }
+
+  onDelete(todo){
+    this.todos = this.todos.filter(t=>t.id!==todo.id);
+
+    this.todoService.deleteTodo(todo).subscribe();
+  }
+}
+
+//HTML
+
+    <button (click)="onDelete(todo)" class="del">z</button>
+    </p>
+```
+
+
+
+
+
+
+
