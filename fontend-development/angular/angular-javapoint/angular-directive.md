@@ -2,11 +2,11 @@
 description: 'https://www.javatpoint.com/angular-7-directives'
 ---
 
-# 3. Angular Directive
+# Angular Directive
 
 
 
-Directives are **instructions in the DOM.** They specify how to place your components and business logic in the Angular.
+Directives are instructions in the DOM. They specify how to place your components and business logic in the Angular.
 
 Directives are js class and declared as @directive. There are 3 directives in Angular.
 
@@ -44,36 +44,4 @@ Now, your directive is created. Let's check it. Open app.component.html and use 
 &lt;p appSimpleStyle&gt;Style me with your created SimpleStyleDirective&lt;/p&gt;
 
 
-
-Create Custom Directive 
-
-1\) ng generate directive simple-style
-
-2\) simple-style.directive.ts
-
-```typescript
-
-import {Directive, ElementRef, OnInit} from '@angular/core';
-
- @Directive( {
-  selector: '[appSimpleStyle]'
-})
-export class SimpleStyleDirective implements OnInit {
-  constructor(private elementRef: ElementRef) {
-  }
-  ngOnInit() {
-  this.elementRef.nativeElement.style.backgroundColor = 'yellow';
-  }
-}
-
-
-```
-
-3\) app component.html
-
-```typescript
-
-<p appSimpleStyle> Highlight me</p>
-
-```
 

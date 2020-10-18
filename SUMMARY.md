@@ -62,6 +62,8 @@
       * [2.Angular Component](fontend-development/angular/angular-javapoint/creating-angular-component.md)
       * [3. Angular Directive](fontend-development/angular/angular-javapoint/angular-directive.md)
       * [4. Pipes](fontend-development/angular/angular-javapoint/4.-pipes.md)
+      * [5. Angular Forms](fontend-development/angular/angular-javapoint/5.-angular-forms/README.md)
+        * [Reactive Form](fontend-development/angular/angular-javapoint/5.-angular-forms/reactive-form.md)
     * [Learn Angular in 10 Days](fontend-development/angular/learn-angular-in-10-days/README.md)
       * [Day 7 - Angular Forms](fontend-development/angular/learn-angular-in-10-days/day-7-angular-forms.md)
       * [Day 6 - View Encapsulation](fontend-development/angular/learn-angular-in-10-days/day-6-view-encapsulation.md)
