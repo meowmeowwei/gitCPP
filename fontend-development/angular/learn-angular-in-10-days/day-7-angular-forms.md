@@ -17,14 +17,6 @@ Both the above technology belongs to the @angular/forms packages and are totally
 
 
 
-FormControl -&gt; used to assign form related fields in Angular component
-
-Reactive Form Validation -&gt; validators to validate form control input 
-
-
-
-
-
 **1\) Template Driven Form -&gt; achieved using ngModel**
 
 app component 
