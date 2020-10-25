@@ -42,6 +42,7 @@
   * [JavaScript](fontend-development/javascript.md)
   * [Finsemble](fontend-development/finsemble/README.md)
     * [Finsemble Architecture](fontend-development/finsemble/finsemble-architecture.md)
+  * [Eslint](fontend-development/eslint.md)
   * [React](fontend-development/react/README.md)
     * [React- REST API](fontend-development/react/react-rest-api.md)
     * [W3school React](fontend-development/react/w3school-react/README.md)
