@@ -57,6 +57,7 @@
       * [React class component vs function component](fontend-development/react/w3school-react/class-component-vs-function-component.md)
     * [YouTube Learn React JS](fontend-development/react/learn-react-js.md)
     * [Lerna and MonoRepo](fontend-development/react/lerna-and-monorepo.md)
+    * [React App Rewired](fontend-development/react/react-app-rewired.md)
   * [Node JS](fontend-development/node-js.md)
   * [Angular](fontend-development/angular/README.md)
     * [Angular - Youtube -ToDoApp](fontend-development/angular/angular-youtube-todoapp.md)
