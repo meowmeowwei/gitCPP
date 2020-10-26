@@ -58,6 +58,7 @@
     * [YouTube Learn React JS](fontend-development/react/learn-react-js.md)
     * [Lerna and MonoRepo](fontend-development/react/lerna-and-monorepo.md)
     * [React App Rewired](fontend-development/react/react-app-rewired.md)
+    * [React SplitPane](fontend-development/react/react-splitpane.md)
   * [Node JS](fontend-development/node-js.md)
   * [Angular](fontend-development/angular/README.md)
     * [Angular - Youtube -ToDoApp](fontend-development/angular/angular-youtube-todoapp.md)
