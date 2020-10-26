@@ -91,6 +91,7 @@
   * [webpack](fontend-development/webpack.md)
   * [Babel](fontend-development/babel.md)
   * [Jest/Enzyme](fontend-development/jest-enzyme.md)
+  * [Redux](fontend-development/redux.md)
 * [BackEndDevelopment](backenddevelopment/README.md)
   * [CouchBase](backenddevelopment/couchbase/README.md)
     * [CouchBase Tutorial](backenddevelopment/couchbase/couchbase-tutorial-1/README.md)
