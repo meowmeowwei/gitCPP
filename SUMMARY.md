@@ -42,6 +42,7 @@
   * [JavaScript](fontend-development/javascript/README.md)
     * [Java Script Closure](fontend-development/javascript/java-script-closure.md)
     * [JavaScript Custom Objects](fontend-development/javascript/javascript-custom-objects.md)
+    * [JavaScript Promise](fontend-development/javascript/javascript-promise.md)
   * [Finsemble](fontend-development/finsemble/README.md)
     * [Finsemble Architecture](fontend-development/finsemble/finsemble-architecture.md)
   * [Eslint](fontend-development/eslint.md)
