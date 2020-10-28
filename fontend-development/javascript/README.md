@@ -13,7 +13,7 @@ runs on client/browser as well as on the server \(Node.js\)
 
 
 
-![](../.gitbook/assets/image%20%28232%29.png)
+![](../../.gitbook/assets/image%20%28232%29.png)
 
 
 

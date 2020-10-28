@@ -2,7 +2,7 @@
 description: 'https://www.javatpoint.com/angular-7-components'
 ---
 
-# Creating Angular Component
+# 2.Angular Component
 
 ### Creating component with CLI
 
