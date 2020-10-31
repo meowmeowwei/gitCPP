@@ -204,7 +204,6 @@
     * [接受一个十六进制的数](interview-preparation/hua-wei-yan-fa-gong-cheng-shi-bian-cheng-ti/jie-shou-yi-ge-shi-liu-jin-zhi-de-shu.md)
     * [\[编程题\]汽水瓶](interview-preparation/hua-wei-yan-fa-gong-cheng-shi-bian-cheng-ti/bian-cheng-ti-qi-shui-ping.md)
     * [\[编程题\]明明的随机数](interview-preparation/hua-wei-yan-fa-gong-cheng-shi-bian-cheng-ti/bian-cheng-ti-ming-ming-de-sui-ji-shu.md)
-  * [Resume](interview-preparation/resume.md)
   * [程序员如何准备技术面试](interview-preparation/cheng-xu-yuan-ru-he-zhun-bei-ji-shu-mian-shi.md)
   * [8个月从CS菜鸟到拿到Google Offer的经历+内推](interview-preparation/8-cs-google-offer-+.md)
   * [Goldman Requirement](interview-preparation/goldman-requirement.md)
