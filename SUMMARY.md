@@ -154,6 +154,8 @@
     * [560. Subarray Sum Equals K](interview-preparation/leecode/560.-subarray-sum-equals-k.md)
     * [647. Palindromic SubStrings](interview-preparation/leecode/647.-palindromic-substrings.md)
     * [784. Letter Case Permutation](interview-preparation/leecode/784.-letter-case-permutation.md)
+  * [Byte Dance](interview-preparation/byte-dance/README.md)
+    * [字节跳动新加坡校招已收意向书已下offer](interview-preparation/byte-dance/zi-jie-tiao-dong-xin-jia-po-xiao-zhao-yi-shou-yi-xiang-shu-yi-xia-offer.md)
   * [Cracking Code Interview \(cc189\)](interview-preparation/cracking-code-interview/README.md)
     * [Chapter 1 - Arrays and Strings](interview-preparation/cracking-code-interview/chapter-1-arrays-and-strings.md)
     * [Chapter 2 - Linked List](interview-preparation/cracking-code-interview/chapter-2-linked-list.md)
