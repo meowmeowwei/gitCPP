@@ -40,6 +40,7 @@
     * [CSS float](fontend-development/css/css-float.md)
     * [CSS BootStrap](fontend-development/css/bootstrap.md)
   * [JavaScript](fontend-development/javascript/README.md)
+    * [ES6 Features](fontend-development/javascript/es6-features.md)
     * [Java Script Closure](fontend-development/javascript/java-script-closure.md)
     * [JavaScript Custom Objects](fontend-development/javascript/javascript-custom-objects.md)
     * [JavaScript Promise](fontend-development/javascript/javascript-promise.md)
