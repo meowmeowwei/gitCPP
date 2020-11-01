@@ -63,6 +63,7 @@
     * [Lerna and MonoRepo](fontend-development/react/lerna-and-monorepo.md)
     * [React App Rewired](fontend-development/react/react-app-rewired.md)
     * [React SplitPane](fontend-development/react/react-splitpane.md)
+    * [React Hooks](fontend-development/react/react-hooks.md)
   * [Node JS](fontend-development/node-js.md)
   * [Angular](fontend-development/angular/README.md)
     * [Angular - Youtube -ToDoApp](fontend-development/angular/angular-youtube-todoapp.md)
