@@ -64,6 +64,7 @@
     * [React App Rewired](fontend-development/react/react-app-rewired.md)
     * [React SplitPane](fontend-development/react/react-splitpane.md)
     * [React Hooks](fontend-development/react/react-hooks.md)
+    * [React AG-Grid](fontend-development/react/react-ag-grid.md)
   * [Node JS](fontend-development/node-js.md)
   * [Angular](fontend-development/angular/README.md)
     * [Angular - Youtube -ToDoApp](fontend-development/angular/angular-youtube-todoapp.md)
