@@ -1,5 +1,5 @@
 ---
-description: 'https://blog.ag-grid.com/react-get-started-with-react-grid-in-5-minutes/'
+description: 'https://www.ag-grid.com/react-grid/'
 ---
 
 # React AG-Grid
