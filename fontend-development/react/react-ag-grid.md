@@ -11,7 +11,7 @@ description: 'https://blog.ag-grid.com/react-get-started-with-react-grid-in-5-mi
 import logo from './logo.svg';
 import React,{Component} from 'react'
 import './App.css';
-import { AgGridReact } from 'ag-grid-react';
+import { AgGridReact,AgGridColumn } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 
@@ -41,12 +41,12 @@ class App extends React.Component {
               className="ag-theme-balham"
               style={{ height: '200px', width: '600px' }}
           >
-              <AgGridReact
-                  enableSorting={true}
-                  editable='true'
-                  columnDefs={this.state.columnDefs}
-                  rowData={this.state.rowData}>
-              </AgGridReact>
+             <AgGridReact
+                rowData={this.state.rowData}>
+                <AgGridColumn sortable={true} filter={true} field="make"></AgGridColumn>
+                <AgGridColumn sortable={true} filter={true} field="model"></AgGridColumn>
+                <AgGridColumn sortable={true} filter={true} field="price"></AgGridColumn>
+            </AgGridReact>
           </div>
       );
   }
