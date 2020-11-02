@@ -2,6 +2,7 @@
 
 * [ReadMe](README.md)
 * [Java Interview](java-interview/README.md)
+  * [7. SQL with Java](java-interview/7.-sql-with-java.md)
   * [6. Java Concurrency](java-interview/6.-java-concurrency.md)
   * [5. Java JVM](java-interview/5.-java-jvm.md)
   * [4.Core Java Interview](java-interview/4.core-java-interview.md)
