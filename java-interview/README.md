@@ -29,6 +29,7 @@ if it's a reference object means reference can not change, but internal values c
 * trees 
 * HashMap \(implemented with a hashtable\)
 * TreeMap \(implemented with a binary tree data structure, sorted to natural order \) 
+* Set \(implemented using hashSet\) 
 
 
 
@@ -39,4 +40,14 @@ if it's a reference object means reference can not change, but internal values c
 [`HashMap`](http://java.sun.com/javase/6/docs/api/java/util/HashMap.html) on the other hand, makes no such guarantee. Therefore, when iterating over the keys of a `HashMap`, you can't be sure what order they will be in.
 
 `HashMap` will be more efficient in general, so use it whenever you don't care about the order of the keys.
+
+
+
+**3.**[ **Design Pattens**](https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm)\*\*\*\*
+
+* Builder Pattern \(helps to constructor domain-legal object and reject if any information is missing\) 
+* Strategy Patten \(have a common strategy interface, multiple implementation details, inject at runtime\)
+* Decorator Pattern \(add functionality to existing object without altering its structure\) 
+* Flyweight Pattern \(many objects sharing same value, example, Integer.valueOf\(\) fetch pre-cache values\)
+* Singleton Pattern 
 
