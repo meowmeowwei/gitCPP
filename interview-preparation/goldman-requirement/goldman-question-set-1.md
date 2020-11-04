@@ -297,7 +297,60 @@ public class SecureChannel {
 Round 2: coderpad:
 
 1. give a string, find the longest uniform string in it. Ex: abcdddss here LUS is ddd
-2. Given two sorted arrays, find the median. Arrays can be of different lengths
+
+```cpp
+
+/*
+give a string, find the longest uniform string in it. Ex: abcdddss here LUS is ddd
+*/
+
+
+
+#include <iostream>
+#include <set>
+#include <string>
+#include <sstream>
+using namespace std;
+
+
+
+string process (string message){
+	int startIndex =0;
+	int endIndex =0; 
+
+	string maxString = "";
+	string tempString ="";
+	for(int i =1; i < message.length(); i++){
+		if(message[i] != message[i-1]){
+			endIndex = i-1;
+			tempString = message.substr(startIndex, endIndex-startIndex+1);
+			startIndex = i;
+			if(tempString.length() > maxString.length())
+				maxString = tempString;
+		}
+	}
+
+	return maxString;
+
+}
+
+
+
+int main(){
+
+	cout << process ("abcdddss") << endl;
+
+	
+	
+}
+
+
+
+```
+
+
+
+1. Given two sorted arrays, find the median. Arrays can be of different lengths
 
 Round 3:Telephonic  
 Mostly java: how hash map work, design your own hashmaps, how class loader works, what is PermGen memory, what is the memory hierarchy in jvm, define singleton pattern, how it works. Etc.
