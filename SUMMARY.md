@@ -8,6 +8,7 @@
   * [4.Core Java Interview](java-interview/4.core-java-interview.md)
   * [3. Core Java Algorithm Implementation](java-interview/3.-core-java-algorithm-implementation.md)
 * [FontEnd Development](fontend-development/README.md)
+  * [Browsing Web](fontend-development/browsing-web.md)
   * [HTML](fontend-development/html/README.md)
     * [HTML Layout](fontend-development/html/html-layout.md)
     * [HTML Attributes](fontend-development/html/html-attributes.md)
