@@ -10,12 +10,6 @@ description: >-
 
 
 
-Framework
-
-* BootStrap
-* Animate.CSS
-* creative tim
-
 Reference: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp) __[https://css-tricks.com/almanac/](https://css-tricks.com/almanac/)
 
 ![](../../.gitbook/assets/image%20%28322%29.png)
