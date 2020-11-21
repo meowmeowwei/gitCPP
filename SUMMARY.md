@@ -46,6 +46,7 @@
     * [CSS Layout-Overflow](fontend-development/css/css-layout-overflow.md)
     * [CSS float](fontend-development/css/css-float.md)
     * [CSS BootStrap](fontend-development/css/bootstrap.md)
+    * [CSS Grid](fontend-development/css/css-grid.md)
   * [JavaScript](fontend-development/javascript/README.md)
     * [ES6 Features](fontend-development/javascript/es6-features.md)
     * [Java Script Closure](fontend-development/javascript/java-script-closure.md)
