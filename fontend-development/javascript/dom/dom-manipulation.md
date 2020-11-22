@@ -1,3 +1,7 @@
+---
+description: Shopping List
+---
+
 # DOM manipulation
 
 ```javascript
