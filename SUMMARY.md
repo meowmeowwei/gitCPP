@@ -49,6 +49,7 @@
     * [CSS Grid](fontend-development/css/css-grid.md)
   * [JavaScript](fontend-development/javascript/README.md)
     * [DOM selectors](fontend-development/javascript/dom-selectors.md)
+    * [DOM manipulation](fontend-development/javascript/dom-manipulation.md)
     * [ES6 Features](fontend-development/javascript/es6-features.md)
     * [Java Script Closure](fontend-development/javascript/java-script-closure.md)
     * [JavaScript Custom Objects](fontend-development/javascript/javascript-custom-objects.md)
