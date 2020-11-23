@@ -49,6 +49,7 @@
     * [CSS Grid](fontend-development/css/css-grid.md)
   * [JavaScript](fontend-development/javascript/README.md)
     * [Closures/Currying/Compose](fontend-development/javascript/closures-currying-compose.md)
+    * [Advance Array](fontend-development/javascript/advance-array.md)
     * [JQuery](fontend-development/javascript/jquery.md)
     * [DOM](fontend-development/javascript/dom/README.md)
       * [DOM manipulation](fontend-development/javascript/dom/dom-manipulation.md)
