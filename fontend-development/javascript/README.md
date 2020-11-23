@@ -21,5 +21,23 @@ DOM- document object model
 
 
 
+JavaScript is Single Threaded 
+
+
+
+javascript engine \(memory heap, call stack\)
+
+
+
+timeout API will put the call into callback queue
+
+![](../../.gitbook/assets/image%20%28326%29.png)
+
+
+
+![](../../.gitbook/assets/image%20%28325%29.png)
+
+
+
 
 
