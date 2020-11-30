@@ -2,7 +2,7 @@
 description: 'https://www.youtube.com/watch?v=CVpUuw9XSjY'
 ---
 
-# React edux
+# React redux
 
 Redux is a predictable state container for JavaScript apps.
 
