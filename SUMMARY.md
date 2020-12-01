@@ -63,6 +63,7 @@
   * [Eslint](fontend-development/eslint.md)
   * [React](fontend-development/react/README.md)
     * [package-lock.json](fontend-development/react/package-lock.json.md)
+    * [React Router](fontend-development/react/react-router.md)
     * [React redux](fontend-development/react/redux.md)
     * [React- REST API](fontend-development/react/react-rest-api.md)
     * [W3school React](fontend-development/react/w3school-react/README.md)
