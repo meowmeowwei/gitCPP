@@ -4,6 +4,10 @@ description: 'https://www.youtube.com/watch?v=CVpUuw9XSjY'
 
 # React redux
 
+[Redux Tutorial](https://www.taniarascia.com/redux-react-guide/) 
+
+
+
 Redux is a predictable state container for JavaScript apps.
 
 It helps you write applications that behave consistently, run in different environments \(client, server, and native\), and are easy to test. On top of that, it provides a great developer experience, such as [live code editing combined with a time traveling debugger](https://github.com/reduxjs/redux-devtools).
