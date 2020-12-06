@@ -11,3 +11,9 @@ Babel is not a new language but a transpiler that transpiles next generation Jav
 
 npm install babel-core babel-preset-env babel-loader --save-dev
 
+
+
+how to configure babel in web-pack
+
+[https://webpack.js.org/loaders/babel-loader/](https://webpack.js.org/loaders/babel-loader/)
+
