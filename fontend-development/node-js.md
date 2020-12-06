@@ -39,3 +39,32 @@ console.log(moment().startOf('day').fromNow());
 
 This is all great for node.js, but if you tried to use the above code in the browser, you’d get an error saying `require` is not defined. The browser doesn’t have access to the file system, which means loading modules in this way is very tricky — loading files has to be done dynamically, either synchronously \(which slows down execution\) or asynchronously \(which can have timing issues\).
 
+
+
+1\) Require style
+
+2\) ES6 style
+
+need a package.json that defines "type":"module",
+
+//script2.js
+
+```text
+export const largeNumber = 356
+```
+
+//test1.js
+
+```text
+
+
+import {largeNumber} from './script2.js'
+
+const a = largeNumber;
+const b = 6;
+
+
+console.log(a+b);
+
+```
+
