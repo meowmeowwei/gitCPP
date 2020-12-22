@@ -6,7 +6,7 @@ description: 'https://www.youtube.com/watch?v=CVpUuw9XSjY'
 
 [Redux Tutorial](https://www.taniarascia.com/redux-react-guide/) 
 
-
+[https://www.taniarascia.com/redux-react-guide/](https://www.taniarascia.com/redux-react-guide/)
 
 Redux is a predictable state container for JavaScript apps.
 
