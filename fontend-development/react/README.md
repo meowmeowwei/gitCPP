@@ -10,6 +10,8 @@ Good React Reference website
 
 1\)[ introduction and OverView](https://www.taniarascia.com/getting-started-with-react/)
 
+2\) [react with rest API](https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/)
+
 
 
 
