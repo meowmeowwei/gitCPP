@@ -1,6 +1,10 @@
 # Table of contents
 
 * [ReadMe](README.md)
+* [Career Roles](career-roles/README.md)
+  * [VP - Engineering Technical Lead, FullStack Developer, Group Consumer Banking and Big Data Analytics](career-roles/vp-engineering-technical-lead-fullstack-developer-group-consumer-banking-and-big-data-analytics.md)
+  * [Full Stack Developer, Group Consumer Banking and Big Data Analytics Technology, Technology & Operati](career-roles/full-stack-developer-group-consumer-banking-and-big-data-analytics-technology-technology-and-operati.md)
+  * [Full Stack Developer \(Data Modeling\)Goldman Sachs](career-roles/full-stack-developer-data-modeling-goldman-sachs.md)
 * [FontEnd Development](fontend-development/README.md)
   * [Browsing Web](fontend-development/browsing-web.md)
   * [Module Bundler](fontend-development/module-bundler/README.md)
