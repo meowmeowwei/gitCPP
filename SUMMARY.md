@@ -2,6 +2,7 @@
 
 * [ReadMe](README.md)
 * [Career Roles](career-roles/README.md)
+  * [Full Stack Java Developer, AssociateJ.P.Morgan](career-roles/full-stack-java-developer-associatej.p.morgan.md)
   * [VP - Engineering Technical Lead, FullStack Developer, Group Consumer Banking and Big Data Analytics](career-roles/vp-engineering-technical-lead-fullstack-developer-group-consumer-banking-and-big-data-analytics.md)
   * [Full Stack Developer, Group Consumer Banking and Big Data Analytics Technology, Technology & Operati](career-roles/full-stack-developer-group-consumer-banking-and-big-data-analytics-technology-technology-and-operati.md)
   * [Full Stack Developer \(Data Modeling\)Goldman Sachs](career-roles/full-stack-developer-data-modeling-goldman-sachs.md)
