@@ -66,6 +66,7 @@
   * [Eslint](fontend-development/eslint.md)
   * [React](fontend-development/react/README.md)
     * [React Router](fontend-development/react/react-router.md)
+    * [Redux](fontend-development/react/redux-1.md)
     * [React Redux](fontend-development/react/redux.md)
     * [React Hooks](fontend-development/react/react-hooks.md)
     * [React- REST API](fontend-development/react/react-rest-api.md)
