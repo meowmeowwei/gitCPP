@@ -7,6 +7,17 @@
 Action - sends data from application to Redux Store \(conventionally an object with two properties, type and payload\)
 
 * Action Creator - function that returns an action 
+
+```javascript
+
+
+export const rateColor = (id, rating) =>({type: C.RATE_COLOR,id,rating})
+
+
+
+store.dispatch( rateColor("441e0p2-9ab4-0p523-30e4-8001l8yf2412", 5) )
+```
+
 * Reducer - a function that takes two parameter \(state , action\) . can treat it as event action listener-&gt; consists of switch statements and return a copy of entire state
 * Store - keeps redux application state 
 
