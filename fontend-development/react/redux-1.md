@@ -58,3 +58,7 @@ const unsubscribeLogger = store.subscribe(logState)
 unsubscribeLogger()Connect - function that connect React to Redux
 ```
 
+
+
+Middleware -&gt; serves as a glue between two different layers or different piece of softwares 
+
