@@ -60,5 +60,7 @@ unsubscribeLogger()Connect - function that connect React to Redux
 
 
 
-Middleware -&gt; serves as a glue between two different layers or different piece of softwares 
+[Middleware](https://www.tutorialspoint.com/redux/redux_middleware.htm) -&gt; serves as a glue between two different layers or different piece of softwares 
+
+Middlewares will let you write an action dispatcher which returns a function instead of an action object. Example for the same is shown below −
 
