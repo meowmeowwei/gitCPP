@@ -66,6 +66,7 @@
     * [Finsemble Architecture](fontend-development/finsemble/finsemble-architecture.md)
   * [Eslint](fontend-development/eslint.md)
   * [React](fontend-development/react/README.md)
+    * [Create React App](fontend-development/react/create-react-app.md)
     * [React Router](fontend-development/react/react-router.md)
     * [Redux](fontend-development/react/redux-1.md)
     * [React Redux](fontend-development/react/redux.md)
