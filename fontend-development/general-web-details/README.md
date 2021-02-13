@@ -8,5 +8,13 @@ It is that infrastructure that lets you order the weekly shop, share your life o
 
 
 
+[What is HTTP and how it's evolved ?](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
+**HTTP** is a [protocol](https://developer.mozilla.org/en-US/docs/Glossary/Protocol) which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, for instance text, layout description, images, videos, scripts, and more.
+
+
+
+
+
 
 
