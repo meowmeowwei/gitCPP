@@ -4,7 +4,13 @@
 
 **-&gt;** [**Tania Rascia \( has React and many other front end tutorials\)**](https://www.taniarascia.com/guides)\*\*\*\*
 
-\*\*\*\*
+-&gt; [Front End Development RoadMap 2021](https://medium.com/javascript-in-plain-english/the-front-end-web-developer-roadmap-for-2021-bcf88c5d4ccd)
+
+
+
+
+
+
 
 **Processes**
 
