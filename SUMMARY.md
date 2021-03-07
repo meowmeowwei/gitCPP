@@ -7,6 +7,8 @@
     * [3.  React Component](fullstack-developer-linkedin/react/3.-create-a-react-component.md)
     * [4. React State in Component Tree](fullstack-developer-linkedin/react/4.-react-state-in-component-tree.md)
     * [5. Asynchronous React](fullstack-developer-linkedin/react/5.-asynchronous-react.md)
+    * [6. React Testing](fullstack-developer-linkedin/react/6.-react-testing.md)
+    * [7. React Router](fullstack-developer-linkedin/react/7.-react-router.md)
 * [Career Roles](career-roles/README.md)
   * [Full Stack Java Developer, AssociateJ.P.Morgan](career-roles/full-stack-java-developer-associatej.p.morgan.md)
   * [VP - Engineering Technical Lead, FullStack Developer, Group Consumer Banking and Big Data Analytics](career-roles/vp-engineering-technical-lead-fullstack-developer-group-consumer-banking-and-big-data-analytics.md)
