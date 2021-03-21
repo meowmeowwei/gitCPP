@@ -2,6 +2,7 @@
 
 * [ReadMe](README.md)
 * [FullStack Developer Linkedin](fullstack-developer-linkedin/README.md)
+  * [Javascript](fullstack-developer-linkedin/javascript.md)
   * [React](fullstack-developer-linkedin/react/README.md)
     * [2. Intro to React Elements](fullstack-developer-linkedin/react/2.-intro-to-react-elements.md)
     * [3.  React Component](fullstack-developer-linkedin/react/3.-create-a-react-component.md)
